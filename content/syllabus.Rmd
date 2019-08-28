@@ -1,0 +1,93 @@
+---
+title: Syllabus
+slug: syllabus
+citeproc: false
+bibliography: ../static/bib/references.bib
+csl: ../static/bib/chicago-syllabus-no-bib.csl
+---
+
+```{r load-libraries, message=FALSE, warning=FALSE, include=FALSE}
+library(dplyr)
+library(tibble)
+library(pander)
+```
+
+[^courseinfo]: {-}
+  `r blogdown::shortcode("courseinfo")`
+ 
+# Course objectives
+
+The course has two related goals: (1) Provide a theoretical understanding of the scientific process and the role of cumulative science, and (2) introduce you to a set of modern tools for conducting science in this framework. Specifically, you'll be able to:
+
+- Understand the principles of cumulative scientific process
+- Understand the basic principles of experimental design
+- Use R and the tidyverse framework (Wickham, 2017) for conducting basic data analysis and visualization
+- Implement reproducible workflows, and present results to others in a transparent way 
+- Design and conduct a basic meta-analysis
+
+In addition, the course will introduce you to a range of other tools (github, OSF, web experimental frameworks) that are useful in research. The goal of this introduction is to give you a foundation for mastering these skills in your own research.
+
+
+# Course materials
+
+The readings in this class are free and will be provided and the course website. There is no book for the course.
+
+# Policies
+## Late Work
+Late work policy for the problem sets and lab reports:
+ - next day: lose 30% of total possible points
+ - later than next day: lose all points
+Late work policy for the project: 10% off for each day late.
+
+Regrade requests must be made within one week of when the assignment is returned, and must be submitted in writing. These will be honored if points were tallied incorrectly, or if you feel your answer is correct but it was marked wrong. No regrade will be made to alter the number of points deducted for a mistake.
+
+## Attendance and Participation
+Attendance is expected.  This is a project-based class, so it is important that you be present as often as possible.  If you miss 4 scheduled class sessions, your grade will drop by a letter grade.  For every three classes you miss past that, your final grade will drop by another letter grade.  Above and beyond merely being present in class, though, I expect you to participate in class discussions, group activities, and communal projects.  Your effort toward participation can earn you up to 30 points in your final grade.
+
+## Cheating and Plagiarism: 
+
+Cheating and plagiarism are defined in the CMU Student Handbook, and include (1) submitting work that is not your own for papers, assignments, or exams; (2) copying ideas, words, or graphics from a published or unpublished source without appropriate citation; (3) submitting or using falsified data; and (4) submitting the same work for credit in two courses without prior consent of both instructors. Any student who is found cheating or plagiarizing on any work for this course will receive a failing grade for that work. Further action may be taken if necessary, including a report to the dean.
+
+
+# Assignments and grades
+
+<span class="newthought">You can find descriptions</span> for all the assignments on the [assignments page](/assignments/).
+
+```{r assignments-grades, include=FALSE}
+assignments <- tribble(
+  ~Points,  ~Assignment,
+  16      , "Participation",
+  8 * 20  , "Lab Assignments (8 × 20)",
+  48     , "Midterm",
+  96     , "Final Meta-analysis Project [Proposal = 16; Presentation = 30; Writeup = 50]",
+) %>%
+  mutate(Percent = Points / sum(Points),
+         Percent = scales::percent(Percent)) 
+
+grading <- tribble(
+  ~Grade, ~Range,
+  "A",  "90–100%",
+  "B",  "80–89%",
+   "C",  "70-79%", 
+  "D",  "60-69%"
+)
+```
+
+```{r show-assignments-table, echo=FALSE, results="asis"}
+assignments_total <- tibble(Assignment = "Total",
+                            Points = sum(assignments$Points),
+                            Percent = NA)
+
+bind_rows(assignments, assignments_total) %>% 
+  select(Assignment, Percent, Points) %>% 
+  pandoc.table(justify = "lcc", missing = "")
+```
+
+\
+
+```{r show-grades-table, echo=FALSE, results="asis"}
+grading %>%
+  pandoc.table(justify = "lc", 
+               col.names = c("Grade", "Range"))
+```
+

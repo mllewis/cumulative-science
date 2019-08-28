@@ -1,0 +1,14 @@
+    <footer>
+        <hr class="slender">
+
+
+        <div class="credits">
+        <span class="credit">All content licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</span><br>
+
+        {{- if .Site.Params.credits }}
+        <span class="credit">{{ .Site.Params.credits | markdownify }}</span><br>
+        {{- end }}
+
+        <span class="credit">This site created with an adopted version of the  <a href="https://github.com/andrewheiss/ath-tufte-hugo_18-19">  ath-tufte-hugo theme</a> (by <a href = "https://github.com/andrewheiss/econw19.classes.andrewheiss.com"> Andrew Heiss</a>) in <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> and <a href="https://gohugo.io/">Hugo</a>.</span>
+        </div>
+    </footer>

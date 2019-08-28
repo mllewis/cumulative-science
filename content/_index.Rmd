@@ -1,0 +1,10 @@
+---
+title: " "
+---
+^[{-} `r blogdown::shortcode("courseinfo")`] This site contains</span> the syllabus, schedule, and assignments for PSYCH XX (Spring 2020).
+
+The scientific process is inherently __cumulative__: Scientific understanding moves forward by building on the theories, methods, and findings of individual scientistics. The broad aim of this course is to teach you a set of practical, modern tools for conducting psychological research that facilitate  cumulative scientific progress. 
+
+<figure>
+[![](/images/human_pyramid.jpg)](/images/human_pyramid.jpg)
+</figure>

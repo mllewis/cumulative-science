@@ -1,0 +1,70 @@
+baseURL: "https://econw19.classes.andrewheiss.com/"
+languageCode: en-us
+title: Research Methods for Cumulative Science
+theme: "ath-tufte-hugo_archivo"
+googleAnalytics: ""
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - \.yaml$
+  - _files$
+  - _cache$
+  - \.csl$
+permalinks:
+  post: "/:year/:month/:day/:slug/"
+buildFuture: true
+menu:
+  main:
+    - name: Syllabus
+      url: /syllabus/
+      weight: 1
+    - name: Schedule
+      url: /schedule/
+      weight: 2
+    - name: Assignments
+      url: /assignments/
+      weight: 3
+    - name: Reference
+      url: /reference/
+      weight: 4
+# Disable taxonomies
+taxonomies:
+  tag: ""
+  group: ""
+  category: ""
+params:
+  author: Molly Lewis
+  thumbnail: /noun_Graph_963326.png
+  instructor: 
+    name:  Dr. Molly Lewis
+    email: mollylewis@cmu.edu
+    url: "http://home.uchicago.edu/~mollylewis/"
+    github: andrewheiss
+    office: Porter Hall 223-A
+  course:
+    number: PSYCH XXX
+    semester: Spring 2020
+    days: "MW; F (lab)"
+    time: "XXX"
+    location: "XXX"
+    dates: "XXX"
+    copyrightYear: "2019"
+    contactDetails: >-
+      Office hours
+  university: 
+    name: Carnegie Mellon University
+    url: "https://www.cmu.edu"
+  school:
+    name: Department of Psychology
+    url: "https://marriottschool.byu.edu/mpa/"
+  description: ""
+  primaryColor: "#E50000"
+  secondaryColor: "#D08770"
+  credits: >-
+  logo:
+    url: /images/noun_Graph_963326.png
+    alt: Economy, Society, and Public Policy
+  meta:
+    twitterSite: ""
+    twitterCreator: ""
+    fbAuthor: ""

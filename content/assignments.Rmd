@@ -1,0 +1,23 @@
+---
+title: "Assignments"
+slug: assignments
+---
+
+# Participation
+
+Completeting the readings and attending class are mandatory. Lecture slides will be posted after class each day, but reading these slides is only a partial substitute for class attendance. The material we will be covering requires hands-on involvement, and you will get the most out this class if you actively engage in the material, particularly in lab. 
+
+# Assignments
+
+There will be 8 Lab Assignments through the semester. The goal of these assignments is to give you hands on experience with the skills that are introduced in lecture in lab. You are welcomed, and encouraged, to work with each other on the problems. But, you must turn in your own work.
+
+Submission instructions: Always submit the .Rmd and .HTML files via XX.
+
+
+# Midterm Exam
+
+
+# Final project
+
+
+There is no final exam. This project is your final exam.
