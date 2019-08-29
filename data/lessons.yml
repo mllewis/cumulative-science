@@ -2,14 +2,13 @@ lessons:
   - title: '<span class="fake-header-table">Philosphy of Cumulative Science</span>'
     header: True
 
-  - title: Intro/cumulative science
-    date: Week 1 [M]
+  - title: "Intro/Cumulative Science"
+    date: "Week 1 [M]"
     reading: "01-reading"
     hasclass: True
 
   - title: Cumulative Science
     date: [W]
-    reading: "02-reading"
     hasclass: True
 
   - title: "*Lab: Getting started with R* <br>"
@@ -18,14 +17,12 @@ lessons:
   - title: '<span class="fake-header-table">The Single Experiment</span>'
     header: True
 
-  - title: Experimental Design
+  - title: Priciples of Experimental Design
     date: Week 2 [M]
-    reading: "03-reading"
     hasclass: True
 
   - title: Intro to 'tidy data' 
     date: [W]
-    reading: "04-reading"
     hasclass: True
 
   - title: "*Lab: Intro to Data* <br> <br>" 
@@ -35,12 +32,10 @@ lessons:
 
   - title: "Working with the tidyverse"
     date: Week 3 [M]
-    reading: "03-reading"
     hasclass: True
 
-  - title: "Measures, reliability, variability"
+  - title: "Visualization: Intro to grammar of graphics "
     date: [W]
-    reading: "04-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A1 Due </i>
@@ -51,35 +46,28 @@ lessons:
     hasassignment: True
     assignmentname: "A2"
 
-  - title: "Visualization 1"
+  - title: "Visualization: Principles of data visulaization"
     date: Week 4 [M]
-    reading: "03-reading"
     hasclass: True
 
-  - title: "Visualization 2"
+  - title: "Visualization: Working with ggplot"
     date: [W]
-    reading: "04-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A2 Due </i>
     date: [TH]
 
-  - title: "*Lab: plotting (ggplot)* <br> <br>"
+  - title: "*Lab: Plotting data with ggplot* <br> <br>"
     date:  [F]
     hasassignment: True
     assignmentname: "A3"    
 
-  - title: "Reproducible workflows (OSF/Github)"
+  - title: "Reproducibility (and the failures)"
     date: "Week 5 [M]"
-    reading: "03-reading"
     hasclass: True
 
-  - title: '<span class="fake-header-table">Repeating an Experiment</span>'
-    header: True
-
-  - title: "Statistical Foundations 1 (NHT)"
+  - title: "Reproducible workflows (OSF/Github)"
     date: "[W]"
-    reading: "04-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A3 Due </i>
@@ -91,48 +79,47 @@ lessons:
     hasassignment: True
     assignmentname: "A4"
 
-  - title: "Statistical Foundations 2 (ES/CIs)"
+  - title: '<span class="fake-header-table">Repeating an Experiment</span>'
+    header: True
+
+  - title: "Statistical Foundations: Null Hypothesis Testing"
     date: Week 6 [M]
-    reading: "03-reading"
     hasclass: True
 
-  - title: "Statistical Foundations 3 (power analysis)"
+  - title: "Statistical Foundations: Effect Sizes/Confidence Intervals"
     date: [W]
-    reading: "03-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A4 Due </i>
     date: [TH]
 
-  - title: "*Lab: conducting a power analysis* <br> <br>"
+  - title: "*Lab: Null Hypothesis Testing* <br> <br>"
     date:  [F]
     hasassignment: True
     assignmentname: "A5"
 
-  - title: "Replication (and the failures)"
+  - title: "Statistical Foundations: Power Analysis"
     date: Week 7 [M]
-    reading: "03-reading"
     hasclass: True
 
-  - title: "Pre-registration"
+  - title: "Replication (and the failures)"
     date:  [W]
-    reading: "03-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A5 Due </i>
     date: [TH]
 
-  - title: "*Lab: pre-registration* <br> <br>"
+  - title: "*Lab: Midterm Review* <br> <br>"
     date:  [F]
+    hasassignment: True
+    assignmentname: "Midterm"
 
-  - title: "Research on the Web"
+  - title: "Replication (and the failures)"
     date: Week 8 [M]
-    reading: "03-reading"
     hasclass: True
 
-  - title: "Research on the Web"
+  - title: "Pre-registration and other replication solutions"
     date:  [W]
-    reading: "03-reading"
     hasclass: True
 
   - title: " __MIDTERM DUE__ <br> <br>"
@@ -143,12 +130,10 @@ lessons:
 
   - title: "Research on the Web"
     date: Week 9 [M]
-    reading: "03-reading"
     hasclass: True
 
   - title: "Research on the Web"
     date:  [W]
-    reading: "03-reading"
     hasclass: True
 
   - title: "*Lab: Analyzing replication data* <br> <br>"
@@ -159,14 +144,12 @@ lessons:
   - title: '<span class="fake-header-table">Aggregating Many Experiments</span>'
     header: True
 
-  - title: "Intro to Meta-analysis"
+  - title: "Intro to meta-analysis"
     date: Week 10 [M]
-    reading: "03-reading"
     hasclass: True
 
   - title: "Identifying a sampling frame"
     date:  [W]
-    reading: "03-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A6 Due </i>
@@ -177,32 +160,28 @@ lessons:
     hasassignment: True
     assignmentname: "A7"
 
-  - title: "Effect Sizes"
+  - title: "Coding meta-analytic data"
     date: Week 11 [M]
-    reading: "03-reading"
     hasclass: True
 
-  - title: "Coding MAs"
+  - title: "Effect sizes for meta-analysis"
     date:  [W]
-    reading: "03-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A7 Due </i>
     date: [TH]
 
-  - title: "*Lab: intro to metafor* <br> <br>"
+  - title: "*Lab: Intro to metafor* <br> <br>"
     date:  [F]
     hasassignment: True
     assignmentname: "A8"
 
   - title: "Analyzing MA data"
     date: Week 12 [M]
-    reading: "03-reading"
     hasclass: True
 
-  - title: "Plotting MA data"
+  - title: "Plotting meta-analytic data"
     date:  [W]
-    reading: "03-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A8 Due </i>
@@ -210,49 +189,44 @@ lessons:
 
   - title: "*Lab: Work on Projects* <br> <br>"
     date:  [F]
+    hasassignment: True
+    assignmentname: "Final Project"
 
   - title: "Group meetings"
     date: Week 13 [M]
-    reading: "03-reading"
 
   - title: "Group meetings"
     date:  [W]
-    reading: "03-reading"
 
   - title:  <i class="fas fa-keyboard"> MA Proposals Due </i>
     date: [TH]
 
-  - title: "*Lab: plotting in metafor* <br> <br>"
+  - title: "*Lab: Plotting in metafor* <br> <br>"
     date:  [F]
 
   - title: "Group meetings"
     date: Week 14 [M]
-    reading: "03-reading"
 
   - title: "Group meetings"
     date:  [W]
-    reading: "03-reading"
 
   - title: "*Lab: Work on Projects* <br> <br>"
     date:  [F]
 
   - title: "Project Presentations"
     date: Week 15 [M]
-    reading: "03-reading"
 
   - title: "Project Presentations"
     date:  [W]
-    reading: "03-reading"
 
   - title: "*No Lab* <br> <br>"
     date:  [F]
 
   - title: "__FINAL PROJECT DUE__"
     date:  XXX
- 
 
 
 
- 
 
- 
+
+
