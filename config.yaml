@@ -1,4 +1,4 @@
-baseURL: "https://econw19.classes.andrewheiss.com/"
+baseURL: "/"
 languageCode: en-us
 title: Research Methods for Cumulative Science
 theme: "ath-tufte-hugo_archivo"
@@ -6,10 +6,12 @@ googleAnalytics: ""
 ignoreFiles:
   - \.Rmd$
   - \.Rmarkdown$
+  - \.Rhistory$
   - \.yaml$
   - _files$
   - _cache$
   - \.csl$
+  - \.Rproj.user/*
 permalinks:
   post: "/:year/:month/:day/:slug/"
 buildFuture: true
@@ -24,14 +26,6 @@ menu:
     - name: Assignments
       url: /assignments/
       weight: 3
-    - name: Reference
-      url: /reference/
-      weight: 4
-# Disable taxonomies
-taxonomies:
-  tag: ""
-  group: ""
-  category: ""
 params:
   author: Molly Lewis
   thumbnail: /noun_Graph_963326.png
@@ -56,14 +50,14 @@ params:
     url: "https://www.cmu.edu"
   school:
     name: Department of Psychology
-    url: "https://marriottschool.byu.edu/mpa/"
+    url: ""
   description: ""
   primaryColor: "#E50000"
   secondaryColor: "#D08770"
-  credits: >-
+  credits: "Image credits: icon created by Shastry from Noun Project; [cover photo](https://www.sciencefocus.com/science/how-to-build-the-perfect-human-pyramid/) "
   logo:
     url: /images/noun_Graph_963326.png
-    alt: Economy, Society, and Public Policy
+    alt: Cumulative Science Methods
   meta:
     twitterSite: ""
     twitterCreator: ""

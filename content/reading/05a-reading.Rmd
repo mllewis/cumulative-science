@@ -1,0 +1,9 @@
+---
+title: " "
+date: " "
+citeproc: false
+---
+
+# Required 
+
+- <i class="far fa-file-pdf"></i> [Hardwicke et al. 2018](/readings/hardwicke2018.pdf)

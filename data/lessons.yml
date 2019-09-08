@@ -4,12 +4,13 @@ lessons:
 
   - title: "Intro/Cumulative Science"
     date: "Week 1 [M]"
-    reading: "01-reading"
+    reading: "01a-reading"
     hasclass: True
 
   - title: Cumulative Science
     date: [W]
     hasclass: True
+    reading: "01b-reading"
 
   - title: "*Lab: Getting started with R* <br>"
     date: [F]
@@ -19,10 +20,12 @@ lessons:
 
   - title: Priciples of Experimental Design
     date: Week 2 [M]
+    reading: "02a-reading"
     hasclass: True
 
   - title: Intro to 'tidy data' 
     date: [W]
+    reading: "02b-reading"
     hasclass: True
 
   - title: "*Lab: Intro to Data* <br> <br>" 
@@ -32,26 +35,30 @@ lessons:
 
   - title: "Working with the tidyverse"
     date: Week 3 [M]
+    reading: "03a-reading"
     hasclass: True
 
   - title: "Visualization: Intro to grammar of graphics "
     date: [W]
+    reading: "03b-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A1 Due </i>
     date: [TH]
 
-  - title: "*Lab: Summary statistics in the tidyverse* <br> <br>"
+  - title: "*Lab: Summarizing data in the tidyverse* <br> <br>"
     date:  [F]
     hasassignment: True
     assignmentname: "A2"
 
   - title: "Visualization: Principles of data visulaization"
     date: Week 4 [M]
+    reading: "04a-reading"
     hasclass: True
 
   - title: "Visualization: Working with ggplot"
     date: [W]
+    reading: "04b-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A2 Due </i>
@@ -64,10 +71,12 @@ lessons:
 
   - title: "Reproducibility (and the failures)"
     date: "Week 5 [M]"
+    reading: "05a-reading"
     hasclass: True
 
   - title: "Reproducible workflows (OSF/Github)"
     date: "[W]"
+    reading: "05b-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A3 Due </i>
@@ -76,7 +85,6 @@ lessons:
   - title: "*Lab: Intro to Github* <br> <br>"
     date: [F]
     hasassignment: True
-    hasassignment: True
     assignmentname: "A4"
 
   - title: '<span class="fake-header-table">Repeating an Experiment</span>'
@@ -84,10 +92,12 @@ lessons:
 
   - title: "Statistical Foundations: Null Hypothesis Testing"
     date: Week 6 [M]
+    reading: "06a-reading"
     hasclass: True
 
   - title: "Statistical Foundations: Effect Sizes/Confidence Intervals"
     date: [W]
+    reading: "06b-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A4 Due </i>
@@ -100,10 +110,12 @@ lessons:
 
   - title: "Statistical Foundations: Power Analysis"
     date: Week 7 [M]
+    reading: "07a-reading"
     hasclass: True
 
   - title: "Replication (and the failures)"
     date:  [W]
+    reading: "07b-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A5 Due </i>
@@ -116,10 +128,12 @@ lessons:
 
   - title: "Replication (and the failures)"
     date: Week 8 [M]
+    reading: "08a-reading"
     hasclass: True
 
   - title: "Pre-registration and other replication solutions"
     date:  [W]
+    reading: "08b-reading"
     hasclass: True
 
   - title: " __MIDTERM DUE__ <br> <br>"
@@ -130,10 +144,12 @@ lessons:
 
   - title: "Research on the Web"
     date: Week 9 [M]
+    reading: "09a-reading"
     hasclass: True
 
   - title: "Research on the Web"
     date:  [W]
+    reading: "099b-reading"
     hasclass: True
 
   - title: "*Lab: Analyzing replication data* <br> <br>"
@@ -146,10 +162,12 @@ lessons:
 
   - title: "Intro to meta-analysis"
     date: Week 10 [M]
+    reading: "10a-reading"
     hasclass: True
 
   - title: "Identifying a sampling frame"
     date:  [W]
+    reading: "10b-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A6 Due </i>
@@ -162,10 +180,12 @@ lessons:
 
   - title: "Coding meta-analytic data"
     date: Week 11 [M]
+    reading: "11a-reading"
     hasclass: True
 
   - title: "Effect sizes for meta-analysis"
     date:  [W]
+    reading: "1b-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A7 Due </i>
@@ -178,10 +198,12 @@ lessons:
 
   - title: "Analyzing MA data"
     date: Week 12 [M]
+    reading: "12a-reading"
     hasclass: True
 
   - title: "Plotting meta-analytic data"
     date:  [W]
+    reading: "12b-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A8 Due </i>

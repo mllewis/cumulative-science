@@ -1,9 +1,7 @@
-knit: function(...) stop("DON'T KNIT")
 blogdown::html_page:
   fig_retina: 2
   highlight: kate
-  new_session: true
-  md_extensions: +markdown_in_html_blocks+raw_html+smart
+  md_extensions: +markdown_in_html_blocks+raw_html
   section_divs: false
   pandoc_args: [
       "--highlight-style", "haddock",

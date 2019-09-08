@@ -8,3 +8,4 @@ The scientific process is inherently __cumulative__: Scientific understanding mo
 <figure>
 [![](/images/human_pyramid.jpg)](/images/human_pyramid.jpg)
 </figure>
+
