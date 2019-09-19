@@ -1,6 +1,6 @@
 baseURL: "/"
 languageCode: en-us
-title: "Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis"
+title: "Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis (PSYCH 85-311)"
 theme: "ath-tufte-hugo_archivo"
 googleAnalytics: ""
 ignoreFiles:
@@ -36,7 +36,7 @@ params:
     github: 
     office: Porter Hall 223-A
   course:
-    number: PSYCH 85-311
+    number: 
     semester: Spring 2020
     days: "MW; F (lab)"
     time: "MW: 10:30-11:50am; F: TBD"
