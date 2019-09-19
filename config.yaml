@@ -1,6 +1,6 @@
 baseURL: "/"
 languageCode: en-us
-title: Research Methods for Cumulative Science
+title: "Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis"
 theme: "ath-tufte-hugo_archivo"
 googleAnalytics: ""
 ignoreFiles:
@@ -32,11 +32,11 @@ params:
   instructor: 
     name:  Dr. Molly Lewis
     email: mollylewis@cmu.edu
-    url: "http://home.uchicago.edu/~mollylewis/"
-    github: andrewheiss
+    url: "http://www.andrew.cmu.edu/user/mollylew/"
+    github: 
     office: Porter Hall 223-A
   course:
-    number: PSYCH XXX
+    number: PSYCH 85-311
     semester: Spring 2020
     days: "MW; F (lab)"
     time: "XXX"
@@ -44,7 +44,7 @@ params:
     dates: "XXX"
     copyrightYear: "2019"
     contactDetails: >-
-      Office hours
+      Office hours: TBD
   university: 
     name: Carnegie Mellon University
     url: "https://www.cmu.edu"
