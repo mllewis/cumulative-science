@@ -79,15 +79,19 @@ Confidential reporting and support are available through the following resources
 
 * [Pittsburgh Action Against Rape](http://paar.net), 1-866-363-7273;  and
 
-* [Women’s Center & Shelter of Greater Pittsburgh](http://www.wcspittsburgh.org/), 412-687-8005 .
+* [Women’s Center & Shelter of Greater Pittsburgh](http://www.wcspittsburgh.org/), 412-687-8005.
 
 
 As an instructor, one of my responsibilities is to help create a safe learning environment on our campus.  I also have a mandatory reporting responsibility related to my role as an employee. It is my goal that you feel able to share information related to your life experiences in classroom discussions, in your written work, and in our one-on-one meetings. I will seek to keep information you share private to the greatest extent possible. However, I am required to share information regarding sexual misconduct or information about a crime with those who have a need to know and are able to help, including the Office of Title IX Initiatives.  If you wish to keep this information confidential, please consider contacting one of the confidential resources provided above.  
 
+## Accommodations for Students with Disabilities:
+
+If you have a disability and have an accommodations letter from the Disability Resources office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, I encourage you to contact them at access@andrew.cmu.edu.
+
 
 # Assignments and grades
 
-<span class="newthought">You can find descriptions</span> for all the assignments on the [assignments page](/assignments/).
+You can find descriptions for all the assignments on the [assignments page](/assignments/).
 
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
