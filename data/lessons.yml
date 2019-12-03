@@ -2,41 +2,49 @@ lessons:
   - title: '<span class="fake-header-table">Philosphy of Cumulative Science</span>'
     header: True
 
-  - title: "Intro/Cumulative Science"
+  - title: "Introduction to the course"
     date: "Week 1 [M]"
     reading: "01a-reading"
+    notes: "Welcome!"
     hasclass: True
 
-  - title: Cumulative Science
+  - title: "The scientific process as cumulative"
     date: [W]
     hasclass: True
     reading: "01b-reading"
 
   - title: "*Lab: Getting started with R* <br>"
+    notes: "We're in Baker 332P. Skills: Rstudio cloud, basic operations in R, loading packages,  anatomy of a help file" 
     date: [F]
+    hasclass: True
+    reading: "01c-reading"
 
   - title: '<span class="fake-header-table">The Single Experiment</span>'
     header: True
 
-  - title: Priciples of Experimental Design
+  - title: Experimental data and design
     date: Week 2 [M]
     reading: "02a-reading"
     hasclass: True
 
-  - title: Intro to 'tidy data' 
+  - title: Intro to dplyr and tidy data
     date: [W]
+    notes: "Skills: The pipe, tidy data, reading/writing data, select, filter"
     reading: "02b-reading"
     hasclass: True
 
   - title: "*Lab: Intro to Data* <br> <br>" 
     date:  [F]
-    hasassignment: True
-    assignmentname: "A1"
+    reading: "02c-reading"
+    hasclass: True
+    notes: 'Skills: group_by, summarize; <i class="far fa-keyboard"> </i> A1  posted'
 
-  - title: "Working with the tidyverse"
+
+  - title: "Working with multiple dataframes"
     date: Week 3 [M]
     reading: "03a-reading"
     hasclass: True
+    notes: "Skills: joining, wrangling"
 
   - title: "Visualization: Intro to grammar of graphics "
     date: [W]
@@ -46,28 +54,29 @@ lessons:
   - title:  <i class="fas fa-keyboard"> A1 Due </i>
     date: [TH]
 
-  - title: "*Lab: Summarizing data in the tidyverse* <br> <br>"
+  - title: "*Lab: Working with ggplot* <br> <br>"
     date:  [F]
-    hasassignment: True
-    assignmentname: "A2"
+    notes: 'Skills: ggplot and histograms; <i class="far fa-keyboard"> </i> A2  posted'
 
-  - title: "Visualization: Principles of data visulaization"
+
+  - title: "Visualization: Principles of data visualization"
     date: Week 4 [M]
     reading: "04a-reading"
     hasclass: True
 
-  - title: "Visualization: Working with ggplot"
+  - title: "The rest of the tidyverse"
     date: [W]
+    notes: "Skills: writing a function, purrr::map"
     reading: "04b-reading"
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A2 Due </i>
     date: [TH]
 
-  - title: "*Lab: Plotting data with ggplot* <br> <br>"
+  - title: "*Lab: More tidyverse* <br> <br>"
     date:  [F]
-    hasassignment: True
-    assignmentname: "A3"    
+    notes: '<i class="far fa-keyboard"> </i> A3  posted'
+    
 
   - title: "Reproducibility (and the failures)"
     date: "Week 5 [M]"
@@ -76,6 +85,7 @@ lessons:
 
   - title: "Reproducible workflows (OSF/Github)"
     date: "[W]"
+    note: "Skills: OSF/Github"
     reading: "05b-reading"
     hasclass: True
 
@@ -84,19 +94,21 @@ lessons:
 
   - title: "*Lab: Intro to Github* <br> <br>"
     date: [F]
-    hasassignment: True
-    assignmentname: "A4"
+    notes: '<i class="far fa-keyboard"> </i> A4  posted'
+
 
   - title: '<span class="fake-header-table">Repeating an Experiment</span>'
     header: True
 
-  - title: "Statistical Foundations: Null Hypothesis Testing"
+  - title: "Statistical Foundations: Distributions"
     date: Week 6 [M]
+    notes: "Skills: sampling, distributions, variance"
     reading: "06a-reading"
     hasclass: True
 
   - title: "Statistical Foundations: Effect Sizes/Confidence Intervals"
     date: [W]
+    notes: "Skills: two-sample t-test, ES, and CIs"
     reading: "06b-reading"
     hasclass: True
 
@@ -105,11 +117,11 @@ lessons:
 
   - title: "*Lab: Null Hypothesis Testing* <br> <br>"
     date:  [F]
-    hasassignment: True
-    assignmentname: "A5"
+    notes: '<i class="far fa-keyboard"> </i> A5  posted'
 
   - title: "Statistical Foundations: Power Analysis"
     date: Week 7 [M]
+    notes: "Skills: review + basic power analysis in R"
     reading: "07a-reading"
     hasclass: True
 
@@ -118,13 +130,14 @@ lessons:
     reading: "07b-reading"
     hasclass: True
 
-  - title:  <i class="fas fa-keyboard"> A5 Due </i>
+  - title:  '<i class="fas fa-keyboard"> A5 Due </i>'
     date: [TH]
 
   - title: "*Lab: Midterm Review* <br> <br>"
     date:  [F]
     hasassignment: True
     assignmentname: "Midterm"
+    notes: '<i class="far fa-keyboard"> </i> Midterm posted'
 
   - title: "Replication (and the failures)"
     date: Week 8 [M]
@@ -154,8 +167,8 @@ lessons:
 
   - title: "*Lab: Analyzing replication data* <br> <br>"
     date:  [F]
-    hasassignment: True
-    assignmentname: "A6"
+    notes: '<i class="far fa-keyboard"> </i> A6  posted'
+
 
   - title: '<span class="fake-header-table">Aggregating Many Experiments</span>'
     header: True
@@ -173,10 +186,10 @@ lessons:
   - title:  <i class="fas fa-keyboard"> A6 Due </i>
     date: [TH]
 
-  - title: "*Lab: Conducting an MA* <br> <br>"
+  - title: "*Lab: Conducting a MA* <br> <br>"
     date:  [F]
-    hasassignment: True
-    assignmentname: "A7"
+    notes: '<i class="far fa-keyboard"> </i> A7  posted'
+
 
   - title: "Coding meta-analytic data"
     date: Week 11 [M]
@@ -193,8 +206,8 @@ lessons:
 
   - title: "*Lab: Intro to metafor* <br> <br>"
     date:  [F]
-    hasassignment: True
-    assignmentname: "A8"
+    notes: '<i class="far fa-keyboard"> </i> A8  posted'
+
 
   - title: "Analyzing MA data"
     date: Week 12 [M]
@@ -211,14 +224,19 @@ lessons:
 
   - title: "*Lab: Work on Projects* <br> <br>"
     date:  [F]
-    hasassignment: True
-    assignmentname: "Final Project"
+    notes: '<i class="far fa-keyboard"> </i> Final Project  posted'
 
-  - title: "Group meetings"
+
+  - title: "Big data beyond the lab: Large scale web experiments"
     date: Week 13 [M]
+    reading: "13a-reading"
+    hasclass: True
 
-  - title: "Group meetings"
+
+  - title: "Big data beyond the lab: Found data"
+    reading: "13b-reading"
     date:  [W]
+    hasclass: True
 
   - title:  <i class="fas fa-keyboard"> MA Proposals Due </i>
     date: [TH]

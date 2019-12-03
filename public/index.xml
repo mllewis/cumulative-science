@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>  on Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis (PSYCH 85-311)</title>
+    <title>  on Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis</title>
     <link>/</link>
-    <description>Recent content in   on Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis (PSYCH 85-311)</description>
+    <description>Recent content in   on Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Apr 2019 00:00:00 +0000</lastBuildDate>
@@ -486,32 +486,21 @@ Cite your sources and show your work.
     </item>
     
     <item>
+      <title></title>
+      <link>/reading/01a-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/01a-reading/</guid>
+      <description> Required   The syllabus page for this class  </description>
+    </item>
+    
+    <item>
       <title> </title>
       <link>/reading/05a-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/05a-reading/</guid>
       <description> Required   Hardwicke et al. 2018  </description>
-    </item>
-    
-    <item>
-      <title>Assignments</title>
-      <link>/assignments/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignments/</guid>
-      <description>All assignments will be linked on the schedule page page.
-Lab Assignments There will be 8 Lab Assignments throughout the semester. The goal of these assignments is to give you hands-on experience with the skills that are introduced in lecture and in lab. You are welcomed, and encouraged, to work with each other on the problems. But, you must turn in your own work.
-Submission instructions: Always submit the .</description>
-    </item>
-    
-    <item>
-      <title>Intro/Cumulative Science</title>
-      <link>/reading/01a-reading/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/reading/01a-reading/</guid>
-      <description> Required   The syllabus and assignments pages for this class  </description>
     </item>
     
     <item>
@@ -718,7 +707,7 @@ Submission instructions: Always submit the .</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reference/</guid>
-      <description>a.sourceLine { display: inline-block; line-height: 1.25; } a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; } a.sourceLine:empty { height: 1.2em; } .sourceCode { overflow: visible; } code.sourceCode { white-space: pre; position: relative; } div.sourceCode { margin: 1em 0; } pre.sourceCode { margin: 0; } @media screen { div.sourceCode { overflow: auto; } } @media print { code.sourceCode { white-space: pre-wrap; } a.sourceLine { text-indent: -1em; padding-left: 1em; } } pre.</description>
+      <description>Contents  Useful R references   Useful R references Cheat Sheets for R - helpful quick references for coding in the tidyverse.</description>
     </item>
     
     <item>
@@ -727,8 +716,8 @@ Submission instructions: Always submit the .</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/schedule/</guid>
-      <description> Here’s the roadmap for the semester.
-  Readings should be completed before each class session  Slides and other class materials will be added on the day of class  Assignments are due at noon on the day they are due     Philosphy of Cumulative Science Reading Slides Assignment   Week 1 [M] Intro/Cumulative Science      [W] Cumulative Science      [F] Lab: Getting started with R        The Single Experiment Reading Slides Assignment   Week 2 [M] Priciples of Experimental Design      [W] Intro to &amp;lsquo;tidy data&amp;rsquo;      [F] Lab: Intro to Data    A1    Week 3 [M] Working with the tidyverse      [W] Visualization: Intro to grammar of graphics      [TH] A1 Due       [F] Lab: Summarizing data in the tidyverse    A2    Week 4 [M] Visualization: Principles of data visulaization      [W] Visualization: Working with ggplot      [TH] A2 Due       [F] Lab: Plotting data with ggplot    A3    Week 5 [M] Reproducibility (and the failures)      [W] Reproducible workflows (OSF/Github)      [TH] A3 Due       [F] Lab: Intro to Github    A4     Repeating an Experiment Reading Slides Assignment   Week 6 [M] Statistical Foundations: Null Hypothesis Testing      [W] Statistical Foundations: Effect Sizes/Confidence Intervals      [TH] A4 Due       [F] Lab: Null Hypothesis Testing    A5    Week 7 [M] Statistical Foundations: Power Analysis      [W] Replication (and the failures)      [TH] A5 Due       [F] Lab: Midterm Review    Midterm    Week 8 [M] Replication (and the failures)      [W] Pre-registration and other replication solutions      [F] MIDTERM DUE        &amp;mdash;&amp;mdash; SPRING BREAK &amp;mdash;&amp;mdash;       Week 9 [M] Research on the Web      [W] Research on the Web      [F] Lab: Analyzing replication data    A6     Aggregating Many Experiments Reading Slides Assignment   Week 10 [M] Intro to meta-analysis      [W] Identifying a sampling frame      [TH] A6 Due       [F] Lab: Conducting an MA    A7    Week 11 [M] Coding meta-analytic data      [W] Effect sizes for meta-analysis      [TH] A7 Due       [F] Lab: Intro to metafor    A8    Week 12 [M] Analyzing MA data      [W] Plotting meta-analytic data      [TH] A8 Due       [F] Lab: Work on Projects    Final Project    Week 13 [M] Group meetings      [W] Group meetings      [TH] MA Proposals Due       [F] Lab: Plotting in metafor       Week 14 [M] Group meetings      [W] Group meetings      [F] Lab: Work on Projects       Week 15 [M] Project Presentations      [W] Project Presentations      [F] No Lab       XXX FINAL PROJECT DUE       </description>
+      <description>Here’s the roadmap for the semester.
+  Readings should be completed before each class session  Slides and other class materials will be added on the day of class  Assignments are due at noon on the day they are due     Philosphy of Cumulative Science Reading Slides Notes   Week 1 [M] Introduction to the course   Welcome!   [W] The scientific process as cumulative      [F] Lab: Getting started with R    We&amp;rsquo;re in Baker 332P.</description>
     </item>
     
     <item>

@@ -1,9 +1,7 @@
 ---
-title: "Intro/Cumulative Science"
-date: "Week 1 [M]"
 citeproc: false
 ---
 
 # Required 
 
-- <i class="fa fa-external-link-square-alt" aria-hidden="true"></i> The [syllabus](/syllabus/) and [assignments](/assignments/) pages for this class
+- <i class="fa fa-external-link-square-alt" aria-hidden="true"></i> The [syllabus](/syllabus/) page for this class

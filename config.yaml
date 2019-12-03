@@ -1,6 +1,6 @@
 baseURL: "/"
 languageCode: en-us
-title: "Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis (PSYCH 85-311)"
+title: "Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis"
 theme: "ath-tufte-hugo_archivo"
 googleAnalytics: ""
 ignoreFiles:
@@ -23,9 +23,12 @@ menu:
     - name: Schedule
       url: /schedule/
       weight: 2
-    - name: Assignments
-      url: /assignments/
-      weight: 3
+    - name: RStudio.cloud
+      url: "https://rstudio.cloud"
+      weight: 4
+    - name: References
+      url: /reference/
+      weight: 5
 params:
   author: Molly Lewis
   thumbnail: /noun_Graph_963326.png
@@ -36,15 +39,16 @@ params:
     github: 
     office: Porter Hall 223-A
   course:
-    number: 
+    number: 85311
     semester: Spring 2020
-    days: "MW; F (lab)"
-    time: "MW: 10:30-11:50am; F: TBD"
-    location: "XXX"
-    dates: "XXX"
+    days: "MW (lecture); F (lab)"
+    time: "MW: 10:30-11:50am; F: 10:30-11:50am"
+    location: "Baker 336B (lecture)/Baker 332P (lab)"
+    dates: "January - May 2020"
     copyrightYear: "2019"
     contactDetails: >-
-      Office hours: TBD
+       Office hours: W 3:00-5:00 PM <br><br> E-mail is the best way to get in contact with me - I will try to respond ASAP.
+      
   university: 
     name: Carnegie Mellon University
     url: "https://www.cmu.edu"
