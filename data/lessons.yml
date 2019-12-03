@@ -3,13 +3,13 @@ lessons:
     header: True
 
   - title: "Introduction to the course"
-    date: "Week 1 [M]"
+    date: "Week 1 [M, 1/13]"
     reading: "01a-reading"
     notes: "Welcome!"
     hasclass: True
 
   - title: "The scientific process as cumulative"
-    date: [W]
+    date: [W ]
     hasclass: True
     reading: "01b-reading"
 
@@ -23,7 +23,7 @@ lessons:
     header: True
 
   - title: Experimental data and design
-    date: Week 2 [M]
+    date: Week 2 [M, 1/20]
     reading: "02a-reading"
     hasclass: True
 
@@ -41,7 +41,7 @@ lessons:
 
 
   - title: "Working with multiple dataframes"
-    date: Week 3 [M]
+    date: Week 3 [M, 1/27]
     reading: "03a-reading"
     hasclass: True
     notes: "Skills: joining, wrangling"
@@ -57,10 +57,12 @@ lessons:
   - title: "*Lab: Working with ggplot* <br> <br>"
     date:  [F]
     notes: 'Skills: ggplot and histograms; <i class="far fa-keyboard"> </i> A2  posted'
+    reading: "03c-reading"
+    hasclass: True
 
 
   - title: "Visualization: Principles of data visualization"
-    date: Week 4 [M]
+    date: Week 4 [M, 2/3]
     reading: "04a-reading"
     hasclass: True
 
@@ -79,7 +81,7 @@ lessons:
     
 
   - title: "Reproducibility (and the failures)"
-    date: "Week 5 [M]"
+    date: "Week 5 [M, 2/10]"
     reading: "05a-reading"
     hasclass: True
 
@@ -101,12 +103,12 @@ lessons:
     header: True
 
   - title: "Statistical Foundations: Distributions"
-    date: Week 6 [M]
+    date: Week 6 [M, 2/17]
     notes: "Skills: sampling, distributions, variance"
     reading: "06a-reading"
     hasclass: True
 
-  - title: "Statistical Foundations: Effect Sizes/Confidence Intervals"
+  - title: "Statistical Foundations: Null Hypothesis Testing"
     date: [W]
     notes: "Skills: two-sample t-test, ES, and CIs"
     reading: "06b-reading"
@@ -115,12 +117,12 @@ lessons:
   - title:  <i class="fas fa-keyboard"> A4 Due </i>
     date: [TH]
 
-  - title: "*Lab: Null Hypothesis Testing* <br> <br>"
+  - title: "*Lab: Statistical Foundations: Effect Sizes/Confidence Intervals* <br> <br>"
     date:  [F]
     notes: '<i class="far fa-keyboard"> </i> A5  posted'
 
   - title: "Statistical Foundations: Power Analysis"
-    date: Week 7 [M]
+    date: Week 7 [M, 2/24]
     notes: "Skills: review + basic power analysis in R"
     reading: "07a-reading"
     hasclass: True
@@ -139,8 +141,8 @@ lessons:
     assignmentname: "Midterm"
     notes: '<i class="far fa-keyboard"> </i> Midterm posted'
 
-  - title: "Replication (and the failures)"
-    date: Week 8 [M]
+  - title: "Research practices affecting replication"
+    date: Week 8 [M, 3/2]
     reading: "08a-reading"
     hasclass: True
 
@@ -156,7 +158,7 @@ lessons:
     date:  ""
 
   - title: "Research on the Web"
-    date: Week 9 [M]
+    date: Week 9 [M, 3/16]
     reading: "09a-reading"
     hasclass: True
 
@@ -174,14 +176,14 @@ lessons:
     header: True
 
   - title: "Intro to meta-analysis"
-    date: Week 10 [M]
-    reading: "10a-reading"
-    hasclass: True
+    date: Week 10 [M, 3/23]
+    #reading: "10a-reading"
+    #hasclass: True
 
   - title: "Identifying a sampling frame"
     date:  [W]
-    reading: "10b-reading"
-    hasclass: True
+    #reading: "10b-reading"
+    #hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A6 Due </i>
     date: [TH]
@@ -192,14 +194,14 @@ lessons:
 
 
   - title: "Coding meta-analytic data"
-    date: Week 11 [M]
-    reading: "11a-reading"
-    hasclass: True
+    date: Week 11 [M, 3/30]
+    #reading: "11a-reading"
+    #hasclass: True
 
   - title: "Effect sizes for meta-analysis"
     date:  [W]
-    reading: "1b-reading"
-    hasclass: True
+   # reading: "1b-reading"
+   # hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A7 Due </i>
     date: [TH]
@@ -210,14 +212,14 @@ lessons:
 
 
   - title: "Analyzing MA data"
-    date: Week 12 [M]
-    reading: "12a-reading"
-    hasclass: True
+    date: Week 12 [M, 4/6]
+    #reading: "12a-reading"
+    #hasclass: True
 
   - title: "Plotting meta-analytic data"
     date:  [W]
-    reading: "12b-reading"
-    hasclass: True
+    #reading: "12b-reading"
+    #hasclass: True
 
   - title:  <i class="fas fa-keyboard"> A8 Due </i>
     date: [TH]
@@ -228,7 +230,7 @@ lessons:
 
 
   - title: "Big data beyond the lab: Large scale web experiments"
-    date: Week 13 [M]
+    date: Week 13 [M, 4/13]
     reading: "13a-reading"
     hasclass: True
 
@@ -245,7 +247,7 @@ lessons:
     date:  [F]
 
   - title: "Group meetings"
-    date: Week 14 [M]
+    date: Week 14 [M, 4/20]
 
   - title: "Group meetings"
     date:  [W]
@@ -254,7 +256,7 @@ lessons:
     date:  [F]
 
   - title: "Project Presentations"
-    date: Week 15 [M]
+    date: Week 15 [M. 4/27]
 
   - title: "Project Presentations"
     date:  [W]

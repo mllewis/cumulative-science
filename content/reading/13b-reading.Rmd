@@ -1,0 +1,8 @@
+---
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+# Readings for class:
+[**[link]**](https://www.bitbybitbook.com/en/1st-ed/observing-behavior/) @salganik2019bit Chapter 2: Observing Behavior.
+

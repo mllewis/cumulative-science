@@ -16,142 +16,210 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/01a-reading/</guid>
-      <description> Required   The syllabus page for this class  </description>
+      <description>Readings for class: [link] Syllabus for this class</description>
     </item>
     
     <item>
-      <title> </title>
-      <link>/reading/05a-reading/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/reading/05a-reading/</guid>
-      <description> Required   Hardwicke et al. 2018  </description>
-    </item>
-    
-    <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
       <link>/reading/01b-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/01b-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Brian A Nosek and Yoav Bar-Anan “Scientific Utopia: I. Opening Scientific Communication,” Psychological Inquiry 23, no. 3 (2012): 217–243. [pg. 217-225 required only]</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
+      <link>/reading/01c-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/01c-reading/</guid>
+      <description>Readings for class: [link] Russell A. Poldrack “Statistical Thinking for the 21st Century” (2019). Chapter 2: Intro to R.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/reading/02a-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/02a-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Russell A. Poldrack “Statistical Thinking for the 21st Century” (2019). Chapter 3: Working with data.</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
       <link>/reading/02b-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/02b-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Jenny Bryan “Data Wrangling, Exploration, and Analysis with R (Stat 545)” (2019). Chapter 6: Introduction to dplyr.</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
+      <link>/reading/02c-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/02c-reading/</guid>
+      <description>Readings for class: [link] Jenny Bryan “Data Wrangling, Exploration, and Analysis with R (Stat 545)” (2019). Chapter 7: Single table dplyr functions.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/reading/03a-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/03a-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Jenny Bryan “Data Wrangling, Exploration, and Analysis with R (Stat 545)” (2019). Chapter 14: When one tibble is not enough.</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
       <link>/reading/03b-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/03b-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Kieran Healy Data Visualization: A Practical Introduction (Princeton University Press, 2018). Chapter 3: Make a plot.
+[link] Russell A. Poldrack “Statistical Thinking for the 21st Century” (2019). Chapter 7: Data visualization with R (with Anna Khazenzon). [Optional, but encouraged!]</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
+      <link>/reading/03c-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/03c-reading/</guid>
+      <description>Readings for class: [link] Russell A. Poldrack “Statistical Thinking for the 21st Century” (2019). Chapter 4: Summarizing data.
+[link] Aran Lunzer and Amelia McNamara “Exploring Histograms, an Essay by Aran Lunzer and Amelia Mcnamara,” n.d.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/reading/04a-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/04a-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Kieran Healy Data Visualization: A Practical Introduction (Princeton University Press, 2018). Chapter 4: Look at data.</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
       <link>/reading/04b-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/04b-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Hadley Wickham Advanced R (Chapman; Hall/CRC, 2014). Chapter 9: Functionals. [Sections 9.1 - 9.2]</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
+      <link>/reading/05a-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/05a-reading/</guid>
+      <description>Readings for class: [link] Tom E Hardwicke et al. “Data Availability, Reusability, and Analytic Reproducibility: Evaluating the Impact of a Mandatory Open Data Policy at the Journal Cognition,” Royal Society Open Science 5, no. 8 (2018): 180448.</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/reading/05b-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/05b-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Jennifer Bryan “Excuse Me, Do You Have a Moment to Talk About Version Control?” The American Statistician 72, no. 1 (2018): 20–27.</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
+      <link>/reading/05c-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/05c-reading/</guid>
+      <description>Readings for class: [link] TBD</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/reading/06a-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/06a-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Russell A. Poldrack “Statistical Thinking for the 21st Century” (2019). Chapter 12: Sampling.</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
       <link>/reading/06b-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/06b-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Russell A. Poldrack “Statistical Thinking for the 21st Century” (2019). Chapter 16: Hypothesis Testing.</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
+      <link>/reading/06c-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/06c-reading/</guid>
+      <description>Readings for class: [link] Russell A. Poldrack “Statistical Thinking for the 21st Century” (2019). Chapter 18: Quantifying effects and desiging studies. [18.1-18.2]
+Explore this app [Link]</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/reading/07a-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/07a-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Russell A. Poldrack “Statistical Thinking for the 21st Century” (2019). Chapter 18: Quantifying effects and desiging studies. [18.3]
+[link] Jacob Cohen “A Power Primer,” Psychological Bulletin 112, no. 1 (1992): 155. A power prrimer. [Optional]</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
       <link>/reading/07b-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/07b-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Open Science Collaboration and others “Estimating the Reproducibility of Psychological Science,” Science 349, no. 6251 (2015): aac4716.</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
       <link>/reading/08a-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/08a-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] John PA Ioannidis “Why Most Published Research Findings Are False,” PLoS Medicine 2, no. 8 (2005): e124.</description>
     </item>
     
     <item>
-      <title>Intro/Cumulative Science</title>
+      <title></title>
       <link>/reading/08b-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/08b-reading/</guid>
-      <description>Required [TBD]</description>
+      <description>Readings for class: [link] Trust in science would be improved by study pre-registration, The Guardian (2013).
+Readings for class: [link] Preregister everything, Michael C. Frank (2016)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/reading/13a-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/13a-reading/</guid>
+      <description>Readings for class: [link] ???</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/reading/13b-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/13b-reading/</guid>
+      <description>Readings for class: [link] Matthew Salganik Bit by Bit: Social Research in the Digital Age (Princeton University Press, 2019). Chapter 2: Observing Behavior.</description>
     </item>
     
     <item>

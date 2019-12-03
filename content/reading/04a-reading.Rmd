@@ -1,9 +1,9 @@
 ---
-title: "Intro/Cumulative Science"
-date: "Week 1 [M]"
-citeproc: false
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
 ---
 
-# Required 
+# Readings for class:
+[**[link]**](http://socviz.co/lookatdata.html#lookatdata) @healy2018data Chapter 4: Look at data.
 
-[TBD]
+
