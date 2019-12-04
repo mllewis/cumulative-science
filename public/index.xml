@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>  on Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis</title>
+    <title>  on Modern Research Methods:</title>
     <link>/</link>
-    <description>Recent content in   on Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis</description>
+    <description>Recent content in   on Modern Research Methods:</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 23 Apr 2019 00:00:00 +0000</lastBuildDate>
@@ -319,12 +319,12 @@ Readings for class: [link] Preregister everything, Michael C. Frank (2016)</desc
     </item>
     
     <item>
-      <title>Reference</title>
-      <link>/reference/</link>
+      <title>Resources</title>
+      <link>/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/reference/</guid>
-      <description>Contents  Useful R references   Useful R references Cheat Sheets for R - helpful quick references for coding in the tidyverse.</description>
+      <guid>/resources/</guid>
+      <description>Useful R references Cheat Sheets for R - helpful quick references for coding in the tidyverse.</description>
     </item>
     
     <item>
@@ -334,7 +334,8 @@ Readings for class: [link] Preregister everything, Michael C. Frank (2016)</desc
       
       <guid>/schedule/</guid>
       <description>Here’s the roadmap for the semester.
-  Readings should be completed before each class session  Slides and other class materials will be added on the day of class  Assignments are due at noon on the day they are due     Philosphy of Cumulative Science Reading Slides Notes   Week 1 [M, 1/13] Introduction to the course   Welcome!   [W] The scientific process as cumulative      [F] Lab: Getting started with R    We&amp;rsquo;re in Baker 332P.</description>
+  Readings should be completed before each class session  Slides and other class materials will be added on the day of class  Assignments are due at noon on the day they are due  This is a tentative schedule, and details are likely to change before the start of the semester.
+   Philosphy of Cumulative Science Reading Slides Notes   Week 1 [M, 1/13] Introduction to the course   Welcome!</description>
     </item>
     
     <item>

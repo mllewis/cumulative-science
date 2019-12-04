@@ -1,6 +1,6 @@
 baseURL: "/"
 languageCode: en-us
-title: "Modern Research Methods: Cumulative Science, Big Data, and Meta-Analysis"
+title: "Modern Research Methods:"
 theme: "ath-tufte-hugo_archivo"
 googleAnalytics: ""
 ignoreFiles:
@@ -26,10 +26,11 @@ menu:
     - name: RStudio.cloud
       url: "https://rstudio.cloud"
       weight: 4
-    - name: References
-      url: /reference/
-      weight: 5
+    - name: Resources
+      url: /resources/
+      weight: 3
 params:
+  subtitle: "Cumulative Science, Big Data, and Meta-Analysis"
   author: Molly Lewis
   thumbnail: /noun_Graph_963326.png
   instructor: 

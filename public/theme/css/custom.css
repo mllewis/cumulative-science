@@ -170,3 +170,17 @@ img.img75 {max-width: 75%}
         top: 0;
     }
 }
+
+    header > nav h1 a {
+        padding-right: 0;
+        float: inherit;
+    }
+
+ 
+
+    header > nav.bottom-group a {
+        float: inherit;
+    }
+
+
+

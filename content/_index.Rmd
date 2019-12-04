@@ -1,11 +1,9 @@
 ---
 title: " "
 ---
-^[{-} `r blogdown::shortcode("courseinfo")`] This site contains</span> the syllabus, schedule, and assignments for PSYCH 85311 (Spring 2020). 
+^[{-} `r blogdown::shortcode("courseinfo")`] This site contains</span> the syllabus, schedule, and resources for PSYCH 85311 (Spring 2020). 
 
 The scientific process is inherently __cumulative__: Scientific understanding moves forward by building on the theories, methods, and findings of individual scientists. The broad aim of this course is to teach you a set of practical, modern tools for conducting psychological research that facilitate  cumulative scientific progress. 
-
-_This is a tentative syllabus, and details are likely to change before the start of the semester._ 
 
 <figure>
 [![](/images/human_pyramid.jpg)](/images/misc/human_pyramid.jpg)

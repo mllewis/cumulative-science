@@ -1,10 +1,6 @@
 ---
-title: Reference
-slug: reference
-output:
-  blogdown::html_page:
-    template: ../pandoc/toc-title_html.template
-    toc: true
+title: "Resources"
+slug: resources
 ---
 
 # Useful R references
