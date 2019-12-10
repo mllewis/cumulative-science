@@ -2,8 +2,8 @@
 title: Syllabus
 slug: syllabus
 citeproc: false
-bibliography: ../static/bib/references.bib
-csl: ../static/bib/chicago-syllabus-no-bib.csl
+bibliography: ../static/misc/bib/mrm_references.bib
+csl: ../static/misc/bib/chicago-syllabus-no-bib.csl
 ---
 
 ```{r load-libraries, message=FALSE, warning=FALSE, include=FALSE}
@@ -90,6 +90,9 @@ If you have a disability and have an accommodations letter from the Disability R
 
 
 # Assignments and grades
+
+## Attendance and Participation
+Attendance and participation is expected. Learning a new "language" (in this case, R) and the other skills in this course require your active engagement. If you miss 4 scheduled class sessions (lectures/labs), your grade will drop by a letter grade. For every three classes you miss past that, your final grade will drop by another letter grade. I expect you to participate in discussions (e.g., asking and answering questions), activities and communal projects. Your active participation in lecture and lab can earn you up to 16 points in your final grade. 
 
 ## Lab Assignments
 

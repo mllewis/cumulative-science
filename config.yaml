@@ -38,17 +38,25 @@ params:
     email: mollylewis@cmu.edu
     url: "http://www.andrew.cmu.edu/user/mollylew/"
     github: 
-    office: Porter Hall 223-A
+    office: Porter 223A
+    oh: W 3:00-5:00pm
+  ta: 
+    name:  Jaeah Kim
+    email: jaeahk@andrew.cmu.edu
+    office: Baker 455E
+    oh: M 1:00-3:00pm
   course:
     number: 85311
     semester: Spring 2020
     days: "MW (lecture); F (lab)"
-    time: "MW: 10:30-11:50am; F: 10:30-11:50am"
-    location: "Baker 336B (lecture)/Baker 332P (lab)"
+    time: "10:30-11:50am"
+    location1: "Lecture: Baker 336B"
+    location2: "Lab: Baker 332P"
     dates: "January - May 2020"
     copyrightYear: "2019"
     contactDetails: >-
-       Office hours: W 3:00-5:00 PM <br><br> E-mail is the best way to get in contact with me - I will try to respond ASAP.
+       
+       
       
   university: 
     name: Carnegie Mellon University
