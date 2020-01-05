@@ -22,29 +22,27 @@ lessons:
   - title: '<span class="fake-header-table">The Single Experiment</span>'
     header: True
 
-  - title: Experimental data and design
+  - title: No Class (MLK)
     date: Week 2 [M, 1/20]
-    reading: "02a-reading"
-    hasclass: True
+    hasclass: False
 
-  - title: Intro to dplyr and tidy data
+  - title: Experimental data and design 
     date: [W]
-    notes: "Skills: The pipe, tidy data, reading/writing data, select, filter"
+    notes: "Skills: quantitative/qualitative variables, tidy data"
     reading: "02b-reading"
     hasclass: True
 
-  - title: "*Lab: Intro to Data* <br> <br>" 
+  - title: "*Lab: Intro to dplyr* <br> <br>" 
     date:  [F]
     reading: "02c-reading"
     hasclass: True
-    notes: 'Skills: group_by, summarize; <i class="far fa-keyboard"> </i> A1  posted'
+    notes: ' Skills: reading/writing data, filter, select; <i class="far fa-keyboard"> </i> A1  posted'
 
-
-  - title: "Working with multiple dataframes"
+  - title: "Summarizing data"
     date: Week 3 [M, 1/27]
     reading: "03a-reading"
     hasclass: True
-    notes: "Skills: joining, wrangling"
+    notes: "Skills: mutate, group_by, summarize"
 
   - title: "Visualization: Intro to grammar of graphics "
     date: [W]
@@ -68,7 +66,7 @@ lessons:
 
   - title: "The rest of the tidyverse"
     date: [W]
-    notes: "Skills: writing a function, purrr::map"
+    notes: "Skills:  joining, wrangling; writing a function, purrr::map"
     reading: "04b-reading"
     hasclass: True
 
@@ -224,7 +222,7 @@ lessons:
   - title:  <i class="fas fa-keyboard"> A8 Due </i>
     date: [TH]
 
-  - title: "*Lab: Work on Projects* <br> <br>"
+  - title: "*Lab: Plotting in metafor* <br> <br>"
     date:  [F]
     notes: '<i class="far fa-keyboard"> </i> Final Project  posted'
 
@@ -241,9 +239,9 @@ lessons:
     hasclass: True
 
   - title:  <i class="fas fa-keyboard"> MA Proposals Due </i>
-    date: [TH]
+    date: ""
 
-  - title: "*Lab: Plotting in metafor* <br> <br>"
+  - title: "*No Lab (Spring Carnival)* <br> <br>"
     date:  [F]
 
   - title: "Group meetings"

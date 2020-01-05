@@ -76,7 +76,7 @@ A PDF of of a 2–3-page memo An Excel file with your technical appendix  You wi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/02b-reading/</guid>
-      <description>Readings for class: [link] Jenny Bryan “Data Wrangling, Exploration, and Analysis with R (Stat 545)” (2019). Chapter 6: Introduction to dplyr.</description>
+      <description>Readings for class: [link] Russell A. Poldrack “Statistical Thinking for the 21st Century” (2019). Chapter 3: Working with data.</description>
     </item>
     
     <item>
@@ -85,7 +85,7 @@ A PDF of of a 2–3-page memo An Excel file with your technical appendix  You wi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/02c-reading/</guid>
-      <description>Readings for class: [link] Jenny Bryan “Data Wrangling, Exploration, and Analysis with R (Stat 545)” (2019). Chapter 7: Single table dplyr functions.</description>
+      <description>Readings for class: [link] Jenny Bryan “Data Wrangling, Exploration, and Analysis with R (Stat 545)” (2019). Chapter 6: Introduction to dplyr.</description>
     </item>
     
     <item>
@@ -94,7 +94,7 @@ A PDF of of a 2–3-page memo An Excel file with your technical appendix  You wi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/03a-reading/</guid>
-      <description>Readings for class: [link] Jenny Bryan “Data Wrangling, Exploration, and Analysis with R (Stat 545)” (2019). Chapter 14: When one tibble is not enough.</description>
+      <description>Readings for class: [link] Jenny Bryan “Data Wrangling, Exploration, and Analysis with R (Stat 545)” (2019). Chapter 7: Single table dplyr functions.</description>
     </item>
     
     <item>
@@ -132,7 +132,8 @@ A PDF of of a 2–3-page memo An Excel file with your technical appendix  You wi
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/reading/04b-reading/</guid>
-      <description>Readings for class: [link] Hadley Wickham Advanced R (Chapman; Hall/CRC, 2014). Chapter 9: Functionals. [Sections 9.1 - 9.2]</description>
+      <description>Readings for class: [link] Jenny Bryan “Data Wrangling, Exploration, and Analysis with R (Stat 545)” (2019). Chapter 14: When one tibble is not enough.
+[link] Hadley Wickham Advanced R (Chapman; Hall/CRC, 2014). Chapter 9: Functionals. [Sections 9.1 - 9.2]</description>
     </item>
     
     <item>
