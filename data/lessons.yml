@@ -58,7 +58,6 @@ lessons:
     reading: "03c-reading"
     hasclass: True
 
-
   - title: "Visualization: Principles of data visualization"
     date: Week 4 [M, 2/3]
     reading: "04a-reading"
@@ -66,7 +65,7 @@ lessons:
 
   - title: "The rest of the tidyverse"
     date: [W]
-    notes: "Skills:  joining, wrangling; writing a function, purrr::map"
+    notes: "Skills:  joining, wrangling; writing a function"
     reading: "04b-reading"
     hasclass: True
 
