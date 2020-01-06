@@ -35,8 +35,7 @@ The course is organized into four units. The __first unit__ will introduce the p
 
 The readings in this class are free and will be provided on the course website. There is no book for the course.
 
-The course will make heavy use of R and RStudio, free at
-http://cran.r-project.org/ and http://www.rstudio.com/.
+The course will make heavy use of [R](http://cran.r-project.org/) and [RStudio](http://www.rstudio.com/). Course assignments will be completed using [Rstudio Cloud](https://rstudio.cloud/). You do not need to download anything for the course -- the only thing you'll need is an internet connection with a web browser.
 
 # Requirements
 This course assumes no prior programming experience, but does require a willingness to learn. Prior familiarity with any programming language (e.g. R, Python, Matlab), however, will be helpful in the course.
@@ -48,18 +47,17 @@ This course assumes no prior programming experience, but does require a willingn
 Completing the readings and attending class are mandatory. Lecture slides will be posted after class each day, but reading these slides is only a partial substitute for class attendance. The material we will be covering requires hands-on involvement, and you will get the most out this class if you actively engage in the material, particularly in lab. 
 
 ## Late Work
-Late work policy for the problem sets and lab reports:
+Late work policy for the assignments, midterm and final project:
 
   - next day: lose 30% of total possible points
   - later than next day: lose all points
   
 Late work policy for the project: 10% off for each day late.
 
-Regrade requests must be made within one week of when the assignment is returned, and must be submitted in writing. These will be honored if points were tallied incorrectly, or if you feel your answer is correct but it was marked wrong. No regrade will be made to alter the number of points deducted for a mistake.
 
 ## Cheating and Plagiarism: 
 
-Cheating and plagiarism are defined in the CMU Student Handbook, and include (1) submitting work that is not your own for papers, assignments, or exams; (2) copying ideas, words, or graphics from a published or unpublished source without appropriate citation; (3) submitting or using falsified data; and (4) submitting the same work for credit in two courses without prior consent of both instructors. Any student who is found cheating or plagiarizing on any work for this course will receive a failing grade for that work. Further action may be taken if necessary, including a report to the dean. 
+Cheating and plagiarism are defined in the CMU Student Handbook, and include (1) submitting work that is not your own for assignments or exams; (2) copying ideas, words, or graphics from a published or unpublished source without appropriate citation; (3) submitting or using falsified data; and (4) submitting the same work for credit in two courses without prior consent of both instructors. Any student who is found cheating or plagiarizing on any work for this course will receive a failing grade for that work. Further action may be taken if necessary, including a report to the dean. 
 
 ## Sexual Harassment and Sexual Misconduct
 
