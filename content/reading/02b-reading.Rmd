@@ -6,3 +6,4 @@ csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
 # Readings for class:
 [**[link]**](http://statsthinking21.org/working-with-data.html) @poldrack2019 Chapter 3: Working with data.
 
+[**[link]**](/readings/wickham2014.pdf) @wickham2014tidy **[Optional]**

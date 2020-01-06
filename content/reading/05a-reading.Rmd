@@ -4,5 +4,4 @@ csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
 ---
 
 # Readings for class:
-[**[link]**](/readings/hardwicke2018.pdf) @hardwicke2018data 
-
+[**[link]**](/readings/bryan2018.pdf) @bryan2018excuse 

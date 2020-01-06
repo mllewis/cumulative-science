@@ -36,7 +36,7 @@ lessons:
     date:  [F]
     reading: "02c-reading"
     hasclass: True
-    notes: ' Skills: reading/writing data, filter, select; <i class="far fa-keyboard"> </i> A1  posted'
+    notes: ' Skills: pipe operator, reading/writing data, filter, select; <i class="far fa-keyboard"> </i> A1  posted'
 
   - title: "Summarizing data"
     date: Week 3 [M, 1/27]
