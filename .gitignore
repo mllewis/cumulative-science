@@ -6,7 +6,7 @@ blogdown/
 public/
 private/
 .DS_Store
+*~*.pptx
 *_cache/
-static/slides/*
 static/**.zip
 .httr-oauth

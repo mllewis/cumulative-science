@@ -4,5 +4,5 @@ csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
 ---
 
 # Readings for class:
-[**[link]**](TBD) TBD
+[**[link]**](https://www.git-tower.com/learn/git/ebook/en/command-line/basics/basic-workflow#start) Learn Version Control with Git: A step-by-step course for the complete beginner
 
