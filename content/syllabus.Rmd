@@ -38,59 +38,47 @@ The readings in this class are free and will be provided on the course website. 
 The course will make heavy use of [R](http://cran.r-project.org/) and [RStudio](http://www.rstudio.com/). Course assignments will be completed using [Rstudio Cloud](https://rstudio.cloud/). You do not need to download anything for the course -- the only thing you'll need is an internet connection with a web browser.
 
 # Requirements
-This course assumes no prior programming experience, but does require a willingness to learn. Prior familiarity with any programming language (e.g. R, Python, Matlab), however, will be helpful in the course.
+This course assumes no prior programming experience, but does require a willingness to learn and be challenged. Prior familiarity with any programming language (e.g. R, Python, Matlab), however, will be helpful in the course.
 
 # Policies
 
 ## Participation
 
-Completing the readings and attending class are mandatory. Lecture slides will be posted after class each day, but reading these slides is only a partial substitute for class attendance. The material we will be covering requires hands-on involvement, and you will get the most out this class if you actively engage in the material, particularly in lab. 
-
+Learning a new "language" (in this case, R) and the other skills in this course require hands-on involvement, and you will get the most out this class if you actively engage in the material.  Students are therefore expected to complete readings and participate in class.  Lecture slides will be posted after class each day, but reading these slides is only a partial substitute for class attendance. 
+ 
 ## Late Work
-Late work policy for the assignments, midterm and final project:
+Late work policy for the assignments and midterm:
 
-  - next day: lose 30% of total possible points
+  - next day: lose 25% of total possible points
   - later than next day: lose all points
   
-Late work policy for the project: 10% off for each day late.
+Late work policy for the final project: 10% off for each day late.
 
+## Take care of yourself
 
-## Cheating and Plagiarism: 
+Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
 
-Cheating and plagiarism are defined in the CMU Student Handbook, and include (1) submitting work that is not your own for assignments or exams; (2) copying ideas, words, or graphics from a published or unpublished source without appropriate citation; (3) submitting or using falsified data; and (4) submitting the same work for credit in two courses without prior consent of both instructors. Any student who is found cheating or plagiarizing on any work for this course will receive a failing grade for that work. Further action may be taken if necessary, including a report to the dean. 
+If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at http://www.cmu.edu/counseling. Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help.
 
-## Sexual Harassment and Sexual Misconduct
+If you or someone you know is feeling suicidal or in danger of self-harm, call someone at CaPS immediately, day or night: You can also call the Re:solve Crisis Network (888-796-8226). If the situation is life threatening, call the CMU police (412-268-2323), or call 911.
 
- 
-
-Carnegie Mellon University is committed to fostering a safe, productive learning environment for all.  Federal law and University Policy prohibit discrimination on the basis of sex in addition to other protected classes. Federal guidance contemplates sexual misconduct — including harassment, domestic and dating violence, sexual assault, and stalking as examples of such discrimination. I understand that sexual harassment and sexual misconduct can undermine students’ academic success and I strongly encourage students who have experienced some form of sexual misconduct to talk to someone about their experience, so they can get the support they need.
-
- 
-
-Support, information and resources are available through Carnegie Mellon’s [Office of Title IX Initiatives](www.cmu.edu/title-ix)  (412-268-7125; tix@cmu.edu).  
-
-Confidential reporting and support are available through the following resources:
-
-* [Counseling & Psychological Services](http://www.cmu.edu/counseling), 412-268-2922;
-
-* [University Health Services](http://www.cmu.edu/health-services), 412-268-2157; 
-
-* [Pittsburgh Action Against Rape](http://paar.net), 1-866-363-7273;  and
-
-* [Women’s Center & Shelter of Greater Pittsburgh](http://www.wcspittsburgh.org/), 412-687-8005.
-
-
-As an instructor, one of my responsibilities is to help create a safe learning environment on our campus.  I also have a mandatory reporting responsibility related to my role as an employee. It is my goal that you feel able to share information related to your life experiences in classroom discussions, in your written work, and in our one-on-one meetings. I will seek to keep information you share private to the greatest extent possible. However, I am required to share information regarding sexual misconduct or information about a crime with those who have a need to know and are able to help, including the Office of Title IX Initiatives.  If you wish to keep this information confidential, please consider contacting one of the confidential resources provided above.  
-
-## Accommodations for Students with Disabilities:
+## Accommodations for Students with Disabilities
 
 If you have a disability and have an accommodations letter from the Disability Resources office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, I encourage you to contact them at access@andrew.cmu.edu.
+
+## Respect in the Classroom
+It is my intent to present materials and activities that are respectful to the diverse backgrounds and perspectives of students in the classroom. You may feel free to let me know ways to improve the effectiveness of the course for you personally or for other students or student groups. If you feel uncomfortable discussing this with me or your TA, you may voice your concerns to the Chair of the Department of Psychology Diversity and Inclusion Committee, Timothy Verstynen (timothyv@andrew.cmu.edu). Dr. Verstynen is available to hear your concerns related to respect for diversity for any psychology class you are taking.
+
+
+## Cheating and Plagiarism 
+
+Cheating and plagiarism are defined in the CMU Student Handbook, and include (1) submitting work that is not your own for assignments or exams; (2) copying ideas, words, or graphics from a published or unpublished source without appropriate citation; (3) submitting or using falsified data; and (4) submitting the same work for credit in two courses without prior consent of both instructors. Any student who is found cheating or plagiarizing on any work for this course will receive a failing grade for that work. Further action may be taken if necessary, including a report to the dean. 
 
 
 # Assignments and grades
 
 ## Attendance and Participation
-Attendance and participation is expected. Learning a new "language" (in this case, R) and the other skills in this course require your active engagement. If you miss 4 scheduled class sessions (lectures/labs), your grade will drop by a letter grade. For every three classes you miss past that, your final grade will drop by another letter grade. I expect you to participate in discussions (e.g., asking and answering questions), activities and communal projects. Your active participation in lecture and lab can earn you up to 16 points in your final grade. 
+Attendance and participation  in lecture and lab is expected. If you miss 4 scheduled class sessions (lectures/labs), your grade will drop by a letter grade. For every four classes you miss past that, your final grade will drop by another letter grade. I expect you to participate in discussions (e.g., asking and answering questions) and activities. Your active participation in lecture and lab can earn you up to 16 points in your final grade. 
 
 ## Lab Assignments
 
