@@ -254,7 +254,7 @@ lessons:
     date:  [F]
 
   - title: "Project Presentations"
-    date: Week 15 [M. 4/27]
+    date: Week 15 [M, 4/27]
 
   - title: "Project Presentations"
     date:  [W]
@@ -262,8 +262,8 @@ lessons:
   - title: "*No Lab* <br> <br>"
     date:  [F]
 
-  - title: "__FINAL PROJECT DUE__"
-    date:  XXX
+  - title: "__FINAL PROJECT DUE__ (noon)"
+    date:  "[F, 5/8]"
 
 
 
