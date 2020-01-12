@@ -245,6 +245,17 @@ Readings for class: [link] Preregister everything, Michael C. Frank (2016)</desc
     
     <item>
       <title>Assignment 0: Intro to R and RStudio</title>
+      <link>/assignment/00_mrm_assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignment/00_mrm_assignment/</guid>
+      <description>Objectives 
+By the end of this assignment, you should:
+ understand how to interact with Rstudio know the parts of a R Markdown file and how to knit know how to submit an assignment. understand how to load a package. understand how to read a help file. understand some basic R commands   There are 10 simple exercises in this lab. The goal is to turn in this assignment at the end of lab today.</description>
+    </item>
+    
+    <item>
+      <title>Assignment 0: Intro to R and RStudio</title>
       <link>/assignment/a0/00_mrm_assignment/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
