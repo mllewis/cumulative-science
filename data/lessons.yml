@@ -5,6 +5,7 @@ lessons:
   - title: "Introduction to the course"
     date: "Week 1 [M, 1/13]"
     reading: "01a-reading"
+    class: "1b_slides"
     notes: "Welcome!"
     hasclass: True
 
@@ -17,11 +18,13 @@ lessons:
     notes: "We're in Baker 332P. Skills: Rstudio cloud, basic operations in R, loading packages,  anatomy of a help file" 
     date: [F]
     hasclass: True
+    hasassignment: True
+    assignment: "00_MRM_assignment"
     reading: "01c-reading"
 
   - title: '<span class="fake-header-table">The Single Experiment</span>'
     header: True
-
+    
   - title: No Class (MLK)
     date: Week 2 [M, 1/20]
     hasclass: False
@@ -32,11 +35,12 @@ lessons:
     reading: "02b-reading"
     hasclass: True
 
-  - title: "*Lab: Intro to dplyr* <br> <br>" 
+  - title: "*Lab: Intro to dplyr* <br> <br>  <br>" 
     date:  [F]
     reading: "02c-reading"
     hasclass: True
-    notes: ' Skills: pipe operator, reading/writing data, filter, select; <i class="far fa-keyboard"> </i> A1  posted'
+    hasassignment: True
+    notes: ' Skills: pipe operator, filter, select'
 
   - title: "Summarizing data"
     date: Week 3 [M, 1/27]
@@ -49,13 +53,14 @@ lessons:
     reading: "03b-reading"
     hasclass: True
 
-  - title:  <i class="fas fa-keyboard"> A1 Due </i>
+  - title:  '<i class="far fa-keyboard"> A1 Due </i>'
     date: [TH]
 
-  - title: "*Lab: Working with ggplot* <br> <br>"
+  - title: "*Lab: Working with ggplot* <br> <br>  <br>"
     date:  [F]
-    notes: 'Skills: ggplot and histograms; <i class="far fa-keyboard"> </i> A2  posted'
+    notes: 'Skills: ggplot and histograms'
     reading: "03c-reading"
+    hasassignment: True
     hasclass: True
 
   - title: "Visualization: Principles of data visualization"
@@ -69,14 +74,14 @@ lessons:
     reading: "04b-reading"
     hasclass: True
 
-  - title:  <i class="fas fa-keyboard"> A2 Due </i>
+  - title:  '<i class="far fa-keyboard"> A2 Due </i>'
     date: [TH]
 
-  - title: "*Lab: More tidyverse* <br> <br>"
+  - title: "*Lab: More tidyverse* <br> <br>  <br> "
     date:  [F]
-    notes: '<i class="far fa-keyboard"> </i> A3  posted'
+    notes: 
+    hasassignment: True
     
-
   - title: "More tidyverse"
     date: "Week 5 [M, 2/10]"
     reading: "05a-reading"
@@ -88,14 +93,13 @@ lessons:
     reading: "05b-reading"
     hasclass: True
 
-  - title:  <i class="fas fa-keyboard"> A3 Due </i>
+  - title:  '<i class="far fa-keyboard"> A3 Due </i>'
     date: [TH]
 
-  - title: "*Lab: Reproducible workflows (OSF/Github)* <br> <br>"
+  - title: "*Lab: Reproducible workflows (OSF/Github)* <br> <br>  <br>"
     date: [F]
     reading: "05c-reading"
-    notes: '<i class="far fa-keyboard"> </i> A4  posted'
-
+    hasassignment: True
 
   - title: '<span class="fake-header-table">Repeating an Experiment</span>'
     header: True
@@ -112,12 +116,13 @@ lessons:
     reading: "06b-reading"
     hasclass: True
 
-  - title:  <i class="fas fa-keyboard"> A4 Due </i>
+  - title: '<i class="far fa-keyboard"> A4 Due </i>'
     date: [TH]
 
-  - title: "*Lab: Statistical Foundations: Effect Sizes/Confidence Intervals* <br> <br>"
+  - title: "*Lab: Statistical Foundations: Effect Sizes/Confidence Intervals* <br> <br>  <br>"
     date:  [F]
-    notes: '<i class="far fa-keyboard"> </i> A5  posted'
+    notes: 
+    hasassignment: True
 
   - title: "Statistical Foundations: Power Analysis"
     date: Week 7 [M, 2/24]
@@ -130,14 +135,15 @@ lessons:
     reading: "07b-reading"
     hasclass: True
 
-  - title:  '<i class="fas fa-keyboard"> A5 Due </i>'
+  - title:  '<i class="far fa-keyboard"></i> A5 Due'
     date: [TH]
 
-  - title: "*Lab: Midterm Review* <br> <br>"
+  - title: "*Lab: Midterm Review* <br> <br>  <br>"
     date:  [F]
     hasassignment: True
     assignmentname: "Midterm"
-    notes: '<i class="far fa-keyboard"> </i> Midterm posted'
+    notes: 
+    hasassignment: True
 
   - title: "Research practices affecting replication"
     date: Week 8 [M, 3/2]
@@ -149,10 +155,10 @@ lessons:
     reading: "08b-reading"
     hasclass: True
 
-  - title: " __MIDTERM DUE__ <br> <br>"
+  - title: " __MIDTERM DUE__ <br> <br>  <br>"
     date:  [F]
 
-  - title: "------ __SPRING BREAK__ ------ <br> <br>"
+  - title: "------ __SPRING BREAK__ ------ <br> <br>  <br>"
     date:  ""
 
   - title: "Research on the Web"
@@ -165,7 +171,7 @@ lessons:
     reading: "099b-reading"
     hasclass: True
 
-  - title: "*Lab: Analyzing replication data* <br> <br>"
+  - title: "*Lab: Analyzing replication data* <br> <br>  <br>"
     date:  [F]
     notes: '<i class="far fa-keyboard"> </i> A6  posted'
 
@@ -183,10 +189,10 @@ lessons:
     #reading: "10b-reading"
     #hasclass: True
 
-  - title:  <i class="fas fa-keyboard"> A6 Due </i>
+  - title:  <i class="far fa-keyboard"> A6 Due </i>
     date: [TH]
 
-  - title: "*Lab: Conducting a MA* <br> <br>"
+  - title: "*Lab: Conducting a MA* <br> <br>  <br>"
     date:  [F]
     notes: '<i class="far fa-keyboard"> </i> A7  posted'
 
@@ -201,10 +207,10 @@ lessons:
    # reading: "1b-reading"
    # hasclass: True
 
-  - title:  <i class="fas fa-keyboard"> A7 Due </i>
+  - title:  <i class="far fa-keyboard"> A7 Due </i>
     date: [TH]
 
-  - title: "*Lab: Intro to metafor* <br> <br>"
+  - title: "*Lab: Intro to metafor* <br> <br>  <br>"
     date:  [F]
     notes: '<i class="far fa-keyboard"> </i> A8  posted'
 
@@ -219,10 +225,10 @@ lessons:
     #reading: "12b-reading"
     #hasclass: True
 
-  - title:  <i class="fas fa-keyboard"> A8 Due </i>
+  - title:  <i class="far fa-keyboard"> A8 Due </i>
     date: [TH]
 
-  - title: "*Lab: Plotting in metafor* <br> <br>"
+  - title: "*Lab: Plotting in metafor* <br> <br>  <br>"
     date:  [F]
     notes: '<i class="far fa-keyboard"> </i> Final Project  posted'
 
@@ -238,10 +244,10 @@ lessons:
     date:  [W]
     hasclass: True
 
-  - title:  <i class="fas fa-keyboard"> MA Proposals Due </i>
+  - title:  <i class="far fa-keyboard"> MA Proposals Due </i>
     date: ""
 
-  - title: "*No Lab (Spring Carnival)* <br> <br>"
+  - title: "*No Lab (Spring Carnival)* <br> <br>  <br>"
     date:  [F]
 
   - title: "Group meetings"
@@ -250,7 +256,7 @@ lessons:
   - title: "Group meetings"
     date:  [W]
 
-  - title: "*Lab: Work on Projects* <br> <br>"
+  - title: "*Lab: Work on Projects* <br> <br>  <br>"
     date:  [F]
 
   - title: "Project Presentations"
@@ -259,7 +265,7 @@ lessons:
   - title: "Project Presentations"
     date:  [W]
 
-  - title: "*No Lab* <br> <br>"
+  - title: "*No Lab* <br> <br>  <br>"
     date:  [F]
 
   - title: "__FINAL PROJECT DUE__ (noon)"

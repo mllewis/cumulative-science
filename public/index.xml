@@ -23,18 +23,6 @@ A PDF of of a 2–3-page memo An Excel file with your technical appendix  You wi
     </item>
     
     <item>
-      <title>Problem set 1</title>
-      <link>/assignment/01-problem-set/</link>
-      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/assignment/01-problem-set/</guid>
-      <description>Submit this as a PDF on Learning Suite. Show your work when possible.
-1 Download one of these datasetsSource: Global Consumption and Income Project. All incomes expressed in 2005 USD PPP.
- (they’re identical; one is an Excel file, one is a CSV file, which is easier to work with in R):
-  gcip_raw.xlsx  gcip_raw.csv  Choose five countries you are interested in. For each of these countries, calculate the 90/10 ratio for 1980, 1990, 2000, and 2014.</description>
-    </item>
-    
-    <item>
       <title></title>
       <link>/reading/01a-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -256,6 +244,27 @@ Readings for class: [link] Preregister everything, Michael C. Frank (2016)</desc
     </item>
     
     <item>
+      <title>Assignment 0: Intro to R and RStudio</title>
+      <link>/assignment/a0/00_mrm_assignment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignment/a0/00_mrm_assignment/</guid>
+      <description>Objectives 
+By the end of this assignment, you should:
+ understand how to interact with Rstudio know the parts of a R Markdown file and how to knit know how to submit an assignment. understand how to load a package. understand how to read a help file. understand some basic R commands   There are 10 simple exercises in this lab. The goal is to turn in this assignment at the end of lab today.</description>
+    </item>
+    
+    <item>
+      <title>Assignment 0: Intro to R and RStudio</title>
+      <link>/assignment/a0/00_mrm_assignment_template/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/assignment/a0/00_mrm_assignment_template/</guid>
+      <description>Load Arbuthnot data
+arbuthnot &amp;lt;- read_csv(&amp;quot;data/arbuthnot.csv&amp;quot;) ## Parsed with column specification: ## cols( ## year = col_double(), ## boys = col_double(), ## girls = col_double() ## ) Exercise 4: # code for Exercise 4 is already entered below as an example arbuthnot$girls ## [1] 4683 4457 4102 4590 4839 4820 4928 4605 4457 4952 4784 5332 5200 4910 ## [15] 4617 3997 3919 3395 3536 3181 2746 2722 2840 2908 2959 3179 3349 3382 ## [29] 3289 3013 2781 3247 4107 4803 4881 5681 4858 4319 5322 5560 5829 5719 ## [43] 6061 6120 5822 5738 5717 5847 6203 6033 6041 6299 6533 6744 7158 7127 ## [57] 7246 7119 7214 7101 7167 7302 7392 7316 7483 6647 6713 7229 7767 7626 ## [71] 7452 7061 7514 7656 7683 5738 7779 7417 7687 7623 7380 7288  Exercise 5: # enter your code for Exercise 5 here  Exercise 6: # enter your code for Exercise 6 here  Exercise 7: [WRITE YOUR RESPONSE HERE TO EXERCISE 7]</description>
+    </item>
+    
+    <item>
       <title>Intro/Cumulative Science</title>
       <link>/reading/09a-reading/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -343,7 +352,7 @@ Readings for class: [link] Preregister everything, Michael C. Frank (2016)</desc
       
       <guid>/schedule/</guid>
       <description>Here’s the roadmap for the semester.
-  Readings should be completed before each class session  Slides and other class materials will be added on the day of class  Assignments are due at noon on the day they are due     Philosphy of Cumulative Science Reading Slides Notes   Week 1 [M, 1/13] Introduction to the course   Welcome!   [W] The scientific process as cumulative      [F] Lab: Getting started with R    We&amp;rsquo;re in Baker 332P.</description>
+  Readings should be completed before each class session  Slides and other class materials will be added on the day of class  Assignments are due at noon on the day they are due     Philosphy of Cumulative Science Reading Slides Assignment Notes   Week 1 [M, 1/13] Introduction to the course    Welcome!   [W] The scientific process as cumulative       [F] Lab: Getting started with R     We&amp;rsquo;re in Baker 332P.</description>
     </item>
     
     <item>

@@ -18,11 +18,6 @@
   </url>
   
   <url>
-    <loc>/assignment/01-problem-set/</loc>
-    <lastmod>2018-01-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/reading/01a-reading/</loc>
   </url>
   
@@ -112,6 +107,14 @@
   
   <url>
     <loc>/reading/13b-reading/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignment/a0/00_mrm_assignment/</loc>
+  </url>
+  
+  <url>
+    <loc>/assignment/a0/00_mrm_assignment_template/</loc>
   </url>
   
   <url>
