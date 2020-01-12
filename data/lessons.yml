@@ -19,7 +19,7 @@ lessons:
     date: [F]
     hasclass: True
     hasassignment: True
-    assignment: "00_MRM_assignment.html"
+    assignment: "00"
     reading: "01c-reading"
 
   - title: '<span class="fake-header-table">The Single Experiment</span>'
