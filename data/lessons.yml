@@ -5,7 +5,7 @@ lessons:
   - title: "Introduction to the course"
     date: "Week 1 [M, 1/13]"
     reading: "01a-reading"
-    class: "1b_slides"
+    #class: "1b_slides"
     notes: "Welcome!"
     hasclass: True
 
@@ -19,7 +19,7 @@ lessons:
     date: [F]
     hasclass: True
     hasassignment: True
-    assignment: "00"
+    #assignment:  "00"
     reading: "01c-reading"
 
   - title: '<span class="fake-header-table">The Single Experiment</span>'
@@ -40,6 +40,7 @@ lessons:
     reading: "02c-reading"
     hasclass: True
     hasassignment: True
+    #assignment:  "01"
     notes: ' Skills: pipe operator, filter, select'
 
   - title: "Summarizing data"
@@ -61,6 +62,7 @@ lessons:
     notes: 'Skills: ggplot and histograms'
     reading: "03c-reading"
     hasassignment: True
+    #assignment:  "02"
     hasclass: True
 
   - title: "Visualization: Principles of data visualization"
@@ -81,6 +83,7 @@ lessons:
     date:  [F]
     notes: 
     hasassignment: True
+    #assignment:  "03"
     
   - title: "More tidyverse"
     date: "Week 5 [M, 2/10]"
@@ -100,6 +103,7 @@ lessons:
     date: [F]
     reading: "05c-reading"
     hasassignment: True
+    #assignment:  "04"
 
   - title: '<span class="fake-header-table">Repeating an Experiment</span>'
     header: True
@@ -123,6 +127,7 @@ lessons:
     date:  [F]
     notes: 
     hasassignment: True
+    #assignment:  "05"
 
   - title: "Statistical Foundations: Power Analysis"
     date: Week 7 [M, 2/24]
@@ -144,6 +149,8 @@ lessons:
     assignmentname: "Midterm"
     notes: 
     hasassignment: True
+    #assignment:  "midterm"
+
 
   - title: "Research practices affecting replication"
     date: Week 8 [M, 3/2]
@@ -173,7 +180,8 @@ lessons:
 
   - title: "*Lab: Analyzing replication data* <br> <br>  <br>"
     date:  [F]
-    notes: '<i class="far fa-keyboard"> </i> A6  posted'
+    hasassignment: True
+    #assignment:  "06"
 
 
   - title: '<span class="fake-header-table">Aggregating Many Experiments</span>'
@@ -194,7 +202,8 @@ lessons:
 
   - title: "*Lab: Conducting a MA* <br> <br>  <br>"
     date:  [F]
-    notes: '<i class="far fa-keyboard"> </i> A7  posted'
+    hasassignment: True
+    #assignment:  "07"
 
 
   - title: "Coding meta-analytic data"
@@ -212,7 +221,8 @@ lessons:
 
   - title: "*Lab: Intro to metafor* <br> <br>  <br>"
     date:  [F]
-    notes: '<i class="far fa-keyboard"> </i> A8  posted'
+    hasassignment: True
+    #assignment:  "98"
 
 
   - title: "Analyzing MA data"

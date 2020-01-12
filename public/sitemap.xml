@@ -3,21 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/assignment/</loc>
-    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/assignment/final-project/</loc>
-    <lastmod>2019-04-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/reading/01a-reading/</loc>
   </url>
   
@@ -110,11 +95,7 @@
   </url>
   
   <url>
-    <loc>/assignment/a0/00_mrm_assignment/</loc>
-  </url>
-  
-  <url>
-    <loc>/assignment/a0/00_mrm_assignment_template/</loc>
+    <loc>/</loc>
   </url>
   
   <url>

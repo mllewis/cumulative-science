@@ -6,21 +6,9 @@
     <description>Recent content in   on Modern Research Methods:</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Final project</title>
-      <link>/assignment/final-project/</link>
-      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/assignment/final-project/</guid>
-      <description>For your final project, you will perform some (hypothetical) economic analyses and use your newfound vocabulary and skills to make a recommendation.
-You will submit two files on Learning Suite:
-A PDF of of a 2–3-page memo An Excel file with your technical appendix  You will be graded based on the rubric posted linked below. Though there are correct answers for the different market equilibria and the differential effects of taxes across states and firms, there is no one correct recommendation.</description>
-    </item>
     
     <item>
       <title></title>
@@ -241,31 +229,6 @@ Readings for class: [link] Preregister everything, Michael C. Frank (2016)</desc
       
       <guid>/reading/13b-reading/</guid>
       <description>Readings for class: [link] Matthew Salganik Bit by Bit: Social Research in the Digital Age (Princeton University Press, 2019). Chapter 2: Observing Behavior.</description>
-    </item>
-    
-    <item>
-      <title>Assignment 0: Intro to R and RStudio</title>
-      <link>/assignment/a0/00_mrm_assignment/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignment/a0/00_mrm_assignment/</guid>
-      <description>Objectives 
-By the end of this assignment, you should:
- understand how to interact with Rstudio know the parts of a R Markdown file and how to knit know how to submit an assignment. understand how to load a package. understand how to read a help file. understand some basic R commands   There are 10 simple exercises in this lab. The goal is to turn in this assignment at the end of lab today.</description>
-    </item>
-    
-    <item>
-      <title>Assignment 0: Intro to R and RStudio</title>
-      <link>/assignment/a0/00_mrm_assignment_template/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/assignment/a0/00_mrm_assignment_template/</guid>
-      <description>Exercise 1: 365 * 112 365 times 112 is [YOUR RESPONSE HERE].
- Exercise 2-3: No response required.
- Exercise 4: Load Arbuthnot data
-arbuthnot &amp;lt;- read_csv(&amp;quot;data/arbuthnot.csv&amp;quot;) # code for Exercise 4 is already entered below as an example arbuthnot$girls  Exercise 5: # enter your code for Exercise 5 here [WRITE YOUR RESPONSE HERE]
- Exercise 6: # enter your code here [WRITE YOUR RESPONSE HERE]
- Exercise 7: [WRITE YOUR RESPONSE HERE]</description>
     </item>
     
     <item>
