@@ -260,8 +260,12 @@ By the end of this assignment, you should:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/assignment/a0/00_mrm_assignment_template/</guid>
-      <description>Load Arbuthnot data
-arbuthnot &amp;lt;- read_csv(&amp;quot;data/arbuthnot.csv&amp;quot;) ## Parsed with column specification: ## cols( ## year = col_double(), ## boys = col_double(), ## girls = col_double() ## ) Exercise 4: # code for Exercise 4 is already entered below as an example arbuthnot$girls ## [1] 4683 4457 4102 4590 4839 4820 4928 4605 4457 4952 4784 5332 5200 4910 ## [15] 4617 3997 3919 3395 3536 3181 2746 2722 2840 2908 2959 3179 3349 3382 ## [29] 3289 3013 2781 3247 4107 4803 4881 5681 4858 4319 5322 5560 5829 5719 ## [43] 6061 6120 5822 5738 5717 5847 6203 6033 6041 6299 6533 6744 7158 7127 ## [57] 7246 7119 7214 7101 7167 7302 7392 7316 7483 6647 6713 7229 7767 7626 ## [71] 7452 7061 7514 7656 7683 5738 7779 7417 7687 7623 7380 7288  Exercise 5: # enter your code for Exercise 5 here  Exercise 6: # enter your code for Exercise 6 here  Exercise 7: [WRITE YOUR RESPONSE HERE TO EXERCISE 7]</description>
+      <description>Exercise 1: 365 * 112 365 times 112 is [YOUR RESPONSE HERE].
+ Exercise 2-3: No response required.
+ Exercise 4: Load Arbuthnot data
+arbuthnot &amp;lt;- read_csv(&amp;quot;data/arbuthnot.csv&amp;quot;) # code for Exercise 4 is already entered below as an example arbuthnot$girls  Exercise 5: # enter your code for Exercise 5 here [WRITE YOUR RESPONSE HERE]
+ Exercise 6: # enter your code here [WRITE YOUR RESPONSE HERE]
+ Exercise 7: [WRITE YOUR RESPONSE HERE]</description>
     </item>
     
     <item>
