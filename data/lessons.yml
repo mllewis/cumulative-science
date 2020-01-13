@@ -5,7 +5,7 @@ lessons:
   - title: "Introduction to the course"
     date: "Week 1 [M, 1/13]"
     reading: "01a-reading"
-    #class: "1b_slides"
+    class: "MRM_slides_1a"
     notes: "Welcome!"
     hasclass: True
 
