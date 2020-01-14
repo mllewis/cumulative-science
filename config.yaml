@@ -39,17 +39,17 @@ params:
     url: "http://www.andrew.cmu.edu/user/mollylew/"
     github: 
     office: Porter 223A
-    oh: W 3:00-5:00pm
+    oh: W 4:00-6:00pm
   ta: 
     name:  Jaeah Kim
     email: jaeahk@andrew.cmu.edu
-    office: Baker 455E
+    office: Psych Lounge
     oh: M 1:00-3:00pm
   course:
     number: 85311
     semester: Spring 2020
     days: "MW (lecture); F (lab)"
-    time: "10:30-11:50am"
+    time: "10:30-11:20am"
     location1: "Lecture: Baker 336B"
     location2: "Lab: Baker 332P"
     dates: "January - May 2020"

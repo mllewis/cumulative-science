@@ -6,33 +6,9 @@
     <description>Recent content in   on Modern Research Methods:</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 23 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Final project</title>
-      <link>/assignment/final-project/</link>
-      <pubDate>Tue, 23 Apr 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/assignment/final-project/</guid>
-      <description>For your final project, you will perform some (hypothetical) economic analyses and use your newfound vocabulary and skills to make a recommendation.
-You will submit two files on Learning Suite:
-A PDF of of a 2–3-page memo An Excel file with your technical appendix  You will be graded based on the rubric posted linked below. Though there are correct answers for the different market equilibria and the differential effects of taxes across states and firms, there is no one correct recommendation.</description>
-    </item>
-    
-    <item>
-      <title>Problem set 1</title>
-      <link>/assignment/01-problem-set/</link>
-      <pubDate>Thu, 18 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/assignment/01-problem-set/</guid>
-      <description>Submit this as a PDF on Learning Suite. Show your work when possible.
-1 Download one of these datasetsSource: Global Consumption and Income Project. All incomes expressed in 2005 USD PPP.
- (they’re identical; one is an Excel file, one is a CSV file, which is easier to work with in R):
-  gcip_raw.xlsx  gcip_raw.csv  Choose five countries you are interested in. For each of these countries, calculate the 90/10 ratio for 1980, 1990, 2000, and 2014.</description>
-    </item>
     
     <item>
       <title></title>
@@ -50,7 +26,12 @@ A PDF of of a 2–3-page memo An Excel file with your technical appendix  You wi
       
       <guid>/reading/01b-reading/</guid>
       <description>Readings for class: [link] Karl Pearson The Grammar of Science, 939 (Walter Scott, 1892). [Section 5 only]
-[link] Brian A Nosek and Yoav Bar-Anan “Scientific Utopia: I. Opening Scientific Communication,” Psychological Inquiry 23, no. 3 (2012): 217–243. [pg. 217-219 required only]</description>
+[link] Brian A Nosek and Yoav Bar-Anan “Scientific Utopia: I. Opening Scientific Communication,” Psychological Inquiry 23, no. 3 (2012): 217–243. [pg. 217-219 required only]
+Other links from class:
+Xu and Tenenbaum (2007a) paper
+Spencer et al. (2011) paper
+Lewis and Frank (2018) paper
+Lewis and Frank (2018) Supplemental Information</description>
     </item>
     
     <item>
@@ -339,7 +320,7 @@ Readings for class: [link] Preregister everything, Michael C. Frank (2016)</desc
       
       <guid>/schedule/</guid>
       <description>Here’s the roadmap for the semester.
-  Readings should be completed before each class session  Slides and other class materials will be added on the day of class  Assignments are due at noon on the day they are due     Philosphy of Cumulative Science Reading Slides Notes   Week 1 [M, 1/13] Introduction to the course   Welcome!   [W] The scientific process as cumulative      [F] Lab: Getting started with R    We&amp;rsquo;re in Baker 332P.</description>
+  Readings should be completed before each class session  Slides and other class materials will be added on the day of class  Assignments are due at noon on the day they are due     Philosphy of Cumulative Science Reading Slides Assignment Notes   Week 1 [M, 1/13] Introduction to the course    Welcome! Survey Link: https://tinyurl.</description>
     </item>
     
     <item>

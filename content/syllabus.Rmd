@@ -47,12 +47,12 @@ This course assumes no prior programming experience, but does require a willingn
 Learning a new "language" (in this case, R) and the other skills in this course require hands-on involvement, and you will get the most out this class if you actively engage in the material.  Students are therefore expected to complete readings and participate in class.  Lecture slides will be posted after class each day, but reading these slides is only a partial substitute for class attendance. 
  
 ## Late Work
-Late work policy for the assignments and midterm:
+Late work policy for the assignments, midterm, and final:
 
   - next day: lose 25% of total possible points
   - later than next day: lose all points
   
-Late work policy for the final project: 10% off for each day late.
+Your lowest assignment score will be dropped. Late work policy for the final project: 10% off for each day late.
 
 ## Take care of yourself
 
@@ -78,13 +78,13 @@ Cheating and plagiarism are defined in the CMU Student Handbook, and include (1)
 # Assignments and grades
 
 ## Attendance and Participation
-Attendance and participation  in lecture and lab is expected. If you miss 4 scheduled class sessions (lectures/labs), your grade will drop by a letter grade. For every four classes you miss past that, your final grade will drop by another letter grade. I expect you to participate in discussions (e.g., asking and answering questions) and activities. Your active participation in lecture and lab can earn you up to 16 points in your final grade. 
+Attendance and participation  in lecture and lab is expected, but I realize life can get in the way at inconvenient times occasionally. With that in mind, you can miss 3 class sessions (lectures or labs; e.g. 2 lectures and 1 lab) without any negative effect on your grade. However, you will be reasonsible for catching up on the material you missed. If you miss 4 scheduled class sessions (lectures/labs), your grade will drop by a letter grade. For every four classes you miss past that, your final grade will drop by another letter grade. I expect you to participate in discussions (e.g., asking and answering questions) and activities. Your active participation in lecture and lab can earn you up to 16 points in your final grade. 
 
 ## Lab Assignments
 
 There will be 8 Lab Assignments throughout the semester. The goal of these assignments is to give you hands-on experience with the skills that are introduced in lecture and in lab. You are welcomed, and encouraged, to work with each other on the problems. But, you must turn in your own work.
 
-Submission instructions: Always submit the .Rmd and .HTML files via XX.
+Submission instructions: Always submit the .Rmd and .HTML files.
 
 
 ## Midterm Exam
@@ -104,7 +104,7 @@ There is no final exam. This project is your final exam.
 assignments <- tribble(
   ~Points,  ~Assignment,
   16      , "Participation",
-  8 * 20  , "Lab Assignments (8 × 20)",
+  7 * 20  , "Lab Assignments (7 × 20)",
   48     , "Midterm",
   96     , "Final Meta-analysis Project [Proposal = 16; Presentation = 30; Writeup = 50]",
 ) %>%
