@@ -19,8 +19,9 @@ lessons:
     notes: "We're in Baker 332P. Skills: Rstudio cloud, basic operations in R, loading packages,  anatomy of a help file" 
     date: [F]
     hasclass: True
+    class: "MRM_slides_1c"
     hasassignment: True
-    #assignment:  "00"
+    assignment:  "00"
     reading: "01c-reading"
 
   - title: '<span class="fake-header-table">The Single Experiment</span>'
