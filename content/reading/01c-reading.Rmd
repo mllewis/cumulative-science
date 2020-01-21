@@ -4,6 +4,6 @@ csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
 ---
 
 # Readings for class:
-[**[link]**](http://statsthinking21.org/introduction-to-r.html) @poldrack2019 Chapter 2: Intro to R.
+[**[link]**](http://statsthinking21.org/introduction-to-r.html) @poldrack2019 Chapter 3: Intro to R.
 
 [**[link]**](https://www.rforcats.net/) Fun, cat-based introduction to R **[OPTIONAL]**
