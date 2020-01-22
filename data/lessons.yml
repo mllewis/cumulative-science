@@ -33,7 +33,8 @@ lessons:
 
   - title: Experimental data and design 
     date: [W]
-    notes: "Skills: quantitative/qualitative variables, tidy data"
+    class: "MRM_slides_2b"
+    notes: "Skills: quantitative/qualitative variables"
     reading: "02b-reading"
     hasclass: True
 
@@ -49,7 +50,7 @@ lessons:
     date: Week 3 [M, 1/27]
     reading: "03a-reading"
     hasclass: True
-    notes: "Skills: mutate, group_by, summarize"
+    notes: "Skills: tidy data, mutate, group_by, summarize"
 
   - title: "Visualization: Intro to grammar of graphics "
     date: [W]
