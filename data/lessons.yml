@@ -31,7 +31,7 @@ lessons:
     date: Week 2 [M, 1/20]
     hasclass: False
 
-  - title: Experimental data and design 
+  - title: Experimental data
     date: [W]
     class: "MRM_slides_2b"
     notes: "Skills: quantitative/qualitative variables"
