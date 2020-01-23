@@ -45,7 +45,7 @@ lessons:
     hasclass: True
     hasassignment: True
     assignment:  "01"
-    notes: ' Skills: pipe operator, filter, select'
+    notes: ' Skills: pipe operator, filter, select, arrange'
 
   - title: "Summarizing data"
     date: Week 3 [M, 1/27]
