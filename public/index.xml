@@ -310,7 +310,10 @@ Readings for class: [link] Preregister everything, Michael C. Frank (2016)</desc
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/resources/</guid>
-      <description>Useful R references Cheat Sheets for R - helpful quick references for coding in the tidyverse.</description>
+      <description>Useful R references Base R cheatsheet
+R Markdown cheatsheet
+Dplyr cheatsheet
+Rstudio cheatsheet</description>
     </item>
     
     <item>

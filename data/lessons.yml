@@ -41,9 +41,10 @@ lessons:
   - title: "*Lab: Intro to dplyr* <br> <br>  <br>" 
     date:  [F]
     reading: "02c-reading"
+    class: "MRM_slides_2c"
     hasclass: True
     hasassignment: True
-    #assignment:  "01"
+    assignment:  "01"
     notes: ' Skills: pipe operator, filter, select'
 
   - title: "Summarizing data"
