@@ -4,4 +4,12 @@ slug: resources
 ---
 
 # Useful R references
-[Cheat Sheets for R](https://rstudio.com/resources/cheatsheets/) - helpful quick references for coding in the tidyverse. 
+
+[Base R cheatsheet](http://github.com/rstudio/cheatsheets/raw/master/base-r.pdf)
+
+[R Markdown cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rmarkdown-2.0.pdf)
+
+[Dplyr cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf)
+
+[Rstudio cheatsheet](https://github.com/rstudio/cheatsheets/raw/master/rstudio-ide.pdf)
+
