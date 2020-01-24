@@ -591,7 +591,7 @@ $(document).ready(function () {
 <li><strong>subids</strong> - Subject ID. This is an anonymous id that uniquely identifies every participant in the study.</li>
 <li><strong>trial_num</strong> - Each participant completed 12 “trials.” In this case, a trial is a single screen where the participant sees a novel word, one or more examples, and then is asked to click on other examples of the novel word.</li>
 <li><strong>category</strong> - There were three different categories of objects: vehicles, vegetables, and animals. Each participant saw some trials from each category.</li>
-<li><strong>condition</strong> - This is the variable that we manipulated. It refers to the number of examples of the novel word participants saw at the top of the page. Participants saw either 3 subordinate examples (e.g., 3 dalmations), 3 basic level examples (e.g. a dalmation, a poodle, and a bernese mountain dog), 3 superordinate examples (e.g. a dalmation, a rabbit, and a horse), or just a single example (e.g. 1 dalmation).</li>
+<li><strong>condition</strong> - This is the variable that we manipulated. It refers to the number of examples of the novel word participants saw at the top of the page. Participants saw either 3 subordinate examples (“three_subordinate”; e.g., 3 dalmations), 3 basic level examples (“three_basic”; e.g. a dalmation, a poodle, and a bernese mountain dog), 3 superordinate examples (“three_superordinate”; e.g. a dalmation, a rabbit, and a horse), or just a single example (“one”; e.g. 1 dalmation).</li>
 <li><strong>proportion_basic_level_responses</strong> - This is the variable that we measured. It refers to the proportion (out of 2 possible) of basic level examples that a participant selected.</li>
 </ul>
 <table>
@@ -671,9 +671,9 @@ $(document).ready(function () {
 </ol>
 <p><br></p>
 <ol style="list-style-type: decimal">
-<li>The following code selects all trials (rows) where the category is vegetables or animals. Rewrite this code in a way that does not use the <code>%in%</code> operator.</li>
+<li>The following code selects all trials (rows) where the condition was either “three_subordinate” or “one.” Rewrite this code in a way that uses the <code>%in%</code> operator.</li>
 </ol>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw">filter</span>(lf_data, category <span class="op">%in%</span><span class="st"> </span><span class="kw">c</span>(<span class="st">&quot;vegetables&quot;</span>, <span class="st">&quot;animals&quot;</span>))</span></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw">filter</span>(lf_data, condition <span class="op">==</span><span class="st"> &quot;three_subordinate&quot;</span> <span class="op">|</span><span class="st"> </span>condition <span class="op">==</span><span class="st"> &quot;one&quot;</span>)</span></code></pre></div>
 <p><br></p>
 <ol style="list-style-type: decimal">
 <li>How many trials are there where the category is either vegetables or animals? Use <code>nrow()</code>.</li>
