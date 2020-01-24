@@ -667,7 +667,7 @@ $(document).ready(function () {
 <p><em>Note: the template for the remaining exercises is blank, and so you will need to add R chunks where appropriate.</em></p>
 <p><br></p>
 <ol style="list-style-type: decimal">
-<li>Use Boolean operators to return only the rows that contain trials (rows): [a] with category as vegetables, [b] with category as animals and a trial number less than 7, [c] with category as vegetables or animals, [d] with at least one basic level response.</li>
+<li>Use logical tests and Boolean operators to return only the rows that contain trials (rows): [a] with category as vegetables, [b] with category as animals and a trial number less than 7, [c] with category as vegetables or animals, [d] with at least one basic level response in the “one” condition.</li>
 </ol>
 <p><br></p>
 <ol style="list-style-type: decimal">
@@ -710,7 +710,7 @@ $(document).ready(function () {
 </ol>
 <div class="sourceCode" id="cb10"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb10-1"><a href="#cb10-1"></a>lf_data <span class="op">%&gt;%</span></span>
 <span id="cb10-2"><a href="#cb10-2"></a><span class="st">  </span><span class="kw">select</span>(subids, category, condition) <span class="op">%&gt;%</span></span>
-<span id="cb10-3"><a href="#cb10-3"></a><span class="st">  </span><span class="kw">filter</span>(category <span class="op">==</span><span class="st"> &quot;vehicles&quot;</span> <span class="op">&amp;</span><span class="st"> </span>condition <span class="op">==</span><span class="st"> &quot;one&quot;</span>) <span class="op">%&gt;%</span></span>
+<span id="cb10-3"><a href="#cb10-3"></a><span class="st">  </span><span class="kw">filter</span>(category <span class="op">==</span><span class="st"> &quot;vehicles&quot;</span> <span class="op">&amp;</span><span class="st"> </span>condition <span class="op">!=</span><span class="st"> &quot;one&quot;</span>) <span class="op">%&gt;%</span></span>
 <span id="cb10-4"><a href="#cb10-4"></a><span class="st">  </span><span class="kw">arrange</span>(<span class="op">-</span>subids)</span></code></pre></div>
 <p><br></p>
 <ol style="list-style-type: decimal">
