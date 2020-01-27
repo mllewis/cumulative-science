@@ -58,7 +58,7 @@ lessons:
     reading: "03b-reading"
     hasclass: True
 
-  - title:  '<i class="far fa-keyboard"> A1 Due </i>'
+  - title:  '<i class="far fa-keyboard"> </i> A1 Due '
     date: [TH]
 
   - title: "*Lab: Working with ggplot* <br> <br>  <br>"
@@ -80,7 +80,7 @@ lessons:
     reading: "04b-reading"
     hasclass: True
 
-  - title:  '<i class="far fa-keyboard"> A2 Due </i>'
+  - title:  '<i class="far fa-keyboard"> </i> A2 Due '
     date: [TH]
 
   - title: "*Lab: More tidyverse* <br> <br>  <br> "
@@ -100,7 +100,7 @@ lessons:
     reading: "05b-reading"
     hasclass: True
 
-  - title:  '<i class="far fa-keyboard"> A3 Due </i>'
+  - title:  '<i class="far fa-keyboard"> </i> A3 Due '
     date: [TH]
 
   - title: "*Lab: Reproducible workflows (OSF/Github)* <br> <br>  <br>"
@@ -123,8 +123,8 @@ lessons:
     notes: "Skills: two-sample t-test, ES, and CIs"
     reading: "06b-reading"
     hasclass: True
-
-  - title: '<i class="far fa-keyboard"> A4 Due </i>'
+ 
+  - title: '<i class="far fa-keyboard"> </i> A4 Due '
     date: [TH]
 
   - title: "*Lab: Statistical Foundations: Effect Sizes/Confidence Intervals* <br> <br>  <br>"
@@ -201,7 +201,7 @@ lessons:
     #reading: "10b-reading"
     #hasclass: True
 
-  - title:  <i class="far fa-keyboard"> A6 Due </i>
+  - title:  '<i class="far fa-keyboard">  </i> A6 Due'
     date: [TH]
 
   - title: "*Lab: Conducting a MA* <br> <br>  <br>"
@@ -220,7 +220,7 @@ lessons:
    # reading: "1b-reading"
    # hasclass: True
 
-  - title:  <i class="far fa-keyboard"> A7 Due </i>
+  - title:  '<i class="far fa-keyboard"> </i>  A7 Due'
     date: [TH]
 
   - title: "*Lab: Intro to metafor* <br> <br>  <br>"
@@ -239,7 +239,7 @@ lessons:
     #reading: "12b-reading"
     #hasclass: True
 
-  - title:  <i class="far fa-keyboard"> A8 Due </i>
+  - title:  '<i class="far fa-keyboard"> </i> A8 Due'
     date: [TH]
 
   - title: "*Lab: Plotting in metafor* <br> <br>  <br>"
@@ -258,7 +258,7 @@ lessons:
     date:  [W]
     hasclass: True
 
-  - title:  <i class="far fa-keyboard"> MA Proposals Due </i>
+  - title:  '<i class="far fa-keyboard"> </i> MA Proposals Due'
     date: ""
 
   - title: "*No Lab (Spring Carnival)* <br> <br>  <br>"
@@ -275,6 +275,7 @@ lessons:
 
   - title: "Project Presentations"
     date: Week 15 [M, 4/27]
+    notes: "Poster DUE (send to print)"
 
   - title: "Project Presentations"
     date:  [W]
