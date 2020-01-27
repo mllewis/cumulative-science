@@ -50,6 +50,7 @@ lessons:
   - title: "Summarizing data"
     date: Week 3 [M, 1/27]
     reading: "03a-reading"
+    class: "MRM_slides_3a"
     hasclass: True
     notes: "Skills: tidy data, mutate, group_by, summarize"
 
