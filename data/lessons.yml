@@ -58,7 +58,7 @@ lessons:
     date: [W]
     reading: "03b-reading"
     hasclass: True
-    notes: <a href="https://docs.google.com/presentation/d/1iXkHULn9FVLPlAvx3Uy499dwAkKNNP_eb3mTPWMI2Jw/edit?usp=sharing">[Google Slides for class]</a>
+    notes: <a href="https://docs.google.com/presentation/d/1iXkHULn9FVLPlAvx3Uy499dwAkKNNP_eb3mTPWMI2Jw/edit?usp=sharing">[Google Slides for class]</a> <a href = "/slides/MRM_slides_3b_ggplot/3b_ggplot_slides.html"> [ggplot example slides] </a>
 
 
   - title:  '<i class="far fa-keyboard"> </i> A1 Due '
