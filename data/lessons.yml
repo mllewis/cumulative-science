@@ -67,7 +67,7 @@ lessons:
 
   - title: "*Lab: Working with ggplot* <br> <br>  <br>"
     date:  [F]
-    notes: 'Skills: ggplot and histograms'
+    notes: ''
     reading: "03c-reading"
     hasassignment: True
     #assignment:  "02"
