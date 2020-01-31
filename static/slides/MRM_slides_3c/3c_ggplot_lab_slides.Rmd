@@ -1,5 +1,5 @@
 ---
-title: "Working with ggplot <br>"
+title: "Working in the tidyverse <br>"
 subtitle: "Modern Research Methods"
 date: "1/31/2020"
 output:
@@ -13,6 +13,8 @@ output:
       countIncrementalSlides: false
 ---
 
+class: center, middle
+
 ```{r child = "setup.Rmd"}
 ```
 
@@ -22,7 +24,7 @@ library(tidyverse)
 library(knitr)
 #knitr::opts_chunk$set(fig.height = 2, fig.width = 3, dpi = 300) 
 
-
+gapminder <- janitor::clean_names(gapminder)
 ```
 
 
@@ -56,8 +58,8 @@ library(knitr)
 }
 ```
 
----
-class: center, middle
+
+
 
 ## A couple new functions
 
@@ -315,7 +317,7 @@ class: center, middle
 * Style doesn't matter to the computer, but it does matter to **humans** who produce, intepret and modify code.
 --
 
-* Have a code specific, consistent code style makes your own code easier to understand and debug, and it helps others do the same.
+* Having a code specific, consistent code style makes your own code easier to understand and debug, and it helps others do the same.
 --
 
 * In this class, **variable names** in data frames should be all lower case and descriptive. Separate multiple words with an underscore (`_`).
@@ -334,6 +336,7 @@ class: center, middle
 
 In the tidyverse, you should think of each **line** as doing **one** thing.
 
+Like instructions in a  recipe:
 
 ```{r, eval = T, echo = F, out.width= 350}
 knitr::include_graphics("img/recipe.jpg")
@@ -349,7 +352,7 @@ knitr::include_graphics("img/recipe.jpg")
 
 ```{r, eval = F}
 gapminder %>%
-  group_by(country) 
+  group_by(country) %>%
   summarize(num_countries = n()) %>%
   mutate(num_countries_round = round(num_countries))
 ```
@@ -359,7 +362,7 @@ gapminder %>%
 **BAD**:
 
 ```{r, eval = F}
-gapminder %>% group_by(country) summarize(num_countries = n()) %>% 
+gapminder %>% group_by(country)  %>% summarize(num_countries = n()) %>% 
   mutate(num_countries_round = round(num_countries))
 ```
 
@@ -420,13 +423,14 @@ ggplot(data = gapminder, mapping = aes(x = gdp_percap,
 
 * You can change size of plot output in .Rmd by specificy `fig.width` and `fig.height` in the relevant R chunk. In general, aim for the "plot" plot of your plot (i.e. excluding the legend) to be roughly square (or slightly wider than square).
 
-`{r CHUNKNAME, fig.width = 4, fig.height = 4.5}`
+`{r CHUNKNAME, fig.width = 4.5, fig.height = 4}`
 ---
-* "Literate programming" - plain text mixed with code
+##  "Literate Programming" 
+
+Plain text mixed with code.
 
 ```{r, eval = T, echo = F}
 knitr::include_graphics("img/comment_vs_plain_text.png")
-
 knitr::include_graphics("img/comment_vs_plain_text2.png")
 ```
 

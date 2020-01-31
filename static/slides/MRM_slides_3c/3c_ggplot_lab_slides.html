@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Working with ggplot</title>
+    <title>Working in the tidyverse</title>
     <meta charset="utf-8" />
     <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
@@ -11,12 +11,14 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Working with ggplot <br>
+# Working in the tidyverse <br>
 ## Modern Research Methods
 ### 1/31/2020
 
 ---
 
+
+class: center, middle
 
 
 
@@ -59,8 +61,8 @@ layout: true
 }
 &lt;/style&gt;
 
----
-class: center, middle
+
+
 
 ## A couple new functions
 
@@ -105,12 +107,12 @@ glimpse(gapminder)
 ```
 ## Observations: 1,704
 ## Variables: 6
-## $ country   &lt;fct&gt; Afghanistan, Afghanistan, Afghanistan, Afghanistan, Afghani…
-## $ continent &lt;fct&gt; Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia,…
-## $ year      &lt;int&gt; 1952, 1957, 1962, 1967, 1972, 1977, 1982, 1987, 1992, 1997,…
-## $ lifeExp   &lt;dbl&gt; 28.801, 30.332, 31.997, 34.020, 36.088, 38.438, 39.854, 40.…
-## $ pop       &lt;int&gt; 8425333, 9240934, 10267083, 11537966, 13079460, 14880372, 1…
-## $ gdpPercap &lt;dbl&gt; 779.4453, 820.8530, 853.1007, 836.1971, 739.9811, 786.1134,…
+## $ country    &lt;fct&gt; Afghanistan, Afghanistan, Afghanistan, Afghanistan, Afghan…
+## $ continent  &lt;fct&gt; Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia…
+## $ year       &lt;int&gt; 1952, 1957, 1962, 1967, 1972, 1977, 1982, 1987, 1992, 1997…
+## $ life_exp   &lt;dbl&gt; 28.801, 30.332, 31.997, 34.020, 36.088, 38.438, 39.854, 40…
+## $ pop        &lt;int&gt; 8425333, 9240934, 10267083, 11537966, 13079460, 14880372, …
+## $ gdp_percap &lt;dbl&gt; 779.4453, 820.8530, 853.1007, 836.1971, 739.9811, 786.1134…
 ```
 
 --
@@ -123,7 +125,7 @@ summary(gapminder)
 ```
 
 ```
-##         country        continent        year         lifeExp     
+##         country        continent        year         life_exp    
 ##  Afghanistan:  12   Africa  :624   Min.   :1952   Min.   :23.60  
 ##  Albania    :  12   Americas:300   1st Qu.:1966   1st Qu.:48.20  
 ##  Algeria    :  12   Asia    :396   Median :1980   Median :60.71  
@@ -131,7 +133,7 @@ summary(gapminder)
 ##  Argentina  :  12   Oceania : 24   3rd Qu.:1993   3rd Qu.:70.85  
 ##  Australia  :  12                  Max.   :2007   Max.   :82.60  
 ##  (Other)    :1632                                                
-##       pop              gdpPercap       
+##       pop              gdp_percap      
 ##  Min.   :6.001e+04   Min.   :   241.2  
 ##  1st Qu.:2.794e+06   1st Qu.:  1202.1  
 ##  Median :7.024e+06   Median :  3531.8  
@@ -361,7 +363,7 @@ class: center, middle
 * Style doesn't matter to the computer, but it does matter to **humans** who produce, intepret and modify code.
 --
 
-* Have a code specific, consistent code style makes your own code easier to understand and debug, and it helps others do the same.
+* Having a code specific, consistent code style makes your own code easier to understand and debug, and it helps others do the same.
 --
 
 * In this class, **variable names** in data frames should be all lower case and descriptive. Separate multiple words with an underscore (`_`).
@@ -380,6 +382,7 @@ class: center, middle
 
 In the tidyverse, you should think of each **line** as doing **one** thing.
 
+Like instructions in a  recipe:
 
 &lt;img src="img/recipe.jpg" width="350" /&gt;
 
@@ -394,7 +397,7 @@ In the tidyverse, you should think of each **line** as doing **one** thing.
 
 ```r
 gapminder %&gt;%
-  group_by(country) 
+  group_by(country) %&gt;%
   summarize(num_countries = n()) %&gt;%
   mutate(num_countries_round = round(num_countries))
 ```
@@ -405,7 +408,7 @@ gapminder %&gt;%
 
 
 ```r
-gapminder %&gt;% group_by(country) summarize(num_countries = n()) %&gt;% 
+gapminder %&gt;% group_by(country)  %&gt;% summarize(num_countries = n()) %&gt;% 
   mutate(num_countries_round = round(num_countries))
 ```
 
@@ -466,9 +469,11 @@ ggplot(data = gapminder, mapping = aes(x = gdp_percap,
 
 * You can change size of plot output in .Rmd by specificy `fig.width` and `fig.height` in the relevant R chunk. In general, aim for the "plot" plot of your plot (i.e. excluding the legend) to be roughly square (or slightly wider than square).
 
-`{r CHUNKNAME, fig.width = 4, fig.height = 4.5}`
+`{r CHUNKNAME, fig.width = 4.5, fig.height = 4}`
 ---
-* "Literate programming" - plain text mixed with code
+##  "Literate Programming" 
+
+Plain text mixed with code.
 
 &lt;img src="img/comment_vs_plain_text.png" width="317" /&gt;&lt;img src="img/comment_vs_plain_text2.png" width="625" /&gt;
 
