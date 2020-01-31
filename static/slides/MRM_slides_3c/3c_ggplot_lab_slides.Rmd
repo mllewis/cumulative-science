@@ -13,7 +13,6 @@ output:
       countIncrementalSlides: false
 ---
 
-class: center, middle
 
 ```{r child = "setup.Rmd"}
 ```
