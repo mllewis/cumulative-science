@@ -70,7 +70,7 @@ lessons:
     notes: 'Skills: ggplot and histograms'
     reading: "03c-reading"
     hasassignment: True
-    #assignment:  "02"
+    assignment:  "02"
     hasclass: True
 
   - title: "Visualization: Principles of data visualization"
