@@ -59,7 +59,7 @@ lessons:
     reading: "03b-reading"
     class: "MRM_slides_3b"
     hasclass: True
-    notes: <a href="https://docs.google.com/presentation/d/1iXkHULn9FVLPlAvx3Uy499dwAkKNNP_eb3mTPWMI2Jw/edit?usp=sharing">[Google Slides for class]</a> <a href = "/slides/MRM_slides_3b_ggplot/3b_ggplot_slides.html"> [ggplot example slides] </a>
+    notes: 'Skills: ggplot; <a href="https://docs.google.com/presentation/d/1iXkHULn9FVLPlAvx3Uy499dwAkKNNP_eb3mTPWMI2Jw/edit?usp=sharing">[Google Slides for class]</a> <a href = "/slides/MRM_slides_3b_ggplot/3b_ggplot_slides.html"> [ggplot example slides] </a>'
 
 
   - title:  '<i class="far fa-keyboard"> </i> A1 Due '
@@ -67,7 +67,7 @@ lessons:
 
   - title: "*Lab: Working with ggplot* <br> <br>  <br>"
     date:  [F]
-    notes: 'Skills: ggplot and histograms'
+    notes: ''
     reading: "03c-reading"
     hasassignment: True
     assignment:  "02"
