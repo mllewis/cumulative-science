@@ -70,7 +70,8 @@ lessons:
     notes: ''
     reading: "03c-reading"
     hasassignment: True
-    #assignment:  "02"
+    assignment:  "02"
+    notes: '<a href = "/slides/3c_slides/3c_ggplot_lab_slides.html"> [ggplot example slides] </a>'
     hasclass: True
 
   - title: "Visualization: Principles of data visualization"
