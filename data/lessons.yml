@@ -67,10 +67,11 @@ lessons:
 
   - title: "*Lab: Working with ggplot* <br> <br>  <br>"
     date:  [F]
-    notes: ''
     reading: "03c-reading"
+    class: "MRM_slides_3c"
     hasassignment: True
     assignment:  "02"
+    notes: '<a href = "/assignment_materials/02_MRM_assignment_template.Rmd">  [A2 template] </a><a href = "/assignment_materials/data/lewis_object_complexity_norms_by_participant.csv">  [A2 data] </a>'
     hasclass: True
 
   - title: "Visualization: Principles of data visualization"

@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Working in the tidyverse</title>
+    <meta charset="utf-8" />
+    <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link rel="stylesheet" href="slides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Working in the tidyverse <br>
+## Modern Research Methods
+### 1/31/2020
+
+---
+
+
+
+
+
+
+layout: true
+
+
+---
+
+
+
+
+
+
+&lt;style type="text/css"&gt;
+/* custom.css */
+.left-code {
+  color: #777;
+  width: 38%;
+  height: 92%;
+  float: left;
+}
+.right-plot {
+  width: 60%;
+  float: right;
+  padding-left: 1%;
+}
+.plot-callout {
+  height: 225px;
+  width: 450px;
+  bottom: 5%;
+  right: 5%;
+  position: absolute;
+  padding: 0px;
+  z-index: 100;
+}
+.plot-callout img {
+  width: 100%;
+  border: 4px solid #23373B;
+}
+&lt;/style&gt;
+
+
+
+
+## A couple new functions
+
+---
+##  `count()`
+
+`count()` is a useful shortcut for `group_by() %&gt;% summarize(num = n())`.
+
+--
+This code:
+
+```r
+gapminder %&gt;%
+  group_by(country) %&gt;%
+  summarize(num_countries = n())
+```
+
+--
+
+Does the same as this:
+
+--
+
+
+```r
+gapminder %&gt;%
+  count(country) 
+```
+
+---
+##  `glimpse()`
+
+Glimpse is useful for getting the "big picture" view of your data frame.
+
+--
+
+
+```r
+glimpse(gapminder)
+```
+
+```
+## Observations: 1,704
+## Variables: 6
+## $ country    &lt;fct&gt; Afghanistan, Afghanistan, Afghanistan, Afghanistan, Afghan…
+## $ continent  &lt;fct&gt; Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia, Asia…
+## $ year       &lt;int&gt; 1952, 1957, 1962, 1967, 1972, 1977, 1982, 1987, 1992, 1997…
+## $ life_exp   &lt;dbl&gt; 28.801, 30.332, 31.997, 34.020, 36.088, 38.438, 39.854, 40…
+## $ pop        &lt;int&gt; 8425333, 9240934, 10267083, 11537966, 13079460, 14880372, …
+## $ gdp_percap &lt;dbl&gt; 779.4453, 820.8530, 853.1007, 836.1971, 739.9811, 786.1134…
+```
+
+--
+
+`summary()` does something similiar:
+--
+
+```r
+summary(gapminder)
+```
+
+```
+##         country        continent        year         life_exp    
+##  Afghanistan:  12   Africa  :624   Min.   :1952   Min.   :23.60  
+##  Albania    :  12   Americas:300   1st Qu.:1966   1st Qu.:48.20  
+##  Algeria    :  12   Asia    :396   Median :1980   Median :60.71  
+##  Angola     :  12   Europe  :360   Mean   :1980   Mean   :59.47  
+##  Argentina  :  12   Oceania : 24   3rd Qu.:1993   3rd Qu.:70.85  
+##  Australia  :  12                  Max.   :2007   Max.   :82.60  
+##  (Other)    :1632                                                
+##       pop              gdp_percap      
+##  Min.   :6.001e+04   Min.   :   241.2  
+##  1st Qu.:2.794e+06   1st Qu.:  1202.1  
+##  Median :7.024e+06   Median :  3531.8  
+##  Mean   :2.960e+07   Mean   :  7215.3  
+##  3rd Qu.:1.959e+07   3rd Qu.:  9325.5  
+##  Max.   :1.319e+09   Max.   :113523.1  
+## 
+```
+
+---
+## And some old functions
+
+&lt;img src="img/dpylrsummary.png" width="700" /&gt;
+
+---
+
+class: center, middle
+## Some points of confusion
+
+
+
+
+
+
+---
+
+
+## `%in%` vs. `%&gt;%`
+
+Even though these symbols are made up of three characters, you should think of them as a single symbol. 
+
+--
+
+Despite their apparent similarity, these functions aren't really related to each other.
+
+--
+
+`%in%` checks whether something is a member of a set.
+
+--
+
+
+```r
+4 %in% c(1,2,3,4)
+```
+
+```
+## [1] TRUE
+```
+
+
+
+```r
+5 %in% c(1,2,3,4)
+```
+
+```
+## [1] FALSE
+```
+
+
+--
+
+`%&gt;%` ("the pipe") sends the output of one function to another function.
+
+
+--
+
+
+
+```r
+gapminder %&gt;%
+  group_by(country) %&gt;%
+  summarize(num_countries = n())
+```
+
+
+
+---
+## The scope of `aes()`
+
+Remember this plot?
+
+
+--
+
+
+```r
+ggplot(data = gapminder, mapping = aes(x = gdp_percap, 
+                                       y = life_exp)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  scale_x_log10() +
+  ylab("Life Expectancy (Years)") +
+  xlab("GDP Per Capita") +
+  theme_classic(base_size = 16)
+```
+
+.right-plot[
+&lt;img src="3c_ggplot_lab_slides_files/figure-html/unnamed-chunk-12-1.png" width="100%" /&gt;
+]
+
+
+
+---
+
+Another way to write this is by putting the aesthetics in the geom functions themselves 
+
+--
+
+
+```r
+ggplot(data = gapminder) +
+  geom_point(mapping = aes(x = gdp_percap,y = life_exp)) +
+  geom_smooth(mapping = aes(x = gdp_percap,  y = life_exp), method = "lm") +
+  scale_x_log10() +
+  ylab("Life Expectancy (Years)") +
+  xlab("GDP Per Capita") +
+  theme_classic(base_size = 16)
+```
+
+.right-plot[
+&lt;img src="3c_ggplot_lab_slides_files/figure-html/unnamed-chunk-13-1.png" width="100%" /&gt;
+]
+
+--
+
+But notice because `geom_point()` and `geom_smooth()` require both `x` and `y` aesthetics we have to include the mappings in both.
+
+--
+
+Mappings put in the `ggplot()` function apply to all geoms. 
+
+
+---
+
+## A common error: Forgetting a pipe
+
+--
+
+```r
+gapminder %&gt;%
+  group_by(country) 
+  summarize(num_countries = n()) %&gt;%
+  mutate(num_countries_round = round(num_countries))
+```
+
+--
+
+`Error: n() should only be called in a data context
+Call `rlang::last_error()` to see a backtrace.`
+
+--
+
+Error will depend on what exactly you're trying to do. But check this furst if you get an error you don't understand!
+
+---
+
+## A common error: Forgetting the `+`
+
+
+
+```r
+ggplot(data = gapminder, mapping = aes(x = gdp_percap, 
+                                       y = life_exp)) +
+  geom_point() +
+  geom_smooth(method = "lm") 
+  scale_x_log10() +
+  ylab("Life Expectancy (Years)") +
+  xlab("GDP Per Capita") +
+  theme_classic(base_size = 16)
+```
+
+--
+
+`Error: Cannot add ggproto objects together. Did you forget to add this object to a ggplot object?`
+
+---
+
+## A common error: Forgetting to load packages
+
+
+
+
+```r
+cool_data_frame &lt;- read_csv("data/cool_data_frame.csv")
+```
+
+
+--
+
+`Error: object 'read_csv' not found`
+
+--
+
+Solves the problem:
+
+```r
+library(tidyverse)
+cool_data_frame &lt;- read_csv("data/cool_data_frame.csv")
+```
+
+--
+
+You have to load packages before you can use their functions!
+
+
+
+
+
+
+
+---
+
+class: center, middle
+
+## Notes on style
+---
+
+## Style
+
+--
+
+* Why does style matter? 
+--
+
+* Style doesn't matter to the computer, but it does matter to **humans** who produce, intepret and modify code.
+--
+
+* Having a code specific, consistent code style makes your own code easier to understand and debug, and it helps others do the same.
+--
+
+* In this class, **variable names** in data frames should be all lower case and descriptive. Separate multiple words with an underscore (`_`).
+--
+
+* BAD: `NEWVARIABLE `, `thing `, `LIFEexpectancy `, `Time`
+--
+
+* GOOD: `num_countries    `, `age_years `, `life_expectancy `, `log_reaction_time_seconds`
+--
+
+* In this class, if you can use the pipe, **always use the pipe** (unless there's only a single function)
+---
+
+# Line breaks
+
+In the tidyverse, you should think of each **line** as doing **one** thing.
+
+Like instructions in a  recipe:
+
+&lt;img src="img/recipe.jpg" width="350" /&gt;
+
+---
+
+ Data frame goes on own line, then each function (verb) on its own line after that (indent after first).
+--
+
+
+**GREAT**:
+
+
+```r
+gapminder %&gt;%
+  group_by(country) %&gt;%
+  summarize(num_countries = n()) %&gt;%
+  mutate(num_countries_round = round(num_countries))
+```
+
+--
+
+**BAD**:
+
+
+```r
+gapminder %&gt;% group_by(country)  %&gt;% summarize(num_countries = n()) %&gt;% 
+  mutate(num_countries_round = round(num_countries))
+```
+
+---
+
+Same for ggplot. Imagine your plot is a house and you're building it brick by brick. 
+--
+
+
+&lt;img src="img/brick.jpg" width="600" /&gt;
+
+
+Each "brick" of the plot goes on its own line. 
+---
+
+Each layer of your plot goes on its own line.
+
+**GREAT**:
+
+
+```r
+ggplot(data = gapminder, mapping = aes(x = gdp_percap, 
+                                       y = life_exp)) +
+  geom_point() +
+  geom_smooth(method = "lm") +
+  scale_x_log10() +
+  ylab("Life Expectancy (Years)") +
+  xlab("GDP Per Capita") +
+  theme_classic(base_size = 16)
+```
+
+--
+
+**BAD**:
+
+
+```r
+ggplot(data = gapminder, mapping = aes(x = gdp_percap, 
+                                       y = life_exp)) + geom_point() +
+  geom_smooth(method = "lm") + scale_x_log10() + ylab("Life Expectancy (Years)") + 
+  xlab("GDP Per Capita") +theme_classic(base_size = 16)
+```
+
+
+
+
+---
+
+
+## Style for knitting
+--
+
+* No need to use `print()` function in .Rmd - will print output automatically.
+
+--
+* Make sure you look at your .html after you knit. Does it look as you expected? If not, go back to .Rmd.
+--
+
+* You can change size of plot output in .Rmd by specificy `fig.width` and `fig.height` in the relevant R chunk. In general, aim for the "plot" plot of your plot (i.e. excluding the legend) to be roughly square (or slightly wider than square).
+
+`{r CHUNKNAME, fig.width = 4.5, fig.height = 4}`
+---
+##  "Literate Programming" 
+
+Plain text mixed with code.
+
+&lt;img src="img/comment_vs_plain_text.png" width="317" /&gt;&lt;img src="img/comment_vs_plain_text2.png" width="625" /&gt;
+
+
+--
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
