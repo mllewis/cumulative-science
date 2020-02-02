@@ -566,22 +566,22 @@ $(document).ready(function () {
 </ol>
 <p><br></p>
 <ol start="2" style="list-style-type: decimal">
-<li>Use summarise() to compute three statistics about the data: [a] The first (minimum) year in the dataset. [b] The last (maximum) year in the dataset. [c] The total number of children represented in the data.</li>
+<li>Use summarize() to compute three statistics about the data: [a] The first (minimum) year in the dataset. [b] The last (maximum) year in the dataset. [c] The total number of children represented in the data.</li>
 </ol>
 <p><br></p>
 <ol start="3" style="list-style-type: decimal">
-<li>Extract the rows where name == “Washington”. Then, use summarise() and a summary function to find: [a] The total number of children named Washington. [b] The year with the most babies named Washington.</li>
+<li>Extract the rows where name == “Washington”. Then, use summarize() and a summary function to find: [a] The total number of children named Washington. [b] The year with the most babies named Washington.</li>
 </ol>
 <p><br></p>
 <ol start="4" style="list-style-type: decimal">
-<li>Use group_by(), summarise(), and arrange() to display the ten most popular names. Compute popularity as the total (across all years) number of children of a single sex given a name.</li>
+<li>Use group_by(), summarize(), and arrange() to display the ten most popular names (compute popularity as the total number of children across all years of a single sex given a name).</li>
 </ol>
 <p><br></p>
 <ol start="5" style="list-style-type: decimal">
 <li>Use group_by to calculate and then plot the number of children born each year over time.</li>
 </ol>
 <p><br> <br></p>
-<p>The final exercises concern the object complexity norms for the Lewis and Frank (2016) dataset that we have talked about in class. In the experiment, we asked participants to rate a random sample of 10 (out of 60) objects in terms of their conceptual complexity. They gave their responses using a slider scale where 0 = simple, and 1 = complex (and all values in between were possible). We collected data from 2 samples of participants. The data are in the data frame located at <code>data/lewis_object_complexity_norms_by_participant.csv</code>. Each variable is described below.</p>
+<p>The final exercises concern the object complexity norms for the Lewis and Frank (2016) dataset that we have talked about in class. In the experiment, we asked participants to rate a random sample of 10 (out of 60) objects in terms of their conceptual complexity. They gave their responses using a slider scale where 0 = simple, and 1 = complex (and all values in between were possible). We collected data from 2 samples of participants. The data are in the data frame located at <code>data/lewis_object_complexity_norms_by_participant.csv</code>. Each variable is described below. Each observation (row) is a single particpant’s rating for a particular object.</p>
 <ul>
 <li><strong>sample</strong> - indicates whether the participants were from sample one or sample two.</li>
 <li><strong>participant_id</strong> - unique identifier for each participant.</li>
@@ -594,7 +594,7 @@ $(document).ready(function () {
 </ol>
 <p><br></p>
 <ol style="list-style-type: decimal">
-<li>Plot the data. Use <code>geom_bar(stat = &quot;identity&quot;)</code> to plot the mean complexity for each object. Use <code>geom_point()</code> to plot the minimum complexity in red and the maximum complexity in blue. Sort the bars by the mean complexity rating from lowest to highest (see class slides for an example of this). Change the labels on the plot to make it maximally readable (xlab, ylab, ggtitle, and any other changes you think might help).</li>
+<li>Plot the data. Use <code>geom_bar(stat = &quot;identity&quot;)</code> to plot the mean complexity for each object. Use <code>geom_point()</code> to plot the minimum complexity in red and the maximum complexity in blue (on the same plot as the bars). Sort the bars by the mean complexity rating from lowest to highest (see class slides for an example of this). Change the labels on the plot to make it maximally readable (xlab, ylab, ggtitle, and any other changes you think might help).</li>
 </ol>
 <p><br></p>
 <ol style="list-style-type: decimal">
@@ -608,7 +608,7 @@ $(document).ready(function () {
 <ol style="list-style-type: decimal">
 <li>Create a scatter plot of the mean complexity ratings with sample one on the x-axis and sample two on the y-axis. Add a (linear) line to fit the data. (This is the same plot we’ve seen in class.)</li>
 </ol>
-<p>This is a little tricky. The current data frame is tidy (each observation is its own row), but to make a plot that puts sample one and sample one on different axes we need sample one and sample two to be their own columns. In other words, we need a dataframe that has three columns: <code>object_id</code>, <code>mean_complexity_sample_one</code>, <code>mean_complexity_sample_two</code>. To transform the current data frame into the one we need, we can use the function <code>pivot_wider()</code>. The code below does this for you.</p>
+<p>This is a little tricky. The current data frame is tidy (each observation is its own row), but to make a plot that puts sample one and sample two on different axes we need sample one and sample two to be their own columns. In other words, we need a dataframe that has three columns: <code>object_id</code>, <code>mean_complexity_sample_one</code>, <code>mean_complexity_sample_two</code>. To transform the current data frame into the one we need, we can use the function <code>pivot_wider()</code>. The code below does this for you.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>participant_sample_mean_wide  &lt;-<span class="st"> </span>participant_sample_mean <span class="op">%&gt;%</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="st">  </span><span class="kw">pivot_wider</span>(<span class="dt">names_from =</span> <span class="st">&quot;sample&quot;</span>, <span class="dt">values_from =</span> <span class="st">&quot;mean_complexity&quot;</span>) </span></code></pre></div>
 <p><br></p>
