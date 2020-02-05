@@ -10,3 +10,5 @@ private/
 *_cache/
 static/**.zip
 .httr-oauth
+public/slides/.DS_Store
+*.DS_Store
