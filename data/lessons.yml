@@ -82,7 +82,7 @@ lessons:
 
   - title: "The rest of the tidyverse"
     date: [W]
-    notes: "Skills:  joining, wrangling; writing a function"
+    class: "MRM_slides_4b"
     reading: "04b-reading"
     hasclass: True
 
@@ -96,6 +96,7 @@ lessons:
     #assignment:  "03"
     
   - title: "More tidyverse"
+    notes: "Skills:  pivot_wider, pivot_longer, joining"
     date: "Week 5 [M, 2/10]"
     reading: "05a-reading"
     hasclass: True
