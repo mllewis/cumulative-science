@@ -93,8 +93,13 @@ lessons:
     date:  [F]
     notes: 
     hasclass: True
+<<<<<<< HEAD
     #hasassignment: True
     #notes: '<a href = "/assignment_materials/03_MRM_assignment_template.Rmd">  [A3 template] </a><a href = "/assignment_materials/data/tidy_me_data.csv">  [A3 data] </a>'
+=======
+    hasassignment: True
+    notes: '<a href = "/assignment_materials/03_MRM_assignment_template.Rmd">  [A3 template] </a><a href = "/assignment_materials/data/tidy_me_data.csv">  [A3 data] </a> <a href = "/slides/MRM_slides_4c/4c_slides.html"> [abacus slides] </a>'
+>>>>>>> f7bb78fba786aeb71f02111b98a944365aa90761
 
     assignment:  "03"
     

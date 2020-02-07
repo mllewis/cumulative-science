@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Exploring the abacus dataset (Barner, et al. 2018)</title>
+    <meta charset="utf-8" />
+    <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link rel="stylesheet" href="slides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Exploring the abacus dataset (Barner, et al. 2018) <br>
+## Modern Research Methods
+
+---
+
+
+
+
+
+layout: true
+
+
+---
+
+
+
+
+&lt;style type="text/css"&gt;
+/* custom.css */
+.left-code {
+  color: #777;
+  width: 38%;
+  height: 92%;
+  float: left;
+}
+.right-plot {
+  width: 60%;
+  float: right;
+  padding-left: 1%;
+}
+.plot-callout {
+  height: 225px;
+  width: 450px;
+  bottom: 5%;
+  right: 5%;
+  position: absolute;
+  padding: 0px;
+  z-index: 100;
+}
+.plot-callout img {
+  width: 100%;
+  border: 4px solid #23373B;
+}
+&lt;/style&gt;
+
+
+
+## Practice Exercise 1:
+
+
+
+```r
+pet_df
+```
+
+```
+## # A tibble: 5 x 3
+##   family pet_type   age
+##   &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
+## 1 Ung    cat         10
+## 2 Ung    dog          4
+## 3 Ung    cat          2
+## 4 Oliver dog          8
+## 5 Oliver dog         12
+```
+
+Sketch the resulting data frame:
+
+```r
+pet_df %&gt;%
+  group_by(pet_type) %&gt;%
+  summarize(num = n(),
+            mean = mean(age))
+```
+
+---
+## Practice Exercise 2:
+
+
+
+```r
+pet_df
+```
+
+```
+## # A tibble: 5 x 3
+##   family pet_type   age
+##   &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
+## 1 Ung    cat         10
+## 2 Ung    dog          4
+## 3 Ung    cat          2
+## 4 Oliver dog          8
+## 5 Oliver dog         12
+```
+
+Sketch the resulting data frame:
+
+
+```r
+pet_df %&gt;%
+  group_by(pet_type, family) %&gt;%
+  summarize(num = n(),
+            mean = mean(age))
+```
+---
+
+## Practice Exercise 3:
+
+
+
+```r
+country_df
+```
+
+```
+## # A tibble: 6 x 4
+##   country   continent population square_miles
+##   &lt;chr&gt;     &lt;chr&gt;          &lt;dbl&gt;        &lt;dbl&gt;
+## 1 Anglia    X                 50           10
+## 2 Xeno      X                 40          100
+## 3 Spatarium X                 20           30
+## 4 Pluti     Y                 10           40
+## 5 Cincroane Z                 70           20
+## 6 Franktum  Z                 40           60
+```
+Sketch the resulting data frame:
+
+```r
+country_df %&gt;%
+  group_by(continent) %&gt;%
+  summarize(sum_population = sum(population),
+            sum_square_miles = sum(square_miles))
+```
+---
+
+## Practice Exercise 4:
+
+
+
+```r
+country_df
+```
+
+```
+## # A tibble: 6 x 4
+##   country   continent population square_miles
+##   &lt;chr&gt;     &lt;chr&gt;          &lt;dbl&gt;        &lt;dbl&gt;
+## 1 Anglia    X                 50           10
+## 2 Xeno      X                 40          100
+## 3 Spatarium X                 20           30
+## 4 Pluti     Y                 10           40
+## 5 Cincroane Z                 70           20
+## 6 Franktum  Z                 40           60
+```
+
+Sketch the resulting data frame:
+
+
+```r
+country_df %&gt;%
+  group_by(country) %&gt;%
+  summarize(num = n())
+```
+---
+## Exercise 1 
+
+
+```r
+pet_df
+```
+
+```
+## # A tibble: 5 x 3
+##   family pet_type   age
+##   &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
+## 1 Ung    cat         10
+## 2 Ung    dog          4
+## 3 Ung    cat          2
+## 4 Oliver dog          8
+## 5 Oliver dog         12
+```
+
+```r
+pet_df %&gt;%
+  group_by(pet_type) %&gt;%
+  summarize(num = n(),
+            mean = mean(age))
+```
+
+```
+## # A tibble: 2 x 3
+##   pet_type   num  mean
+##   &lt;chr&gt;    &lt;int&gt; &lt;dbl&gt;
+## 1 cat          2     6
+## 2 dog          3     8
+```
+
+---
+
+## Exercise 2 
+
+
+```r
+pet_df
+```
+
+```
+## # A tibble: 5 x 3
+##   family pet_type   age
+##   &lt;chr&gt;  &lt;chr&gt;    &lt;dbl&gt;
+## 1 Ung    cat         10
+## 2 Ung    dog          4
+## 3 Ung    cat          2
+## 4 Oliver dog          8
+## 5 Oliver dog         12
+```
+
+```r
+pet_df %&gt;%
+  group_by(pet_type, family) %&gt;%
+  summarize(num = n(),
+            mean = mean(age))
+```
+
+```
+## # A tibble: 3 x 4
+## # Groups:   pet_type [2]
+##   pet_type family   num  mean
+##   &lt;chr&gt;    &lt;chr&gt;  &lt;int&gt; &lt;dbl&gt;
+## 1 cat      Ung        2     6
+## 2 dog      Oliver     2    10
+## 3 dog      Ung        1     4
+```
+---
+
+## Exercise 3
+
+
+```r
+country_df
+```
+
+```
+## # A tibble: 6 x 4
+##   country   continent population square_miles
+##   &lt;chr&gt;     &lt;chr&gt;          &lt;dbl&gt;        &lt;dbl&gt;
+## 1 Anglia    X                 50           10
+## 2 Xeno      X                 40          100
+## 3 Spatarium X                 20           30
+## 4 Pluti     Y                 10           40
+## 5 Cincroane Z                 70           20
+## 6 Franktum  Z                 40           60
+```
+
+```r
+country_df %&gt;%
+  group_by(continent) %&gt;%
+  summarize(sum_population = sum(population),
+            sum_square_miles = sum(square_miles))
+```
+
+```
+## # A tibble: 3 x 3
+##   continent sum_population sum_square_miles
+##   &lt;chr&gt;              &lt;dbl&gt;            &lt;dbl&gt;
+## 1 X                    110              140
+## 2 Y                     10               40
+## 3 Z                    110               80
+```
+
+---
+
+## Exercise 4
+
+```r
+country_df
+```
+
+```
+## # A tibble: 6 x 4
+##   country   continent population square_miles
+##   &lt;chr&gt;     &lt;chr&gt;          &lt;dbl&gt;        &lt;dbl&gt;
+## 1 Anglia    X                 50           10
+## 2 Xeno      X                 40          100
+## 3 Spatarium X                 20           30
+## 4 Pluti     Y                 10           40
+## 5 Cincroane Z                 70           20
+## 6 Franktum  Z                 40           60
+```
+
+```r
+country_df %&gt;%
+  group_by(country) %&gt;%
+  summarize(num = n())
+```
+
+```
+## # A tibble: 6 x 2
+##   country     num
+##   &lt;chr&gt;     &lt;int&gt;
+## 1 Anglia        1
+## 2 Cincroane     1
+## 3 Franktum      1
+## 4 Pluti         1
+## 5 Spatarium     1
+## 6 Xeno          1
+```
+
+
+---
+
+## abacus dataset
+
+* Does training kids to use an abacus help with their math skills?
+
+&lt;img src="img/abacus.jpg" width="800" /&gt;
+
+
+---
+##  Let's read in the dataset
+
+
+```r
+abacus_data &lt;- read_csv("data/tidy_majic_data.csv")
+```
+
+```
+## Parsed with column specification:
+## cols(
+##   subid = col_character(),
+##   class_num = col_character(),
+##   grade = col_character(),
+##   group = col_character(),
+##   year = col_double(),
+##   time = col_character(),
+##   task = col_character(),
+##   score = col_double()
+## )
+```
+
+---
+
+##  Here's what it looks like
+
+
+```r
+abacus_data %&gt;%
+  head() %&gt;%
+  kable(format = "html")
+```
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; subid &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; class_num &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; grade &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; group &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; year &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; time &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; task &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; score &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-03 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-03 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2016 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Post &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.36 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-08 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-08 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2016 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Post &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.36 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-15 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2016 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Post &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.64 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+## A new tidyverse function: `slice()`
+
+* `slice()` is like `filter()` in that it subsets your dataframe by rows. 
+--
+
+* Filter subsets rows through Booleans
+--
+
+* Slice subsets rows through indices
+
+--
+* For example, the following code selects the 2nd and 3rd row from the data frame.
+
+--
+
+```r
+abacus_data %&gt;%
+* slice(c(2,3)) %&gt;%
+  kable(format = "html")
+```
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; subid &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; class_num &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; grade &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; group &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; year &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; time &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; task &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; score &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-03 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-03 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2016 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Post &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.36 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+* We can also specify a range of indices. The following code uses the ":" symbol to subset to rows 2, 3, and 4. 
+--
+
+
+```r
+abacus_data %&gt;%
+*slice(2:4) %&gt;%
+ kable(format = "html")
+```
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; subid &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; class_num &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; grade &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; group &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; year &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; time &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; task &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; score &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-03 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-03 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2016 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Post &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.36 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-08 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+--
+
+* How would you produce the same output as `head()` (default)?
+
+---
+
+
+```r
+abacus_data %&gt;%
+*slice(1:6) %&gt;%
+ kable(format = "html")
+```
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; subid &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; class_num &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; grade &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; group &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; year &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; time &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; task &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; score &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-03 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-03 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2016 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Post &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.36 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-08 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-08 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2016 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Post &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.36 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-15 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2016 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Post &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.64 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+## A new tidyverse function: `distinct()`
+
+* `distinct()` returns a subset of rows in your data frame (similiar to  `filter()`)
+--
+
+* Specifically, `distinct` returns ONE row in your data frame for each value of a variable you pass it.
+--
+
+* The `abacus_data` data frame contains 2,094 rows - one row for each subject-task-time combination. 
+
+---
+* For example, the following code returns a data fram with ONE row for each subject id. 
+
+--
+
+
+```r
+abacus_data %&gt;%
+ distinct(subid)
+```
+
+```
+## # A tibble: 188 x 1
+##    subid   
+##    &lt;chr&gt;   
+##  1 S1-02-02
+##  2 S1-02-03
+##  3 S1-02-08
+##  4 S1-02-15
+##  5 S1-02-17
+##  6 S1-03-04
+##  7 S1-03-05
+##  8 S1-03-06
+##  9 S1-03-09
+## 10 S1-03-14
+## # … with 178 more rows
+```
+
+---
+
+* The following code returns a data frame with ONE row for each subject id and time. 
+
+--
+
+
+```r
+abacus_data %&gt;%
+ distinct(subid, time)
+```
+
+```
+## # A tibble: 349 x 2
+##    subid    time 
+##    &lt;chr&gt;    &lt;chr&gt;
+##  1 S1-02-02 Pre  
+##  2 S1-02-03 Pre  
+##  3 S1-02-03 Post 
+##  4 S1-02-08 Pre  
+##  5 S1-02-08 Post 
+##  6 S1-02-15 Post 
+##  7 S1-02-17 Pre  
+##  8 S1-02-17 Post 
+##  9 S1-03-04 Post 
+## 10 S1-03-05 Post 
+## # … with 339 more rows
+```
+
+---
+
+* You can keep the other variables in the data frame by adding the argument `.keep_all = T` to `distinct()`. 
+
+--
+
+
+```r
+abacus_data %&gt;%
+*distinct(subid, time, .keep_all = T)
+```
+
+```
+## # A tibble: 349 x 8
+##    subid    class_num grade       group          year time  task        score
+##    &lt;chr&gt;    &lt;chr&gt;     &lt;chr&gt;       &lt;chr&gt;         &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;       &lt;dbl&gt;
+##  1 S1-02-02 S1_02     First Grade Control        2015 Pre   Place Value  0   
+##  2 S1-02-03 S1_02     First Grade Control        2015 Pre   Place Value  0   
+##  3 S1-02-03 S1_02     First Grade Control        2016 Post  Place Value  0.36
+##  4 S1-02-08 S1_02     First Grade Control        2015 Pre   Place Value  0   
+##  5 S1-02-08 S1_02     First Grade Control        2016 Post  Place Value  0.36
+##  6 S1-02-15 S1_02     First Grade Control        2016 Post  Place Value  0.64
+##  7 S1-02-17 S1_02     First Grade Control        2015 Pre   Place Value  0.09
+##  8 S1-02-17 S1_02     First Grade Control        2016 Post  Place Value NA   
+##  9 S1-03-04 S1_03     First Grade Mental Abacus  2016 Post  Place Value  0.55
+## 10 S1-03-05 S1_03     First Grade Mental Abacus  2016 Post  Place Value  0.91
+## # … with 339 more rows
+```
+
+
+---
+
+## Let's get started with exploring these data. 
+
+* Let's look at the scores in this datasets.
+--
+
+* What kind of variable is scores?
+--
+
+* What kind of geoms could we use to look at scores?
+--
+
+* Let's try visualizing the scores with a histogram
+--
+
+* The geom for histograms is `geom_histogram()`
+---
+
+ How do we start? What aesthetics does `geom_histogram()` take?
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; subid &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; class_num &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; grade &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; group &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; year &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; time &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; task &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; score &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-03 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-03 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2016 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Post &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.36 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-08 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2015 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Pre &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.00 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-08 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2016 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Post &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.36 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; S1-02-15 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; S1_02 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; First Grade &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Control &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 2016 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Post &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; Place Value &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.64 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+---
+
+# A basic ggplot
+
+```r
+ggplot(data = abacus_data, aes(x = score)) + 
+  geom_histogram() 
+```
+
+
+```r
+ggplot(abacus_data, aes(x = score)) + 
+  geom_histogram() 
+```
+
+
+
+--
+
+.right-plot[
+&lt;img src="4c_slides_files/figure-html/mappin-1.png" width="100%" /&gt;
+]
+
+
+Note that you don't have to name the arguments, though it's usually a good idea to.
+
+--
+
+This is great, except we can't see the different tasks.
+
+--
+
+What can we do about this?
+---
+
+We could try coloring the different task differently.
+--
+
+```r
+ggplot(abacus_data, aes(x = score, color = task)) + 
+  geom_histogram() 
+```
+--
+
+
+.right-plot[
+&lt;img src="4c_slides_files/figure-html/colorgramp-1.png" width="100%" /&gt;
+]
+
+That's not quite want we wanted. We wanted the **fill** aesthetic. 
+
+--
+
+The **color** aesthetic determines the hue of the border; the **fill** aesthetic determines the hue of the inside of the bar. 
+
+
+---
+
+
+```r
+ggplot(abacus_data, aes(x = score, fill = task)) + 
+  geom_histogram() 
+```
+--
+
+.right-plot[
+&lt;img src="4c_slides_files/figure-html/unnamed-chunk-30-1.png" width="100%" /&gt;
+]
+
+This is looking better. But it's still a lot of information.
+
+---
+## A new channel: `alpha`
+
+Alpha controls how "transparent" the geom is. 
+
+--
+
+It ranges from zero to one. One is most transparent.
+--
+
+
+
+```r
+ggplot(abacus_data, aes(x = score, fill = task)) + 
+* geom_histogram(alpha = .2)
+```
+
+.right-plot[
+&lt;img src="4c_slides_files/figure-html/unnamed-chunk-31-1.png" width="100%" /&gt;
+]
+--
+
+This is still a lot of information.
+--
+
+What could we do?
+
+---
+
+## Facet!
+
+ Let's use `facet_wrap()` to facet by task.
+--
+
+
+```r
+ggplot(abacus_data, aes(x = score, fill = task)) + 
+  geom_histogram(alpha = .2) +
+* facet_wrap(~task)
+```
+
+--
+
+.right-plot[
+&lt;img src="4c_slides_files/figure-html/unnamed-chunk-32-1.png" width="100%" /&gt;
+]
+---
+
+
+The fill and alpha aesthetics aren't really doing anything for us here. Let's get rid of them
+--
+
+
+```r
+ggplot(abacus_data, aes(x = score)) + 
+  geom_histogram() +
+  facet_wrap(~task)
+```
+
+--
+
+.right-plot[
+&lt;img src="4c_slides_files/figure-html/unnamed-chunk-33-1.png" width="100%" /&gt;
+]
+---
+
+What if we wanted to facet by grade rather than score?
+
+--
+
+
+```r
+ggplot(abacus_data, aes(x = score)) + 
+  geom_histogram() +
+* facet_wrap(~grade)
+```
+
+--
+
+.right-plot[
+&lt;img src="4c_slides_files/figure-html/unnamed-chunk-34-1.png" width="100%" /&gt;
+]
+---
+
+How would we facet by BOTH grade and score?
+
+--
+
+`facet_grid()`
+
+--
+
+How would we put the different task facets on horizontally, and the grade facets vertically?
+
+--
+
+The general syntax is "vertical variable" ~ "horizontal variable"
+
+--
+
+
+```r
+ggplot(abacus_data, aes(x = score)) + 
+  geom_histogram() +
+* facet_grid(grade~task)
+```
+
+
+.right-plot[
+&lt;img src="4c_slides_files/figure-html/unnamed-chunk-35-1.png" width="100%" /&gt;
+]
+
+---
+
+What we're really interested in here, though, is whether or not students got better at these tasks after over time.
+
+--
+
+
+Let's use fill to show the pre and post distributions.
+
+--
+
+```r
+*ggplot(abacus_data, aes(x = score, fill = time)) +
+  geom_histogram() +
+  facet_grid(grade~task) 
+```
+
+
+.right-plot[
+&lt;img src="4c_slides_files/figure-html/unnamed-chunk-36-1.png" width="100%" /&gt;
+]
+
+
+---
+
+Let's do a few more things to make our plot more attractive.
+
+
+```r
+*ggplot(abacus_data, aes(x = score, fill = time)) +
+* geom_histogram(bindwidth = .1) +
+  facet_grid(grade~task)  +
+* scale_fill_brewer(name = "Grade", palette = "Pastel1") +
+* ylab("Number of Students") +
+* xlab("Score") +
+* scale_x_continuous(breaks = c(0, .5, 1)) +
+* theme_classic(base_size = 16)
+```
+--
+.right-plot[
+&lt;img src="4c_slides_files/figure-html/unnamed-chunk-37-1.png" width="100%" /&gt;
+]
+
+---
+
+![](4c_slides_files/figure-html/unnamed-chunk-38-1.png)&lt;!-- --&gt;
+
+---
+
+Do scores get better over time?
+
+--
+
+Let's add a vertical line to each distribution that shows the mean.
+
+--
+
+How do we calculate the mean of each distribution?
+
+--
+
+We want the mean by task, grade, and time.
+
+--
+
+We neet to **`group_by`** task, grade, and time, and then **`summarize`.**
+--
+
+
+
+```r
+distribution_means &lt;- abacus_data %&gt;%
+* group_by(task, time, grade) %&gt;%
+* summarize(dist_mean = mean(score, na.rm=TRUE))
+```
+
+--
+
+
+```
+## # A tibble: 24 x 4
+## # Groups:   task, time [12]
+##    task             time  grade        dist_mean
+##    &lt;chr&gt;            &lt;chr&gt; &lt;chr&gt;            &lt;dbl&gt;
+##  1 Arithmetic       Post  First Grade     0.179 
+##  2 Arithmetic       Post  Second Grade    0.279 
+##  3 Arithmetic       Pre   First Grade     0.0448
+##  4 Arithmetic       Pre   Second Grade    0.137 
+##  5 Go/No Go         Post  First Grade     0.762 
+##  6 Go/No Go         Post  Second Grade    0.820 
+##  7 Go/No Go         Pre   First Grade     0.730 
+##  8 Go/No Go         Pre   Second Grade    0.806 
+##  9 Matrix Reasoning Post  First Grade     0.305 
+## 10 Matrix Reasoning Post  Second Grade    0.392 
+## # … with 14 more rows
+```
+---
+
+Now we have a new data frame with the means of each distribution.
+-- 
+
+How can we add them to our plot? 
+
+--
+
+The geom for adding vertical lines is called `geom_vline()`
+
+--
+
+`geom_vline()` requires an aesthetic that tells it where to intersect the x-axis called **xintercept**.
+
+--
+
+
+```r
+ggplot(abacus_data, aes(x = score, fill = time)) + 
+  geom_histogram(bindwidth = .1) + 
+* geom_vline(data = distribution_means, aes(xintercept = dist_mean)) +
+  facet_grid(grade~task)  +
+  scale_fill_brewer(name = "Time", palette = "Pastel1") +  
+  ylab("Number of Students") +  
+  xlab("Score") +
+  scale_x_continuous(breaks = c(0, .5, 1)) + 
+  theme_classic(base_size = 6) 
+```
+
+---
+
+&lt;img src="4c_slides_files/figure-html/unnamed-chunk-42-1.png" width="100%" /&gt;
+
+---
+
+Let's color the lines to correspond to the distribution. 
+
+--
+
+
+```r
+ggplot(abacus_data, aes(x = score, fill = time)) + 
+  geom_histogram(bindwidth = .1) + 
+* geom_vline(data = distribution_means, aes(xintercept = dist_mean, color = time)) +
+  facet_grid(grade~task)  +
+* scale_color_brewer(name = "Time", palette = "Pastel1", guide = F) +
+  scale_fill_brewer(name = "Time", palette = "Pastel1") +  
+  ylab("Number of Students") +  
+  xlab("Score") +
+  scale_x_continuous(breaks = c(0, .5, 1)) + 
+    theme_classic(base_size = 6) +
+  theme(legend.position = "bottom")
+```
+
+---
+&lt;img src="4c_slides_files/figure-html/unnamed-chunk-44-1.png" width="100%" /&gt;
+
+---
+
+
+
+Okay, but the key question is: Did kids get better more when they got the abacus training?
+
+--
+
+Let's look at this just for the first grade group, and only the arithmetic task and spatial working memory tasks.
+
+--
+
+How could subset to these rows?
+
+--
+
+
+```r
+abacus_data
+```
+
+```
+## # A tibble: 2,094 x 8
+##    subid    class_num grade       group          year time  task        score
+##    &lt;chr&gt;    &lt;chr&gt;     &lt;chr&gt;       &lt;chr&gt;         &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;       &lt;dbl&gt;
+##  1 S1-02-02 S1_02     First Grade Control        2015 Pre   Place Value  0   
+##  2 S1-02-03 S1_02     First Grade Control        2015 Pre   Place Value  0   
+##  3 S1-02-03 S1_02     First Grade Control        2016 Post  Place Value  0.36
+##  4 S1-02-08 S1_02     First Grade Control        2015 Pre   Place Value  0   
+##  5 S1-02-08 S1_02     First Grade Control        2016 Post  Place Value  0.36
+##  6 S1-02-15 S1_02     First Grade Control        2016 Post  Place Value  0.64
+##  7 S1-02-17 S1_02     First Grade Control        2015 Pre   Place Value  0.09
+##  8 S1-02-17 S1_02     First Grade Control        2016 Post  Place Value NA   
+##  9 S1-03-04 S1_03     First Grade Mental Abacus  2016 Post  Place Value  0.55
+## 10 S1-03-05 S1_03     First Grade Mental Abacus  2016 Post  Place Value  0.91
+## # … with 2,084 more rows
+```
+---
+
+
+
+```r
+first_grade_abacus_data &lt;- abacus_data %&gt;%
+*           filter(grade == "First Grade",
+*                  task %in% c("Spatial WM", "Arithmetic"))
+```
+
+
+```r
+first_grade_abacus_data
+```
+
+```
+## # A tibble: 278 x 8
+##    subid    class_num grade       group          year time  task       score
+##    &lt;chr&gt;    &lt;chr&gt;     &lt;chr&gt;       &lt;chr&gt;         &lt;dbl&gt; &lt;chr&gt; &lt;chr&gt;      &lt;dbl&gt;
+##  1 S1-02-02 S1_02     First Grade Control        2015 Pre   Arithmetic  0   
+##  2 S1-02-03 S1_02     First Grade Control        2015 Pre   Arithmetic  0   
+##  3 S1-02-03 S1_02     First Grade Control        2016 Post  Arithmetic  0.25
+##  4 S1-02-08 S1_02     First Grade Control        2015 Pre   Arithmetic  0   
+##  5 S1-02-08 S1_02     First Grade Control        2016 Post  Arithmetic  0.08
+##  6 S1-02-15 S1_02     First Grade Control        2016 Post  Arithmetic  0.1 
+##  7 S1-02-17 S1_02     First Grade Control        2015 Pre   Arithmetic  0.17
+##  8 S1-02-17 S1_02     First Grade Control        2016 Post  Arithmetic NA   
+##  9 S1-03-04 S1_03     First Grade Mental Abacus  2016 Post  Arithmetic  0.17
+## 10 S1-03-05 S1_03     First Grade Mental Abacus  2016 Post  Arithmetic  0.33
+## # … with 268 more rows
+```
+
+---
+
+```r
+ms &lt;- first_grade_abacus_data %&gt;%
+  group_by(group, task, time) %&gt;%
+  summarize(mean_score = mean(score, na.rm = T))
+
+ggplot(first_grade_abacus_data, aes(x = score, fill = time)) +
+  geom_histogram() + 
+* geom_vline(data = ms, aes(xintercept = mean_score, color = time), linetype = 2) +
+  facet_grid(group~task) +
+  scale_color_brewer(guide = "none", palette = "Pastel1") +  
+
+  scale_fill_brewer(name = "Time", palette = "Pastel1") +  
+  ylab("Number of Students") +  
+  xlab("Score") +
+  scale_x_continuous(breaks = c(0, .5, 1)) + 
+  theme_classic(base_size = 12) 
+```
+
+---
+Does abacus training help?
+
+![](4c_slides_files/figure-html/unnamed-chunk-49-1.png)&lt;!-- --&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
