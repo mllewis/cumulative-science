@@ -95,6 +95,11 @@
   </url>
   
   <url>
+    <loc>/temp/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/</loc>
   </url>
   
