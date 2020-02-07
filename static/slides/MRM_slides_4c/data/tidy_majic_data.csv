@@ -1,0 +1,2095 @@
+subid,class_num,grade,group,year,time,task,score
+S1-02-02,S1_02,First Grade,Control,2015,Pre,Place Value,0
+S1-02-03,S1_02,First Grade,Control,2015,Pre,Place Value,0
+S1-02-03,S1_02,First Grade,Control,2016,Post,Place Value,0.36
+S1-02-08,S1_02,First Grade,Control,2015,Pre,Place Value,0
+S1-02-08,S1_02,First Grade,Control,2016,Post,Place Value,0.36
+S1-02-15,S1_02,First Grade,Control,2016,Post,Place Value,0.64
+S1-02-17,S1_02,First Grade,Control,2015,Pre,Place Value,0.09
+S1-02-17,S1_02,First Grade,Control,2016,Post,Place Value,NA
+S1-03-04,S1_03,First Grade,Mental Abacus,2016,Post,Place Value,0.55
+S1-03-05,S1_03,First Grade,Mental Abacus,2016,Post,Place Value,0.91
+S1-03-06,S1_03,First Grade,Mental Abacus,2016,Post,Place Value,0
+S1-03-09,S1_03,First Grade,Mental Abacus,2016,Post,Place Value,0.18
+S1-03-14,S1_03,First Grade,Mental Abacus,2016,Post,Place Value,0.27
+S1-03-15,S1_03,First Grade,Mental Abacus,2016,Post,Place Value,0.27
+S1-04-01,S1_04,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-04-01,S1_04,First Grade,Mental Abacus,2016,Post,Place Value,0.82
+S1-04-03,S1_04,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-04-03,S1_04,First Grade,Mental Abacus,2016,Post,Place Value,0.36
+S1-04-04,S1_04,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-04-04,S1_04,First Grade,Mental Abacus,2016,Post,Place Value,0.18
+S1-04-07,S1_04,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-04-07,S1_04,First Grade,Mental Abacus,2016,Post,Place Value,0.27
+S1-04-08,S1_04,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-04-08,S1_04,First Grade,Mental Abacus,2016,Post,Place Value,0.36
+S1-04-11,S1_04,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-04-11,S1_04,First Grade,Mental Abacus,2016,Post,Place Value,0.09
+S1-04-17,S1_04,First Grade,Mental Abacus,2015,Pre,Place Value,0.09
+S1-04-17,S1_04,First Grade,Mental Abacus,2016,Post,Place Value,0.45
+S1-04-18,S1_04,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-04-18,S1_04,First Grade,Mental Abacus,2016,Post,Place Value,0.18
+S1-07-02,S1_07,First Grade,Control,2015,Pre,Place Value,0
+S1-07-02,S1_07,First Grade,Control,2016,Post,Place Value,1
+S1-07-05,S1_07,First Grade,Control,2016,Post,Place Value,0
+S1-07-06,S1_07,First Grade,Control,2015,Pre,Place Value,0
+S1-07-08,S1_07,First Grade,Control,2015,Pre,Place Value,0.09
+S1-07-11,S1_07,First Grade,Control,2015,Pre,Place Value,0
+S1-07-11,S1_07,First Grade,Control,2016,Post,Place Value,0.18
+S1-07-15,S1_07,First Grade,Control,2015,Pre,Place Value,0
+S1-07-18,S1_07,First Grade,Control,2015,Pre,Place Value,0
+S1-07-18,S1_07,First Grade,Control,2016,Post,Place Value,0.36
+S1-07-20,S1_07,First Grade,Control,2015,Pre,Place Value,0.27
+S1-07-20,S1_07,First Grade,Control,2016,Post,Place Value,0.36
+S1-07-23,S1_07,First Grade,Control,2015,Pre,Place Value,0.09
+S1-09-01,S1_09,First Grade,Control,2015,Pre,Place Value,0.18
+S1-09-01,S1_09,First Grade,Control,2016,Post,Place Value,0.18
+S1-09-05,S1_09,First Grade,Control,2015,Pre,Place Value,0
+S1-09-05,S1_09,First Grade,Control,2016,Post,Place Value,0.36
+S1-09-06,S1_09,First Grade,Control,2015,Pre,Place Value,0.09
+S1-09-06,S1_09,First Grade,Control,2016,Post,Place Value,0.09
+S1-09-07,S1_09,First Grade,Control,2015,Pre,Place Value,0
+S1-09-07,S1_09,First Grade,Control,2016,Post,Place Value,0.09
+S1-09-11,S1_09,First Grade,Control,2015,Pre,Place Value,0
+S1-09-11,S1_09,First Grade,Control,2016,Post,Place Value,0.27
+S1-09-18,S1_09,First Grade,Control,2016,Post,Place Value,0.36
+S1-09-19,S1_09,First Grade,Control,2015,Pre,Place Value,0.09
+S1-09-19,S1_09,First Grade,Control,2016,Post,Place Value,0.09
+S1-10-01,S1_10,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-10-01,S1_10,First Grade,Mental Abacus,2016,Post,Place Value,0.36
+S1-10-02,S1_10,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-10-02,S1_10,First Grade,Mental Abacus,2016,Post,Place Value,0.36
+S1-10-06,S1_10,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-10-06,S1_10,First Grade,Mental Abacus,2016,Post,Place Value,0.91
+S1-10-07,S1_10,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-10-07,S1_10,First Grade,Mental Abacus,2016,Post,Place Value,0.73
+S1-10-08,S1_10,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-10-08,S1_10,First Grade,Mental Abacus,2016,Post,Place Value,0.36
+S1-10-09,S1_10,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-10-09,S1_10,First Grade,Mental Abacus,2016,Post,Place Value,0.36
+S1-10-12,S1_10,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-10-12,S1_10,First Grade,Mental Abacus,2016,Post,Place Value,0.36
+S1-10-13,S1_10,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-10-13,S1_10,First Grade,Mental Abacus,2016,Post,Place Value,0.36
+S1-10-16,S1_10,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-11-01,S1_11,First Grade,Mental Abacus,2015,Pre,Place Value,0.18
+S1-11-01,S1_11,First Grade,Mental Abacus,2016,Post,Place Value,0.27
+S1-11-02,S1_11,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-11-02,S1_11,First Grade,Mental Abacus,2016,Post,Place Value,0.45
+S1-11-03,S1_11,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-11-03,S1_11,First Grade,Mental Abacus,2016,Post,Place Value,0.36
+S1-11-04,S1_11,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-11-04,S1_11,First Grade,Mental Abacus,2016,Post,Place Value,0.09
+S1-11-09,S1_11,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-11-09,S1_11,First Grade,Mental Abacus,2016,Post,Place Value,0.09
+S1-11-10,S1_11,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-11-10,S1_11,First Grade,Mental Abacus,2016,Post,Place Value,0.27
+S1-11-11,S1_11,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-11-11,S1_11,First Grade,Mental Abacus,2016,Post,Place Value,0.09
+S1-11-17,S1_11,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-11-17,S1_11,First Grade,Mental Abacus,2016,Post,Place Value,0.09
+S1-12-01,S1_12,First Grade,Control,2015,Pre,Place Value,0
+S1-12-01,S1_12,First Grade,Control,2016,Post,Place Value,0.18
+S1-12-02,S1_12,First Grade,Control,2016,Post,Place Value,0.18
+S1-12-04,S1_12,First Grade,Control,2015,Pre,Place Value,0
+S1-12-04,S1_12,First Grade,Control,2016,Post,Place Value,0.09
+S1-12-05,S1_12,First Grade,Control,2015,Pre,Place Value,0
+S1-12-05,S1_12,First Grade,Control,2016,Post,Place Value,0.27
+S1-12-08,S1_12,First Grade,Control,2015,Pre,Place Value,0
+S1-12-08,S1_12,First Grade,Control,2016,Post,Place Value,0
+S1-12-10,S1_12,First Grade,Control,2015,Pre,Place Value,0
+S1-12-11,S1_12,First Grade,Control,2015,Pre,Place Value,0
+S1-12-11,S1_12,First Grade,Control,2016,Post,Place Value,0.18
+S1-12-12,S1_12,First Grade,Control,2015,Pre,Place Value,0
+S1-12-12,S1_12,First Grade,Control,2016,Post,Place Value,0.36
+S1-12-13,S1_12,First Grade,Control,2015,Pre,Place Value,0
+S1-12-15,S1_12,First Grade,Control,2015,Pre,Place Value,0
+S1-14-01,S1_14,First Grade,Control,2015,Pre,Place Value,0
+S1-14-01,S1_14,First Grade,Control,2016,Post,Place Value,0.36
+S1-14-02,S1_14,First Grade,Control,2015,Pre,Place Value,0
+S1-14-02,S1_14,First Grade,Control,2016,Post,Place Value,0
+S1-14-07,S1_14,First Grade,Control,2015,Pre,Place Value,0
+S1-14-07,S1_14,First Grade,Control,2016,Post,Place Value,0.45
+S1-14-09,S1_14,First Grade,Control,2015,Pre,Place Value,0
+S1-14-09,S1_14,First Grade,Control,2016,Post,Place Value,0.73
+S1-14-11,S1_14,First Grade,Control,2015,Pre,Place Value,0
+S1-14-11,S1_14,First Grade,Control,2016,Post,Place Value,0.45
+S1-14-12,S1_14,First Grade,Control,2015,Pre,Place Value,0.45
+S1-14-12,S1_14,First Grade,Control,2016,Post,Place Value,0.91
+S1-14-14,S1_14,First Grade,Control,2015,Pre,Place Value,0
+S1-14-14,S1_14,First Grade,Control,2016,Post,Place Value,0.36
+S1-14-15,S1_14,First Grade,Control,2015,Pre,Place Value,0
+S1-14-15,S1_14,First Grade,Control,2016,Post,Place Value,0.64
+S1-14-17,S1_14,First Grade,Control,2015,Pre,Place Value,0.09
+S1-14-17,S1_14,First Grade,Control,2016,Post,Place Value,0.36
+S1-15-01,S1_15,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-15-01,S1_15,First Grade,Mental Abacus,2016,Post,Place Value,0
+S1-15-02,S1_15,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-15-02,S1_15,First Grade,Mental Abacus,2016,Post,Place Value,0.36
+S1-15-04,S1_15,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-15-04,S1_15,First Grade,Mental Abacus,2016,Post,Place Value,0.27
+S1-15-05,S1_15,First Grade,Mental Abacus,2015,Pre,Place Value,0
+S1-15-05,S1_15,First Grade,Mental Abacus,2016,Post,Place Value,0.36
+S1-15-08,S1_15,First Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S1-15-08,S1_15,First Grade,Mental Abacus,2016,Post,Place Value,0.91
+S1-15-09,S1_15,First Grade,Mental Abacus,2015,Pre,Place Value,0.09
+S1-15-09,S1_15,First Grade,Mental Abacus,2016,Post,Place Value,0.73
+S1-15-10,S1_15,First Grade,Mental Abacus,2015,Pre,Place Value,0.09
+S1-15-10,S1_15,First Grade,Mental Abacus,2016,Post,Place Value,0.45
+S1-15-11,S1_15,First Grade,Mental Abacus,2015,Pre,Place Value,0.09
+S1-15-11,S1_15,First Grade,Mental Abacus,2016,Post,Place Value,0.45
+S2-03-01,S2_03,Second Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S2-03-01,S2_03,Second Grade,Mental Abacus,2016,Post,Place Value,0.82
+S2-03-02,S2_03,Second Grade,Mental Abacus,2015,Pre,Place Value,0.36
+S2-03-02,S2_03,Second Grade,Mental Abacus,2016,Post,Place Value,0.82
+S2-03-03,S2_03,Second Grade,Mental Abacus,2015,Pre,Place Value,0.36
+S2-03-03,S2_03,Second Grade,Mental Abacus,2016,Post,Place Value,0.73
+S2-03-04,S2_03,Second Grade,Mental Abacus,2015,Pre,Place Value,0.36
+S2-03-04,S2_03,Second Grade,Mental Abacus,2016,Post,Place Value,0.64
+S2-03-13,S2_03,Second Grade,Mental Abacus,2015,Pre,Place Value,0.18
+S2-03-13,S2_03,Second Grade,Mental Abacus,2016,Post,Place Value,0.18
+S2-03-15,S2_03,Second Grade,Mental Abacus,2015,Pre,Place Value,0
+S2-04-01,S2_04,Second Grade,Mental Abacus,2015,Pre,Place Value,0.64
+S2-04-01,S2_04,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-04-05,S2_04,Second Grade,Mental Abacus,2015,Pre,Place Value,0.36
+S2-04-05,S2_04,Second Grade,Mental Abacus,2016,Post,Place Value,0.45
+S2-04-07,S2_04,Second Grade,Mental Abacus,2015,Pre,Place Value,0.91
+S2-04-07,S2_04,Second Grade,Mental Abacus,2016,Post,Place Value,0.91
+S2-04-08,S2_04,Second Grade,Mental Abacus,2015,Pre,Place Value,0.73
+S2-04-08,S2_04,Second Grade,Mental Abacus,2016,Post,Place Value,0.91
+S2-04-09,S2_04,Second Grade,Mental Abacus,2015,Pre,Place Value,0.36
+S2-04-09,S2_04,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-04-10,S2_04,Second Grade,Mental Abacus,2015,Pre,Place Value,0.45
+S2-04-10,S2_04,Second Grade,Mental Abacus,2016,Post,Place Value,0.64
+S2-04-11,S2_04,Second Grade,Mental Abacus,2015,Pre,Place Value,0.73
+S2-04-11,S2_04,Second Grade,Mental Abacus,2016,Post,Place Value,0.73
+S2-04-12,S2_04,Second Grade,Mental Abacus,2015,Pre,Place Value,0.36
+S2-04-12,S2_04,Second Grade,Mental Abacus,2016,Post,Place Value,0.64
+S2-04-16,S2_04,Second Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S2-04-16,S2_04,Second Grade,Mental Abacus,2016,Post,Place Value,0.82
+S2-04-17,S2_04,Second Grade,Mental Abacus,2015,Pre,Place Value,0.45
+S2-04-17,S2_04,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-04-18,S2_04,Second Grade,Mental Abacus,2015,Pre,Place Value,0.55
+S2-04-18,S2_04,Second Grade,Mental Abacus,2016,Post,Place Value,0.91
+S2-05-02,S2_05,Second Grade,Mental Abacus,2015,Pre,Place Value,0
+S2-05-02,S2_05,Second Grade,Mental Abacus,2016,Post,Place Value,0.09
+S2-08-01,S2_08,Second Grade,Control,2015,Pre,Place Value,0.18
+S2-08-01,S2_08,Second Grade,Control,2016,Post,Place Value,0.73
+S2-08-03,S2_08,Second Grade,Control,2015,Pre,Place Value,0
+S2-08-03,S2_08,Second Grade,Control,2016,Post,Place Value,0.73
+S2-09-05,S2_09,Second Grade,Control,2015,Pre,Place Value,0.27
+S2-09-05,S2_09,Second Grade,Control,2016,Post,Place Value,0.73
+S2-09-07,S2_09,Second Grade,Control,2015,Pre,Place Value,0
+S2-09-07,S2_09,Second Grade,Control,2016,Post,Place Value,0.18
+S2-09-08,S2_09,Second Grade,Control,2015,Pre,Place Value,0
+S2-09-08,S2_09,Second Grade,Control,2016,Post,Place Value,0.09
+S2-09-10,S2_09,Second Grade,Control,2015,Pre,Place Value,0
+S2-09-10,S2_09,Second Grade,Control,2016,Post,Place Value,0.73
+S2-09-13,S2_09,Second Grade,Control,2015,Pre,Place Value,0.45
+S2-09-13,S2_09,Second Grade,Control,2016,Post,Place Value,0.91
+S2-09-14,S2_09,Second Grade,Control,2016,Post,Place Value,0.18
+S2-09-19,S2_09,Second Grade,Control,2015,Pre,Place Value,0
+S2-09-19,S2_09,Second Grade,Control,2016,Post,Place Value,0.36
+S2-09-20,S2_09,Second Grade,Control,2015,Pre,Place Value,0.91
+S2-09-20,S2_09,Second Grade,Control,2016,Post,Place Value,0.91
+S2-10-02,S2_10,Second Grade,Control,2015,Pre,Place Value,0.36
+S2-10-02,S2_10,Second Grade,Control,2016,Post,Place Value,0.45
+S2-10-03,S2_10,Second Grade,Control,2015,Pre,Place Value,0
+S2-10-03,S2_10,Second Grade,Control,2016,Post,Place Value,0.36
+S2-10-05,S2_10,Second Grade,Control,2015,Pre,Place Value,0
+S2-10-05,S2_10,Second Grade,Control,2016,Post,Place Value,0.27
+S2-10-10,S2_10,Second Grade,Control,2015,Pre,Place Value,0.09
+S2-10-10,S2_10,Second Grade,Control,2016,Post,Place Value,0.64
+S2-10-11,S2_10,Second Grade,Control,2015,Pre,Place Value,0.64
+S2-10-11,S2_10,Second Grade,Control,2016,Post,Place Value,0.73
+S2-10-13,S2_10,Second Grade,Control,2015,Pre,Place Value,0.91
+S2-10-13,S2_10,Second Grade,Control,2016,Post,Place Value,0.91
+S2-10-14,S2_10,Second Grade,Control,2015,Pre,Place Value,0
+S2-10-14,S2_10,Second Grade,Control,2016,Post,Place Value,0.18
+S2-10-15,S2_10,Second Grade,Control,2015,Pre,Place Value,0.45
+S2-10-15,S2_10,Second Grade,Control,2016,Post,Place Value,0.64
+S2-10-17,S2_10,Second Grade,Control,2015,Pre,Place Value,0
+S2-10-18,S2_10,Second Grade,Control,2015,Pre,Place Value,0.36
+S2-10-18,S2_10,Second Grade,Control,2016,Post,Place Value,0.73
+S2-10-20,S2_10,Second Grade,Control,2015,Pre,Place Value,0.27
+S2-10-20,S2_10,Second Grade,Control,2016,Post,Place Value,0.27
+S2-13-01,S2_13,Second Grade,Control,2015,Pre,Place Value,0.36
+S2-13-01,S2_13,Second Grade,Control,2016,Post,Place Value,0.91
+S2-13-02,S2_13,Second Grade,Control,2015,Pre,Place Value,0.36
+S2-13-02,S2_13,Second Grade,Control,2016,Post,Place Value,0.36
+S2-13-04,S2_13,Second Grade,Control,2015,Pre,Place Value,0.36
+S2-13-04,S2_13,Second Grade,Control,2016,Post,Place Value,0.91
+S2-13-05,S2_13,Second Grade,Control,2015,Pre,Place Value,0.36
+S2-13-05,S2_13,Second Grade,Control,2016,Post,Place Value,1
+S2-13-06,S2_13,Second Grade,Control,2015,Pre,Place Value,0.18
+S2-13-06,S2_13,Second Grade,Control,2016,Post,Place Value,0.45
+S2-13-09,S2_13,Second Grade,Control,2015,Pre,Place Value,0.27
+S2-13-09,S2_13,Second Grade,Control,2016,Post,Place Value,0.64
+S2-13-12,S2_13,Second Grade,Control,2015,Pre,Place Value,0
+S2-13-12,S2_13,Second Grade,Control,2016,Post,Place Value,0.36
+S2-13-15,S2_13,Second Grade,Control,2015,Pre,Place Value,0.45
+S2-13-15,S2_13,Second Grade,Control,2016,Post,Place Value,0.82
+S2-13-18,S2_13,Second Grade,Control,2015,Pre,Place Value,0
+S2-13-18,S2_13,Second Grade,Control,2016,Post,Place Value,0
+S2-13-19,S2_13,Second Grade,Control,2015,Pre,Place Value,0.18
+S2-13-19,S2_13,Second Grade,Control,2016,Post,Place Value,0.36
+S2-13-20,S2_13,Second Grade,Control,2015,Pre,Place Value,0.82
+S2-13-20,S2_13,Second Grade,Control,2016,Post,Place Value,0.82
+S2-13-21,S2_13,Second Grade,Control,2015,Pre,Place Value,0
+S2-13-21,S2_13,Second Grade,Control,2016,Post,Place Value,0.18
+S2-15-01,S2_15,Second Grade,Control,2015,Pre,Place Value,0
+S2-16-01,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,0.91
+S2-16-05,S2_16,Second Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S2-16-05,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,0.55
+S2-16-07,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,0.45
+S2-16-08,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,0.73
+S2-16-09,S2_16,Second Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S2-16-09,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,0.82
+S2-16-11,S2_16,Second Grade,Mental Abacus,2015,Pre,Place Value,0
+S2-16-11,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,0
+S2-16-13,S2_16,Second Grade,Mental Abacus,2015,Pre,Place Value,0.09
+S2-16-14,S2_16,Second Grade,Mental Abacus,2015,Pre,Place Value,0.18
+S2-16-14,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,0.36
+S2-16-15,S2_16,Second Grade,Mental Abacus,2015,Pre,Place Value,0.55
+S2-16-15,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-16-17,S2_16,Second Grade,Mental Abacus,2015,Pre,Place Value,0
+S2-16-17,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,0
+S2-16-18,S2_16,Second Grade,Mental Abacus,2015,Pre,Place Value,0.09
+S2-16-18,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,0.18
+S2-16-19,S2_16,Second Grade,Mental Abacus,2015,Pre,Place Value,0.91
+S2-16-19,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-16-20,S2_16,Second Grade,Mental Abacus,2015,Pre,Place Value,0.55
+S2-16-20,S2_16,Second Grade,Mental Abacus,2016,Post,Place Value,0.91
+S2-17-02,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S2-17-02,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.91
+S2-17-03,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.36
+S2-17-03,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.27
+S2-17-04,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.09
+S2-17-04,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.82
+S2-17-05,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S2-17-05,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-17-06,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.36
+S2-17-06,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.82
+S2-17-07,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.09
+S2-17-07,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.64
+S2-17-08,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.09
+S2-17-08,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.73
+S2-17-09,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.18
+S2-17-09,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.27
+S2-17-10,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.64
+S2-17-10,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-17-11,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S2-17-11,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.64
+S2-17-12,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S2-17-12,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.18
+S2-17-13,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.36
+S2-17-13,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.55
+S2-17-14,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0
+S2-17-14,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.36
+S2-17-15,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.22
+S2-17-15,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-17-16,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S2-17-16,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.27
+S2-17-17,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.55
+S2-17-17,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.64
+S2-17-19,S2_17,Second Grade,Mental Abacus,2015,Pre,Place Value,0.36
+S2-17-19,S2_17,Second Grade,Mental Abacus,2016,Post,Place Value,0.64
+S2-18-01,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.64
+S2-18-01,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,0.91
+S2-18-02,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.82
+S2-18-02,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-18-06,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0
+S2-18-06,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,0.27
+S2-18-07,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0
+S2-18-07,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,0
+S2-18-09,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.36
+S2-18-09,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,0.45
+S2-18-10,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S2-18-10,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,0.45
+S2-18-11,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.09
+S2-18-11,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,0.36
+S2-18-12,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.45
+S2-18-12,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,0.82
+S2-18-13,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.91
+S2-18-13,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,0.91
+S2-18-15,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.64
+S2-18-15,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-18-16,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.18
+S2-18-16,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,0.45
+S2-18-17,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.27
+S2-18-17,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,0.64
+S2-18-19,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.55
+S2-18-19,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-18-20,S2_18,Second Grade,Mental Abacus,2015,Pre,Place Value,0.09
+S2-18-20,S2_18,Second Grade,Mental Abacus,2016,Post,Place Value,1
+S2-19-01,S2_19,Second Grade,Control,2015,Pre,Place Value,0.18
+S2-19-01,S2_19,Second Grade,Control,2016,Post,Place Value,0.45
+S2-19-03,S2_19,Second Grade,Control,2015,Pre,Place Value,0.09
+S2-19-03,S2_19,Second Grade,Control,2016,Post,Place Value,0.36
+S2-19-04,S2_19,Second Grade,Control,2015,Pre,Place Value,0.36
+S2-19-04,S2_19,Second Grade,Control,2016,Post,Place Value,0.45
+S2-19-05,S2_19,Second Grade,Control,2015,Pre,Place Value,0.27
+S2-19-05,S2_19,Second Grade,Control,2016,Post,Place Value,0.36
+S2-19-06,S2_19,Second Grade,Control,2015,Pre,Place Value,0
+S2-19-06,S2_19,Second Grade,Control,2016,Post,Place Value,0
+S2-19-07,S2_19,Second Grade,Control,2015,Pre,Place Value,0.36
+S2-19-07,S2_19,Second Grade,Control,2016,Post,Place Value,0.27
+S2-19-08,S2_19,Second Grade,Control,2015,Pre,Place Value,1
+S2-19-08,S2_19,Second Grade,Control,2016,Post,Place Value,0.73
+S2-19-09,S2_19,Second Grade,Control,2015,Pre,Place Value,0.36
+S2-19-09,S2_19,Second Grade,Control,2016,Post,Place Value,0.18
+S2-19-11,S2_19,Second Grade,Control,2015,Pre,Place Value,0
+S2-19-11,S2_19,Second Grade,Control,2016,Post,Place Value,0.45
+S2-19-12,S2_19,Second Grade,Control,2015,Pre,Place Value,0.64
+S2-19-12,S2_19,Second Grade,Control,2016,Post,Place Value,1
+S2-19-13,S2_19,Second Grade,Control,2015,Pre,Place Value,1
+S2-19-13,S2_19,Second Grade,Control,2016,Post,Place Value,0.91
+S2-19-14,S2_19,Second Grade,Control,2015,Pre,Place Value,0.36
+S2-19-14,S2_19,Second Grade,Control,2016,Post,Place Value,0.27
+S2-19-18,S2_19,Second Grade,Control,2015,Pre,Place Value,0.36
+S2-19-18,S2_19,Second Grade,Control,2016,Post,Place Value,0.27
+S1-02-02,S1_02,First Grade,Control,2015,Pre,Arithmetic,0
+S1-02-03,S1_02,First Grade,Control,2015,Pre,Arithmetic,0
+S1-02-03,S1_02,First Grade,Control,2016,Post,Arithmetic,0.25
+S1-02-08,S1_02,First Grade,Control,2015,Pre,Arithmetic,0
+S1-02-08,S1_02,First Grade,Control,2016,Post,Arithmetic,0.08
+S1-02-15,S1_02,First Grade,Control,2016,Post,Arithmetic,0.1
+S1-02-17,S1_02,First Grade,Control,2015,Pre,Arithmetic,0.17
+S1-02-17,S1_02,First Grade,Control,2016,Post,Arithmetic,NA
+S1-03-04,S1_03,First Grade,Mental Abacus,2016,Post,Arithmetic,0.17
+S1-03-05,S1_03,First Grade,Mental Abacus,2016,Post,Arithmetic,0.33
+S1-03-06,S1_03,First Grade,Mental Abacus,2016,Post,Arithmetic,0.1
+S1-03-09,S1_03,First Grade,Mental Abacus,2016,Post,Arithmetic,0.17
+S1-03-14,S1_03,First Grade,Mental Abacus,2016,Post,Arithmetic,0.17
+S1-03-15,S1_03,First Grade,Mental Abacus,2016,Post,Arithmetic,0.08
+S1-04-01,S1_04,First Grade,Mental Abacus,2015,Pre,Arithmetic,0
+S1-04-01,S1_04,First Grade,Mental Abacus,2016,Post,Arithmetic,0.27
+S1-04-03,S1_04,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-04-03,S1_04,First Grade,Mental Abacus,2016,Post,Arithmetic,0.21
+S1-04-04,S1_04,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-04-04,S1_04,First Grade,Mental Abacus,2016,Post,Arithmetic,0.13
+S1-04-07,S1_04,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.02
+S1-04-07,S1_04,First Grade,Mental Abacus,2016,Post,Arithmetic,0.08
+S1-04-08,S1_04,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-04-08,S1_04,First Grade,Mental Abacus,2016,Post,Arithmetic,0.13
+S1-04-11,S1_04,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.04
+S1-04-11,S1_04,First Grade,Mental Abacus,2016,Post,Arithmetic,0.1
+S1-04-17,S1_04,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S1-04-17,S1_04,First Grade,Mental Abacus,2016,Post,Arithmetic,0.17
+S1-04-18,S1_04,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.04
+S1-04-18,S1_04,First Grade,Mental Abacus,2016,Post,Arithmetic,0.25
+S1-07-02,S1_07,First Grade,Control,2015,Pre,Arithmetic,0.06
+S1-07-02,S1_07,First Grade,Control,2016,Post,Arithmetic,0.31
+S1-07-05,S1_07,First Grade,Control,2016,Post,Arithmetic,0.08
+S1-07-06,S1_07,First Grade,Control,2015,Pre,Arithmetic,0
+S1-07-08,S1_07,First Grade,Control,2015,Pre,Arithmetic,0.1
+S1-07-11,S1_07,First Grade,Control,2015,Pre,Arithmetic,0.04
+S1-07-11,S1_07,First Grade,Control,2016,Post,Arithmetic,0.15
+S1-07-15,S1_07,First Grade,Control,2015,Pre,Arithmetic,0
+S1-07-18,S1_07,First Grade,Control,2015,Pre,Arithmetic,0.02
+S1-07-18,S1_07,First Grade,Control,2016,Post,Arithmetic,0.1
+S1-07-20,S1_07,First Grade,Control,2015,Pre,Arithmetic,0.08
+S1-07-20,S1_07,First Grade,Control,2016,Post,Arithmetic,0.17
+S1-07-23,S1_07,First Grade,Control,2015,Pre,Arithmetic,0.13
+S1-09-01,S1_09,First Grade,Control,2015,Pre,Arithmetic,0.06
+S1-09-01,S1_09,First Grade,Control,2016,Post,Arithmetic,0.08
+S1-09-05,S1_09,First Grade,Control,2015,Pre,Arithmetic,0.04
+S1-09-05,S1_09,First Grade,Control,2016,Post,Arithmetic,0.1
+S1-09-06,S1_09,First Grade,Control,2015,Pre,Arithmetic,0.06
+S1-09-06,S1_09,First Grade,Control,2016,Post,Arithmetic,0.19
+S1-09-07,S1_09,First Grade,Control,2015,Pre,Arithmetic,0.06
+S1-09-07,S1_09,First Grade,Control,2016,Post,Arithmetic,0.17
+S1-09-11,S1_09,First Grade,Control,2015,Pre,Arithmetic,0.06
+S1-09-11,S1_09,First Grade,Control,2016,Post,Arithmetic,0.19
+S1-09-18,S1_09,First Grade,Control,2016,Post,Arithmetic,0.19
+S1-09-19,S1_09,First Grade,Control,2015,Pre,Arithmetic,0.04
+S1-09-19,S1_09,First Grade,Control,2016,Post,Arithmetic,0.21
+S1-10-01,S1_10,First Grade,Mental Abacus,2015,Pre,Arithmetic,0
+S1-10-01,S1_10,First Grade,Mental Abacus,2016,Post,Arithmetic,0.13
+S1-10-02,S1_10,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.02
+S1-10-02,S1_10,First Grade,Mental Abacus,2016,Post,Arithmetic,0.19
+S1-10-06,S1_10,First Grade,Mental Abacus,2015,Pre,Arithmetic,0
+S1-10-06,S1_10,First Grade,Mental Abacus,2016,Post,Arithmetic,0.27
+S1-10-07,S1_10,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.04
+S1-10-07,S1_10,First Grade,Mental Abacus,2016,Post,Arithmetic,0.25
+S1-10-08,S1_10,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-10-08,S1_10,First Grade,Mental Abacus,2016,Post,Arithmetic,0.27
+S1-10-09,S1_10,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-10-09,S1_10,First Grade,Mental Abacus,2016,Post,Arithmetic,0.21
+S1-10-12,S1_10,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-10-12,S1_10,First Grade,Mental Abacus,2016,Post,Arithmetic,0.21
+S1-10-13,S1_10,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-10-13,S1_10,First Grade,Mental Abacus,2016,Post,Arithmetic,0.25
+S1-10-16,S1_10,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-11-01,S1_11,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-11-01,S1_11,First Grade,Mental Abacus,2016,Post,Arithmetic,0.19
+S1-11-02,S1_11,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S1-11-02,S1_11,First Grade,Mental Abacus,2016,Post,Arithmetic,0.27
+S1-11-03,S1_11,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.04
+S1-11-03,S1_11,First Grade,Mental Abacus,2016,Post,Arithmetic,0.06
+S1-11-04,S1_11,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-11-04,S1_11,First Grade,Mental Abacus,2016,Post,Arithmetic,0.1
+S1-11-09,S1_11,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-11-09,S1_11,First Grade,Mental Abacus,2016,Post,Arithmetic,0.13
+S1-11-10,S1_11,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.02
+S1-11-10,S1_11,First Grade,Mental Abacus,2016,Post,Arithmetic,0.13
+S1-11-11,S1_11,First Grade,Mental Abacus,2015,Pre,Arithmetic,0
+S1-11-11,S1_11,First Grade,Mental Abacus,2016,Post,Arithmetic,0.1
+S1-11-17,S1_11,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.02
+S1-11-17,S1_11,First Grade,Mental Abacus,2016,Post,Arithmetic,0.08
+S1-12-01,S1_12,First Grade,Control,2015,Pre,Arithmetic,0.02
+S1-12-01,S1_12,First Grade,Control,2016,Post,Arithmetic,0.29
+S1-12-02,S1_12,First Grade,Control,2016,Post,Arithmetic,0.08
+S1-12-04,S1_12,First Grade,Control,2015,Pre,Arithmetic,0
+S1-12-04,S1_12,First Grade,Control,2016,Post,Arithmetic,0.08
+S1-12-05,S1_12,First Grade,Control,2015,Pre,Arithmetic,0.04
+S1-12-05,S1_12,First Grade,Control,2016,Post,Arithmetic,0.1
+S1-12-08,S1_12,First Grade,Control,2015,Pre,Arithmetic,0.02
+S1-12-08,S1_12,First Grade,Control,2016,Post,Arithmetic,0.04
+S1-12-10,S1_12,First Grade,Control,2015,Pre,Arithmetic,0.02
+S1-12-11,S1_12,First Grade,Control,2015,Pre,Arithmetic,0.02
+S1-12-11,S1_12,First Grade,Control,2016,Post,Arithmetic,0.13
+S1-12-12,S1_12,First Grade,Control,2015,Pre,Arithmetic,0.04
+S1-12-12,S1_12,First Grade,Control,2016,Post,Arithmetic,0.21
+S1-12-13,S1_12,First Grade,Control,2015,Pre,Arithmetic,0
+S1-12-15,S1_12,First Grade,Control,2015,Pre,Arithmetic,0.04
+S1-14-01,S1_14,First Grade,Control,2015,Pre,Arithmetic,0.04
+S1-14-01,S1_14,First Grade,Control,2016,Post,Arithmetic,0.19
+S1-14-02,S1_14,First Grade,Control,2015,Pre,Arithmetic,0.04
+S1-14-02,S1_14,First Grade,Control,2016,Post,Arithmetic,0.08
+S1-14-07,S1_14,First Grade,Control,2015,Pre,Arithmetic,0.04
+S1-14-07,S1_14,First Grade,Control,2016,Post,Arithmetic,0.25
+S1-14-09,S1_14,First Grade,Control,2015,Pre,Arithmetic,0.06
+S1-14-09,S1_14,First Grade,Control,2016,Post,Arithmetic,0.25
+S1-14-11,S1_14,First Grade,Control,2015,Pre,Arithmetic,0.02
+S1-14-11,S1_14,First Grade,Control,2016,Post,Arithmetic,0.33
+S1-14-12,S1_14,First Grade,Control,2015,Pre,Arithmetic,0.19
+S1-14-12,S1_14,First Grade,Control,2016,Post,Arithmetic,0.46
+S1-14-14,S1_14,First Grade,Control,2015,Pre,Arithmetic,0.06
+S1-14-14,S1_14,First Grade,Control,2016,Post,Arithmetic,0.23
+S1-14-15,S1_14,First Grade,Control,2015,Pre,Arithmetic,0.08
+S1-14-15,S1_14,First Grade,Control,2016,Post,Arithmetic,0.27
+S1-14-17,S1_14,First Grade,Control,2015,Pre,Arithmetic,0.02
+S1-14-17,S1_14,First Grade,Control,2016,Post,Arithmetic,0.23
+S1-15-01,S1_15,First Grade,Mental Abacus,2015,Pre,Arithmetic,0
+S1-15-01,S1_15,First Grade,Mental Abacus,2016,Post,Arithmetic,0.08
+S1-15-02,S1_15,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.04
+S1-15-02,S1_15,First Grade,Mental Abacus,2016,Post,Arithmetic,0.13
+S1-15-04,S1_15,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.04
+S1-15-04,S1_15,First Grade,Mental Abacus,2016,Post,Arithmetic,0.08
+S1-15-05,S1_15,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.02
+S1-15-05,S1_15,First Grade,Mental Abacus,2016,Post,Arithmetic,0.1
+S1-15-08,S1_15,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S1-15-08,S1_15,First Grade,Mental Abacus,2016,Post,Arithmetic,0.35
+S1-15-09,S1_15,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S1-15-09,S1_15,First Grade,Mental Abacus,2016,Post,Arithmetic,0.27
+S1-15-10,S1_15,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S1-15-10,S1_15,First Grade,Mental Abacus,2016,Post,Arithmetic,0.25
+S1-15-11,S1_15,First Grade,Mental Abacus,2015,Pre,Arithmetic,0.04
+S1-15-11,S1_15,First Grade,Mental Abacus,2016,Post,Arithmetic,0.27
+S2-03-01,S2_03,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S2-03-01,S2_03,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.19
+S2-03-02,S2_03,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.13
+S2-03-02,S2_03,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.23
+S2-03-03,S2_03,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.25
+S2-03-03,S2_03,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.35
+S2-03-04,S2_03,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.1
+S2-03-04,S2_03,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.15
+S2-03-13,S2_03,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S2-03-13,S2_03,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.19
+S2-03-15,S2_03,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0
+S2-04-01,S2_04,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.25
+S2-04-01,S2_04,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.6
+S2-04-05,S2_04,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.13
+S2-04-05,S2_04,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.27
+S2-04-07,S2_04,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.1
+S2-04-07,S2_04,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.31
+S2-04-08,S2_04,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.27
+S2-04-08,S2_04,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.35
+S2-04-09,S2_04,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S2-04-09,S2_04,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.33
+S2-04-10,S2_04,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.19
+S2-04-10,S2_04,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.33
+S2-04-11,S2_04,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.27
+S2-04-11,S2_04,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.38
+S2-04-12,S2_04,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.15
+S2-04-12,S2_04,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.21
+S2-04-16,S2_04,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.21
+S2-04-16,S2_04,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.29
+S2-04-17,S2_04,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.27
+S2-04-17,S2_04,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.54
+S2-04-18,S2_04,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.21
+S2-04-18,S2_04,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.42
+S2-05-02,S2_05,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S2-05-02,S2_05,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.13
+S2-08-01,S2_08,Second Grade,Control,2015,Pre,Arithmetic,0.17
+S2-08-01,S2_08,Second Grade,Control,2016,Post,Arithmetic,0.25
+S2-08-03,S2_08,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-08-03,S2_08,Second Grade,Control,2016,Post,Arithmetic,0.19
+S2-09-05,S2_09,Second Grade,Control,2015,Pre,Arithmetic,0.1
+S2-09-05,S2_09,Second Grade,Control,2016,Post,Arithmetic,0.25
+S2-09-07,S2_09,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-09-07,S2_09,Second Grade,Control,2016,Post,Arithmetic,0.21
+S2-09-08,S2_09,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-09-08,S2_09,Second Grade,Control,2016,Post,Arithmetic,0.19
+S2-09-10,S2_09,Second Grade,Control,2015,Pre,Arithmetic,0.17
+S2-09-10,S2_09,Second Grade,Control,2016,Post,Arithmetic,0.42
+S2-09-13,S2_09,Second Grade,Control,2015,Pre,Arithmetic,0.29
+S2-09-13,S2_09,Second Grade,Control,2016,Post,Arithmetic,0.35
+S2-09-14,S2_09,Second Grade,Control,2016,Post,Arithmetic,0.29
+S2-09-19,S2_09,Second Grade,Control,2015,Pre,Arithmetic,0.1
+S2-09-19,S2_09,Second Grade,Control,2016,Post,Arithmetic,0.42
+S2-09-20,S2_09,Second Grade,Control,2015,Pre,Arithmetic,0.21
+S2-09-20,S2_09,Second Grade,Control,2016,Post,Arithmetic,0.5
+S2-10-02,S2_10,Second Grade,Control,2015,Pre,Arithmetic,0
+S2-10-02,S2_10,Second Grade,Control,2016,Post,Arithmetic,0.52
+S2-10-03,S2_10,Second Grade,Control,2015,Pre,Arithmetic,0.1
+S2-10-03,S2_10,Second Grade,Control,2016,Post,Arithmetic,0.35
+S2-10-05,S2_10,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-10-05,S2_10,Second Grade,Control,2016,Post,Arithmetic,0.13
+S2-10-10,S2_10,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-10-10,S2_10,Second Grade,Control,2016,Post,Arithmetic,0.31
+S2-10-11,S2_10,Second Grade,Control,2015,Pre,Arithmetic,0
+S2-10-11,S2_10,Second Grade,Control,2016,Post,Arithmetic,0.29
+S2-10-13,S2_10,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-10-13,S2_10,Second Grade,Control,2016,Post,Arithmetic,0.31
+S2-10-14,S2_10,Second Grade,Control,2015,Pre,Arithmetic,0.23
+S2-10-14,S2_10,Second Grade,Control,2016,Post,Arithmetic,0.19
+S2-10-15,S2_10,Second Grade,Control,2015,Pre,Arithmetic,0.1
+S2-10-15,S2_10,Second Grade,Control,2016,Post,Arithmetic,0.21
+S2-10-17,S2_10,Second Grade,Control,2015,Pre,Arithmetic,0.1
+S2-10-18,S2_10,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-10-18,S2_10,Second Grade,Control,2016,Post,Arithmetic,0.27
+S2-10-20,S2_10,Second Grade,Control,2015,Pre,Arithmetic,0.17
+S2-10-20,S2_10,Second Grade,Control,2016,Post,Arithmetic,0.23
+S2-13-01,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.23
+S2-13-01,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.4
+S2-13-02,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.21
+S2-13-02,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.5
+S2-13-04,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.19
+S2-13-04,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.38
+S2-13-05,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.17
+S2-13-05,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.29
+S2-13-06,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-13-06,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.4
+S2-13-09,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.15
+S2-13-09,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.13
+S2-13-12,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.17
+S2-13-12,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.19
+S2-13-15,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.21
+S2-13-15,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.38
+S2-13-18,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-13-18,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.13
+S2-13-19,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.1
+S2-13-19,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.29
+S2-13-20,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.25
+S2-13-20,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.31
+S2-13-21,S2_13,Second Grade,Control,2015,Pre,Arithmetic,0.13
+S2-13-21,S2_13,Second Grade,Control,2016,Post,Arithmetic,0.21
+S2-15-01,S2_15,Second Grade,Control,2015,Pre,Arithmetic,0
+S2-16-01,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.27
+S2-16-05,S2_16,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.25
+S2-16-05,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.33
+S2-16-07,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.15
+S2-16-08,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.19
+S2-16-09,S2_16,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.13
+S2-16-09,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.29
+S2-16-11,S2_16,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S2-16-11,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.19
+S2-16-13,S2_16,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.19
+S2-16-14,S2_16,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.1
+S2-16-14,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.19
+S2-16-15,S2_16,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.17
+S2-16-15,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.31
+S2-16-17,S2_16,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S2-16-17,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.19
+S2-16-18,S2_16,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S2-16-18,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.15
+S2-16-19,S2_16,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.33
+S2-16-19,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.4
+S2-16-20,S2_16,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S2-16-20,S2_16,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.21
+S2-17-02,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.23
+S2-17-02,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.33
+S2-17-03,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.13
+S2-17-03,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.25
+S2-17-04,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.17
+S2-17-04,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.25
+S2-17-05,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S2-17-05,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.19
+S2-17-06,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.17
+S2-17-06,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.29
+S2-17-07,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.1
+S2-17-07,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.44
+S2-17-08,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.06
+S2-17-08,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.33
+S2-17-09,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.17
+S2-17-09,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.35
+S2-17-10,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.21
+S2-17-10,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.31
+S2-17-11,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S2-17-11,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.4
+S2-17-12,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.17
+S2-17-12,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.25
+S2-17-13,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.1
+S2-17-13,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.25
+S2-17-14,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.1
+S2-17-14,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.15
+S2-17-15,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.29
+S2-17-15,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.38
+S2-17-16,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S2-17-16,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.27
+S2-17-17,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.1
+S2-17-17,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.33
+S2-17-19,S2_17,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.17
+S2-17-19,S2_17,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.31
+S2-18-01,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.13
+S2-18-01,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.35
+S2-18-02,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.25
+S2-18-02,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.33
+S2-18-06,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.04
+S2-18-06,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.08
+S2-18-07,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0
+S2-18-07,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.1
+S2-18-09,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S2-18-09,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.15
+S2-18-10,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.08
+S2-18-10,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.17
+S2-18-11,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.1
+S2-18-11,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.21
+S2-18-12,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.13
+S2-18-12,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.44
+S2-18-13,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.15
+S2-18-13,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.42
+S2-18-15,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.29
+S2-18-15,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.4
+S2-18-16,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.13
+S2-18-16,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.13
+S2-18-17,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.17
+S2-18-17,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.23
+S2-18-19,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.23
+S2-18-19,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.29
+S2-18-20,S2_18,Second Grade,Mental Abacus,2015,Pre,Arithmetic,0.15
+S2-18-20,S2_18,Second Grade,Mental Abacus,2016,Post,Arithmetic,0.27
+S2-19-01,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.06
+S2-19-01,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.29
+S2-19-03,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-19-03,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.13
+S2-19-04,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.02
+S2-19-04,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.25
+S2-19-05,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.1
+S2-19-05,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.06
+S2-19-06,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-19-06,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.19
+S2-19-07,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.13
+S2-19-07,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.17
+S2-19-08,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.29
+S2-19-08,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.35
+S2-19-09,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.1
+S2-19-09,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.23
+S2-19-11,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-19-11,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.17
+S2-19-12,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.06
+S2-19-12,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.31
+S2-19-13,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.29
+S2-19-13,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.5
+S2-19-14,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.13
+S2-19-14,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.15
+S2-19-18,S2_19,Second Grade,Control,2015,Pre,Arithmetic,0.08
+S2-19-18,S2_19,Second Grade,Control,2016,Post,Arithmetic,0.25
+S1-02-02,S1_02,First Grade,Control,2015,Pre,WJ III,0.24
+S1-02-03,S1_02,First Grade,Control,2015,Pre,WJ III,0.08
+S1-02-03,S1_02,First Grade,Control,2016,Post,WJ III,0.6
+S1-02-08,S1_02,First Grade,Control,2015,Pre,WJ III,0.12
+S1-02-08,S1_02,First Grade,Control,2016,Post,WJ III,0.36
+S1-02-15,S1_02,First Grade,Control,2016,Post,WJ III,0.4
+S1-02-17,S1_02,First Grade,Control,2015,Pre,WJ III,0.36
+S1-02-17,S1_02,First Grade,Control,2016,Post,WJ III,0.4
+S1-03-04,S1_03,First Grade,Mental Abacus,2016,Post,WJ III,0.4
+S1-03-05,S1_03,First Grade,Mental Abacus,2016,Post,WJ III,0.52
+S1-03-06,S1_03,First Grade,Mental Abacus,2016,Post,WJ III,0.4
+S1-03-09,S1_03,First Grade,Mental Abacus,2016,Post,WJ III,0.4
+S1-03-14,S1_03,First Grade,Mental Abacus,2016,Post,WJ III,0.36
+S1-03-15,S1_03,First Grade,Mental Abacus,2016,Post,WJ III,0.44
+S1-04-01,S1_04,First Grade,Mental Abacus,2015,Pre,WJ III,0
+S1-04-01,S1_04,First Grade,Mental Abacus,2016,Post,WJ III,0.4
+S1-04-03,S1_04,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-04-03,S1_04,First Grade,Mental Abacus,2016,Post,WJ III,0.44
+S1-04-04,S1_04,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-04-04,S1_04,First Grade,Mental Abacus,2016,Post,WJ III,0.28
+S1-04-07,S1_04,First Grade,Mental Abacus,2015,Pre,WJ III,0.16
+S1-04-07,S1_04,First Grade,Mental Abacus,2016,Post,WJ III,0.48
+S1-04-08,S1_04,First Grade,Mental Abacus,2015,Pre,WJ III,0.28
+S1-04-08,S1_04,First Grade,Mental Abacus,2016,Post,WJ III,0.44
+S1-04-11,S1_04,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-04-11,S1_04,First Grade,Mental Abacus,2016,Post,WJ III,0.4
+S1-04-17,S1_04,First Grade,Mental Abacus,2015,Pre,WJ III,0.28
+S1-04-17,S1_04,First Grade,Mental Abacus,2016,Post,WJ III,0.52
+S1-04-18,S1_04,First Grade,Mental Abacus,2015,Pre,WJ III,0.16
+S1-04-18,S1_04,First Grade,Mental Abacus,2016,Post,WJ III,0.44
+S1-07-02,S1_07,First Grade,Control,2015,Pre,WJ III,0.16
+S1-07-02,S1_07,First Grade,Control,2016,Post,WJ III,0.52
+S1-07-05,S1_07,First Grade,Control,2016,Post,WJ III,0.2
+S1-07-06,S1_07,First Grade,Control,2015,Pre,WJ III,0.04
+S1-07-08,S1_07,First Grade,Control,2015,Pre,WJ III,0.32
+S1-07-11,S1_07,First Grade,Control,2015,Pre,WJ III,0.16
+S1-07-11,S1_07,First Grade,Control,2016,Post,WJ III,0.44
+S1-07-15,S1_07,First Grade,Control,2015,Pre,WJ III,0.08
+S1-07-18,S1_07,First Grade,Control,2015,Pre,WJ III,0.12
+S1-07-18,S1_07,First Grade,Control,2016,Post,WJ III,0.32
+S1-07-20,S1_07,First Grade,Control,2015,Pre,WJ III,0.2
+S1-07-20,S1_07,First Grade,Control,2016,Post,WJ III,0.32
+S1-07-23,S1_07,First Grade,Control,2015,Pre,WJ III,0.4
+S1-09-01,S1_09,First Grade,Control,2015,Pre,WJ III,0.28
+S1-09-01,S1_09,First Grade,Control,2016,Post,WJ III,0.4
+S1-09-05,S1_09,First Grade,Control,2015,Pre,WJ III,0.12
+S1-09-05,S1_09,First Grade,Control,2016,Post,WJ III,0.4
+S1-09-06,S1_09,First Grade,Control,2015,Pre,WJ III,0.24
+S1-09-06,S1_09,First Grade,Control,2016,Post,WJ III,0.32
+S1-09-07,S1_09,First Grade,Control,2015,Pre,WJ III,0.2
+S1-09-07,S1_09,First Grade,Control,2016,Post,WJ III,0.44
+S1-09-11,S1_09,First Grade,Control,2015,Pre,WJ III,0.2
+S1-09-11,S1_09,First Grade,Control,2016,Post,WJ III,0.44
+S1-09-18,S1_09,First Grade,Control,2016,Post,WJ III,0.44
+S1-09-19,S1_09,First Grade,Control,2015,Pre,WJ III,0.2
+S1-09-19,S1_09,First Grade,Control,2016,Post,WJ III,0.48
+S1-10-01,S1_10,First Grade,Mental Abacus,2015,Pre,WJ III,0.12
+S1-10-01,S1_10,First Grade,Mental Abacus,2016,Post,WJ III,0.44
+S1-10-02,S1_10,First Grade,Mental Abacus,2015,Pre,WJ III,0.16
+S1-10-02,S1_10,First Grade,Mental Abacus,2016,Post,WJ III,0.36
+S1-10-06,S1_10,First Grade,Mental Abacus,2015,Pre,WJ III,0.16
+S1-10-06,S1_10,First Grade,Mental Abacus,2016,Post,WJ III,0.44
+S1-10-07,S1_10,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-10-07,S1_10,First Grade,Mental Abacus,2016,Post,WJ III,0.48
+S1-10-08,S1_10,First Grade,Mental Abacus,2015,Pre,WJ III,0.36
+S1-10-08,S1_10,First Grade,Mental Abacus,2016,Post,WJ III,0.48
+S1-10-09,S1_10,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-10-09,S1_10,First Grade,Mental Abacus,2016,Post,WJ III,0.44
+S1-10-12,S1_10,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-10-12,S1_10,First Grade,Mental Abacus,2016,Post,WJ III,0.4
+S1-10-13,S1_10,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-10-13,S1_10,First Grade,Mental Abacus,2016,Post,WJ III,0.44
+S1-10-16,S1_10,First Grade,Mental Abacus,2015,Pre,WJ III,0.24
+S1-11-01,S1_11,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-11-01,S1_11,First Grade,Mental Abacus,2016,Post,WJ III,0.52
+S1-11-02,S1_11,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-11-02,S1_11,First Grade,Mental Abacus,2016,Post,WJ III,0.52
+S1-11-03,S1_11,First Grade,Mental Abacus,2015,Pre,WJ III,0.28
+S1-11-03,S1_11,First Grade,Mental Abacus,2016,Post,WJ III,0.4
+S1-11-04,S1_11,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-11-04,S1_11,First Grade,Mental Abacus,2016,Post,WJ III,0.4
+S1-11-09,S1_11,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-11-09,S1_11,First Grade,Mental Abacus,2016,Post,WJ III,0.36
+S1-11-10,S1_11,First Grade,Mental Abacus,2015,Pre,WJ III,0.32
+S1-11-10,S1_11,First Grade,Mental Abacus,2016,Post,WJ III,0.48
+S1-11-11,S1_11,First Grade,Mental Abacus,2015,Pre,WJ III,0.04
+S1-11-11,S1_11,First Grade,Mental Abacus,2016,Post,WJ III,0.32
+S1-11-17,S1_11,First Grade,Mental Abacus,2015,Pre,WJ III,0.32
+S1-11-17,S1_11,First Grade,Mental Abacus,2016,Post,WJ III,0.32
+S1-12-01,S1_12,First Grade,Control,2015,Pre,WJ III,0.2
+S1-12-01,S1_12,First Grade,Control,2016,Post,WJ III,0.52
+S1-12-02,S1_12,First Grade,Control,2016,Post,WJ III,0.36
+S1-12-04,S1_12,First Grade,Control,2015,Pre,WJ III,0.12
+S1-12-04,S1_12,First Grade,Control,2016,Post,WJ III,0.4
+S1-12-05,S1_12,First Grade,Control,2015,Pre,WJ III,0.28
+S1-12-05,S1_12,First Grade,Control,2016,Post,WJ III,0.4
+S1-12-08,S1_12,First Grade,Control,2015,Pre,WJ III,0.12
+S1-12-08,S1_12,First Grade,Control,2016,Post,WJ III,0.16
+S1-12-10,S1_12,First Grade,Control,2015,Pre,WJ III,0.28
+S1-12-11,S1_12,First Grade,Control,2015,Pre,WJ III,0.28
+S1-12-11,S1_12,First Grade,Control,2016,Post,WJ III,0.44
+S1-12-12,S1_12,First Grade,Control,2015,Pre,WJ III,0.2
+S1-12-12,S1_12,First Grade,Control,2016,Post,WJ III,0.4
+S1-12-13,S1_12,First Grade,Control,2015,Pre,WJ III,0.24
+S1-12-15,S1_12,First Grade,Control,2015,Pre,WJ III,0.2
+S1-14-01,S1_14,First Grade,Control,2015,Pre,WJ III,0.2
+S1-14-01,S1_14,First Grade,Control,2016,Post,WJ III,0.44
+S1-14-02,S1_14,First Grade,Control,2015,Pre,WJ III,0.2
+S1-14-02,S1_14,First Grade,Control,2016,Post,WJ III,0.4
+S1-14-07,S1_14,First Grade,Control,2015,Pre,WJ III,0.24
+S1-14-07,S1_14,First Grade,Control,2016,Post,WJ III,0.52
+S1-14-09,S1_14,First Grade,Control,2015,Pre,WJ III,0.24
+S1-14-09,S1_14,First Grade,Control,2016,Post,WJ III,0.44
+S1-14-11,S1_14,First Grade,Control,2015,Pre,WJ III,0.24
+S1-14-11,S1_14,First Grade,Control,2016,Post,WJ III,0.44
+S1-14-12,S1_14,First Grade,Control,2015,Pre,WJ III,0.48
+S1-14-12,S1_14,First Grade,Control,2016,Post,WJ III,0.6
+S1-14-14,S1_14,First Grade,Control,2015,Pre,WJ III,0.2
+S1-14-14,S1_14,First Grade,Control,2016,Post,WJ III,0.48
+S1-14-15,S1_14,First Grade,Control,2015,Pre,WJ III,0.2
+S1-14-15,S1_14,First Grade,Control,2016,Post,WJ III,0.48
+S1-14-17,S1_14,First Grade,Control,2015,Pre,WJ III,0.2
+S1-14-17,S1_14,First Grade,Control,2016,Post,WJ III,0.48
+S1-15-01,S1_15,First Grade,Mental Abacus,2015,Pre,WJ III,0.12
+S1-15-01,S1_15,First Grade,Mental Abacus,2016,Post,WJ III,0.4
+S1-15-02,S1_15,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-15-02,S1_15,First Grade,Mental Abacus,2016,Post,WJ III,0.44
+S1-15-04,S1_15,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-15-04,S1_15,First Grade,Mental Abacus,2016,Post,WJ III,0.52
+S1-15-05,S1_15,First Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S1-15-05,S1_15,First Grade,Mental Abacus,2016,Post,WJ III,0.44
+S1-15-08,S1_15,First Grade,Mental Abacus,2015,Pre,WJ III,0.32
+S1-15-08,S1_15,First Grade,Mental Abacus,2016,Post,WJ III,0.56
+S1-15-09,S1_15,First Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S1-15-09,S1_15,First Grade,Mental Abacus,2016,Post,WJ III,0.48
+S1-15-10,S1_15,First Grade,Mental Abacus,2015,Pre,WJ III,0.28
+S1-15-10,S1_15,First Grade,Mental Abacus,2016,Post,WJ III,0.48
+S1-15-11,S1_15,First Grade,Mental Abacus,2015,Pre,WJ III,0.32
+S1-15-11,S1_15,First Grade,Mental Abacus,2016,Post,WJ III,0.52
+S2-03-01,S2_03,Second Grade,Mental Abacus,2015,Pre,WJ III,0.24
+S2-03-01,S2_03,Second Grade,Mental Abacus,2016,Post,WJ III,0.44
+S2-03-02,S2_03,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-03-02,S2_03,Second Grade,Mental Abacus,2016,Post,WJ III,0.44
+S2-03-03,S2_03,Second Grade,Mental Abacus,2015,Pre,WJ III,0.56
+S2-03-03,S2_03,Second Grade,Mental Abacus,2016,Post,WJ III,0.56
+S2-03-04,S2_03,Second Grade,Mental Abacus,2015,Pre,WJ III,0.28
+S2-03-04,S2_03,Second Grade,Mental Abacus,2016,Post,WJ III,0.48
+S2-03-13,S2_03,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-03-13,S2_03,Second Grade,Mental Abacus,2016,Post,WJ III,0.56
+S2-03-15,S2_03,Second Grade,Mental Abacus,2015,Pre,WJ III,0
+S2-04-01,S2_04,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-04-01,S2_04,Second Grade,Mental Abacus,2016,Post,WJ III,0.64
+S2-04-05,S2_04,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-04-05,S2_04,Second Grade,Mental Abacus,2016,Post,WJ III,0.56
+S2-04-07,S2_04,Second Grade,Mental Abacus,2015,Pre,WJ III,0.24
+S2-04-07,S2_04,Second Grade,Mental Abacus,2016,Post,WJ III,0.6
+S2-04-08,S2_04,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-04-08,S2_04,Second Grade,Mental Abacus,2016,Post,WJ III,0.6
+S2-04-09,S2_04,Second Grade,Mental Abacus,2015,Pre,WJ III,0.36
+S2-04-09,S2_04,Second Grade,Mental Abacus,2016,Post,WJ III,0.56
+S2-04-10,S2_04,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-04-10,S2_04,Second Grade,Mental Abacus,2016,Post,WJ III,0.52
+S2-04-11,S2_04,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-04-11,S2_04,Second Grade,Mental Abacus,2016,Post,WJ III,0.76
+S2-04-12,S2_04,Second Grade,Mental Abacus,2015,Pre,WJ III,0.36
+S2-04-12,S2_04,Second Grade,Mental Abacus,2016,Post,WJ III,0.48
+S2-04-16,S2_04,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-04-16,S2_04,Second Grade,Mental Abacus,2016,Post,WJ III,0.52
+S2-04-17,S2_04,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-04-17,S2_04,Second Grade,Mental Abacus,2016,Post,WJ III,0.64
+S2-04-18,S2_04,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-04-18,S2_04,Second Grade,Mental Abacus,2016,Post,WJ III,0.6
+S2-05-02,S2_05,Second Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S2-05-02,S2_05,Second Grade,Mental Abacus,2016,Post,WJ III,0.44
+S2-08-01,S2_08,Second Grade,Control,2015,Pre,WJ III,0.36
+S2-08-01,S2_08,Second Grade,Control,2016,Post,WJ III,0.68
+S2-08-03,S2_08,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-08-03,S2_08,Second Grade,Control,2016,Post,WJ III,0.44
+S2-09-05,S2_09,Second Grade,Control,2015,Pre,WJ III,0.36
+S2-09-05,S2_09,Second Grade,Control,2016,Post,WJ III,0.56
+S2-09-07,S2_09,Second Grade,Control,2015,Pre,WJ III,0.2
+S2-09-07,S2_09,Second Grade,Control,2016,Post,WJ III,0.52
+S2-09-08,S2_09,Second Grade,Control,2015,Pre,WJ III,0.32
+S2-09-08,S2_09,Second Grade,Control,2016,Post,WJ III,0.44
+S2-09-10,S2_09,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-09-10,S2_09,Second Grade,Control,2016,Post,WJ III,0.64
+S2-09-13,S2_09,Second Grade,Control,2015,Pre,WJ III,0.52
+S2-09-13,S2_09,Second Grade,Control,2016,Post,WJ III,0.68
+S2-09-14,S2_09,Second Grade,Control,2016,Post,WJ III,0.6
+S2-09-19,S2_09,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-09-19,S2_09,Second Grade,Control,2016,Post,WJ III,0.6
+S2-09-20,S2_09,Second Grade,Control,2015,Pre,WJ III,0.44
+S2-09-20,S2_09,Second Grade,Control,2016,Post,WJ III,0.56
+S2-10-02,S2_10,Second Grade,Control,2015,Pre,WJ III,0.52
+S2-10-02,S2_10,Second Grade,Control,2016,Post,WJ III,0.52
+S2-10-03,S2_10,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-10-03,S2_10,Second Grade,Control,2016,Post,WJ III,0.6
+S2-10-05,S2_10,Second Grade,Control,2015,Pre,WJ III,0.32
+S2-10-05,S2_10,Second Grade,Control,2016,Post,WJ III,0.56
+S2-10-10,S2_10,Second Grade,Control,2015,Pre,WJ III,0.32
+S2-10-10,S2_10,Second Grade,Control,2016,Post,WJ III,0.64
+S2-10-11,S2_10,Second Grade,Control,2015,Pre,WJ III,0.48
+S2-10-11,S2_10,Second Grade,Control,2016,Post,WJ III,0.4
+S2-10-13,S2_10,Second Grade,Control,2015,Pre,WJ III,0.44
+S2-10-13,S2_10,Second Grade,Control,2016,Post,WJ III,0.6
+S2-10-14,S2_10,Second Grade,Control,2015,Pre,WJ III,0.52
+S2-10-14,S2_10,Second Grade,Control,2016,Post,WJ III,0.6
+S2-10-15,S2_10,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-10-15,S2_10,Second Grade,Control,2016,Post,WJ III,0.64
+S2-10-17,S2_10,Second Grade,Control,2015,Pre,WJ III,0.24
+S2-10-18,S2_10,Second Grade,Control,2015,Pre,WJ III,0.36
+S2-10-18,S2_10,Second Grade,Control,2016,Post,WJ III,0.6
+S2-10-20,S2_10,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-10-20,S2_10,Second Grade,Control,2016,Post,WJ III,0.56
+S2-13-01,S2_13,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-13-01,S2_13,Second Grade,Control,2016,Post,WJ III,0.6
+S2-13-02,S2_13,Second Grade,Control,2015,Pre,WJ III,0.52
+S2-13-02,S2_13,Second Grade,Control,2016,Post,WJ III,0.64
+S2-13-04,S2_13,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-13-04,S2_13,Second Grade,Control,2016,Post,WJ III,0.56
+S2-13-05,S2_13,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-13-05,S2_13,Second Grade,Control,2016,Post,WJ III,0.64
+S2-13-06,S2_13,Second Grade,Control,2015,Pre,WJ III,0.48
+S2-13-06,S2_13,Second Grade,Control,2016,Post,WJ III,0.72
+S2-13-09,S2_13,Second Grade,Control,2015,Pre,WJ III,0.32
+S2-13-09,S2_13,Second Grade,Control,2016,Post,WJ III,0.52
+S2-13-12,S2_13,Second Grade,Control,2015,Pre,WJ III,0.48
+S2-13-12,S2_13,Second Grade,Control,2016,Post,WJ III,0.52
+S2-13-15,S2_13,Second Grade,Control,2015,Pre,WJ III,0.6
+S2-13-15,S2_13,Second Grade,Control,2016,Post,WJ III,0.52
+S2-13-18,S2_13,Second Grade,Control,2015,Pre,WJ III,0.36
+S2-13-18,S2_13,Second Grade,Control,2016,Post,WJ III,0.48
+S2-13-19,S2_13,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-13-19,S2_13,Second Grade,Control,2016,Post,WJ III,0.6
+S2-13-20,S2_13,Second Grade,Control,2015,Pre,WJ III,0.52
+S2-13-20,S2_13,Second Grade,Control,2016,Post,WJ III,0.56
+S2-13-21,S2_13,Second Grade,Control,2015,Pre,WJ III,0.36
+S2-13-21,S2_13,Second Grade,Control,2016,Post,WJ III,0.52
+S2-15-01,S2_15,Second Grade,Control,2015,Pre,WJ III,0
+S2-16-01,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.48
+S2-16-05,S2_16,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-16-05,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.64
+S2-16-07,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.52
+S2-16-08,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.48
+S2-16-09,S2_16,Second Grade,Mental Abacus,2015,Pre,WJ III,0.36
+S2-16-09,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.52
+S2-16-11,S2_16,Second Grade,Mental Abacus,2015,Pre,WJ III,0.32
+S2-16-11,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.52
+S2-16-13,S2_16,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-16-14,S2_16,Second Grade,Mental Abacus,2015,Pre,WJ III,0.36
+S2-16-14,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.44
+S2-16-15,S2_16,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-16-15,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.56
+S2-16-17,S2_16,Second Grade,Mental Abacus,2015,Pre,WJ III,0.36
+S2-16-17,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.56
+S2-16-18,S2_16,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-16-18,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.52
+S2-16-19,S2_16,Second Grade,Mental Abacus,2015,Pre,WJ III,0.52
+S2-16-19,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.8
+S2-16-20,S2_16,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-16-20,S2_16,Second Grade,Mental Abacus,2016,Post,WJ III,0.6
+S2-17-02,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.36
+S2-17-02,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.52
+S2-17-03,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-17-03,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.52
+S2-17-04,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-17-04,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.72
+S2-17-05,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-17-05,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.72
+S2-17-06,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.48
+S2-17-06,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.52
+S2-17-07,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.48
+S2-17-07,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.56
+S2-17-08,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-17-08,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.6
+S2-17-09,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-17-09,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.52
+S2-17-10,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.36
+S2-17-10,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.6
+S2-17-11,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.36
+S2-17-11,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.6
+S2-17-12,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.32
+S2-17-12,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.48
+S2-17-13,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-17-13,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.44
+S2-17-14,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.36
+S2-17-14,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.44
+S2-17-15,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.48
+S2-17-15,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.76
+S2-17-16,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-17-16,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.6
+S2-17-17,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-17-17,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.56
+S2-17-19,S2_17,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-17-19,S2_17,Second Grade,Mental Abacus,2016,Post,WJ III,0.56
+S2-18-01,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.52
+S2-18-01,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.56
+S2-18-02,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-18-02,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.68
+S2-18-06,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.12
+S2-18-06,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.44
+S2-18-07,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.24
+S2-18-07,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.44
+S2-18-09,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.24
+S2-18-09,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.48
+S2-18-10,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-18-10,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.44
+S2-18-11,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.36
+S2-18-11,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.48
+S2-18-12,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-18-12,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.6
+S2-18-13,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.48
+S2-18-13,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.68
+S2-18-15,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.52
+S2-18-15,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.6
+S2-18-16,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.4
+S2-18-16,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.48
+S2-18-17,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.2
+S2-18-17,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.6
+S2-18-19,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.52
+S2-18-19,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.64
+S2-18-20,S2_18,Second Grade,Mental Abacus,2015,Pre,WJ III,0.44
+S2-18-20,S2_18,Second Grade,Mental Abacus,2016,Post,WJ III,0.56
+S2-19-01,S2_19,Second Grade,Control,2015,Pre,WJ III,0.36
+S2-19-01,S2_19,Second Grade,Control,2016,Post,WJ III,0.64
+S2-19-03,S2_19,Second Grade,Control,2015,Pre,WJ III,0.24
+S2-19-03,S2_19,Second Grade,Control,2016,Post,WJ III,0.56
+S2-19-04,S2_19,Second Grade,Control,2015,Pre,WJ III,0.32
+S2-19-04,S2_19,Second Grade,Control,2016,Post,WJ III,0.6
+S2-19-05,S2_19,Second Grade,Control,2015,Pre,WJ III,0.32
+S2-19-05,S2_19,Second Grade,Control,2016,Post,WJ III,0.48
+S2-19-06,S2_19,Second Grade,Control,2015,Pre,WJ III,0.36
+S2-19-06,S2_19,Second Grade,Control,2016,Post,WJ III,0.4
+S2-19-07,S2_19,Second Grade,Control,2015,Pre,WJ III,0.36
+S2-19-07,S2_19,Second Grade,Control,2016,Post,WJ III,0.36
+S2-19-08,S2_19,Second Grade,Control,2015,Pre,WJ III,0.52
+S2-19-08,S2_19,Second Grade,Control,2016,Post,WJ III,0.68
+S2-19-09,S2_19,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-19-09,S2_19,Second Grade,Control,2016,Post,WJ III,0.48
+S2-19-11,S2_19,Second Grade,Control,2015,Pre,WJ III,0.24
+S2-19-11,S2_19,Second Grade,Control,2016,Post,WJ III,0.52
+S2-19-12,S2_19,Second Grade,Control,2015,Pre,WJ III,0.28
+S2-19-12,S2_19,Second Grade,Control,2016,Post,WJ III,0.64
+S2-19-13,S2_19,Second Grade,Control,2015,Pre,WJ III,0.52
+S2-19-13,S2_19,Second Grade,Control,2016,Post,WJ III,0.76
+S2-19-14,S2_19,Second Grade,Control,2015,Pre,WJ III,0.4
+S2-19-14,S2_19,Second Grade,Control,2016,Post,WJ III,0.52
+S2-19-18,S2_19,Second Grade,Control,2015,Pre,WJ III,0.36
+S2-19-18,S2_19,Second Grade,Control,2016,Post,WJ III,0.44
+S1-02-02,S1_02,First Grade,Control,2015,Pre,Go/No Go,0.5769230769230769
+S1-02-03,S1_02,First Grade,Control,2015,Pre,Go/No Go,0.8153846153846154
+S1-02-03,S1_02,First Grade,Control,2016,Post,Go/No Go,0.7076923076923077
+S1-02-08,S1_02,First Grade,Control,2015,Pre,Go/No Go,0.7615384615384615
+S1-02-08,S1_02,First Grade,Control,2016,Post,Go/No Go,0.7076923076923077
+S1-02-15,S1_02,First Grade,Control,2016,Post,Go/No Go,0.8307692307692308
+S1-02-17,S1_02,First Grade,Control,2015,Pre,Go/No Go,0.4307692307692308
+S1-02-17,S1_02,First Grade,Control,2016,Post,Go/No Go,0.7307692307692307
+S1-03-04,S1_03,First Grade,Mental Abacus,2016,Post,Go/No Go,0.5307692307692308
+S1-03-05,S1_03,First Grade,Mental Abacus,2016,Post,Go/No Go,0.5615384615384615
+S1-03-06,S1_03,First Grade,Mental Abacus,2016,Post,Go/No Go,0.5153846153846153
+S1-03-09,S1_03,First Grade,Mental Abacus,2016,Post,Go/No Go,0.6384615384615384
+S1-03-14,S1_03,First Grade,Mental Abacus,2016,Post,Go/No Go,0.7846153846153846
+S1-03-15,S1_03,First Grade,Mental Abacus,2016,Post,Go/No Go,0.7307692307692307
+S1-04-01,S1_04,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.9307692307692308
+S1-04-01,S1_04,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8615384615384616
+S1-04-03,S1_04,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.7384615384615385
+S1-04-03,S1_04,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8307692307692308
+S1-04-04,S1_04,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.7230769230769231
+S1-04-04,S1_04,First Grade,Mental Abacus,2016,Post,Go/No Go,0.7923076923076923
+S1-04-07,S1_04,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.7786259541984732
+S1-04-07,S1_04,First Grade,Mental Abacus,2016,Post,Go/No Go,0.7307692307692307
+S1-04-08,S1_04,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.8692307692307693
+S1-04-08,S1_04,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8538461538461538
+S1-04-11,S1_04,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.7538461538461538
+S1-04-11,S1_04,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8384615384615385
+S1-04-17,S1_04,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.5384615384615384
+S1-04-17,S1_04,First Grade,Mental Abacus,2016,Post,Go/No Go,0.6230769230769231
+S1-04-18,S1_04,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.5615384615384615
+S1-04-18,S1_04,First Grade,Mental Abacus,2016,Post,Go/No Go,0.6076923076923076
+S1-07-02,S1_07,First Grade,Control,2015,Pre,Go/No Go,0.7076923076923077
+S1-07-02,S1_07,First Grade,Control,2016,Post,Go/No Go,0.7
+S1-07-05,S1_07,First Grade,Control,2016,Post,Go/No Go,0.7230769230769231
+S1-07-06,S1_07,First Grade,Control,2015,Pre,Go/No Go,0.6153846153846154
+S1-07-08,S1_07,First Grade,Control,2015,Pre,Go/No Go,0.7692307692307693
+S1-07-11,S1_07,First Grade,Control,2015,Pre,Go/No Go,0.8461538461538461
+S1-07-11,S1_07,First Grade,Control,2016,Post,Go/No Go,0.8
+S1-07-15,S1_07,First Grade,Control,2015,Pre,Go/No Go,0.46923076923076923
+S1-07-18,S1_07,First Grade,Control,2015,Pre,Go/No Go,0.5076923076923077
+S1-07-18,S1_07,First Grade,Control,2016,Post,Go/No Go,0.7307692307692307
+S1-07-20,S1_07,First Grade,Control,2015,Pre,Go/No Go,0.7692307692307693
+S1-07-20,S1_07,First Grade,Control,2016,Post,Go/No Go,0.8846153846153846
+S1-07-23,S1_07,First Grade,Control,2015,Pre,Go/No Go,0.7461538461538462
+S1-09-01,S1_09,First Grade,Control,2015,Pre,Go/No Go,0.8692307692307693
+S1-09-01,S1_09,First Grade,Control,2016,Post,Go/No Go,0.7692307692307693
+S1-09-05,S1_09,First Grade,Control,2015,Pre,Go/No Go,0.6153846153846154
+S1-09-05,S1_09,First Grade,Control,2016,Post,Go/No Go,0.6076923076923076
+S1-09-06,S1_09,First Grade,Control,2015,Pre,Go/No Go,0.8538461538461538
+S1-09-06,S1_09,First Grade,Control,2016,Post,Go/No Go,0.7538461538461538
+S1-09-07,S1_09,First Grade,Control,2015,Pre,Go/No Go,0.7153846153846154
+S1-09-07,S1_09,First Grade,Control,2016,Post,Go/No Go,0.7153846153846154
+S1-09-11,S1_09,First Grade,Control,2015,Pre,Go/No Go,0.8076923076923077
+S1-09-11,S1_09,First Grade,Control,2016,Post,Go/No Go,0.9
+S1-09-18,S1_09,First Grade,Control,2016,Post,Go/No Go,0.6846153846153846
+S1-09-19,S1_09,First Grade,Control,2015,Pre,Go/No Go,0.7547892720306514
+S1-09-19,S1_09,First Grade,Control,2016,Post,Go/No Go,0.9153846153846154
+S1-10-01,S1_10,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.6230769230769231
+S1-10-01,S1_10,First Grade,Mental Abacus,2016,Post,Go/No Go,0.6615384615384615
+S1-10-02,S1_10,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.7615384615384615
+S1-10-02,S1_10,First Grade,Mental Abacus,2016,Post,Go/No Go,0.823076923076923
+S1-10-06,S1_10,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.8538461538461538
+S1-10-06,S1_10,First Grade,Mental Abacus,2016,Post,Go/No Go,0.9923076923076923
+S1-10-07,S1_10,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.8461538461538461
+S1-10-07,S1_10,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8307692307692308
+S1-10-08,S1_10,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.8076923076923077
+S1-10-08,S1_10,First Grade,Mental Abacus,2016,Post,Go/No Go,0.7153846153846154
+S1-10-09,S1_10,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.8
+S1-10-09,S1_10,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8396946564885496
+S1-10-12,S1_10,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.5769230769230769
+S1-10-12,S1_10,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8778625954198473
+S1-10-13,S1_10,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.8923076923076924
+S1-10-13,S1_10,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8153846153846154
+S1-10-16,S1_10,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.9384615384615385
+S1-11-01,S1_11,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.8692307692307693
+S1-11-01,S1_11,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8307692307692308
+S1-11-02,S1_11,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.823076923076923
+S1-11-02,S1_11,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8384615384615385
+S1-11-03,S1_11,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.5
+S1-11-03,S1_11,First Grade,Mental Abacus,2016,Post,Go/No Go,0.6461538461538462
+S1-11-04,S1_11,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.6076923076923076
+S1-11-04,S1_11,First Grade,Mental Abacus,2016,Post,Go/No Go,0.6076923076923076
+S1-11-09,S1_11,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.7538461538461538
+S1-11-09,S1_11,First Grade,Mental Abacus,2016,Post,Go/No Go,0.7461538461538462
+S1-11-10,S1_11,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.7846153846153846
+S1-11-10,S1_11,First Grade,Mental Abacus,2016,Post,Go/No Go,0.7615384615384615
+S1-11-11,S1_11,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.6692307692307692
+S1-11-11,S1_11,First Grade,Mental Abacus,2016,Post,Go/No Go,0.6538461538461539
+S1-11-17,S1_11,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.5615384615384615
+S1-11-17,S1_11,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8615384615384616
+S1-12-01,S1_12,First Grade,Control,2015,Pre,Go/No Go,0.9230769230769231
+S1-12-01,S1_12,First Grade,Control,2016,Post,Go/No Go,0.9230769230769231
+S1-12-02,S1_12,First Grade,Control,2016,Post,Go/No Go,0.823076923076923
+S1-12-04,S1_12,First Grade,Control,2015,Pre,Go/No Go,0.676923076923077
+S1-12-04,S1_12,First Grade,Control,2016,Post,Go/No Go,0.6384615384615384
+S1-12-05,S1_12,First Grade,Control,2015,Pre,Go/No Go,0.7384615384615385
+S1-12-05,S1_12,First Grade,Control,2016,Post,Go/No Go,0.8076923076923077
+S1-12-08,S1_12,First Grade,Control,2015,Pre,Go/No Go,0.7153846153846154
+S1-12-08,S1_12,First Grade,Control,2016,Post,Go/No Go,0.7538461538461538
+S1-12-10,S1_12,First Grade,Control,2015,Pre,Go/No Go,0.8538461538461538
+S1-12-11,S1_12,First Grade,Control,2015,Pre,Go/No Go,0.6846153846153846
+S1-12-11,S1_12,First Grade,Control,2016,Post,Go/No Go,0.6153846153846154
+S1-12-12,S1_12,First Grade,Control,2015,Pre,Go/No Go,0.7230769230769231
+S1-12-12,S1_12,First Grade,Control,2016,Post,Go/No Go,0.6961538461538461
+S1-12-13,S1_12,First Grade,Control,2015,Pre,Go/No Go,0.5
+S1-12-15,S1_12,First Grade,Control,2015,Pre,Go/No Go,0.8538461538461538
+S1-14-01,S1_14,First Grade,Control,2015,Pre,Go/No Go,0.7076923076923077
+S1-14-01,S1_14,First Grade,Control,2016,Post,Go/No Go,0.5769230769230769
+S1-14-02,S1_14,First Grade,Control,2015,Pre,Go/No Go,0.5076923076923077
+S1-14-02,S1_14,First Grade,Control,2016,Post,Go/No Go,0.8
+S1-14-07,S1_14,First Grade,Control,2015,Pre,Go/No Go,0.8076923076923077
+S1-14-07,S1_14,First Grade,Control,2016,Post,Go/No Go,0.8307692307692308
+S1-14-09,S1_14,First Grade,Control,2015,Pre,Go/No Go,NA
+S1-14-09,S1_14,First Grade,Control,2016,Post,Go/No Go,0.9
+S1-14-11,S1_14,First Grade,Control,2015,Pre,Go/No Go,0.6692307692307692
+S1-14-11,S1_14,First Grade,Control,2016,Post,Go/No Go,0.8384615384615385
+S1-14-12,S1_14,First Grade,Control,2015,Pre,Go/No Go,0.8692307692307693
+S1-14-12,S1_14,First Grade,Control,2016,Post,Go/No Go,0.7846153846153846
+S1-14-14,S1_14,First Grade,Control,2015,Pre,Go/No Go,0.9615384615384616
+S1-14-14,S1_14,First Grade,Control,2016,Post,Go/No Go,0.9384615384615385
+S1-14-15,S1_14,First Grade,Control,2015,Pre,Go/No Go,0.8384615384615385
+S1-14-15,S1_14,First Grade,Control,2016,Post,Go/No Go,0.8538461538461538
+S1-14-17,S1_14,First Grade,Control,2015,Pre,Go/No Go,0.6
+S1-14-17,S1_14,First Grade,Control,2016,Post,Go/No Go,0.8923076923076924
+S1-15-01,S1_15,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.5384615384615384
+S1-15-01,S1_15,First Grade,Mental Abacus,2016,Post,Go/No Go,0.5384615384615384
+S1-15-02,S1_15,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.7384615384615385
+S1-15-02,S1_15,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8769230769230769
+S1-15-04,S1_15,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.7307692307692307
+S1-15-04,S1_15,First Grade,Mental Abacus,2016,Post,Go/No Go,0.823076923076923
+S1-15-05,S1_15,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.5769230769230769
+S1-15-05,S1_15,First Grade,Mental Abacus,2016,Post,Go/No Go,0.6307692307692307
+S1-15-08,S1_15,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.9461538461538461
+S1-15-08,S1_15,First Grade,Mental Abacus,2016,Post,Go/No Go,0.9538461538461539
+S1-15-09,S1_15,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.6461538461538462
+S1-15-09,S1_15,First Grade,Mental Abacus,2016,Post,Go/No Go,0.6076923076923076
+S1-15-10,S1_15,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.7615384615384615
+S1-15-10,S1_15,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8538461538461538
+S1-15-11,S1_15,First Grade,Mental Abacus,2015,Pre,Go/No Go,0.8692307692307693
+S1-15-11,S1_15,First Grade,Mental Abacus,2016,Post,Go/No Go,0.8153846153846154
+S2-03-01,S2_03,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8153846153846154
+S2-03-01,S2_03,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8384615384615385
+S2-03-02,S2_03,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9153846153846154
+S2-03-02,S2_03,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8846153846153846
+S2-03-03,S2_03,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.7384615384615385
+S2-03-03,S2_03,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.6307692307692307
+S2-03-04,S2_03,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8384615384615385
+S2-03-04,S2_03,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.6692307692307692
+S2-03-13,S2_03,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.5076923076923077
+S2-03-13,S2_03,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8846153846153846
+S2-03-15,S2_03,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.36153846153846153
+S2-04-01,S2_04,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8846153846153846
+S2-04-01,S2_04,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.9153846153846154
+S2-04-05,S2_04,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.6538461538461539
+S2-04-05,S2_04,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8076923076923077
+S2-04-07,S2_04,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9461538461538461
+S2-04-07,S2_04,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8307692307692308
+S2-04-08,S2_04,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.823076923076923
+S2-04-08,S2_04,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.7846153846153846
+S2-04-09,S2_04,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8538461538461538
+S2-04-09,S2_04,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8384615384615385
+S2-04-10,S2_04,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9615384615384616
+S2-04-10,S2_04,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8769230769230769
+S2-04-11,S2_04,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8846153846153846
+S2-04-11,S2_04,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8769230769230769
+S2-04-12,S2_04,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8538461538461538
+S2-04-12,S2_04,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8384615384615385
+S2-04-16,S2_04,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8692307692307693
+S2-04-16,S2_04,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8307692307692308
+S2-04-17,S2_04,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9307692307692308
+S2-04-17,S2_04,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.9076923076923077
+S2-04-18,S2_04,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8615384615384616
+S2-04-18,S2_04,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.6923076923076923
+S2-05-02,S2_05,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8
+S2-05-02,S2_05,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.6538461538461539
+S2-08-01,S2_08,Second Grade,Control,2015,Pre,Go/No Go,0.8307692307692308
+S2-08-01,S2_08,Second Grade,Control,2016,Post,Go/No Go,0.6230769230769231
+S2-08-03,S2_08,Second Grade,Control,2015,Pre,Go/No Go,0.7557251908396947
+S2-08-03,S2_08,Second Grade,Control,2016,Post,Go/No Go,0.6230769230769231
+S2-09-05,S2_09,Second Grade,Control,2015,Pre,Go/No Go,0.9
+S2-09-05,S2_09,Second Grade,Control,2016,Post,Go/No Go,0.9
+S2-09-07,S2_09,Second Grade,Control,2015,Pre,Go/No Go,0.7461538461538462
+S2-09-07,S2_09,Second Grade,Control,2016,Post,Go/No Go,0.8615384615384616
+S2-09-08,S2_09,Second Grade,Control,2015,Pre,Go/No Go,0.8
+S2-09-08,S2_09,Second Grade,Control,2016,Post,Go/No Go,0.8615384615384616
+S2-09-10,S2_09,Second Grade,Control,2015,Pre,Go/No Go,0.8692307692307693
+S2-09-10,S2_09,Second Grade,Control,2016,Post,Go/No Go,0.9461538461538461
+S2-09-13,S2_09,Second Grade,Control,2015,Pre,Go/No Go,0.9307692307692308
+S2-09-13,S2_09,Second Grade,Control,2016,Post,Go/No Go,0.9538461538461539
+S2-09-14,S2_09,Second Grade,Control,2016,Post,Go/No Go,0.8615384615384616
+S2-09-19,S2_09,Second Grade,Control,2015,Pre,Go/No Go,0.8384615384615385
+S2-09-19,S2_09,Second Grade,Control,2016,Post,Go/No Go,0.8307692307692308
+S2-09-20,S2_09,Second Grade,Control,2015,Pre,Go/No Go,0.9384615384615385
+S2-09-20,S2_09,Second Grade,Control,2016,Post,Go/No Go,0.9076923076923077
+S2-10-02,S2_10,Second Grade,Control,2015,Pre,Go/No Go,0.7461538461538462
+S2-10-02,S2_10,Second Grade,Control,2016,Post,Go/No Go,0.9
+S2-10-03,S2_10,Second Grade,Control,2015,Pre,Go/No Go,0.7230769230769231
+S2-10-03,S2_10,Second Grade,Control,2016,Post,Go/No Go,0.8307692307692308
+S2-10-05,S2_10,Second Grade,Control,2015,Pre,Go/No Go,0.7461538461538462
+S2-10-05,S2_10,Second Grade,Control,2016,Post,Go/No Go,0.7307692307692307
+S2-10-10,S2_10,Second Grade,Control,2015,Pre,Go/No Go,0.5923076923076923
+S2-10-10,S2_10,Second Grade,Control,2016,Post,Go/No Go,0.8384615384615385
+S2-10-11,S2_10,Second Grade,Control,2015,Pre,Go/No Go,0.8692307692307693
+S2-10-11,S2_10,Second Grade,Control,2016,Post,Go/No Go,0.8615384615384616
+S2-10-13,S2_10,Second Grade,Control,2015,Pre,Go/No Go,0.7923076923076923
+S2-10-13,S2_10,Second Grade,Control,2016,Post,Go/No Go,0.8
+S2-10-14,S2_10,Second Grade,Control,2015,Pre,Go/No Go,0.8
+S2-10-14,S2_10,Second Grade,Control,2016,Post,Go/No Go,0.8461538461538461
+S2-10-15,S2_10,Second Grade,Control,2015,Pre,Go/No Go,0.8692307692307693
+S2-10-15,S2_10,Second Grade,Control,2016,Post,Go/No Go,0.9
+S2-10-17,S2_10,Second Grade,Control,2015,Pre,Go/No Go,0.9
+S2-10-18,S2_10,Second Grade,Control,2015,Pre,Go/No Go,0.823076923076923
+S2-10-18,S2_10,Second Grade,Control,2016,Post,Go/No Go,0.9153846153846154
+S2-10-20,S2_10,Second Grade,Control,2015,Pre,Go/No Go,0.8538461538461538
+S2-10-20,S2_10,Second Grade,Control,2016,Post,Go/No Go,0.7923076923076923
+S2-13-01,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.8615384615384616
+S2-13-01,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.8923076923076924
+S2-13-02,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.7846153846153846
+S2-13-02,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.7769230769230769
+S2-13-04,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.8923076923076924
+S2-13-04,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.8153846153846154
+S2-13-05,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.7923076923076923
+S2-13-05,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.8153846153846154
+S2-13-06,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.7846153846153846
+S2-13-06,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.9230769230769231
+S2-13-09,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.7099236641221374
+S2-13-09,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.7
+S2-13-12,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.8692307692307693
+S2-13-12,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.8615384615384616
+S2-13-15,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.8
+S2-13-15,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.823076923076923
+S2-13-18,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.7615384615384615
+S2-13-18,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.8692307692307693
+S2-13-19,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.8615384615384616
+S2-13-19,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.8076923076923077
+S2-13-20,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.8923076923076924
+S2-13-20,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.9461538461538461
+S2-13-21,S2_13,Second Grade,Control,2015,Pre,Go/No Go,0.7
+S2-13-21,S2_13,Second Grade,Control,2016,Post,Go/No Go,0.8923076923076924
+S2-15-01,S2_15,Second Grade,Control,2015,Pre,Go/No Go,0.9538461538461539
+S2-16-01,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8384615384615385
+S2-16-05,S2_16,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8692307692307693
+S2-16-05,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.9230769230769231
+S2-16-07,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.7846153846153846
+S2-16-08,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.9615384615384616
+S2-16-09,S2_16,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8692307692307693
+S2-16-09,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8384615384615385
+S2-16-11,S2_16,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8153846153846154
+S2-16-11,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.9230769230769231
+S2-16-13,S2_16,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9076923076923077
+S2-16-14,S2_16,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.7480916030534351
+S2-16-14,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.6538461538461539
+S2-16-15,S2_16,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8153846153846154
+S2-16-15,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.6230769230769231
+S2-16-17,S2_16,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8153846153846154
+S2-16-17,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.7923076923076923
+S2-16-18,S2_16,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.6538461538461539
+S2-16-18,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8384615384615385
+S2-16-19,S2_16,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.7153846153846154
+S2-16-19,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.46153846153846156
+S2-16-20,S2_16,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9538461538461539
+S2-16-20,S2_16,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.7153846153846154
+S2-17-02,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8769230769230769
+S2-17-02,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.9307692307692308
+S2-17-03,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.7846153846153846
+S2-17-03,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8307692307692308
+S2-17-04,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.7692307692307693
+S2-17-04,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8307692307692308
+S2-17-05,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8307692307692308
+S2-17-05,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.9461538461538461
+S2-17-06,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8769230769230769
+S2-17-06,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.7692307692307693
+S2-17-07,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9230769230769231
+S2-17-07,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8153846153846154
+S2-17-08,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.6307692307692307
+S2-17-08,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8307692307692308
+S2-17-09,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8923076923076924
+S2-17-09,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8846153846153846
+S2-17-10,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8615384615384616
+S2-17-10,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.823076923076923
+S2-17-11,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8615384615384616
+S2-17-11,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8384615384615385
+S2-17-12,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9307692307692308
+S2-17-12,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.9461538461538461
+S2-17-13,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9076923076923077
+S2-17-13,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8769230769230769
+S2-17-14,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.7769230769230769
+S2-17-14,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8846153846153846
+S2-17-15,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8692307692307693
+S2-17-15,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8692307692307693
+S2-17-16,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.7461538461538462
+S2-17-16,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8307692307692308
+S2-17-17,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.7615384615384615
+S2-17-17,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8769230769230769
+S2-17-19,S2_17,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.6461538461538462
+S2-17-19,S2_17,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8076923076923077
+S2-18-01,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8923076923076924
+S2-18-01,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.7615384615384615
+S2-18-02,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8769230769230769
+S2-18-02,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8923076923076924
+S2-18-06,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.6615384615384615
+S2-18-06,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.5538461538461539
+S2-18-07,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.46153846153846156
+S2-18-07,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.27692307692307694
+S2-18-09,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8461538461538461
+S2-18-09,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.6846153846153846
+S2-18-10,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.7230769230769231
+S2-18-10,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.676923076923077
+S2-18-11,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8076923076923077
+S2-18-11,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.6923076923076923
+S2-18-12,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.7769230769230769
+S2-18-12,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8153846153846154
+S2-18-13,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.7307692307692307
+S2-18-13,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8615384615384616
+S2-18-15,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9384615384615385
+S2-18-15,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.9769230769230769
+S2-18-16,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.8461538461538461
+S2-18-16,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8846153846153846
+S2-18-17,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9307692307692308
+S2-18-17,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.9692307692307692
+S2-18-19,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9538461538461539
+S2-18-19,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.8153846153846154
+S2-18-20,S2_18,Second Grade,Mental Abacus,2015,Pre,Go/No Go,0.9
+S2-18-20,S2_18,Second Grade,Mental Abacus,2016,Post,Go/No Go,0.9538461538461539
+S2-19-01,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.8769230769230769
+S2-19-01,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.8846153846153846
+S2-19-03,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.8692307692307693
+S2-19-03,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.8307692307692308
+S2-19-04,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.5769230769230769
+S2-19-04,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.7692307692307693
+S2-19-05,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.7076923076923077
+S2-19-05,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.7769230769230769
+S2-19-06,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.6461538461538462
+S2-19-06,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.8153846153846154
+S2-19-07,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.7076923076923077
+S2-19-07,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.7099236641221374
+S2-19-08,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.5538461538461539
+S2-19-08,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.7692307692307693
+S2-19-09,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.7615384615384615
+S2-19-09,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.8615384615384616
+S2-19-11,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.8769230769230769
+S2-19-11,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.9692307692307692
+S2-19-12,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.8846153846153846
+S2-19-12,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.8538461538461538
+S2-19-13,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.8076923076923077
+S2-19-13,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.823076923076923
+S2-19-14,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.6692307692307692
+S2-19-14,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.7
+S2-19-18,S2_19,Second Grade,Control,2015,Pre,Go/No Go,0.7230769230769231
+S2-19-18,S2_19,Second Grade,Control,2016,Post,Go/No Go,0.9076923076923077
+S1-02-02,S1_02,First Grade,Control,2015,Pre,Matrix Reasoning,0.16666666666666666
+S1-02-03,S1_02,First Grade,Control,2015,Pre,Matrix Reasoning,0.08333333333333333
+S1-02-03,S1_02,First Grade,Control,2016,Post,Matrix Reasoning,0.4166666666666667
+S1-02-08,S1_02,First Grade,Control,2015,Pre,Matrix Reasoning,0.1111111111111111
+S1-02-08,S1_02,First Grade,Control,2016,Post,Matrix Reasoning,0.3333333333333333
+S1-02-15,S1_02,First Grade,Control,2016,Post,Matrix Reasoning,0.5833333333333334
+S1-02-17,S1_02,First Grade,Control,2015,Pre,Matrix Reasoning,0.1388888888888889
+S1-02-17,S1_02,First Grade,Control,2016,Post,Matrix Reasoning,0.2777777777777778
+S1-03-04,S1_03,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4722222222222222
+S1-03-05,S1_03,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5
+S1-03-06,S1_03,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1111111111111111
+S1-03-09,S1_03,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0
+S1-03-14,S1_03,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.2222222222222222
+S1-03-15,S1_03,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3888888888888889
+S1-04-01,S1_04,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.25
+S1-04-01,S1_04,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5833333333333334
+S1-04-03,S1_04,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.19444444444444445
+S1-04-03,S1_04,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1111111111111111
+S1-04-04,S1_04,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.16666666666666666
+S1-04-04,S1_04,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.16666666666666666
+S1-04-07,S1_04,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3611111111111111
+S1-04-07,S1_04,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.19444444444444445
+S1-04-08,S1_04,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S1-04-08,S1_04,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4166666666666667
+S1-04-11,S1_04,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S1-04-11,S1_04,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.6944444444444444
+S1-04-17,S1_04,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.4722222222222222
+S1-04-17,S1_04,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5833333333333334
+S1-04-18,S1_04,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S1-04-18,S1_04,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4166666666666667
+S1-07-02,S1_07,First Grade,Control,2015,Pre,Matrix Reasoning,0.25
+S1-07-02,S1_07,First Grade,Control,2016,Post,Matrix Reasoning,0.3333333333333333
+S1-07-05,S1_07,First Grade,Control,2016,Post,Matrix Reasoning,0.2222222222222222
+S1-07-06,S1_07,First Grade,Control,2015,Pre,Matrix Reasoning,0.1111111111111111
+S1-07-08,S1_07,First Grade,Control,2015,Pre,Matrix Reasoning,0.2222222222222222
+S1-07-11,S1_07,First Grade,Control,2015,Pre,Matrix Reasoning,0.1111111111111111
+S1-07-11,S1_07,First Grade,Control,2016,Post,Matrix Reasoning,0.08333333333333333
+S1-07-15,S1_07,First Grade,Control,2015,Pre,Matrix Reasoning,0
+S1-07-18,S1_07,First Grade,Control,2015,Pre,Matrix Reasoning,0
+S1-07-18,S1_07,First Grade,Control,2016,Post,Matrix Reasoning,0.2777777777777778
+S1-07-20,S1_07,First Grade,Control,2015,Pre,Matrix Reasoning,0.19444444444444445
+S1-07-20,S1_07,First Grade,Control,2016,Post,Matrix Reasoning,0.6111111111111112
+S1-07-23,S1_07,First Grade,Control,2015,Pre,Matrix Reasoning,0.1388888888888889
+S1-09-01,S1_09,First Grade,Control,2015,Pre,Matrix Reasoning,0.25
+S1-09-01,S1_09,First Grade,Control,2016,Post,Matrix Reasoning,0.2777777777777778
+S1-09-05,S1_09,First Grade,Control,2015,Pre,Matrix Reasoning,0.1388888888888889
+S1-09-05,S1_09,First Grade,Control,2016,Post,Matrix Reasoning,0.05555555555555555
+S1-09-06,S1_09,First Grade,Control,2015,Pre,Matrix Reasoning,0.2777777777777778
+S1-09-06,S1_09,First Grade,Control,2016,Post,Matrix Reasoning,0.3888888888888889
+S1-09-07,S1_09,First Grade,Control,2015,Pre,Matrix Reasoning,0.3333333333333333
+S1-09-07,S1_09,First Grade,Control,2016,Post,Matrix Reasoning,0.4166666666666667
+S1-09-11,S1_09,First Grade,Control,2015,Pre,Matrix Reasoning,0.3333333333333333
+S1-09-11,S1_09,First Grade,Control,2016,Post,Matrix Reasoning,0.25
+S1-09-18,S1_09,First Grade,Control,2016,Post,Matrix Reasoning,0.25
+S1-09-19,S1_09,First Grade,Control,2015,Pre,Matrix Reasoning,0.6388888888888888
+S1-09-19,S1_09,First Grade,Control,2016,Post,Matrix Reasoning,0.5555555555555556
+S1-10-01,S1_10,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.08333333333333333
+S1-10-01,S1_10,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.16666666666666666
+S1-10-02,S1_10,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.05555555555555555
+S1-10-02,S1_10,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1111111111111111
+S1-10-06,S1_10,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S1-10-06,S1_10,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1111111111111111
+S1-10-07,S1_10,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S1-10-07,S1_10,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3055555555555556
+S1-10-08,S1_10,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3611111111111111
+S1-10-08,S1_10,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1111111111111111
+S1-10-09,S1_10,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1388888888888889
+S1-10-09,S1_10,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.2222222222222222
+S1-10-12,S1_10,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.19444444444444445
+S1-10-12,S1_10,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1111111111111111
+S1-10-13,S1_10,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.19444444444444445
+S1-10-13,S1_10,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.25
+S1-10-16,S1_10,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.08333333333333333
+S1-11-01,S1_11,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.08333333333333333
+S1-11-01,S1_11,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1388888888888889
+S1-11-02,S1_11,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S1-11-02,S1_11,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5
+S1-11-03,S1_11,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.16666666666666666
+S1-11-03,S1_11,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3055555555555556
+S1-11-04,S1_11,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.16666666666666666
+S1-11-04,S1_11,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.19444444444444445
+S1-11-09,S1_11,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1388888888888889
+S1-11-09,S1_11,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.25
+S1-11-10,S1_11,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.25
+S1-11-10,S1_11,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3333333333333333
+S1-11-11,S1_11,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.19444444444444445
+S1-11-11,S1_11,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.08333333333333333
+S1-11-17,S1_11,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S1-11-17,S1_11,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.05555555555555555
+S1-12-01,S1_12,First Grade,Control,2015,Pre,Matrix Reasoning,0.3611111111111111
+S1-12-01,S1_12,First Grade,Control,2016,Post,Matrix Reasoning,0.08333333333333333
+S1-12-02,S1_12,First Grade,Control,2016,Post,Matrix Reasoning,0.2777777777777778
+S1-12-04,S1_12,First Grade,Control,2015,Pre,Matrix Reasoning,0.19444444444444445
+S1-12-04,S1_12,First Grade,Control,2016,Post,Matrix Reasoning,0.16666666666666666
+S1-12-05,S1_12,First Grade,Control,2015,Pre,Matrix Reasoning,0.19444444444444445
+S1-12-05,S1_12,First Grade,Control,2016,Post,Matrix Reasoning,0.2777777777777778
+S1-12-08,S1_12,First Grade,Control,2015,Pre,Matrix Reasoning,0.25
+S1-12-08,S1_12,First Grade,Control,2016,Post,Matrix Reasoning,0.1111111111111111
+S1-12-10,S1_12,First Grade,Control,2015,Pre,Matrix Reasoning,0.1388888888888889
+S1-12-11,S1_12,First Grade,Control,2015,Pre,Matrix Reasoning,0
+S1-12-11,S1_12,First Grade,Control,2016,Post,Matrix Reasoning,0.3333333333333333
+S1-12-12,S1_12,First Grade,Control,2015,Pre,Matrix Reasoning,0.19444444444444445
+S1-12-12,S1_12,First Grade,Control,2016,Post,Matrix Reasoning,0.5833333333333334
+S1-12-13,S1_12,First Grade,Control,2015,Pre,Matrix Reasoning,0.2222222222222222
+S1-12-15,S1_12,First Grade,Control,2015,Pre,Matrix Reasoning,0.19444444444444445
+S1-14-01,S1_14,First Grade,Control,2015,Pre,Matrix Reasoning,0.2777777777777778
+S1-14-01,S1_14,First Grade,Control,2016,Post,Matrix Reasoning,0.4722222222222222
+S1-14-02,S1_14,First Grade,Control,2015,Pre,Matrix Reasoning,0.2222222222222222
+S1-14-02,S1_14,First Grade,Control,2016,Post,Matrix Reasoning,0.3611111111111111
+S1-14-07,S1_14,First Grade,Control,2015,Pre,Matrix Reasoning,0.16666666666666666
+S1-14-07,S1_14,First Grade,Control,2016,Post,Matrix Reasoning,0.19444444444444445
+S1-14-09,S1_14,First Grade,Control,2015,Pre,Matrix Reasoning,0.3055555555555556
+S1-14-09,S1_14,First Grade,Control,2016,Post,Matrix Reasoning,0.5
+S1-14-11,S1_14,First Grade,Control,2015,Pre,Matrix Reasoning,0.2222222222222222
+S1-14-11,S1_14,First Grade,Control,2016,Post,Matrix Reasoning,0.2222222222222222
+S1-14-12,S1_14,First Grade,Control,2015,Pre,Matrix Reasoning,0.5555555555555556
+S1-14-12,S1_14,First Grade,Control,2016,Post,Matrix Reasoning,0.5555555555555556
+S1-14-14,S1_14,First Grade,Control,2015,Pre,Matrix Reasoning,0.4444444444444444
+S1-14-14,S1_14,First Grade,Control,2016,Post,Matrix Reasoning,0.5277777777777778
+S1-14-15,S1_14,First Grade,Control,2015,Pre,Matrix Reasoning,0.2777777777777778
+S1-14-15,S1_14,First Grade,Control,2016,Post,Matrix Reasoning,0.5277777777777778
+S1-14-17,S1_14,First Grade,Control,2015,Pre,Matrix Reasoning,0.3333333333333333
+S1-14-17,S1_14,First Grade,Control,2016,Post,Matrix Reasoning,0.1111111111111111
+S1-15-01,S1_15,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0
+S1-15-01,S1_15,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.05555555555555555
+S1-15-02,S1_15,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.16666666666666666
+S1-15-02,S1_15,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.2222222222222222
+S1-15-04,S1_15,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2777777777777778
+S1-15-04,S1_15,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.19444444444444445
+S1-15-05,S1_15,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S1-15-05,S1_15,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.16666666666666666
+S1-15-08,S1_15,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S1-15-08,S1_15,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.6388888888888888
+S1-15-09,S1_15,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.19444444444444445
+S1-15-09,S1_15,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3055555555555556
+S1-15-10,S1_15,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S1-15-10,S1_15,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4166666666666667
+S1-15-11,S1_15,First Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.19444444444444445
+S1-15-11,S1_15,First Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.6111111111111112
+S2-03-01,S2_03,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.4166666666666667
+S2-03-01,S2_03,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.6388888888888888
+S2-03-02,S2_03,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S2-03-02,S2_03,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5277777777777778
+S2-03-03,S2_03,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2777777777777778
+S2-03-03,S2_03,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.16666666666666666
+S2-03-04,S2_03,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.19444444444444445
+S2-03-04,S2_03,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4444444444444444
+S2-03-13,S2_03,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0
+S2-03-13,S2_03,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1388888888888889
+S2-03-15,S2_03,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2777777777777778
+S2-04-01,S2_04,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2777777777777778
+S2-04-01,S2_04,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.2777777777777778
+S2-04-05,S2_04,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3611111111111111
+S2-04-05,S2_04,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3333333333333333
+S2-04-07,S2_04,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.4166666666666667
+S2-04-07,S2_04,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3888888888888889
+S2-04-08,S2_04,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.5833333333333334
+S2-04-08,S2_04,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5277777777777778
+S2-04-09,S2_04,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3888888888888889
+S2-04-09,S2_04,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3611111111111111
+S2-04-10,S2_04,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.5
+S2-04-10,S2_04,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4166666666666667
+S2-04-11,S2_04,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3333333333333333
+S2-04-11,S2_04,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3055555555555556
+S2-04-12,S2_04,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.4722222222222222
+S2-04-12,S2_04,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5
+S2-04-16,S2_04,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.25
+S2-04-16,S2_04,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.16666666666666666
+S2-04-17,S2_04,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3055555555555556
+S2-04-17,S2_04,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3888888888888889
+S2-04-18,S2_04,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.5833333333333334
+S2-04-18,S2_04,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4166666666666667
+S2-05-02,S2_05,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S2-05-02,S2_05,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.05555555555555555
+S2-08-01,S2_08,Second Grade,Control,2015,Pre,Matrix Reasoning,0.3888888888888889
+S2-08-01,S2_08,Second Grade,Control,2016,Post,Matrix Reasoning,0.3888888888888889
+S2-08-03,S2_08,Second Grade,Control,2015,Pre,Matrix Reasoning,0.16666666666666666
+S2-08-03,S2_08,Second Grade,Control,2016,Post,Matrix Reasoning,0.16666666666666666
+S2-09-05,S2_09,Second Grade,Control,2015,Pre,Matrix Reasoning,0.4166666666666667
+S2-09-05,S2_09,Second Grade,Control,2016,Post,Matrix Reasoning,0.4722222222222222
+S2-09-07,S2_09,Second Grade,Control,2015,Pre,Matrix Reasoning,0.16666666666666666
+S2-09-07,S2_09,Second Grade,Control,2016,Post,Matrix Reasoning,0.19444444444444445
+S2-09-08,S2_09,Second Grade,Control,2015,Pre,Matrix Reasoning,0.16666666666666666
+S2-09-08,S2_09,Second Grade,Control,2016,Post,Matrix Reasoning,0.16666666666666666
+S2-09-10,S2_09,Second Grade,Control,2015,Pre,Matrix Reasoning,0.3055555555555556
+S2-09-10,S2_09,Second Grade,Control,2016,Post,Matrix Reasoning,0.5
+S2-09-13,S2_09,Second Grade,Control,2015,Pre,Matrix Reasoning,0.3888888888888889
+S2-09-13,S2_09,Second Grade,Control,2016,Post,Matrix Reasoning,0.5833333333333334
+S2-09-14,S2_09,Second Grade,Control,2016,Post,Matrix Reasoning,0.4166666666666667
+S2-09-19,S2_09,Second Grade,Control,2015,Pre,Matrix Reasoning,0.4166666666666667
+S2-09-19,S2_09,Second Grade,Control,2016,Post,Matrix Reasoning,0.5555555555555556
+S2-09-20,S2_09,Second Grade,Control,2015,Pre,Matrix Reasoning,0.4166666666666667
+S2-09-20,S2_09,Second Grade,Control,2016,Post,Matrix Reasoning,0.4722222222222222
+S2-10-02,S2_10,Second Grade,Control,2015,Pre,Matrix Reasoning,0.4166666666666667
+S2-10-02,S2_10,Second Grade,Control,2016,Post,Matrix Reasoning,0.5833333333333334
+S2-10-03,S2_10,Second Grade,Control,2015,Pre,Matrix Reasoning,0.4166666666666667
+S2-10-03,S2_10,Second Grade,Control,2016,Post,Matrix Reasoning,0.4722222222222222
+S2-10-05,S2_10,Second Grade,Control,2015,Pre,Matrix Reasoning,0.1388888888888889
+S2-10-05,S2_10,Second Grade,Control,2016,Post,Matrix Reasoning,0.4166666666666667
+S2-10-10,S2_10,Second Grade,Control,2015,Pre,Matrix Reasoning,0.25
+S2-10-10,S2_10,Second Grade,Control,2016,Post,Matrix Reasoning,0.5
+S2-10-11,S2_10,Second Grade,Control,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-10-11,S2_10,Second Grade,Control,2016,Post,Matrix Reasoning,0.4722222222222222
+S2-10-13,S2_10,Second Grade,Control,2015,Pre,Matrix Reasoning,0.5833333333333334
+S2-10-13,S2_10,Second Grade,Control,2016,Post,Matrix Reasoning,0.6388888888888888
+S2-10-14,S2_10,Second Grade,Control,2015,Pre,Matrix Reasoning,0.3333333333333333
+S2-10-14,S2_10,Second Grade,Control,2016,Post,Matrix Reasoning,0.2777777777777778
+S2-10-15,S2_10,Second Grade,Control,2015,Pre,Matrix Reasoning,0.25
+S2-10-15,S2_10,Second Grade,Control,2016,Post,Matrix Reasoning,0.5277777777777778
+S2-10-17,S2_10,Second Grade,Control,2015,Pre,Matrix Reasoning,0.19444444444444445
+S2-10-18,S2_10,Second Grade,Control,2015,Pre,Matrix Reasoning,0.3333333333333333
+S2-10-18,S2_10,Second Grade,Control,2016,Post,Matrix Reasoning,0.5555555555555556
+S2-10-20,S2_10,Second Grade,Control,2015,Pre,Matrix Reasoning,0.3888888888888889
+S2-10-20,S2_10,Second Grade,Control,2016,Post,Matrix Reasoning,0.2777777777777778
+S2-13-01,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-13-01,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.6111111111111112
+S2-13-02,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.25
+S2-13-02,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.19444444444444445
+S2-13-04,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.3611111111111111
+S2-13-04,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.5277777777777778
+S2-13-05,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.4444444444444444
+S2-13-05,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.5833333333333334
+S2-13-06,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-13-06,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.19444444444444445
+S2-13-09,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.2222222222222222
+S2-13-09,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.3055555555555556
+S2-13-12,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.3333333333333333
+S2-13-12,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.25
+S2-13-15,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.08333333333333333
+S2-13-15,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.5277777777777778
+S2-13-18,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.08333333333333333
+S2-13-18,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.2222222222222222
+S2-13-19,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-13-19,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.3888888888888889
+S2-13-20,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.16666666666666666
+S2-13-20,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.6944444444444444
+S2-13-21,S2_13,Second Grade,Control,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-13-21,S2_13,Second Grade,Control,2016,Post,Matrix Reasoning,0.4166666666666667
+S2-15-01,S2_15,Second Grade,Control,2015,Pre,Matrix Reasoning,0.5277777777777778
+S2-16-01,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.6111111111111112
+S2-16-05,S2_16,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2777777777777778
+S2-16-05,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.2777777777777778
+S2-16-07,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.16666666666666666
+S2-16-08,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.6111111111111112
+S2-16-09,S2_16,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.25
+S2-16-09,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4444444444444444
+S2-16-11,S2_16,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2777777777777778
+S2-16-11,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5
+S2-16-13,S2_16,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.4444444444444444
+S2-16-14,S2_16,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-16-14,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.2222222222222222
+S2-16-15,S2_16,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-16-15,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.6111111111111112
+S2-16-17,S2_16,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S2-16-17,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.19444444444444445
+S2-16-18,S2_16,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-16-18,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3611111111111111
+S2-16-19,S2_16,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.25
+S2-16-19,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3333333333333333
+S2-16-20,S2_16,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-16-20,S2_16,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3611111111111111
+S2-17-02,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.16666666666666666
+S2-17-02,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3055555555555556
+S2-17-03,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.4722222222222222
+S2-17-03,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.2222222222222222
+S2-17-04,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2777777777777778
+S2-17-04,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4444444444444444
+S2-17-05,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.5
+S2-17-05,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5555555555555556
+S2-17-06,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3888888888888889
+S2-17-06,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5
+S2-17-07,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.4722222222222222
+S2-17-07,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5
+S2-17-08,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.5277777777777778
+S2-17-08,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5833333333333334
+S2-17-09,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-17-09,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5
+S2-17-10,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.08333333333333333
+S2-17-10,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3611111111111111
+S2-17-11,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.5277777777777778
+S2-17-11,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5833333333333334
+S2-17-12,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1388888888888889
+S2-17-12,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4444444444444444
+S2-17-13,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.08333333333333333
+S2-17-13,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5277777777777778
+S2-17-14,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3055555555555556
+S2-17-14,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4444444444444444
+S2-17-15,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-17-15,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.6388888888888888
+S2-17-16,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.16666666666666666
+S2-17-16,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.19444444444444445
+S2-17-17,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3611111111111111
+S2-17-17,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3611111111111111
+S2-17-19,S2_17,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.4722222222222222
+S2-17-19,S2_17,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5
+S2-18-01,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3055555555555556
+S2-18-01,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5
+S2-18-02,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.4444444444444444
+S2-18-02,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5833333333333334
+S2-18-06,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S2-18-06,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1111111111111111
+S2-18-07,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S2-18-07,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4722222222222222
+S2-18-09,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.5555555555555556
+S2-18-09,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.16666666666666666
+S2-18-10,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-18-10,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1111111111111111
+S2-18-11,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3611111111111111
+S2-18-11,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3888888888888889
+S2-18-12,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.08333333333333333
+S2-18-12,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1388888888888889
+S2-18-13,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.5555555555555556
+S2-18-13,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.5833333333333334
+S2-18-15,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3611111111111111
+S2-18-15,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.3055555555555556
+S2-18-16,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.2222222222222222
+S2-18-16,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.1388888888888889
+S2-18-17,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-18-17,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.2777777777777778
+S2-18-19,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.1111111111111111
+S2-18-19,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.6388888888888888
+S2-18-20,S2_18,Second Grade,Mental Abacus,2015,Pre,Matrix Reasoning,0.3888888888888889
+S2-18-20,S2_18,Second Grade,Mental Abacus,2016,Post,Matrix Reasoning,0.4166666666666667
+S2-19-01,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.2222222222222222
+S2-19-01,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.3611111111111111
+S2-19-03,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.2222222222222222
+S2-19-03,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.1111111111111111
+S2-19-04,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.16666666666666666
+S2-19-04,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.4722222222222222
+S2-19-05,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.16666666666666666
+S2-19-05,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.3333333333333333
+S2-19-06,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.25
+S2-19-06,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.2777777777777778
+S2-19-07,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.16666666666666666
+S2-19-07,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.3055555555555556
+S2-19-08,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.2222222222222222
+S2-19-08,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.4444444444444444
+S2-19-09,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.3611111111111111
+S2-19-09,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.3611111111111111
+S2-19-11,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.3055555555555556
+S2-19-11,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.2777777777777778
+S2-19-12,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.3888888888888889
+S2-19-12,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.5555555555555556
+S2-19-13,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.4722222222222222
+S2-19-13,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.3611111111111111
+S2-19-14,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.2222222222222222
+S2-19-14,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.25
+S2-19-18,S2_19,Second Grade,Control,2015,Pre,Matrix Reasoning,0.027777777777777776
+S2-19-18,S2_19,Second Grade,Control,2016,Post,Matrix Reasoning,0.25
+S1-02-02,S1_02,First Grade,Control,2015,Pre,Spatial WM,0.29565217391304344
+S1-02-03,S1_02,First Grade,Control,2015,Pre,Spatial WM,0.18333333333333332
+S1-02-03,S1_02,First Grade,Control,2016,Post,Spatial WM,0.2125
+S1-02-08,S1_02,First Grade,Control,2015,Pre,Spatial WM,0.1625
+S1-02-08,S1_02,First Grade,Control,2016,Post,Spatial WM,0.1375
+S1-02-15,S1_02,First Grade,Control,2016,Post,Spatial WM,0.32916666666666666
+S1-02-17,S1_02,First Grade,Control,2015,Pre,Spatial WM,0.15
+S1-02-17,S1_02,First Grade,Control,2016,Post,Spatial WM,0.4375
+S1-03-04,S1_03,First Grade,Mental Abacus,2016,Post,Spatial WM,0.4291666666666667
+S1-03-05,S1_03,First Grade,Mental Abacus,2016,Post,Spatial WM,0.5208333333333333
+S1-03-06,S1_03,First Grade,Mental Abacus,2016,Post,Spatial WM,0.4894736842105263
+S1-03-09,S1_03,First Grade,Mental Abacus,2016,Post,Spatial WM,0.19166666666666668
+S1-03-14,S1_03,First Grade,Mental Abacus,2016,Post,Spatial WM,0.35833333333333334
+S1-03-15,S1_03,First Grade,Mental Abacus,2016,Post,Spatial WM,0.2791666666666667
+S1-04-01,S1_04,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.4375
+S1-04-01,S1_04,First Grade,Mental Abacus,2016,Post,Spatial WM,0.35833333333333334
+S1-04-03,S1_04,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.34375
+S1-04-03,S1_04,First Grade,Mental Abacus,2016,Post,Spatial WM,0.45
+S1-04-04,S1_04,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.24166666666666664
+S1-04-04,S1_04,First Grade,Mental Abacus,2016,Post,Spatial WM,0.5599999999999999
+S1-04-07,S1_04,First Grade,Mental Abacus,2015,Pre,Spatial WM,NA
+S1-04-07,S1_04,First Grade,Mental Abacus,2016,Post,Spatial WM,0.3625
+S1-04-08,S1_04,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.275
+S1-04-08,S1_04,First Grade,Mental Abacus,2016,Post,Spatial WM,0.43125
+S1-04-11,S1_04,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.14166666666666666
+S1-04-11,S1_04,First Grade,Mental Abacus,2016,Post,Spatial WM,0.325531914893617
+S1-04-17,S1_04,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.4117647058823529
+S1-04-17,S1_04,First Grade,Mental Abacus,2016,Post,Spatial WM,0.5083333333333333
+S1-04-18,S1_04,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.34090909090909094
+S1-04-18,S1_04,First Grade,Mental Abacus,2016,Post,Spatial WM,0.5777777777777777
+S1-07-02,S1_07,First Grade,Control,2015,Pre,Spatial WM,0.16666666666666669
+S1-07-02,S1_07,First Grade,Control,2016,Post,Spatial WM,0.2375
+S1-07-05,S1_07,First Grade,Control,2016,Post,Spatial WM,0.13333333333333333
+S1-07-06,S1_07,First Grade,Control,2015,Pre,Spatial WM,0.12083333333333332
+S1-07-08,S1_07,First Grade,Control,2015,Pre,Spatial WM,0.35416666666666663
+S1-07-11,S1_07,First Grade,Control,2015,Pre,Spatial WM,0.27999999999999997
+S1-07-11,S1_07,First Grade,Control,2016,Post,Spatial WM,0.6599999999999999
+S1-07-15,S1_07,First Grade,Control,2015,Pre,Spatial WM,0.27083333333333337
+S1-07-18,S1_07,First Grade,Control,2015,Pre,Spatial WM,0.30833333333333335
+S1-07-18,S1_07,First Grade,Control,2016,Post,Spatial WM,0.38636363636363635
+S1-07-20,S1_07,First Grade,Control,2015,Pre,Spatial WM,0.6235294117647059
+S1-07-20,S1_07,First Grade,Control,2016,Post,Spatial WM,0.5947368421052632
+S1-07-23,S1_07,First Grade,Control,2015,Pre,Spatial WM,0.5631578947368421
+S1-09-01,S1_09,First Grade,Control,2015,Pre,Spatial WM,0.22916666666666666
+S1-09-01,S1_09,First Grade,Control,2016,Post,Spatial WM,0.2125
+S1-09-05,S1_09,First Grade,Control,2015,Pre,Spatial WM,0.3227272727272727
+S1-09-05,S1_09,First Grade,Control,2016,Post,Spatial WM,0.14166666666666666
+S1-09-06,S1_09,First Grade,Control,2015,Pre,Spatial WM,0.30434782608695654
+S1-09-06,S1_09,First Grade,Control,2016,Post,Spatial WM,0.4230769230769231
+S1-09-07,S1_09,First Grade,Control,2015,Pre,Spatial WM,0.34545454545454546
+S1-09-07,S1_09,First Grade,Control,2016,Post,Spatial WM,0.27083333333333337
+S1-09-11,S1_09,First Grade,Control,2015,Pre,Spatial WM,0.2875
+S1-09-11,S1_09,First Grade,Control,2016,Post,Spatial WM,0.5428571428571429
+S1-09-18,S1_09,First Grade,Control,2016,Post,Spatial WM,0.4833333333333333
+S1-09-19,S1_09,First Grade,Control,2015,Pre,Spatial WM,0.2936170212765957
+S1-09-19,S1_09,First Grade,Control,2016,Post,Spatial WM,0.3
+S1-10-01,S1_10,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.2791666666666667
+S1-10-01,S1_10,First Grade,Mental Abacus,2016,Post,Spatial WM,0.36666666666666664
+S1-10-02,S1_10,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.19166666666666668
+S1-10-02,S1_10,First Grade,Mental Abacus,2016,Post,Spatial WM,0.29166666666666663
+S1-10-06,S1_10,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.1625
+S1-10-06,S1_10,First Grade,Mental Abacus,2016,Post,Spatial WM,0.3761904761904762
+S1-10-07,S1_10,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.4208333333333333
+S1-10-07,S1_10,First Grade,Mental Abacus,2016,Post,Spatial WM,0.5826086956521739
+S1-10-08,S1_10,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.30416666666666664
+S1-10-08,S1_10,First Grade,Mental Abacus,2016,Post,Spatial WM,0.325
+S1-10-09,S1_10,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.32916666666666666
+S1-10-09,S1_10,First Grade,Mental Abacus,2016,Post,Spatial WM,0.325
+S1-10-12,S1_10,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.23333333333333334
+S1-10-12,S1_10,First Grade,Mental Abacus,2016,Post,Spatial WM,0.33181818181818185
+S1-10-13,S1_10,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.74
+S1-10-13,S1_10,First Grade,Mental Abacus,2016,Post,Spatial WM,0.61
+S1-10-16,S1_10,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.39166666666666666
+S1-11-01,S1_11,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.44000000000000006
+S1-11-01,S1_11,First Grade,Mental Abacus,2016,Post,Spatial WM,0.3416666666666667
+S1-11-02,S1_11,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.2875
+S1-11-02,S1_11,First Grade,Mental Abacus,2016,Post,Spatial WM,0.275
+S1-11-03,S1_11,First Grade,Mental Abacus,2015,Pre,Spatial WM,NA
+S1-11-03,S1_11,First Grade,Mental Abacus,2016,Post,Spatial WM,0.32916666666666666
+S1-11-04,S1_11,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.2
+S1-11-04,S1_11,First Grade,Mental Abacus,2016,Post,Spatial WM,0.28181818181818186
+S1-11-09,S1_11,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.46818181818181814
+S1-11-09,S1_11,First Grade,Mental Abacus,2016,Post,Spatial WM,0.63
+S1-11-10,S1_11,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.38333333333333336
+S1-11-10,S1_11,First Grade,Mental Abacus,2016,Post,Spatial WM,0.38333333333333336
+S1-11-11,S1_11,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.21666666666666665
+S1-11-11,S1_11,First Grade,Mental Abacus,2016,Post,Spatial WM,0.509090909090909
+S1-11-17,S1_11,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.1625
+S1-11-17,S1_11,First Grade,Mental Abacus,2016,Post,Spatial WM,0.1625
+S1-12-01,S1_12,First Grade,Control,2015,Pre,Spatial WM,0.19090909090909092
+S1-12-01,S1_12,First Grade,Control,2016,Post,Spatial WM,0.325
+S1-12-02,S1_12,First Grade,Control,2016,Post,Spatial WM,0.3125
+S1-12-04,S1_12,First Grade,Control,2015,Pre,Spatial WM,0.15
+S1-12-04,S1_12,First Grade,Control,2016,Post,Spatial WM,0.19583333333333333
+S1-12-05,S1_12,First Grade,Control,2015,Pre,Spatial WM,0.2875
+S1-12-05,S1_12,First Grade,Control,2016,Post,Spatial WM,0.75
+S1-12-08,S1_12,First Grade,Control,2015,Pre,Spatial WM,0.23125
+S1-12-08,S1_12,First Grade,Control,2016,Post,Spatial WM,0.3235294117647059
+S1-12-10,S1_12,First Grade,Control,2015,Pre,Spatial WM,0.17916666666666667
+S1-12-11,S1_12,First Grade,Control,2015,Pre,Spatial WM,0.1625
+S1-12-11,S1_12,First Grade,Control,2016,Post,Spatial WM,0.12083333333333332
+S1-12-12,S1_12,First Grade,Control,2015,Pre,Spatial WM,0.29583333333333334
+S1-12-12,S1_12,First Grade,Control,2016,Post,Spatial WM,0.32291666666666663
+S1-12-13,S1_12,First Grade,Control,2015,Pre,Spatial WM,0.2125
+S1-12-15,S1_12,First Grade,Control,2015,Pre,Spatial WM,0.39166666666666666
+S1-14-01,S1_14,First Grade,Control,2015,Pre,Spatial WM,0.25416666666666665
+S1-14-01,S1_14,First Grade,Control,2016,Post,Spatial WM,0.2791666666666667
+S1-14-02,S1_14,First Grade,Control,2015,Pre,Spatial WM,0.15416666666666667
+S1-14-02,S1_14,First Grade,Control,2016,Post,Spatial WM,0.4125
+S1-14-07,S1_14,First Grade,Control,2015,Pre,Spatial WM,0.325
+S1-14-07,S1_14,First Grade,Control,2016,Post,Spatial WM,0.4166666666666667
+S1-14-09,S1_14,First Grade,Control,2015,Pre,Spatial WM,0.275
+S1-14-09,S1_14,First Grade,Control,2016,Post,Spatial WM,0.4947368421052632
+S1-14-11,S1_14,First Grade,Control,2015,Pre,Spatial WM,0.4125
+S1-14-11,S1_14,First Grade,Control,2016,Post,Spatial WM,0.4
+S1-14-12,S1_14,First Grade,Control,2015,Pre,Spatial WM,0.465
+S1-14-12,S1_14,First Grade,Control,2016,Post,Spatial WM,0.6117647058823529
+S1-14-14,S1_14,First Grade,Control,2015,Pre,Spatial WM,0.5083333333333333
+S1-14-14,S1_14,First Grade,Control,2016,Post,Spatial WM,0.2
+S1-14-15,S1_14,First Grade,Control,2015,Pre,Spatial WM,0.42105263157894735
+S1-14-15,S1_14,First Grade,Control,2016,Post,Spatial WM,0.315
+S1-14-17,S1_14,First Grade,Control,2015,Pre,Spatial WM,0.1625
+S1-14-17,S1_14,First Grade,Control,2016,Post,Spatial WM,0.26666666666666666
+S1-15-01,S1_15,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.38571428571428573
+S1-15-01,S1_15,First Grade,Mental Abacus,2016,Post,Spatial WM,0.425
+S1-15-02,S1_15,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.27083333333333337
+S1-15-02,S1_15,First Grade,Mental Abacus,2016,Post,Spatial WM,0.2909090909090909
+S1-15-04,S1_15,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.21666666666666665
+S1-15-04,S1_15,First Grade,Mental Abacus,2016,Post,Spatial WM,0.8538461538461538
+S1-15-05,S1_15,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.24705882352941178
+S1-15-05,S1_15,First Grade,Mental Abacus,2016,Post,Spatial WM,0.3375
+S1-15-08,S1_15,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.8714285714285713
+S1-15-08,S1_15,First Grade,Mental Abacus,2016,Post,Spatial WM,0.5578947368421052
+S1-15-09,S1_15,First Grade,Mental Abacus,2015,Pre,Spatial WM,NA
+S1-15-09,S1_15,First Grade,Mental Abacus,2016,Post,Spatial WM,0.19166666666666668
+S1-15-10,S1_15,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.49444444444444446
+S1-15-10,S1_15,First Grade,Mental Abacus,2016,Post,Spatial WM,0.7307692307692307
+S1-15-11,S1_15,First Grade,Mental Abacus,2015,Pre,Spatial WM,0.29166666666666663
+S1-15-11,S1_15,First Grade,Mental Abacus,2016,Post,Spatial WM,0.4541666666666667
+S2-03-01,S2_03,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.38666666666666666
+S2-03-01,S2_03,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.45652173913043476
+S2-03-02,S2_03,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.5041666666666667
+S2-03-02,S2_03,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.5
+S2-03-03,S2_03,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.1875
+S2-03-03,S2_03,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.22083333333333335
+S2-03-04,S2_03,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.275
+S2-03-04,S2_03,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.4041666666666667
+S2-03-13,S2_03,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.1125
+S2-03-13,S2_03,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.37916666666666665
+S2-03-15,S2_03,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.1125
+S2-04-01,S2_04,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.35833333333333334
+S2-04-01,S2_04,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.4625
+S2-04-05,S2_04,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.18333333333333332
+S2-04-05,S2_04,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.37083333333333335
+S2-04-07,S2_04,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.4041666666666667
+S2-04-07,S2_04,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.4791666666666667
+S2-04-08,S2_04,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.7150000000000001
+S2-04-08,S2_04,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.7722222222222223
+S2-04-09,S2_04,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.4791666666666667
+S2-04-09,S2_04,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.5590909090909091
+S2-04-10,S2_04,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.6428571428571429
+S2-04-10,S2_04,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.6
+S2-04-11,S2_04,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.3
+S2-04-11,S2_04,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.3375
+S2-04-12,S2_04,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.6157894736842106
+S2-04-12,S2_04,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.45
+S2-04-16,S2_04,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.4333333333333333
+S2-04-16,S2_04,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.4083333333333333
+S2-04-17,S2_04,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.3875
+S2-04-17,S2_04,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.4041666666666667
+S2-04-18,S2_04,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.4
+S2-04-18,S2_04,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.45
+S2-05-02,S2_05,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.26842105263157895
+S2-05-02,S2_05,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.19583333333333333
+S2-08-01,S2_08,Second Grade,Control,2015,Pre,Spatial WM,0.5130434782608695
+S2-08-01,S2_08,Second Grade,Control,2016,Post,Spatial WM,0.24166666666666664
+S2-08-03,S2_08,Second Grade,Control,2015,Pre,Spatial WM,0.13125
+S2-08-03,S2_08,Second Grade,Control,2016,Post,Spatial WM,0.2
+S2-09-05,S2_09,Second Grade,Control,2015,Pre,Spatial WM,0.5
+S2-09-05,S2_09,Second Grade,Control,2016,Post,Spatial WM,0.22083333333333335
+S2-09-07,S2_09,Second Grade,Control,2015,Pre,Spatial WM,0.2772727272727273
+S2-09-07,S2_09,Second Grade,Control,2016,Post,Spatial WM,0.225
+S2-09-08,S2_09,Second Grade,Control,2015,Pre,Spatial WM,0.3173913043478261
+S2-09-08,S2_09,Second Grade,Control,2016,Post,Spatial WM,0.3
+S2-09-10,S2_09,Second Grade,Control,2015,Pre,Spatial WM,0.5909090909090909
+S2-09-10,S2_09,Second Grade,Control,2016,Post,Spatial WM,0.4636363636363637
+S2-09-13,S2_09,Second Grade,Control,2015,Pre,Spatial WM,0.4
+S2-09-13,S2_09,Second Grade,Control,2016,Post,Spatial WM,0.4958333333333333
+S2-09-14,S2_09,Second Grade,Control,2016,Post,Spatial WM,0.4625
+S2-09-19,S2_09,Second Grade,Control,2015,Pre,Spatial WM,0.175
+S2-09-19,S2_09,Second Grade,Control,2016,Post,Spatial WM,0.5272727272727272
+S2-09-20,S2_09,Second Grade,Control,2015,Pre,Spatial WM,0.425
+S2-09-20,S2_09,Second Grade,Control,2016,Post,Spatial WM,0.47857142857142854
+S2-10-02,S2_10,Second Grade,Control,2015,Pre,Spatial WM,0.19166666666666668
+S2-10-02,S2_10,Second Grade,Control,2016,Post,Spatial WM,0.5521739130434782
+S2-10-03,S2_10,Second Grade,Control,2015,Pre,Spatial WM,0.175
+S2-10-03,S2_10,Second Grade,Control,2016,Post,Spatial WM,0.5368421052631579
+S2-10-05,S2_10,Second Grade,Control,2015,Pre,Spatial WM,0.30833333333333335
+S2-10-05,S2_10,Second Grade,Control,2016,Post,Spatial WM,0.425
+S2-10-10,S2_10,Second Grade,Control,2015,Pre,Spatial WM,0.3625
+S2-10-10,S2_10,Second Grade,Control,2016,Post,Spatial WM,0.375
+S2-10-11,S2_10,Second Grade,Control,2015,Pre,Spatial WM,0.3
+S2-10-11,S2_10,Second Grade,Control,2016,Post,Spatial WM,0.25833333333333336
+S2-10-13,S2_10,Second Grade,Control,2015,Pre,Spatial WM,0.3894736842105263
+S2-10-13,S2_10,Second Grade,Control,2016,Post,Spatial WM,0.5375
+S2-10-14,S2_10,Second Grade,Control,2015,Pre,Spatial WM,0.2875
+S2-10-14,S2_10,Second Grade,Control,2016,Post,Spatial WM,0.5166666666666667
+S2-10-15,S2_10,Second Grade,Control,2015,Pre,Spatial WM,0.4
+S2-10-15,S2_10,Second Grade,Control,2016,Post,Spatial WM,0.4208333333333333
+S2-10-17,S2_10,Second Grade,Control,2015,Pre,Spatial WM,0.4913043478260869
+S2-10-18,S2_10,Second Grade,Control,2015,Pre,Spatial WM,0.3416666666666667
+S2-10-18,S2_10,Second Grade,Control,2016,Post,Spatial WM,0.7095238095238094
+S2-10-20,S2_10,Second Grade,Control,2015,Pre,Spatial WM,0.37083333333333335
+S2-10-20,S2_10,Second Grade,Control,2016,Post,Spatial WM,0.525
+S2-13-01,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.4375
+S2-13-01,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.5416666666666667
+S2-13-02,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.30416666666666664
+S2-13-02,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.6526315789473685
+S2-13-04,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.23333333333333334
+S2-13-04,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.4043478260869565
+S2-13-05,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.16666666666666669
+S2-13-05,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.5956521739130435
+S2-13-06,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.30416666666666664
+S2-13-06,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.3695652173913043
+S2-13-09,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.4958333333333333
+S2-13-09,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.35833333333333334
+S2-13-12,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.325
+S2-13-12,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.4083333333333333
+S2-13-15,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.4041666666666667
+S2-13-15,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.4809523809523809
+S2-13-18,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.2791666666666667
+S2-13-18,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.6176470588235294
+S2-13-19,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.4428571428571429
+S2-13-19,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.3347826086956522
+S2-13-20,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.37916666666666665
+S2-13-20,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.4611111111111111
+S2-13-21,S2_13,Second Grade,Control,2015,Pre,Spatial WM,0.475
+S2-13-21,S2_13,Second Grade,Control,2016,Post,Spatial WM,0.4291666666666667
+S2-15-01,S2_15,Second Grade,Control,2015,Pre,Spatial WM,0.2125
+S2-16-01,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.45
+S2-16-05,S2_16,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.32941176470588235
+S2-16-05,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.4166666666666667
+S2-16-07,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.17083333333333334
+S2-16-08,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.49523809523809526
+S2-16-09,S2_16,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.38333333333333336
+S2-16-09,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.45
+S2-16-11,S2_16,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.3875
+S2-16-11,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.7529411764705882
+S2-16-13,S2_16,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.3625
+S2-16-14,S2_16,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.3
+S2-16-14,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.32916666666666666
+S2-16-15,S2_16,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.5818181818181818
+S2-16-15,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.5782608695652174
+S2-16-17,S2_16,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.15
+S2-16-17,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.39166666666666666
+S2-16-18,S2_16,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.16666666666666669
+S2-16-18,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.30833333333333335
+S2-16-19,S2_16,Second Grade,Mental Abacus,2015,Pre,Spatial WM,NA
+S2-16-19,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.5782608695652174
+S2-16-20,S2_16,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.31666666666666665
+S2-16-20,S2_16,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.45
+S2-17-02,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.275
+S2-17-02,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.4583333333333333
+S2-17-03,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.32916666666666666
+S2-17-03,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.65
+S2-17-04,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.29166666666666663
+S2-17-04,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.29375
+S2-17-05,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.6352941176470588
+S2-17-05,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.42727272727272725
+S2-17-06,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.40476190476190477
+S2-17-06,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.46521739130434786
+S2-17-07,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.25833333333333336
+S2-17-07,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.5375
+S2-17-08,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.4913043478260869
+S2-17-08,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.5083333333333333
+S2-17-09,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.4041666666666667
+S2-17-09,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.4291666666666667
+S2-17-10,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.19166666666666668
+S2-17-10,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.4
+S2-17-11,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.2791666666666667
+S2-17-11,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.45
+S2-17-12,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.33333333333333337
+S2-17-12,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.5
+S2-17-13,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.31052631578947365
+S2-17-13,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.45999999999999996
+S2-17-14,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.4
+S2-17-14,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.24166666666666664
+S2-17-15,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.5391304347826087
+S2-17-15,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.4833333333333333
+S2-17-16,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.325
+S2-17-16,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.1875
+S2-17-17,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.4208333333333333
+S2-17-17,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.6055555555555555
+S2-17-19,S2_17,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.2
+S2-17-19,S2_17,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.33571428571428574
+S2-18-01,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.30416666666666664
+S2-18-01,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.5473684210526316
+S2-18-02,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.7055555555555555
+S2-18-02,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.6173913043478261
+S2-18-06,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.20833333333333334
+S2-18-06,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.21000000000000002
+S2-18-07,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.23043478260869565
+S2-18-07,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.16666666666666669
+S2-18-09,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.20833333333333334
+S2-18-09,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.28823529411764703
+S2-18-10,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.15555555555555556
+S2-18-10,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.24583333333333335
+S2-18-11,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.3375
+S2-18-11,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.38571428571428573
+S2-18-12,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.30833333333333335
+S2-18-12,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.725
+S2-18-13,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.35416666666666663
+S2-18-13,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.5583333333333333
+S2-18-15,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.5857142857142856
+S2-18-15,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.6833333333333333
+S2-18-16,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.39166666666666666
+S2-18-16,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.47619047619047616
+S2-18-17,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.4045454545454546
+S2-18-17,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.6478260869565218
+S2-18-19,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.5136363636363637
+S2-18-19,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.38823529411764707
+S2-18-20,S2_18,Second Grade,Mental Abacus,2015,Pre,Spatial WM,0.4416666666666667
+S2-18-20,S2_18,Second Grade,Mental Abacus,2016,Post,Spatial WM,0.4416666666666667
+S2-19-01,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.40869565217391307
+S2-19-01,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.37083333333333335
+S2-19-03,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.4818181818181818
+S2-19-03,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.4958333333333333
+S2-19-04,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.24166666666666664
+S2-19-04,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.4875
+S2-19-05,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.5285714285714286
+S2-19-05,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.28823529411764703
+S2-19-06,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.2375
+S2-19-06,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.5476190476190477
+S2-19-07,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.5888888888888889
+S2-19-07,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.29583333333333334
+S2-19-08,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.5875
+S2-19-08,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.4333333333333333
+S2-19-09,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.25833333333333336
+S2-19-09,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.475
+S2-19-11,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.43684210526315786
+S2-19-11,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.42000000000000004
+S2-19-12,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.26875
+S2-19-12,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.275
+S2-19-13,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.4045454545454546
+S2-19-13,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.4041666666666667
+S2-19-14,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.135
+S2-19-14,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.24583333333333335
+S2-19-18,S2_19,Second Grade,Control,2015,Pre,Spatial WM,0.20833333333333334
+S2-19-18,S2_19,Second Grade,Control,2016,Post,Spatial WM,0.35
