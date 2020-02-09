@@ -3,7 +3,6 @@
 .RData
 .Ruserdata
 blogdown/
-public/
 private/
 .DS_Store
 *~*.pptx

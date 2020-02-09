@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en-us"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Molly Lewis">
+    <meta name="description" content="">
+
+    <meta name="twitter:card" value="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="Assignment 0: Intro to R and RStudio | 85311: Modern Research Methods:">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image" content="/noun_Graph_963326.png">
+    <meta name="twitter:description" content="" />
+
+    <meta property="og:site_name" content="85311: Modern Research Methods:"/>
+    <meta property="og:title" content="Assignment 0: Intro to R and RStudio | 85311: Modern Research Methods:">
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="" />
+    <meta property="og:url" content="/" />
+    <meta property="og:image" content="/noun_Graph_963326.png">
+    <meta property="og:description" content="" />
+
+    <meta name="generator" content="Hugo 0.57.2" />    
+
+    <title>Assignment 0: Intro to R and RStudio | 85311: Modern Research Methods:</title>
+    <link rel="canonical" href="/assignment/a0/00_mrm_assignment.knit/">
+    <link href="/theme/css/tufte.css" rel="stylesheet">
+    <link href="/theme/css/latex.css" rel="stylesheet">
+    <link href="/theme/css/custom.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        .wrap a, .wrap a:visited {
+            color: #E50000;
+        }
+
+        .wrap a:hover {
+            color: #D08770;
+        }
+
+        .wrap p > a {
+            color: #E50000;
+        }
+
+        article .sidenote-number:after, article .sidenote:before {
+            color: #E50000;
+        }
+
+        article .sidenote:before {
+            color: #E50000;
+        }
+
+        @media (max-width: 760px) {
+            label.margin-toggle:not(.sidenote-number) {
+                color: #E50000;
+            }
+        }
+
+        .contrast a, .contrast a:visited {
+            color: #E50000; 
+        }
+
+        header > nav a {
+            color: #E50000;
+        }
+
+        .credits a {
+            color: #E50000;
+        }
+
+        .wrap .tag {
+            background: #E50000;
+        }
+    </style>
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="85311: Modern Research Methods:"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/images/mstile-144x144.png" />
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600|Archivo:400" rel="stylesheet"> 
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+<div class="wrap">
+    <header>
+        <nav class="group logo-wrap">
+            
+            <h1 class="websitetitle"><a href="/">85311 Modern Research Methods:<br> Cumulative Science, Big Data, and Meta-Analysis</a> </h1>
+
+
+        </nav>
+        <nav class="bottom-group">
+            
+            <a href="/syllabus/">Syllabus</a>
+            
+            <a href="/schedule/">Schedule</a>
+            
+            <a href="/resources/">Resources</a>
+            
+            <a href="https://rstudio.cloud">RStudio.cloud</a>
+            
+        </nav>
+    </header>
+
+
+    <article class="group">
+    <h1>Assignment 0: Intro to R and RStudio</h1>
+
+    
+    <p class="page-date">Due by <strong>11:59 PM</strong> on Sunday, December 31, 0000</p>
+    
+    
+    
+
+<p><br>
+<br>
+<div id="boxedtext"></p>
+
+<p><font size="4"> <strong>Objectives</strong> </font></p>
+
+<p>By the end of this assignment, you should:</p>
+
+<ul>
+<li>understand how to interact with Rstudio</li>
+<li>know the parts of a R Markdown file and how to knit</li>
+<li>know how to submit an assignment.</li>
+<li>understand how to load a package.</li>
+<li>understand how to read a help file.</li>
+<li>understand some basic R commands
+</div></li>
+</ul>
+
+<p>There are 10 simple exercises in this lab. The goal is to turn in this assignment at the end of lab today.</p>
+
+<h2 id="getting-started-with-r">Getting started with R</h2>
+
+<p>The goal of this lab is to introduce you to R and RStudio, which you&rsquo;ll be using
+throughout the course both to learn the statistical concepts discussed in the
+course and to analyze real data and come to informed conclusions. To clarify
+which is which: R is the name of the programming language itself and RStudio
+is a convenient interface. RStudio <em>Cloud</em> is just a verion of Rstudio that exists online.</p>
+
+<p>As the assignments progress, you are encouraged to explore beyond what the assignments dictate;
+a willingness to experiment will make you a much better programmer. Before we
+get to that stage, however, you need to build some basic fluency in R. Today we
+begin with the fundamental building blocks of R and RStudio: the interface,
+reading in data, and basic commands.</p>
+
+<p>In RStudio, the panel on the lower left is where the action happens. It&rsquo;s called the <em>console</em>.
+Everytime you launch RStudio, it will have the same text at the top of the
+console telling you the version of R that you&rsquo;re running. Below that information
+is the <em>prompt</em>. As its name suggests, this prompt is really a request: a
+request for a command. Initially, interacting with R is all about typing commands
+and interpreting the output. These commands and their syntax have evolved over
+decades (literally) and now provide what many users feel is a fairly natural way
+to access data and organize, describe, and invoke statistical computations.</p>
+
+<h3 id="creating-a-reproducible-report">Creating a reproducible report</h3>
+
+<p>We will be using a markdown language, R Markdown, to type up the  assignment This allows you to complete your report entirely in RStudio as well as ensuring reproducibility of your analysis and results.</p>
+
+<p>An R Markdown document has three main parts:</p>
+
+<p><strong>Header</strong>: Contains some information about the current report (&ldquo;metadata&rdquo;). It&rsquo;s everything between the sets of three dash marks at the top of this file (lines 1-13).</p>
+
+<p>__Plain Text __: Narrative text describing your analysis.</p>
+
+<p><strong>R chunks</strong>: These are sections where you can run R code. An R chunk starts with three tick marks followed by {r} and ends with three tick marks. In these chunks, you can run any sort of R code. You can run a chunk by:</p>
+
+<ul>
+<li>clicking on the green arrow at the top right of the code chunk in the R Markdown (Rmd)
+file, or</li>
+<li>putting your curser in the chunk, and hitting <code>Ctrl-Shift-Enter</code>, or</li>
+<li>typing the code in the console.</li>
+</ul>
+
+<p>(1) Try running this R chunk below</p>
+
+<pre><code class="language-r">365 * 112
+</code></pre>
+
+<p>R markdown files usually have a header at the top followed by a mix of plain text and R chunks. What&rsquo;s really useful about R markdown files is it allows you to turn your <code>.Rmd</code> file into a pretty report. Turning your <code>.Rmd</code> file into a pretty report is called &ldquo;knitting.&rdquo;</p>
+
+<p>(1) To knit your file click the <em>Knit</em> button at the top of Rstudio (with the yarn symbol).  Try knitting this file now.</p>
+
+<p>You should see a new window pop up that shows the pretty knitted version. The pretty knitted version is actually a separate file that ends in <code>.html</code>. If you look in the bottom right Files section of RStudio you should see a new file called <code>MRM_assignment_0.html</code>.</p>
+
+<p>(1) Before you keep going, type your name in the &ldquo;author:&rdquo; field in the header section at the top of this file (<code>.Rmd</code>). Then click on <em>Knit</em> and you&rsquo;ll see your document in a
+new pop-up window. Try re-knitting to see the change now.</p>
+
+<p>To complete the assignment, spaces are provided for you to enter R code chunks. Going forward you should refrain from typing your code directly in the console, and
+instead type any code (final correct answer, or anything you&rsquo;re just trying out) in
+the R Markdown file and run the chunk.</p>
+
+<p>For each assignment, you will turn in two files: the edited <code>.Rmd</code> file and the corresponding <code>.html</code> file (for this assignment it would be <code>MRM_assignment_0.Rmd</code> and <code>MRM_assignment_0.html</code>). To turn the assignment in, you select the check box next to the file name in the Files panel in the lower right corner of RStudio. Then go to <code>More</code> -&gt; <code>Export</code>-&gt; <code>Download</code> to download the file. You&rsquo;ll have to do this for BOTH the <code>.Rmd</code> file and the <code>.html</code> file.</p>
+
+<p><a href="https://youtu.be/lNWVQ2oxNho"><strong>Why use R Markdown for Lab Reports?</strong></a>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lNWVQ2oxNho" frameborder="0" allowfullscreen></iframe></p>
+
+<p>There are lots of more advanced features of rmarkdown. If you&rsquo;d like to learn more about them, this  <a href="https://rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf">cheatsheat</a> provides a useful summary.</p>
+
+<h3 id="r-packages">R Packages</h3>
+
+<p>R is an open-source programming language, meaning that users can contribute
+packages that make our lives easier, and we can use them for free. For this assignment,
+and  others in the future, we will use the following R package:</p>
+
+<ul>
+<li><em>tidyverse</em>: an ecosystem of packages designed for working with and presenting data</li>
+</ul>
+
+<p>Note that you can check to see which packages (and which versions) are installed by
+inspecting the <em>Packages</em> tab in the lower right panel of RStudio.</p>
+
+<p>You need to load these packages in your working environment. We do this with
+the <code>library</code> function. Run the following lines in your console.</p>
+
+<pre><code class="language-r">library(tidyverse)
+</code></pre>
+
+<p>You can find out more about the packages that make up the <code>tidyverse</code> at <a href="http://tidyverse.org/">http://tidyverse.org/</a>.</p>
+
+<h2 id="exploring-data-in-r">Exploring data in R</h2>
+
+<h3 id="dr-arbuthnot-s-baptism-records">Dr. Arbuthnot&rsquo;s Baptism Records</h3>
+
+<p>To get you started working with data in R, run the following command to load the data.</p>
+
+<pre><code class="language-r">arbuthnot &lt;- read_csv(&quot;data/arbuthnot.csv&quot;)
+</code></pre>
+
+<p>You can do this by</p>
+
+<ul>
+<li>clicking on the green arrow at the top right of the code chunk in the R Markdown (Rmd)
+file, or</li>
+<li>putting your curser in the chunk, and hitting <code>Ctrl-Shift-Enter</code>, or</li>
+<li>typing the code in the console.</li>
+</ul>
+
+<p>This command instructs R to load some data:
+the Arbuthnot baptism counts for boys and girls. You should see that the
+workspace area in the upper righthand corner of the RStudio window now lists a
+data set called <code>arbuthnot</code> that has 82 observations on 3 variables. As you
+interact with R, you will create a series of objects. Sometimes you load them as
+we have done here, and sometimes you create them yourself as the byproduct of a
+computation or some analysis you have performed.</p>
+
+<p>The Arbuthnot data set refers to Dr. John Arbuthnot, an 18<sup>th</sup> century
+physician, writer, and mathematician. He was interested in the ratio of newborn
+boys to newborn girls, so he gathered the baptism records for children born in
+London for every year from 1629 to 1710. We can view the data by
+typing its name into the console.</p>
+
+<pre><code class="language-r">arbuthnot
+</code></pre>
+
+<p>However printing the whole dataset in the console is not that useful.
+One advantage of RStudio is that it comes with a built-in data viewer. Click on
+the name <code>arbuthnot</code> in the <em>Environment</em> pane (upper right window) that lists
+the objects in your workspace. This will bring up an alternative display of the
+data set in the <em>Data Viewer</em> (upper left window). You can close the data viewer
+by clicking on the <code>x</code> in the upper lefthand corner.</p>
+
+<p>What you should see are four columns of numbers, each row representing a
+different year: the first entry in each row is simply the row number (an index
+we can use to access the data from individual years if we want), the second is
+the year, and the third and fourth are the numbers of boys and girls baptized
+that year, respectively. Use the scrollbar on the right side of the console
+window to examine the complete data set.</p>
+
+<p>Note that the row numbers in the first column are not part of Arbuthnot&rsquo;s data.
+R adds them as part of its printout to help you make visual comparisons. You can
+think of them as the index that you see on the left side of a spreadsheet. In
+fact, the comparison to a spreadsheet will generally be helpful. R has stored
+Arbuthnot&rsquo;s data in a kind of spreadsheet or table called a <em>data frame</em>.</p>
+
+<p>You can see the dimensions of this data frame as well as the names of the variables
+and the first few observations by typing:</p>
+
+<pre><code class="language-r">glimpse(arbuthnot)
+</code></pre>
+
+<p>This command should output the following</p>
+
+<pre><code>## Observations: 82
+## Variables: 3
+## $ year  &lt;dbl&gt; 1629, 1630, 1631, 1632, 1633, 1634, 1635, 1636, 1637, 1638…
+## $ boys  &lt;dbl&gt; 5218, 4858, 4422, 4994, 5158, 5035, 5106, 4917, 4703, 5359…
+## $ girls &lt;dbl&gt; 4683, 4457, 4102, 4590, 4839, 4820, 4928, 4605, 4457, 4952…
+</code></pre>
+
+<p>We can see that there are 82 observations and 3 variables in this dataset. The variable names are <code>year</code>, <code>boys</code>, and <code>girls</code>. At this point, you might notice
+that many of the commands in R look a  lot like functions from math class; that
+is, invoking R commands means supplying a function with some number of arguments.
+The <code>glimpse</code> command, for example, took a single argument, the name of a data frame.</p>
+
+<h3 id="working-with-the-data">Working with the data</h3>
+
+<p>Let&rsquo;s start to examine the data a little more closely. We can access the data in
+a single column of a data frame separately using a command like</p>
+
+<pre><code class="language-r">arbuthnot$boys
+</code></pre>
+
+<p>This command will only show the number of boys baptized each year. The dollar
+sign basically says &ldquo;go to the data frame that comes before me, and find the
+variable that comes after me&rdquo;.</p>
+
+<ol>
+<li>What command would you use to extract just the counts of girls baptized? Try
+it!
+<br /></li>
+</ol>
+
+<p>Notice that the way R has printed these data is different. When we looked at the
+complete data frame, we saw 82 rows, one on each line of the display. These data
+are no longer structured in a table with other variables, so they are displayed
+one right after another. Objects that print out in this way are called <em>vectors</em>;
+they represent a set of numbers. R has added numbers in [brackets] along the left
+side of the printout to indicate locations within the vector. For example, 5218
+follows [1], indicating that 5218 is the first entry in the vector. And if [43]
+starts a line, then that would mean the first number on that line would represent
+the 43rd entry in the vector. To see the nth value of <code>arbuthnot$boys</code>, type <code>arbuthnot$boys[n]</code>, replacing n with the value you are interested in.</p>
+
+<p>(1) What is the value of the 43rd entry of <code>arbuthnot$boys</code>.</p>
+
+<p>Now, suppose we want to plot the total number of baptisms. To compute this, we
+could use the fact that R is really just a big calculator. We can type in
+mathematical expressions like</p>
+
+<pre><code class="language-r">5218 + 4683
+</code></pre>
+
+<p>to see the total number of baptisms in 1629. We could repeat this once for each
+year, but there is a faster way. If we add the vector for baptisms for boys to
+that of girls, R will compute sums for all years simultaneously.</p>
+
+<pre><code class="language-r">arbuthnot$boys + arbuthnot$girls
+</code></pre>
+
+<p>What you will see are 82 numbers (in that packed display, because we aren’t
+looking at a data frame here), each one representing the sum we’re after. Take a
+look at a few of them and verify that they are right.</p>
+
+<p>(1) How many TOTAL births were there in the year 1630?</p>
+
+<p>What if we wanted to know the average number of boys births in a given year? To answer this question we need a <em>function</em>. Functions  also called <em>commands</em>: Functions perform tasks in R. Functions take arguments as input and then return an output.</p>
+
+<p>For example, to calculate the average number of boy births in a given year, we can use  the function <code>mean()</code>. This function calculates the mean, or average, for a list of numbers.</p>
+
+<p>To learn about the arguments this function uses, we can look at the Help file by typing <code>?mean</code> in the console. We see that the first argument (<code>x</code>) that <code>mean</code> takes is a numeric vector.</p>
+
+<p>(1) What is the third argument to the <code>mean</code> function?</p>
+
+<p>For any given function, some arguments are required and some are optional. Arguments that have have an equals sign already have default values, and so you don&rsquo;t need to supply them. Therefore, to use the mean function you are only required to supply the first argument (<code>x</code>).</p>
+
+<p>(1) Use the mean function to calculate the average number of boy births in a given year</p>
+
+<p>We&rsquo;ll work with functions a lot throughout this course and you&rsquo;ll get lots of practice in understanding their behaviors.</p>
+
+<p>R has some powerful functions for making graphics. We&rsquo;ll spend lots of time in a few weeks on visualization. We can create a simple plot  of the number of girls baptized per year with the command</p>
+
+<pre><code class="language-r">ggplot(arbuthnot, aes(x = year, y = girls)) +
+  geom_point()
+</code></pre>
+
+<p><img src="00_MRM_assignment_files/figure-html/plot-girls-vs-year-1.png" width="672" /></p>
+
+<p>The <code>ggplot()</code> function (meaning &ldquo;grammar of graphics plot&rdquo;) is a function from the <code>tidyverse</code> package  (actually it&rsquo;s part of package <em>in</em> the tidyverse package called, ggplot2) that lets you build plots by specifying them in a grammar of graphics. Here we made a scatterplot that should appear under the <em>Plots</em> tab of the lower right panel of RStudio.</p>
+
+<p>(1) Can you make a plot of the number of boys born as a function of year?</p>
+
+<p>(1) Describe the trend in number of births of boys as a function of time.</p>
+
+<h2 id="nuts-and-bolts-of-programming">Nuts and bolts of programming</h2>
+
+<h3 id="r-syntax">R Syntax</h3>
+
+<p>As the course progresses, we&rsquo;ll learn a lot more R syntax. This <a href="https://rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf">cheatsheet</a> provides a nice overview.</p>
+
+<h3 id="messages">Errors, warnings, and messages</h3>
+
+<p>One thing that intimidates new R and RStudio users is how it reports <em>errors</em>, <em>warnings</em>, and <em>messages</em>. R reports errors, warnings, and messages in a glaring red font, which makes it seem like it is scolding you. However, seeing red text in the console is not always bad.</p>
+
+<p>R will show red text in the console pane in three different situations:</p>
+
+<ul>
+<li><strong>Errors</strong>: When the red text is a legitimate error, it will be prefaced with &ldquo;Error in…&rdquo; and will try to explain what went wrong. Generally when there&rsquo;s an error, the code will not run. For example, if you see <code>Error in ggplot(...) : could not find function &quot;ggplot&quot;</code>, it means that the <code>ggplot()</code> function is not accessible because the package that contains the function (<code>ggplot2</code>) was not loaded with <code>library(tidyverse)</code>. Thus you cannot use the <code>ggplot()</code> function without the <code>tidyverse</code> package being loaded first.</li>
+<li><strong>Warnings</strong>: When the red text is a warning, it will be prefaced with &ldquo;Warning:&rdquo; and R will try to explain why there&rsquo;s a warning. Generally your code will still work, but with some caveats. For example, yif you create a scatterplot based on a dataset where two of the rows of data have missing entries that would be needed to create points in the scatterplot, you will see this warning: <code>Warning: Removed 2 rows containing missing values (geom_point)</code>. R will still produce the scatterplot with all the remaining non-missing values, but it is warning you that two of the points aren&rsquo;t there.</li>
+<li><strong>Messages</strong>: When the red text doesn&rsquo;t start with either &ldquo;Error&rdquo; or &ldquo;Warning&rdquo;, it&rsquo;s <em>just a friendly message</em>. You&rsquo;ll see these messages when you load <em>R packages</em> in the upcoming Subsection \@ref(package-loading) or when you read data saved in spreadsheet files with the <code>read_csv()</code> function as you&rsquo;ll see in Chapter \@ref(tidy). These are helpful diagnostic messages and they don&rsquo;t stop your code from working. Additionally, you&rsquo;ll see these messages when you install packages too using <code>install.packages()</code> as discussed in Subsection \@ref(package-installation).</li>
+</ul>
+
+<p>Remember, when you see red text in the console, <em>don&rsquo;t panic</em>. It doesn&rsquo;t necessarily mean anything is wrong. Rather:</p>
+
+<ul>
+<li>If the text starts with &ldquo;Error&rdquo;, figure out what&rsquo;s causing it. <span style="color:red">Think of errors as a red traffic light: something is wrong!</span></li>
+<li>If the text starts with &ldquo;Warning&rdquo;, figure out if it&rsquo;s something to worry about. For instance, if you get a warning about missing values in a scatterplot and you know there are missing values, you&rsquo;re fine. If that&rsquo;s surprising, look at your data and see what&rsquo;s missing. <span style="color:gold">Think of warnings as a yellow traffic light: everything is working fine, but watch out/pay attention.</span></li>
+<li>Otherwise, the text is just a message. Read it, wave back at R, and thank it for talking to you. <span style="color:green">Think of messages as a green traffic light: everything is working fine and keep on going!</span></li>
+</ul>
+
+<h3 id="tips-on-learning-to-code">Tips on learning to code</h3>
+
+<p>Learning to code/program is quite similar to learning a foreign language. It can be daunting and frustrating at first. Such frustrations are common and it is normal to feel discouraged as you learn. However, just as with learning a foreign language, if you put in the effort and are not afraid to make mistakes, anybody can learn and improve.</p>
+
+<p>Here are a few useful tips to keep in mind as you learn to program:</p>
+
+<ul>
+<li><strong>Remember that computers are not actually that smart</strong>: You may think your computer or smartphone is &ldquo;smart,&rdquo; but really people spent a lot of time and energy designing them to appear &ldquo;smart.&rdquo; In reality, you have to tell a computer everything it needs to do. Furthermore, the instructions you give your computer can&rsquo;t have any mistakes in them, nor can they be ambiguous in any way.</li>
+<li><strong>Take the &ldquo;copy, paste, and tweak&rdquo; approach</strong>: Especially when you learn your first programming language or you need to understand particularly complicated code, it is often much easier to take existing code that you know works and modify it to suit your ends. This is as opposed to trying to type out the code from scratch. We call this the <em>&ldquo;copy, paste, and tweak&rdquo;</em> approach. So early on, we suggest not trying to write code from memory, but rather take existing examples we have provided you, then copy, paste, and tweak them to suit your goals. After you start feeling more confident, you can slowly move away from this approach and write code from scratch. Think of the &ldquo;copy, paste, and tweak&rdquo; approach as training wheels for a child learning to ride a bike. After getting comfortable, they won&rsquo;t need them anymore.</li>
+<li><strong>The best way to learn to code is by doing</strong>: Rather than learning to code for its own sake, we find that learning to code goes much smoother when you have a goal in mind or when you are working on a particular project, like analyzing data that you are interested in and that is important to you.</li>
+<li><strong>Practice is key</strong>:  Just as the only method to improve your foreign language skills is through lots of practice and speaking, the only method to improving your coding skills is through lots of practice. Don&rsquo;t worry, however, we&rsquo;ll give you plenty of opportunities to do so!</li>
+</ul>
+
+<hr />
+
+<div id="license">
+This lab is created and released under a 
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). This assignment is adapted from a lab created for OpenIntro by Andrew Bray and Mine &Ccedil;etinkaya-Rundel from a lab written by Mark Hansen of UCLA Statistics, and from the website  *Statistical Inference via Data Science: A ModernDive into R and the Tidyverse!* by Chester Ismay and Albert Y. Kim 
+</div>
+
+
+    </article>
+
+    <footer>
+        <hr class="slender">
+
+
+        <div class="credits">
+        <span class="credit">All content licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</span><br>
+        <span class="credit">Image credits: icon created by Shastry from Noun Project; <a href="https://www.sciencefocus.com/science/how-to-build-the-perfect-human-pyramid/">cover photo</a></span><br>
+
+        <span class="credit">This site created with an adopted version of the  <a href="https://github.com/andrewheiss/ath-tufte-hugo_18-19">  ath-tufte-hugo theme</a> (by <a href = "https://github.com/andrewheiss/econw19.classes.andrewheiss.com"> Andrew Heiss</a>) in <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> and <a href="https://gohugo.io/">Hugo</a>.</span>
+        </div>
+    </footer>
+
+    
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre']
+      },
+      "HTML-CSS": {
+        fonts: ["Asana-Math"]
+      }
+    });
+    </script>
+    <script async type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_HTMLorMML">
+    </script>
+
+
+</div>
+</body>
+</html>
+

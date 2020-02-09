@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Tips for effective data visualization</title>
+    <meta charset="utf-8" />
+    <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../slides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Tips for effective data visualization <br>
+
+---
+
+
+
+
+
+layout: true
+  
+&lt;div class="my-footer"&gt;
+&lt;span&gt;
+&lt;a href="https://datasciencebox.org/" target="_blank"&gt;datasciencebox.org
+&lt;/a&gt;
+&lt;/span&gt;
+&lt;/div&gt; 
+
+---
+
+
+
+class: center, middle
+
+# Data visualization
+
+---
+
+## What is data visualization?
+
+Anything	that	converts	data	sources	into	a	visual	representation	
+
+- charts
+- plots
+- maps
+- tables
+- etc.
+
+.footnote[
+Source: https://guides.library.duke.edu/datavis
+]
+
+---
+
+class: center, middle
+
+# Why do we visualize?
+
+---
+
+## Data: `datasaurus_dozen`
+
+Below is an exceprt from the `datasaurus_dozen` dataset:
+
+
+```
+## # A tibble: 142 x 8
+##    away_x away_y bullseye_x bullseye_y circle_x circle_y dino_x dino_y
+##     &lt;dbl&gt;  &lt;dbl&gt;      &lt;dbl&gt;      &lt;dbl&gt;    &lt;dbl&gt;    &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;
+##  1   32.3   61.4       51.2       83.3     56.0     79.3   55.4   97.2
+##  2   53.4   26.2       59.0       85.5     50.0     79.0   51.5   96.0
+##  3   63.9   30.8       51.9       85.8     51.3     82.4   46.2   94.5
+##  4   70.3   82.5       48.2       85.0     51.2     79.2   42.8   91.4
+##  5   34.1   45.7       41.7       84.0     44.4     78.2   40.8   88.3
+##  6   67.7   37.1       37.9       82.6     45.0     77.9   38.7   84.9
+##  7   53.3   97.5       39.5       80.8     48.6     78.8   35.6   79.9
+##  8   63.5   25.1       39.6       82.7     42.1     76.9   33.1   77.6
+##  9   68.0   81.0       34.8       80.0     41.0     76.4   29.0   74.5
+## 10   67.4   29.7       27.6       72.8     34.6     72.7   26.2   71.4
+## # … with 132 more rows
+```
+
+---
+
+## Summary statistics
+
+.question[
+.midi[
+Write pseudo-code for calculating the correlation of (`x`,`y`) for each of the 
+thirteen `dataset`s? Based on the summary statistics, how similar do the 
+relationships between `x` and `y` in the thirteen datasets look?
+]
+]
+
+.pull-left[
+
+```
+## # A tibble: 1,846 x 3
+##    dataset     x     y
+##    &lt;chr&gt;   &lt;dbl&gt; &lt;dbl&gt;
+##  1 dino     55.4  97.2
+##  2 dino     51.5  96.0
+##  3 dino     46.2  94.5
+##  4 dino     42.8  91.4
+##  5 dino     40.8  88.3
+##  6 dino     38.7  84.9
+##  7 dino     35.6  79.9
+##  8 dino     33.1  77.6
+##  9 dino     29.0  74.5
+## 10 dino     26.2  71.4
+## # … with 1,836 more rows
+```
+]
+--
+.pull-right[
+
+```r
+datasaurus_dozen %&gt;%
+  group_by(dataset) %&gt;%
+  summarise(r = cor(x, y))
+```
+
+```
+## # A tibble: 13 x 2
+##    dataset          r
+##    &lt;chr&gt;        &lt;dbl&gt;
+##  1 away       -0.0641
+##  2 bullseye   -0.0686
+##  3 circle     -0.0683
+##  4 dino       -0.0645
+##  5 dots       -0.0603
+##  6 h_lines    -0.0617
+##  7 high_lines -0.0685
+##  8 slant_down -0.0690
+##  9 slant_up   -0.0686
+## 10 star       -0.0630
+## 11 v_lines    -0.0694
+## 12 wide_lines -0.0666
+## 13 x_shape    -0.0656
+```
+]
+
+--
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
