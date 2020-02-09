@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en-us"
+      xmlns:og="http://ogp.me/ns#"
+      xmlns:fb="https://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Molly Lewis">
+    <meta name="description" content="">
+
+    <meta name="twitter:card" value="summary_large_image">
+    <meta name="twitter:site" content="">
+    <meta name="twitter:title" content="Assignment 0: Intro to R and RStudio | 85311: Modern Research Methods:">
+    <meta name="twitter:creator" content="">
+    <meta name="twitter:image" content="/noun_Graph_963326.png">
+    <meta name="twitter:description" content="" />
+
+    <meta property="og:site_name" content="85311: Modern Research Methods:"/>
+    <meta property="og:title" content="Assignment 0: Intro to R and RStudio | 85311: Modern Research Methods:">
+    <meta property="og:type" content="article" />
+    <meta property="article:author" content="" />
+    <meta property="og:url" content="/" />
+    <meta property="og:image" content="/noun_Graph_963326.png">
+    <meta property="og:description" content="" />
+
+    <meta name="generator" content="Hugo 0.57.2" />    
+
+    <title>Assignment 0: Intro to R and RStudio | 85311: Modern Research Methods:</title>
+    <link rel="canonical" href="/assignment/a0/00_mrm_assignment_template.utf8/">
+    <link href="/theme/css/tufte.css" rel="stylesheet">
+    <link href="/theme/css/latex.css" rel="stylesheet">
+    <link href="/theme/css/custom.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+        .wrap a, .wrap a:visited {
+            color: #E50000;
+        }
+
+        .wrap a:hover {
+            color: #D08770;
+        }
+
+        .wrap p > a {
+            color: #E50000;
+        }
+
+        article .sidenote-number:after, article .sidenote:before {
+            color: #E50000;
+        }
+
+        article .sidenote:before {
+            color: #E50000;
+        }
+
+        @media (max-width: 760px) {
+            label.margin-toggle:not(.sidenote-number) {
+                color: #E50000;
+            }
+        }
+
+        .contrast a, .contrast a:visited {
+            color: #E50000; 
+        }
+
+        header > nav a {
+            color: #E50000;
+        }
+
+        .credits a {
+            color: #E50000;
+        }
+
+        .wrap .tag {
+            background: #E50000;
+        }
+    </style>
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="/images/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="/images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/favicon-16x16.png" sizes="16x16" />
+    <meta name="application-name" content="85311: Modern Research Methods:"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="/images/mstile-144x144.png" />
+
+    
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,600|Archivo:400" rel="stylesheet"> 
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+<div class="wrap">
+    <header>
+        <nav class="group logo-wrap">
+            
+            <h1 class="websitetitle"><a href="/">85311 Modern Research Methods:<br> Cumulative Science, Big Data, and Meta-Analysis</a> </h1>
+
+
+        </nav>
+        <nav class="bottom-group">
+            
+            <a href="/syllabus/">Syllabus</a>
+            
+            <a href="/schedule/">Schedule</a>
+            
+            <a href="/resources/">Resources</a>
+            
+            <a href="https://rstudio.cloud">RStudio.cloud</a>
+            
+        </nav>
+    </header>
+
+
+    <article class="group">
+    <h1>Assignment 0: Intro to R and RStudio</h1>
+
+    
+    <p class="page-date">Due by <strong>11:59 PM</strong> on Sunday, December 31, 0000</p>
+    
+    
+    
+
+<hr />
+
+<p><strong>Load Arbuthnot data</strong></p>
+
+<pre><code class="language-r">arbuthnot &lt;- read_csv(&quot;data/arbuthnot.csv&quot;)
+</code></pre>
+
+<pre><code>## Parsed with column specification:
+## cols(
+##   year = col_double(),
+##   boys = col_double(),
+##   girls = col_double()
+## )
+</code></pre>
+
+<h2 id="exercise-4">Exercise 4:</h2>
+
+<pre><code class="language-r"># code for Exercise 4 is already entered below as an example
+arbuthnot$girls
+</code></pre>
+
+<pre><code>##  [1] 4683 4457 4102 4590 4839 4820 4928 4605 4457 4952 4784 5332 5200 4910
+## [15] 4617 3997 3919 3395 3536 3181 2746 2722 2840 2908 2959 3179 3349 3382
+## [29] 3289 3013 2781 3247 4107 4803 4881 5681 4858 4319 5322 5560 5829 5719
+## [43] 6061 6120 5822 5738 5717 5847 6203 6033 6041 6299 6533 6744 7158 7127
+## [57] 7246 7119 7214 7101 7167 7302 7392 7316 7483 6647 6713 7229 7767 7626
+## [71] 7452 7061 7514 7656 7683 5738 7779 7417 7687 7623 7380 7288
+</code></pre>
+
+<h2 id="exercise-5">Exercise 5:</h2>
+
+<pre><code class="language-r"># enter your code for Exercise 5 here
+</code></pre>
+
+<h2 id="exercise-6">Exercise 6:</h2>
+
+<pre><code class="language-r"># enter your code for Exercise 6 here
+</code></pre>
+
+<h2 id="exercise-7">Exercise 7:</h2>
+
+<p>[WRITE YOUR RESPONSE HERE TO EXERCISE 7]</p>
+
+<h2 id="exercise-8">Exercise 8:</h2>
+
+<h2 id="exercise-9">Exercise 9:</h2>
+
+<pre><code class="language-r"># enter your code for Exercise 9 here
+</code></pre>
+
+<h2 id="exercise-10">Exercise 10:</h2>
+
+<p>[WRITE YOUR RESPONSE HERE TO EXERCISE 10]</p>
+
+<hr />
+
+
+    </article>
+
+    <footer>
+        <hr class="slender">
+
+
+        <div class="credits">
+        <span class="credit">All content licensed under a <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.</span><br>
+        <span class="credit">Image credits: icon created by Shastry from Noun Project; <a href="https://www.sciencefocus.com/science/how-to-build-the-perfect-human-pyramid/">cover photo</a></span><br>
+
+        <span class="credit">This site created with an adopted version of the  <a href="https://github.com/andrewheiss/ath-tufte-hugo_18-19">  ath-tufte-hugo theme</a> (by <a href = "https://github.com/andrewheiss/econw19.classes.andrewheiss.com"> Andrew Heiss</a>) in <a href="https://bookdown.org/yihui/blogdown/">blogdown</a> and <a href="https://gohugo.io/">Hugo</a>.</span>
+        </div>
+    </footer>
+
+    
+
+</div>
+</body>
+</html>
+
