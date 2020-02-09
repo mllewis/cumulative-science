@@ -705,9 +705,9 @@ $(document).ready(function () {
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a>data_by_subject &lt;-<span class="st"> </span>me_data <span class="op">%&gt;%</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="st">  </span><span class="kw">distinct</span>(sub_id, <span class="dt">.keep_all =</span> <span class="ot">TRUE</span>) <span class="op">%&gt;%</span></span>
 <span id="cb2-3"><a href="#cb2-3"></a><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">age_years =</span> <span class="kw">as_factor</span>(age_years)) <span class="co"># as_factor() changes age_years from a numeric variable to a discrete variable</span></span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="kw">ggplot</span>(data_by_subject, </span>
-<span id="cb2-5"><a href="#cb2-5"></a>       <span class="kw">aes</span>(<span class="dt">x =</span> vocabulary_score, </span>
-<span id="cb2-6"><a href="#cb2-6"></a>           <span class="dt">group =</span> age_years, </span>
+<span id="cb2-4"><a href="#cb2-4"></a></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="kw">ggplot</span>(data_by_subject, </span>
+<span id="cb2-6"><a href="#cb2-6"></a>       <span class="kw">aes</span>(<span class="dt">x =</span> vocabulary_score, </span>
 <span id="cb2-7"><a href="#cb2-7"></a>           <span class="dt">fill =</span> age_years)) <span class="op">+</span></span>
 <span id="cb2-8"><a href="#cb2-8"></a><span class="st">  </span><span class="kw">scale_fill_discrete</span>() <span class="op">+</span></span>
 <span id="cb2-9"><a href="#cb2-9"></a><span class="st">  </span><span class="kw">geom_histogram</span>() </span></code></pre></div>
