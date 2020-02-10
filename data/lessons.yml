@@ -100,12 +100,12 @@ lessons:
   - title: "Reproducibility (and the failures)"
     notes:
     date: "Week 5 [M, 2/10]"
+    class: "MRM_slides_5a"
     reading: "05a-reading"
     hasclass: True
 
-  - title: "Reproducibility (and the failures)"
+  - title: "Reproducible workflows "
     date: "[W]"
-    note: "Skills: OSF/Github"
     reading: "05b-reading"
     hasclass: True
 
@@ -114,6 +114,7 @@ lessons:
 
   - title: "*Lab: Reproducible workflows (OSF/Github)* <br> <br>  <br>"
     date: [F]
+    note: "Skills: OSF/Github"
     reading: "05c-reading"
     hasassignment: True
     #assignment:  "04"
