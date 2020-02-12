@@ -106,6 +106,8 @@ lessons:
 
   - title: "Reproducible workflows "
     date: "[W]"
+    class: "MRM_slides_5b"
+    notes: "Skills: OSF/Github"
     reading: "05b-reading"
     hasclass: True
 
@@ -114,7 +116,6 @@ lessons:
 
   - title: "*Lab: Reproducible workflows (OSF/Github)* <br> <br>  <br>"
     date: [F]
-    note: "Skills: OSF/Github"
     reading: "05c-reading"
     hasassignment: True
     #assignment:  "04"
