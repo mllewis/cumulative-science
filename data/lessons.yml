@@ -118,6 +118,7 @@ lessons:
     date: [F]
     reading: "05c-reading"
     hasassignment: True
+    notes: <a href = "/readings/zettersten_lupyan_2020.pdf">  [Zettersten & Lupyan, 2020] </a>'
     #assignment:  "04"
 
   - title: '<span class="fake-header-table">Repeating an Experiment</span>'
