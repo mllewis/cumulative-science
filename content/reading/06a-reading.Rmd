@@ -4,8 +4,7 @@ csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
 ---
 
 # Readings for class:
-[**[link]**](http://statsthinking21.org/summarizing-data.html) @poldrack2019 Chapter 12: Sampling.
-
+[**[link]**](http://statsthinking21.org/sampling.html) @poldrack2019 Chapter 12: Sampling.
 
 
 
