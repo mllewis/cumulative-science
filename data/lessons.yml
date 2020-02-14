@@ -71,7 +71,7 @@ lessons:
     class: "MRM_slides_3c"
     hasassignment: True
     assignment:  "02"
-    notes: '<a href = "/assignment_materials/02_MRM_assignment_template.Rmd">  [A2 template] </a><a href = "/assignment_materials/data/lewis_object_complexity_norms_by_participant.csv">  [A2 data] </a>'
+    notes: '<a href = "/assignment_materials/02_MRM_assignment_template.Rmd">  [A2 template] </a><a href = "/assignment_materials/data/lewis_object_complexity_norms_by_participant.csv">  [A2 data] </a><a href = "/assignment/02_MRM_assignment_with_solutions.html">  [A2 solutions]</a>' 
     hasclass: True
 
   - title: "Visualization: Principles of data visualization"
@@ -118,7 +118,7 @@ lessons:
     date: [F]
     reading: "05c-reading"
     hasassignment: True
-    notes: <a href = "/readings/zettersten_lupyan_2020.pdf">  [Zettersten & Lupyan, 2020] </a>'
+    notes: '<a href = "/readings/zettersten_lupyan_2020.pdf">  [Zettersten & Lupyan, 2020] </a><a href = "/assignment_materials/04_MRM_assignment_template.Rmd">  [A4 template]'
     assignment:  "04"
 
   - title: '<span class="fake-header-table">Repeating an Experiment</span>'
