@@ -16,7 +16,7 @@ lessons:
     reading: "01b-reading"
 
   - title: "*Lab: Getting started with R* <br>"
-    notes: "We're in Baker 332P. Skills: Rstudio cloud, basic operations in R, loading packages,  anatomy of a help file" 
+    notes: "We're in Baker 332P. Skills: Rstudio cloud, basic operations in R, loading packages,  anatomy of a help file"
     date: [F]
     hasclass: True
     class: "MRM_slides_1c"
@@ -26,7 +26,7 @@ lessons:
 
   - title: '<span class="fake-header-table">The Single Experiment</span>'
     header: True
-    
+   
   - title: No Class (MLK)
     date: Week 2 [M, 1/20]
     hasclass: False
@@ -38,7 +38,7 @@ lessons:
     reading: "02b-reading"
     hasclass: True
 
-  - title: "*Lab: Intro to dplyr* <br> <br>  <br>" 
+  - title: "*Lab: Intro to dplyr* <br> <br>  <br>"
     date:  [F]
     reading: "02c-reading"
     class: "MRM_slides_2c"
@@ -71,7 +71,7 @@ lessons:
     class: "MRM_slides_3c"
     hasassignment: True
     assignment:  "02"
-    notes: '<a href = "/assignment_materials/02_MRM_assignment_template.Rmd">  [A2 template] </a><a href = "/assignment_materials/data/lewis_object_complexity_norms_by_participant.csv">  [A2 data] </a><a href = "/assignment/02_MRM_assignment_with_solutions.html">  [A2 solutions]</a>' 
+    notes: '<a href = "/assignment_materials/02_MRM_assignment_template.Rmd">  [A2 template] </a><a href = "/assignment_materials/data/lewis_object_complexity_norms_by_participant.csv">  [A2 data] </a><a href = "/assignment/02_MRM_assignment_with_solutions.html">  [A2 solutions]</a>'
     hasclass: True
 
   - title: "Visualization: Principles of data visualization"
@@ -91,12 +91,12 @@ lessons:
 
   - title: "*Lab: More tidyverse* <br> <br>  <br> "
     date:  [F]
-    notes: 
+    notes:
     class: "MRM_slides_4c"
     hasassignment: True
     notes: '<a href = "/assignment_materials/03_MRM_assignment_template.Rmd">  [A3 template] </a><a href = "/assignment_materials/data/tidy_me_data.csv">  [A3 data] </a> <a href = "http://www.andrew.cmu.edu/user/mollylew/papers/barner_2017.pdf">  [abacus paper] </a>'
     assignment:  "03"
-    
+   
   - title: "Reproducibility (and the failures)"
     notes:
     date: "Week 5 [M, 2/10]"
@@ -125,7 +125,7 @@ lessons:
   - title: '<span class="fake-header-table">Repeating an Experiment</span>'
     header: True
 
-  - title: "Statistical Foundations: Distributions"
+  - title: "Statistical Foundations: Sampling"
     date: Week 6 [M, 2/17]
     class: "MRM_slides_6a"
     notes: "Skills: sampling, distributions, variance"
@@ -134,26 +134,26 @@ lessons:
 
   - title: "Statistical Foundations: Null Hypothesis Testing"
     date: [W]
-    notes: "Skills: two-sample t-test, ES, and CIs"
+    notes: "Skills: Normal Distribution; two-sample t-test"
     reading: "06b-reading"
     hasclass: True
  
   - title: '<i class="far fa-keyboard"> </i> A4 Due '
     date: [TH]
 
-  - title: "*Lab: Statistical Foundations: Effect Sizes/Confidence Intervals* <br> <br>  <br>"
+  - title: "*Lab: Null Hypothesis Testing* <br> <br>  <br>"
     date:  [F]
-    notes: 
+    notes:
     hasassignment: True
     #assignment:  "05"
 
-  - title: "Statistical Foundations: Power Analysis"
+  - title: "Statistical Foundations: Effect Sizes/Confidence Intervals"
     date: Week 7 [M, 2/24]
     notes: "Skills: review + basic power analysis in R"
     reading: "07a-reading"
     hasclass: True
 
-  - title: "Replication (and the failures)"
+  - title: "Statistical Foundations: Power Analysis"
     date:  [W]
     reading: "07b-reading"
     hasclass: True
@@ -165,12 +165,12 @@ lessons:
     date:  [F]
     hasassignment: True
     assignmentname: "Midterm"
-    notes: 
+    notes:
     hasassignment: True
     #assignment:  "midterm"
 
 
-  - title: "Research practices affecting replication"
+  - title: "Replication (and the failures)"
     date: Week 8 [M, 3/2]
     reading: "08a-reading"
     hasclass: True
@@ -302,9 +302,3 @@ lessons:
 
   - title: "__FINAL PROJECT DUE__ (noon)"
     date:  "[F, 5/8]"
-
-
-
-
-
-
