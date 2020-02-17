@@ -127,6 +127,7 @@ lessons:
 
   - title: "Statistical Foundations: Distributions"
     date: Week 6 [M, 2/17]
+    class: "MRM_slides_6a"
     notes: "Skills: sampling, distributions, variance"
     reading: "06a-reading"
     hasclass: True
