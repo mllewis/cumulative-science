@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Calculating Confidence Intervals in R</title>
+    <meta charset="utf-8" />
+    <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link rel="stylesheet" href="slides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Calculating Confidence Intervals in R <br>
+## Modern Research Methods
+
+---
+
+
+
+
+
+layout: true
+
+
+---
+
+
+
+
+&lt;style type="text/css"&gt;
+/* custom.css */
+.left-code {
+  color: #777;
+  width: 38%;
+  height: 92%;
+  float: left;
+}
+.right-plot {
+  width: 60%;
+  float: right;
+  padding-left: 1%;
+}
+.plot-callout {
+  height: 225px;
+  width: 450px;
+  bottom: 5%;
+  right: 5%;
+  position: absolute;
+  padding: 0px;
+  z-index: 100;
+}
+.plot-callout img {
+  width: 100%;
+  border: 4px solid #23373B;
+}
+&lt;/style&gt;
+
+
+We're going to calculate a confidence intervals for the means on accuracy reported in Zettersten and Lupyan (2020), Experiment 1B
+
+Let's start by loading the data.
+
+```r
+DATA_PATH&lt;- "https://osf.io/a4dzb/download"
+ 
+zl_data &lt;- read_csv(DATA_PATH)
+
+zl_clean &lt;- zl_data %&gt;%
+     clean_names() %&gt;%
+     select(experiment, subject, age, condition, block_num, is_right)
+
+zl_exp1a &lt;- zl_clean %&gt;%
+     filter(experiment == "1A")
+```
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; experiment &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; subject &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; age &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; condition &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; block_num &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; is_right &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 1A &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; p150212 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 29 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 1A &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; p150212 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 29 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 1A &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; p150212 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 29 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 1A &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; p150212 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 29 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; 1A &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; p150212 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 29 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+---
+
+We start by getting by-subject by-condition means
+
+```r
+ms_by_overall&lt;- zl_exp1a %&gt;%
+  group_by(subject, condition) %&gt;%
+  summarize(prop_right = sum(is_right)/n()) %&gt;%
+  ungroup() 
+```
+
+--
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; subject &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; condition &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; prop_right &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; p150212 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.8750000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; p157080 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.7083333 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; p191463 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.9583333 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; p20905 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.9583333 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; p213384 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.0000000 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+Next, let's calculate a **point estimate** for the mean in each condition.
+
+```r
+means_by_condition  &lt;- ms_by_overall %&gt;%
+  group_by(condition) %&gt;%
+  summarize(mean = mean(prop_right))
+```
+
+--
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; condition &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; mean &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.8400000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.6766667 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+Plot the point estimates with geom_point. 
+
+```r
+ggplot(means_by_condition, aes(x = condition, y = mean)) +
+  geom_point(size = 2) + 
+  ylim(.5, 1) +
+  theme_classic()
+```
+
+![](MRM_6b_slides_files/figure-html/unnamed-chunk-9-1.png)&lt;!-- --&gt;
+
+
+---
+
+Next let's calculate a confidence interval around our estimate. 
+
+To start we need the sample size in each condition.
+
+```r
+sample_size &lt;- ms_by_overall %&gt;%
+  group_by(condition) %&gt;%
+  summarize(n = n())
+```
+
+--
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; condition &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; n &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+Now, let's calculate the the CI
+
+```r
+means_by_condition_with_ci &lt;- ms_by_overall %&gt;%
+  group_by(condition) %&gt;%
+  summarize(mean = mean(prop_right),
+            sd = sd(prop_right)) %&gt;%
+* mutate(ci_range_95 =  1.96 * (sd/sqrt(25)),
+         ci_lower = mean - ci_range_95,
+         ci_upper = mean + ci_range_95)
+```
+
+--
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; condition &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; mean &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; sd &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; ci_range_95 &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; ci_lower &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; ci_upper &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.8400000 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1304817 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.0511488 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.7888512 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.8911488 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.6766667 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1876080 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.0735423 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.6031243 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.7502090 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+Plotting the confidence intervals 
+
+```r
+ggplot(means_by_condition_with_ci, aes(x = condition, y = mean)) +
+  geom_point(size = 2) + 
+* geom_linerange(aes(ymin = ci_lower, ymax = ci_upper)) +
+  ylim(.5, 1) +
+  theme_classic()
+```
+
+![](MRM_6b_slides_files/figure-html/unnamed-chunk-14-1.png)&lt;!-- --&gt;
+
+---
+
+There's actually a single geom that plots both points and ranges: geom_pointrange.  
+
+```r
+ggplot(means_by_condition_with_ci, aes(x = condition, y = mean)) +
+* geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper)) +
+  ylim(.5, 1) +
+  theme_classic()
+```
+
+![](MRM_6b_slides_files/figure-html/unnamed-chunk-15-1.png)&lt;!-- --&gt;
+
+
+---
+
+There's one small complexity that I've glossed over. 
+
+
+--
+
+Because we don't actually know the SD for the population distribution we have to estimate from a distribution called the t-distribution. 
+
+```r
+means_by_condition_with_ci_t &lt;- ms_by_overall %&gt;%
+  group_by(condition) %&gt;%
+  summarize(mean = mean(prop_right),
+            sd = sd(prop_right)) %&gt;%
+* mutate(ci_range_95 =  qt(1 - (0.05 / 2), 25 - 1) * (sd/sqrt(25)),
+         ci_lower = mean - ci_range_95,
+         ci_upper = mean + ci_range_95)
+```
+
+--
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; condition &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; mean &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; sd &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; ci_range_95 &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; ci_lower &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; ci_upper &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.8400000 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1304817 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.0538602 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.7861398 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.8938602 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.6766667 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1876080 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.0774408 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.5992259 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.7541074 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+Point estimates with ranges calculated from the t-distribution. 
+
+
+```r
+ggplot(means_by_condition_with_ci_t, aes(x = condition, y = mean)) +
+* geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper)) +
+  ylim(.5, 1) +
+  theme_classic()
+```
+
+![](MRM_6b_slides_files/figure-html/unnamed-chunk-18-1.png)&lt;!-- --&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
