@@ -132,9 +132,9 @@ lessons:
     reading: "06a-reading"
     hasclass: True
 
-  - title: "Statistical Foundations: Null Hypothesis Testing"
+  - title: "Statistical Foundations: Estimating population values"
     date: [W]
-    notes: "Skills: Normal Distribution; two-sample t-test"
+    notes: 'Skills: Normal Distribution; Confidence intervals  <a href = "/slides/MRM_slides_6b_supp/MRM_6b_slides.html"> [CI plot slides] </a>'
     reading: "06b-reading"
     hasclass: True
  
@@ -147,7 +147,7 @@ lessons:
     hasassignment: True
     #assignment:  "05"
 
-  - title: "Statistical Foundations: Effect Sizes/Confidence Intervals"
+  - title: "Statistical Foundations: two sample t-test/ Effect Sizes"
     date: Week 7 [M, 2/24]
     notes: "Skills: review + basic power analysis in R"
     reading: "07a-reading"
