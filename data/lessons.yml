@@ -94,7 +94,7 @@ lessons:
     notes:
     class: "MRM_slides_4c"
     hasassignment: True
-    notes: '<a href = "/assignment_materials/03_MRM_assignment_template.Rmd">  [A3 template] </a><a href = "/assignment_materials/data/tidy_me_data.csv">  [A3 data] </a> <a href = "http://www.andrew.cmu.edu/user/mollylew/papers/barner_2017.pdf">  [abacus paper] </a>'
+    notes: '<a href = "/assignment_materials/03_MRM_assignment_template.Rmd">  [A3 template] </a><a href = "/assignment_materials/data/tidy_me_data.csv">  [A3 data] </a> <a href = "/assignment/03_MRM_assignment_with_solutions.html">  [A3 solutions]</a><a href = "http://www.andrew.cmu.edu/user/mollylew/papers/barner_2017.pdf">  [abacus paper] </a>'
     assignment:  "03"
    
   - title: "Reproducibility (and the failures)"
@@ -134,22 +134,25 @@ lessons:
 
   - title: "Statistical Foundations: Estimating population values"
     date: [W]
-    notes: 'Skills: Normal Distribution; Confidence intervals  <a href = "/slides/MRM_slides_6b_supp/MRM_6b_slides.html"> [CI plot slides] </a>'
+    notes: 'Skills: Normal Distribution; Confidence intervals'
+    # <a href = "/slides/MRM_slides_6b_supp/MRM_6b_slides.html"> [CI plot slides] </a>'
     reading: "06b-reading"
+    class: "MRM_slides_6b"
+
     hasclass: True
  
   - title: '<i class="far fa-keyboard"> </i> A4 Due '
     date: [TH]
 
-  - title: "*Lab: Null Hypothesis Testing* <br> <br>  <br>"
+  - title: "*Lab: Sampling/Confidence intervals* <br> <br>  <br>"
     date:  [F]
-    notes:
+    notes: 'Skills: Sampling, CIs, data wrangling'
     hasassignment: True
     #assignment:  "05"
 
-  - title: "Statistical Foundations: two sample t-test/ Effect Sizes"
+  - title: "Statistical Foundations: two sample t-test/Effect Sizes"
     date: Week 7 [M, 2/24]
-    notes: "Skills: review + basic power analysis in R"
+    notes: 
     reading: "07a-reading"
     hasclass: True
 
