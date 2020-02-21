@@ -134,8 +134,7 @@ lessons:
 
   - title: "Statistical Foundations: Estimating population values"
     date: [W]
-    notes: 'Skills: Normal Distribution; Confidence intervals'
-    # <a href = "/slides/MRM_slides_6b_supp/MRM_6b_slides.html"> [CI plot slides] </a>'
+    notes: 'Skills: Normal Distribution; Confidence intervals <a href = "/slides/MRM_slides_6b_supp/MRM_6b_slides.html"> [CI calculating/plotting slides] </a>'
     reading: "06b-reading"
     class: "MRM_slides_6b"
 
@@ -146,9 +145,9 @@ lessons:
 
   - title: "*Lab: Sampling/Confidence intervals* <br> <br>  <br>"
     date:  [F]
-    notes: 'Skills: Sampling, CIs, data wrangling'
+    notes: 'Skills: Sampling, CIs, data wrangling; <a href = "/assignment_materials/05_MRM_assignment_template.Rmd">  [A5 template] </a><a href = "/assignment_materials/data/many_babies_data.csv">  [A5 data] </a> '
     hasassignment: True
-    #assignment:  "05"
+    assignment:  "05"
 
   - title: "Statistical Foundations: two sample t-test/Effect Sizes"
     date: Week 7 [M, 2/24]
