@@ -1,5 +1,5 @@
 ---
-title: "Calculating Confidence Intervals in R <br>"
+title: "Calculating and Plotting Confidence Intervals <br>"
 subtitle: "Modern Research Methods"
 output:
   xaringan::moon_reader:
@@ -53,11 +53,11 @@ knitr::opts_chunk$set(fig.height = 2, fig.width = 3, dpi = 300)
 ```
 
 
-We're going to calculate a confidence intervals for the means on accuracy reported in Zettersten and Lupyan (2020), Experiment 1B
+We're going to calculate a confidence intervals for the means on accuracy reported in Zettersten and Lupyan (2020), Experiment 1A
 
 Let's start by loading the data.
 ```{r, cache = T, message = F, warning = F}
-DATA_PATH<- "https://osf.io/a4dzb/download"
+DATA_PATH <- "https://osf.io/a4dzb/download"
  
 zl_data <- read_csv(DATA_PATH)
 
@@ -143,8 +143,9 @@ Now, let's calculate the the CI
 means_by_condition_with_ci <- ms_by_overall %>%
   group_by(condition) %>%
   summarize(mean = mean(prop_right),
-            sd = sd(prop_right)) %>%
-  mutate(ci_range_95 =  1.96 * (sd/sqrt(25)), #<<
+            sd = sd(prop_right),
+            n = n()) %>%
+  mutate(ci_range_95 =  1.96 * (sd/sqrt(n)), #<<
          ci_lower = mean - ci_range_95,
          ci_upper = mean + ci_range_95)
 ```
@@ -185,12 +186,14 @@ There's one small complexity that I've glossed over.
 --
 
 Because we don't actually know the SD for the population distribution we have to estimate from a distribution called the t-distribution. 
+
 ```{r}
 means_by_condition_with_ci_t <- ms_by_overall %>%
   group_by(condition) %>%
   summarize(mean = mean(prop_right),
-            sd = sd(prop_right)) %>%
-  mutate(ci_range_95 =  qt(1 - (0.05 / 2), 25 - 1) * (sd/sqrt(25)), #<<
+            sd = sd(prop_right),
+            n = n()) %>%
+  mutate(ci_range_95 =  qt(1 - (0.05 / 2), 25 - 1) * (sd/sqrt(n)), #<<
          ci_lower = mean - ci_range_95,
          ci_upper = mean + ci_range_95)
 ```

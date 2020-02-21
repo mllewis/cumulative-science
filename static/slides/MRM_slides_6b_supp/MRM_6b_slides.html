@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Calculating Confidence Intervals in R</title>
+    <title>Calculating and Plotting Confidence Intervals</title>
     <meta charset="utf-8" />
     <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
@@ -11,7 +11,7 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Calculating Confidence Intervals in R <br>
+# Calculating and Plotting Confidence Intervals <br>
 ## Modern Research Methods
 
 ---
@@ -57,12 +57,12 @@ layout: true
 &lt;/style&gt;
 
 
-We're going to calculate a confidence intervals for the means on accuracy reported in Zettersten and Lupyan (2020), Experiment 1B
+We're going to calculate a confidence intervals for the means on accuracy reported in Zettersten and Lupyan (2020), Experiment 1A
 
 Let's start by loading the data.
 
 ```r
-DATA_PATH&lt;- "https://osf.io/a4dzb/download"
+DATA_PATH &lt;- "https://osf.io/a4dzb/download"
  
 zl_data &lt;- read_csv(DATA_PATH)
 
@@ -265,8 +265,9 @@ Now, let's calculate the the CI
 means_by_condition_with_ci &lt;- ms_by_overall %&gt;%
   group_by(condition) %&gt;%
   summarize(mean = mean(prop_right),
-            sd = sd(prop_right)) %&gt;%
-* mutate(ci_range_95 =  1.96 * (sd/sqrt(25)),
+            sd = sd(prop_right),
+            n = n()) %&gt;%
+* mutate(ci_range_95 =  1.96 * (sd/sqrt(n)),
          ci_lower = mean - ci_range_95,
          ci_upper = mean + ci_range_95)
 ```
@@ -279,6 +280,7 @@ means_by_condition_with_ci &lt;- ms_by_overall %&gt;%
    &lt;th style="text-align:left;"&gt; condition &lt;/th&gt;
    &lt;th style="text-align:right;"&gt; mean &lt;/th&gt;
    &lt;th style="text-align:right;"&gt; sd &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; n &lt;/th&gt;
    &lt;th style="text-align:right;"&gt; ci_range_95 &lt;/th&gt;
    &lt;th style="text-align:right;"&gt; ci_lower &lt;/th&gt;
    &lt;th style="text-align:right;"&gt; ci_upper &lt;/th&gt;
@@ -289,6 +291,7 @@ means_by_condition_with_ci &lt;- ms_by_overall %&gt;%
    &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.8400000 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.1304817 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 25 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.0511488 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.7888512 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.8911488 &lt;/td&gt;
@@ -297,6 +300,7 @@ means_by_condition_with_ci &lt;- ms_by_overall %&gt;%
    &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.6766667 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.1876080 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 25 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.0735423 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.6031243 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.7502090 &lt;/td&gt;
@@ -341,12 +345,14 @@ There's one small complexity that I've glossed over.
 
 Because we don't actually know the SD for the population distribution we have to estimate from a distribution called the t-distribution. 
 
+
 ```r
 means_by_condition_with_ci_t &lt;- ms_by_overall %&gt;%
   group_by(condition) %&gt;%
   summarize(mean = mean(prop_right),
-            sd = sd(prop_right)) %&gt;%
-* mutate(ci_range_95 =  qt(1 - (0.05 / 2), 25 - 1) * (sd/sqrt(25)),
+            sd = sd(prop_right),
+            n = n()) %&gt;%
+* mutate(ci_range_95 =  qt(1 - (0.05 / 2), 25 - 1) * (sd/sqrt(n)),
          ci_lower = mean - ci_range_95,
          ci_upper = mean + ci_range_95)
 ```
@@ -359,6 +365,7 @@ means_by_condition_with_ci_t &lt;- ms_by_overall %&gt;%
    &lt;th style="text-align:left;"&gt; condition &lt;/th&gt;
    &lt;th style="text-align:right;"&gt; mean &lt;/th&gt;
    &lt;th style="text-align:right;"&gt; sd &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; n &lt;/th&gt;
    &lt;th style="text-align:right;"&gt; ci_range_95 &lt;/th&gt;
    &lt;th style="text-align:right;"&gt; ci_lower &lt;/th&gt;
    &lt;th style="text-align:right;"&gt; ci_upper &lt;/th&gt;
@@ -369,6 +376,7 @@ means_by_condition_with_ci_t &lt;- ms_by_overall %&gt;%
    &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.8400000 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.1304817 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 25 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.0538602 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.7861398 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.8938602 &lt;/td&gt;
@@ -377,6 +385,7 @@ means_by_condition_with_ci_t &lt;- ms_by_overall %&gt;%
    &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.6766667 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.1876080 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 25 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.0774408 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.5992259 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.7541074 &lt;/td&gt;
