@@ -150,13 +150,13 @@ lessons:
     hasassignment: True
     assignment:  "05"
 
-  - title: "Statistical Foundations: Effect Sizes"
+  - title: "Statistical Foundations: Null Hypothesis Testing"
     date: Week 7 [M, 2/24]
     notes: 
     reading: "07a-reading"
     hasclass: True
 
-  - title: "Statistical Foundations: Power Analysis"
+  - title: "Statistical Foundations: Effect Sizes"
     date:  [W]
     reading: "07b-reading"
     hasclass: True
