@@ -153,6 +153,7 @@ lessons:
   - title: "Statistical Foundations: Null Hypothesis Testing"
     date: Week 7 [M, 2/24]
     notes: 
+    class: "MRM_slides_7a" 
     reading: "07a-reading"
     hasclass: True
 
