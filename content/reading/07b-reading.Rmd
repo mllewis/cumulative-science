@@ -9,5 +9,4 @@ csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
 
 
 [**[link]**](/readings/cohen1992.pdf) @cohen1992power A power prrimer. [**Optional**]
-# Readings for class:
 

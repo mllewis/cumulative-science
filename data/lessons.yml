@@ -152,7 +152,7 @@ lessons:
 
   - title: "Statistical Foundations: Null Hypothesis Testing"
     date: Week 7 [M, 2/24]
-    notes: 
+    notes: "Skills: p-values"
     class: "MRM_slides_7a" 
     reading: "07a-reading"
     hasclass: True
@@ -160,7 +160,8 @@ lessons:
   - title: "Statistical Foundations: Effect Sizes"
     date:  [W]
     reading: "07b-reading"
-    notes: '<a href = "/slides/MRM_slides_7b_supp/MRM_7b_slides.html"> [ES calculating/plotting slides] </a> <a href = "/readings/deak2001.pdf">  [Deak, et al. 2001 paper] </a>'
+    class: "MRM_slides_7b" 
+    notes: 'Skills: Cohen d; <a href = "/slides/MRM_slides_7b_supp/MRM_7b_slides.html"> [ES calculating/plotting slides] </a>'
     hasclass: True
 
   - title:  '<i class="far fa-keyboard"></i> A5 Due'
@@ -177,6 +178,7 @@ lessons:
 
   - title: "Replication (and the failures)"
     date: Week 8 [M, 3/2]
+    note: '<a href = "/readings/deak2001.pdf">  [Deak, et al. 2001 paper] </a>'
     reading: "08a-reading"
     hasclass: True
 
