@@ -160,6 +160,7 @@ lessons:
   - title: "Statistical Foundations: Effect Sizes"
     date:  [W]
     reading: "07b-reading"
+    notes: '<a href = "/slides/MRM_slides_7b_supp/MRM_7b_slides.html"> [ES calculating/plotting slides] </a>'
     hasclass: True
 
   - title:  '<i class="far fa-keyboard"></i> A5 Due'
