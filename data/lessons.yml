@@ -119,7 +119,7 @@ lessons:
     reading: "05c-reading"
     class: "MRM_slides_5c"
     hasassignment: True
-    notes: '<a href = "/readings/zettersten_lupyan_2020.pdf">  [Zettersten & Lupyan, 2020] </a><a href = "/assignment_materials/04_MRM_assignment_template.Rmd">  [A4 template]'
+    notes: '<a href = "/readings/zettersten_lupyan_2020.pdf">  [Zettersten & Lupyan, 2020] </a><a href = "/assignment_materials/04_MRM_assignment_template.Rmd">  [A4 template] <a href = "/assignment/04_MRM_assignment_solutions.html">  [A4 solutions]</a>'
     assignment:  "04"
 
   - title: '<span class="fake-header-table">Repeating an Experiment</span>'
@@ -145,7 +145,7 @@ lessons:
 
   - title: "*Lab: Confidence intervals* <br> <br>  <br>"
     date:  [F]
-    notes: 'Skills: data wrangling; <a href = "/assignment_materials/05_MRM_assignment_template.Rmd">  [A5 template] </a><a href = "/assignment_materials/data/many_babies_data.csv">  [A5 data] </a> '
+    notes: 'Skills: data wrangling; <a href = "/assignment_materials/05_MRM_assignment_template.Rmd">  [A5 template] </a><a href = "/assignment_materials/data/many_babies_data.csv">  [A5 data] </a> <a href = "/assignment/05_MRM_assignment_solutions.html">  [A5 solutions]</a>'
     class: "MRM_slides_6c" 
     hasassignment: True
     assignment:  "05"
