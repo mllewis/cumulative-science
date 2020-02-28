@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="" xml:lang="">
   <head>
-    <title>Calculating and Plotting Effect Sizes</title>
+    <title>Calculating and Plotting Confidence Intervals</title>
     <meta charset="utf-8" />
     <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
     <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
@@ -11,7 +11,7 @@
     <textarea id="source">
 class: center, middle, inverse, title-slide
 
-# Calculating and Plotting Effect Sizes <br>
+# Calculating and Plotting Confidence Intervals <br>
 ## Modern Research Methods
 
 ---
@@ -57,12 +57,9 @@ layout: true
 &lt;/style&gt;
 
 
-Let's calculate an effect size for Zettersten and Lupyan, 1A and our "replication".
+We're going to calculate a confidence intervals for the means on accuracy reported in Zettersten and Lupyan (2020), Experiment 1A
 
-Start by loading the data.
-
---
-
+Let's start by loading the data.
 
 ```r
 DATA_PATH &lt;- "https://osf.io/a4dzb/download"
@@ -79,28 +76,15 @@ zl_exp1a &lt;- zl_clean %&gt;%
 ms_by_overall&lt;- zl_exp1a %&gt;%
   group_by(subject, condition) %&gt;%
   summarize(prop_right = sum(is_right)/n())  %&gt;%
-  mutate(experiment = "original_ZL2020") %&gt;%
-  ungroup()
-```
+   mutate(experiment = "original_ZL2020")
 
----
-
-Our data
-
-```r
 ms_by_overall_replication &lt;- read_csv("mrm_replication_data.csv") %&gt;%
-* rename(subject = subid) %&gt;%
-  mutate(subject = as.character(subject))
-```
+  rename(subject = subid) %&gt;%
+  mutate(subject = as.character(subject)) 
 
---
-
-
-Combine our replication data and the original.
-
-```r
-*all_data &lt;- bind_rows(ms_by_overall, ms_by_overall_replication) %&gt;%
-* select(experiment, subject, everything())
+all_data &lt;- bind_rows(ms_by_overall, ms_by_overall_replication) %&gt;%
+  select(experiment, subject, everything()) %&gt;%
+  ungroup() 
 ```
 
 
@@ -150,9 +134,6 @@ The data:
 &lt;/table&gt;
 
 ---
-Let's do a sanity check and look at the number of subjects in each condition/ experiment
-
---
 
 
 ```r
@@ -166,14 +147,11 @@ all_data %&gt;%
 ## # Groups:   experiment [2]
 ##   experiment                condition     n
 ##   &lt;chr&gt;                     &lt;chr&gt;     &lt;int&gt;
-## 1 MRM_replication_of_ZL2020 high         50
-## 2 MRM_replication_of_ZL2020 low          50
+## 1 MRM_replication_of_LZ2020 high         50
+## 2 MRM_replication_of_LZ2020 low          50
 ## 3 original_ZL2020           high         25
 ## 4 original_ZL2020           low          25
 ```
-
---
-
 
 Or, equivalently:
 
@@ -186,15 +164,13 @@ all_data %&gt;%
 ## # A tibble: 4 x 3
 ##   experiment                condition     n
 ##   &lt;chr&gt;                     &lt;chr&gt;     &lt;int&gt;
-## 1 MRM_replication_of_ZL2020 high         50
-## 2 MRM_replication_of_ZL2020 low          50
+## 1 MRM_replication_of_LZ2020 high         50
+## 2 MRM_replication_of_LZ2020 low          50
 ## 3 original_ZL2020           high         25
 ## 4 original_ZL2020           low          25
 ```
 
 ---
-
-Let's plot the two distributions now. 
 
 
 
@@ -204,24 +180,11 @@ ggplot(all_data, aes(x = prop_right, fill = condition)) +
   facet_wrap(~experiment) 
 ```
 
---
-
-![](MRM_7b_slides_files/figure-html/unnamed-chunk-10-1.png)&lt;!-- --&gt;
+![](MRM_7b_slides_files/figure-html/unnamed-chunk-7-1.png)&lt;!-- --&gt;
 
 ---
 
-Let's get summary statistics for each experiment/condition
 
-
-```r
-dist_summary &lt;- all_data %&gt;%
-  group_by(experiment, condition) %&gt;%
-  summarize(mean_prop_right = mean(prop_right),
-            sd = sd(prop_right),
-            n = n())
-```
-
---
 
 &lt;table&gt;
  &lt;thead&gt;
@@ -235,14 +198,14 @@ dist_summary &lt;- all_data %&gt;%
  &lt;/thead&gt;
 &lt;tbody&gt;
   &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; MRM_replication_of_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; MRM_replication_of_LZ2020 &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.7558991 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.0989817 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 50 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; MRM_replication_of_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; MRM_replication_of_LZ2020 &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.6922030 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.1099081 &lt;/td&gt;
@@ -266,47 +229,19 @@ dist_summary &lt;- all_data %&gt;%
 &lt;/table&gt;
 
 ---
-
-Let's use these new data frame to add the means to our plot. 
 
 
 ```r
 ggplot(all_data, aes(x = prop_right, fill = condition)) +
   geom_density(alpha = .5) +
-* geom_vline(data = dist_summary, aes(xintercept = mean_prop_right), linetype = 2) +
+  geom_vline(data = dist_summary, aes(xintercept = mean_prop_right), linetype = 2) +
   facet_wrap(~experiment)
 ```
 
---
-
-![](MRM_7b_slides_files/figure-html/unnamed-chunk-14-1.png)&lt;!-- --&gt;
+![](MRM_7b_slides_files/figure-html/unnamed-chunk-10-1.png)&lt;!-- --&gt;
 
 ---
 
-## We're now ready to calculate the effect size in each experiment.
-
---
-+ Functions in the `compute.es` package allow us to easily calculate effect size measures.
---
-
-+ To calculate cohen's d (the effect size for the difference between two means), we use the `mes()` function.
---
-
-+ The syntax for `mes()` is: 
-
-
-```r
-mes(m.1,  # mean in first group
-    m.2, # mean in second group
-    sd.1, # sd of first group
-    sd.2, # sd of second group
-    n.1, # sample size of first group
-    n.2) # sample size of second group
-```
-
----
-
-To use the `mes` function, were going to need to "pull" out values from our `dist_summary` data frame. 
 &lt;table&gt;
  &lt;thead&gt;
   &lt;tr&gt;
@@ -319,14 +254,14 @@ To use the `mes` function, were going to need to "pull" out values from our `dis
  &lt;/thead&gt;
 &lt;tbody&gt;
   &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; MRM_replication_of_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; MRM_replication_of_LZ2020 &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.7558991 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.0989817 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 50 &lt;/td&gt;
   &lt;/tr&gt;
   &lt;tr&gt;
-   &lt;td style="text-align:left;"&gt; MRM_replication_of_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; MRM_replication_of_LZ2020 &lt;/td&gt;
    &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.6922030 &lt;/td&gt;
    &lt;td style="text-align:right;"&gt; 0.1099081 &lt;/td&gt;
@@ -348,12 +283,11 @@ To use the `mes` function, were going to need to "pull" out values from our `dis
   &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
---
 
 
 ```r
 dist_summary %&gt;% 
-  filter(experiment == "MRM_replication_of_ZL2020", condition == "high") %&gt;% 
+  filter(experiment == "MRM_replication_of_LZ2020", condition == "high") %&gt;% 
   pull(mean_prop_right)
 ```
 
@@ -368,32 +302,27 @@ dist_summary %&gt;%
 
 ```r
 replication_effect_size &lt;-
-  mes(dist_summary %&gt;% filter(experiment == "MRM_replication_of_ZL2020", condition == "high") %&gt;% pull(mean_prop_right), # m.1
-    dist_summary %&gt;% filter(experiment == "MRM_replication_of_ZL2020", condition == "low") %&gt;% pull(mean_prop_right),# m.2
-    dist_summary %&gt;% filter(experiment == "MRM_replication_of_ZL2020", condition == "low") %&gt;% pull(sd), #sd.1
-    dist_summary %&gt;% filter(experiment == "MRM_replication_of_ZL2020", condition == "high") %&gt;% pull(sd), #sd.2
-    dist_summary %&gt;% filter(experiment == "MRM_replication_of_ZL2020", condition == "low") %&gt;% pull(n), #n.1
-    dist_summary %&gt;% filter(experiment == "MRM_replication_of_ZL2020", condition == "high") %&gt;% pull(n), #n.1
+  mes(dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "high") %&gt;% pull(mean_prop_right), # m.1
+    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "low") %&gt;% pull(mean_prop_right),# m.2
+    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "high") %&gt;% pull(sd), #sd.1
+    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "low") %&gt;% pull(sd), #sd.2
+    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "high") %&gt;% pull(n), #n.1
+    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "low") %&gt;% pull(n), #n.1
     verbose = F) %&gt;%
-  mutate(experiment = "MRM_replication_of_ZL2020")
-```
+  mutate(experiment = "MRM_replication_of_LZ2020")
 
---
-
-
-```r
 replication_effect_size
 ```
 
 ```
-##   N.total n.1 n.2    d var.d l.d  u.d  U3.d  cl.d cliffs.d pval.d   g var.g l.g
-## 1     100  50  50 0.61  0.04 0.2 1.02 72.87 66.66     0.33      0 0.6  0.04 0.2
-##    u.g  U3.g  cl.g pval.g    r var.r l.r  u.r pval.r fisher.z var.z l.z u.z
-## 1 1.01 72.72 66.54      0 0.29  0.01 0.1 0.46      0      0.3  0.01 0.1 0.5
-##     OR l.or u.or pval.or lOR l.lor u.lor pval.lor  NNT
-## 1 3.02 1.45  6.3       0 1.1  0.37  1.84        0 4.81
+##   N.total n.1 n.2    d var.d l.d  u.d  U3.d  cl.d cliffs.d pval.d   g
+## 1     100  50  50 0.61  0.04 0.2 1.02 72.87 66.66     0.33      0 0.6
+##   var.g l.g  u.g  U3.g  cl.g pval.g    r var.r l.r  u.r pval.r fisher.z
+## 1  0.04 0.2 1.01 72.72 66.54      0 0.29  0.01 0.1 0.46      0      0.3
+##   var.z l.z u.z   OR l.or u.or pval.or lOR l.lor u.lor pval.lor  NNT
+## 1  0.01 0.1 0.5 3.02 1.45  6.3       0 1.1  0.37  1.84        0 4.81
 ##                  experiment
-## 1 MRM_replication_of_ZL2020
+## 1 MRM_replication_of_LZ2020
 ```
 
 ---
@@ -403,101 +332,78 @@ replication_effect_size
 original_effect_size &lt;-
   mes(dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "high") %&gt;% pull(mean_prop_right),
     dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "low") %&gt;% pull(mean_prop_right),
-    dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "low") %&gt;% pull(sd),
     dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "high") %&gt;% pull(sd),
-    dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "low") %&gt;% pull(n),
+    dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "low") %&gt;% pull(sd),
     dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "high") %&gt;% pull(n),
+    dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "low") %&gt;% pull(n),
     verbose = F) %&gt;%
   mutate(experiment = "original_ZL2020")
-```
 
---
-
-
-```r
 original_effect_size
 ```
 
 ```
-##   N.total n.1 n.2    d var.d  l.d  u.d  U3.d  cl.d cliffs.d pval.d    g var.g
-## 1      50  25  25 1.01  0.09 0.41 1.61 84.39 76.26     0.53      0 0.99  0.09
-##   l.g  u.g  U3.g  cl.g pval.g    r var.r  l.r  u.r pval.r fisher.z var.z  l.z
-## 1 0.4 1.59 84.01 75.91      0 0.45  0.01 0.19 0.65      0     0.49  0.02 0.19
-##    u.z   OR l.or u.or pval.or  lOR l.lor u.lor pval.lor  NNT      experiment
-## 1 0.78 6.25 2.09 18.7       0 1.83  0.74  2.93        0 2.72 original_ZL2020
+##   N.total n.1 n.2    d var.d  l.d  u.d  U3.d  cl.d cliffs.d pval.d    g
+## 1      50  25  25 1.01  0.09 0.41 1.61 84.39 76.26     0.53      0 0.99
+##   var.g l.g  u.g  U3.g  cl.g pval.g    r var.r  l.r  u.r pval.r fisher.z
+## 1  0.09 0.4 1.59 84.01 75.91      0 0.45  0.01 0.19 0.65      0     0.49
+##   var.z  l.z  u.z   OR l.or u.or pval.or  lOR l.lor u.lor pval.lor  NNT
+## 1  0.02 0.19 0.78 6.25 2.09 18.7       0 1.83  0.74  2.93        0 2.72
+##        experiment
+## 1 original_ZL2020
 ```
 
 
 ---
-
-Let's combine the two data frames
 
 
 ```r
 both_es &lt;- bind_rows(original_effect_size, replication_effect_size)
-```
 
---
-
-
-```r
 both_es
 ```
 
 ```
-##   N.total n.1 n.2    d var.d  l.d  u.d  U3.d  cl.d cliffs.d pval.d    g var.g
-## 1      50  25  25 1.01  0.09 0.41 1.61 84.39 76.26     0.53      0 0.99  0.09
-## 2     100  50  50 0.61  0.04 0.20 1.02 72.87 66.66     0.33      0 0.60  0.04
-##   l.g  u.g  U3.g  cl.g pval.g    r var.r  l.r  u.r pval.r fisher.z var.z  l.z
-## 1 0.4 1.59 84.01 75.91      0 0.45  0.01 0.19 0.65      0     0.49  0.02 0.19
-## 2 0.2 1.01 72.72 66.54      0 0.29  0.01 0.10 0.46      0     0.30  0.01 0.10
-##    u.z   OR l.or u.or pval.or  lOR l.lor u.lor pval.lor  NNT
-## 1 0.78 6.25 2.09 18.7       0 1.83  0.74  2.93        0 2.72
-## 2 0.50 3.02 1.45  6.3       0 1.10  0.37  1.84        0 4.81
+##   N.total n.1 n.2    d var.d  l.d  u.d  U3.d  cl.d cliffs.d pval.d    g
+## 1      50  25  25 1.01  0.09 0.41 1.61 84.39 76.26     0.53      0 0.99
+## 2     100  50  50 0.61  0.04 0.20 1.02 72.87 66.66     0.33      0 0.60
+##   var.g l.g  u.g  U3.g  cl.g pval.g    r var.r  l.r  u.r pval.r fisher.z
+## 1  0.09 0.4 1.59 84.01 75.91      0 0.45  0.01 0.19 0.65      0     0.49
+## 2  0.04 0.2 1.01 72.72 66.54      0 0.29  0.01 0.10 0.46      0     0.30
+##   var.z  l.z  u.z   OR l.or u.or pval.or  lOR l.lor u.lor pval.lor  NNT
+## 1  0.02 0.19 0.78 6.25 2.09 18.7       0 1.83  0.74  2.93        0 2.72
+## 2  0.01 0.10 0.50 3.02 1.45  6.3       0 1.10  0.37  1.84        0 4.81
 ##                  experiment
 ## 1           original_ZL2020
-## 2 MRM_replication_of_ZL2020
+## 2 MRM_replication_of_LZ2020
 ```
-
----
-
-And, tidy them: 
 
 ```r
 tidy_es &lt;- both_es %&gt;%
   select(experiment, d, l.d, u.d) %&gt;%
   rename(ci_lower = l.d,
          ci_upper = u.d)
-```
 
---
-
-
-```r
 tidy_es
 ```
 
 ```
 ##                  experiment    d ci_lower ci_upper
 ## 1           original_ZL2020 1.01     0.41     1.61
-## 2 MRM_replication_of_ZL2020 0.61     0.20     1.02
+## 2 MRM_replication_of_LZ2020 0.61     0.20     1.02
 ```
 
 
 ---
 
-And, plot them!
 
 ```r
 ggplot(tidy_es, aes(y = d, x= experiment)) +
   geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper)) +
-  ylim(0,2) +
   ggtitle("Effect size in original and replication")
 ```
 
---
-
-![](MRM_7b_slides_files/figure-html/unnamed-chunk-27-1.png)&lt;!-- --&gt;
+![](MRM_7b_slides_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
 
 
 ---
@@ -506,24 +412,11 @@ ggplot(tidy_es, aes(y = d, x= experiment)) +
 ```r
 ggplot(tidy_es, aes(y = d, x = experiment)) +
   geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper)) +
-  ggtitle("Effect size in original and replication") +
-  ylim(0,2) +
+   ggtitle("Effect size in original and replication") +
   coord_flip()
 ```
 
---
-
-![](MRM_7b_slides_files/figure-html/unnamed-chunk-29-1.png)&lt;!-- --&gt;
-
-
----
-
-## Interpretation:
-
-+ The effect size is numerically bigger in the original experiment (compared to the replication)
-+ But, the confidence intervals are overlapping, meaning that they have similiar estimates for plausible values for the population effect size.
-
-![](MRM_7b_slides_files/figure-html/unnamed-chunk-30-1.png)&lt;!-- --&gt;
+![](MRM_7b_slides_files/figure-html/unnamed-chunk-17-1.png)&lt;!-- --&gt;
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
