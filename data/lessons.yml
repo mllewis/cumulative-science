@@ -187,7 +187,7 @@ lessons:
     reading: "08b-reading"
     hasclass: True
 
-  - title: " __MIDTERM DUE__ <br> <br>  <br>"
+  - title: " __MIDTERM DUE__  (5pm) <br> <br>  <br>"
     date:  [F]
 
   - title: "------ __SPRING BREAK__ ------ <br> <br>  <br>"
@@ -205,6 +205,7 @@ lessons:
 
   - title: "*Lab: Analyzing replication data* <br> <br>  <br>"
     date:  [F]
+    notes: "Skills: joining datasets"
     hasassignment: True
     #assignment:  "06"
 
