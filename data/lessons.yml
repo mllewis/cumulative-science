@@ -178,13 +178,15 @@ lessons:
 
   - title: "Replication (and the failures)"
     date: Week 8 [M, 3/2]
-    note: '<a href = "/readings/deak2001.pdf">  [Deak, et al. 2001 paper] </a>'
+    #<!--note: '<a href = "/readings/deak2001.pdf">  [Deak, et al. 2001 paper] </a>' -->
     reading: "08a-reading"
+    class: "MRM_slides_8a" 
     hasclass: True
 
   - title: "Pre-registration and other replication solutions"
     date:  [W]
     reading: "08b-reading"
+    notes: "Skills: pre-registration"
     hasclass: True
 
   - title: " __MIDTERM DUE__  (5pm) <br> <br>  <br>"
@@ -194,6 +196,7 @@ lessons:
     date:  ""
 
   - title: "Research on the Web"
+    notes: "Skills: power analysis"
     date: Week 9 [M, 3/16]
     reading: "09a-reading"
     hasclass: True
