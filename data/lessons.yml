@@ -145,11 +145,7 @@ lessons:
 
   - title: "*Lab: Confidence intervals* <br> <br>  <br>"
     date:  [F]
-<<<<<<< HEAD
-    notes: 'Skills: data wrangling; <a href = "/assignment_materials/05_MRM_assignment_template.Rmd">  [A5 template] </a><a href = "/assignment_materials/data/many_babies_data.csv">  [A5 data] </a> '
-=======
     notes: 'Skills: data wrangling; <a href = "/assignment_materials/05_MRM_assignment_template.Rmd">  [A5 template] </a><a href = "/assignment_materials/data/many_babies_data.csv">  [A5 data] </a> <a href = "/assignment/05_MRM_assignment_solutions.html">  [A5 solutions]</a>'
->>>>>>> 7be7841c655899ce456ca962b198a13b0fe7cd3e
     class: "MRM_slides_6c" 
     hasassignment: True
     assignment:  "05"
@@ -175,22 +171,14 @@ lessons:
     date:  [F]
     hasassignment: True
     assignmentname: "Midterm"
-<<<<<<< HEAD
-    notes:
-=======
     notes: '<a href = "/assignment_materials/MRM_midterm_template.Rmd">  [midterm template] </a><a href = "/assignment_materials/data/many_babies_data.csv">  [dataset 1]</a><a href = "/assignment_materials/data/_Study1.csv">  [dataset 2]</a>'
->>>>>>> 7be7841c655899ce456ca962b198a13b0fe7cd3e
     hasassignment: True
     assignment:  "midterm"
 
 
   - title: "Replication (and the failures)"
     date: Week 8 [M, 3/2]
-<<<<<<< HEAD
-    note: '<a href = "/readings/deak2001.pdf">  [Deak, et al. 2001 paper] </a>'
-=======
     #<!--note: '<a href = "/readings/deak2001.pdf">  [Deak, et al. 2001 paper] </a>' -->
->>>>>>> 7be7841c655899ce456ca962b198a13b0fe7cd3e
     reading: "08a-reading"
     class: "MRM_slides_8a" 
     hasclass: True
@@ -201,7 +189,7 @@ lessons:
     notes: "Skills: pre-registration"
     hasclass: True
 
-  - title: " __MIDTERM DUE__  (5pm) <br> <br>  <br>"
+  - title: " __MIDTERM DUE__  (5pm; no lab) <br> <br>  <br>"
     date:  [F]
 
   - title: "------ __SPRING BREAK__ ------ <br> <br>  <br>"
