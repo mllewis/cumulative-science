@@ -187,6 +187,7 @@ lessons:
     date:  [W]
     reading: "08b-reading"
     notes: "Skills: pre-registration"
+    class: "MRM_slides_8b" 
     hasclass: True
 
   - title: " __MIDTERM DUE__  (5pm; no lab) <br> <br>  <br>"
