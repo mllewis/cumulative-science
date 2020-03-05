@@ -57,7 +57,7 @@ layout: true
 &lt;/style&gt;
 
 
-We're going to calculate a confidence intervals for the means on accuracy reported in Zettersten and Lupyan (2020), Experiment 1A
+We're going to calculate effect size estimates for Zettersten and Lupyan (2019, Exp. 1a) and our "replication" of their experiment.
 
 Let's start by loading the data.
 
@@ -307,7 +307,7 @@ replication_effect_size &lt;-
     dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "high") %&gt;% pull(sd), #sd.1
     dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "low") %&gt;% pull(sd), #sd.2
     dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "high") %&gt;% pull(n), #n.1
-    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "low") %&gt;% pull(n), #n.1
+    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "low") %&gt;% pull(n), #n.2
     verbose = F) %&gt;%
   mutate(experiment = "MRM_replication_of_LZ2020")
 
