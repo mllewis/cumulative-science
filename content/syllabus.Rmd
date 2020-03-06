@@ -23,6 +23,7 @@ The course has two related goals: (1) Provide a theoretical understanding of the
 - Use R/RStudio and the tidyverse framework (Wickham, 2017) for conducting basic data analysis 
 - Present visualizations of data using Grammar of Graphics principles (Wickham, 2010)
 - Implement reproducible workflows
+- Understand the principles of "the new statistics" (i.e., confidence intervals, effect sizes; Cumming, 2014)
 - Conduct a basic meta-analysis
 
 In addition, the course will introduce you to a range of other tools ([Github](https://github.com/), [Rpubs](http://rpubs.com/), [Open Science Framework](https://osf.io/), web experimental frameworks, metafor) that are useful in psychological research. 

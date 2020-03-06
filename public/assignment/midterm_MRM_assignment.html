@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -291,7 +292,7 @@ code span.wa { color: #bf0303; } /* Warning */
       if (rule.type !== rule.STYLE_RULE || rule.selectorText !== "div.sourceCode") continue;
       var style = rule.style.cssText;
       // check if color or background-color is set
-      if (rule.style.color === '' || rule.style.backgroundColor === '') continue;
+      if (rule.style.color === '' && rule.style.backgroundColor === '') continue;
       // replace div.sourceCode by a pre.sourceCode rule
       sheets[i].deleteRule(j);
       sheets[i].insertRule('pre.sourceCode{' + style + '}', j);
@@ -437,7 +438,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -511,18 +511,6 @@ summary {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
@@ -577,13 +565,12 @@ $(document).ready(function () {
 </ol>
 <p><br></p>
 <ol style="list-style-type: decimal">
-<li>Jasmina conducts a replication of an experiment. She uses her data to calculate (i) a p-value, (ii) confidence intervals, and (iii) an effect size. The paper describing the original experiment also reports a p-value, confidence intervals, and an effect size. Explain what each of these three statistical tools will tell Jasmina about the relationship between the original experiment and her replication.</li>
+<li>Jasmina conducts a replication of an experiment. She uses her data to calculate (i) a p-value, (ii) confidence intervals (on the mean), and (iii) an effect size. The paper describing the original experiment also reports a p-value, confidence intervals, and an effect size. Explain what each of these three statistical tools will tell Jasmina about the relationship between the original experiment and her replication.</li>
 </ol>
 <p><br></p>
 <ol style="list-style-type: decimal">
 <li>The mean IQ of <em>all the people</em> on the island Lorbia is 135 (they’re very good at taking IQ tests!). You take a sample of 10 people from Lorbia and calculate the mean IQ and a 95% confidence interval around the mean. You repeat this procedure for a total of 200 samples. How many of your 200 confidence intervals will include the value 135?</li>
 </ol>
-<p><br></p>
 <p><br></p>
 <ol style="list-style-type: decimal">
 <li>This question uses the data from the Many Babies project from Assignment 5.<br><br> <strong>[a]</strong> Calculate effect sizes for the replications in two of the labs. Specifically, calculate an effect size for the replication experiment conducted by the “babylabnijmegen” lab and an effect size for the replication experiment conducted by the “infantllmadison” lab. <br> <strong>[b]</strong> Plot the two effect sizes. <br> <strong>[c]</strong> Which lab had the largest effect size? State the point estimate and confidence interval for the effect size for that lab.<br> <strong>[d]</strong> Interpret the effect sizes. Explain what it means to have a large effect size in this experiment. Would you guess that these two effect sizes are statistically different from each other? Why or why not?<br> <strong>[e]</strong> Imagine we ran another replication of this experiment and got a <em>negative</em> effect size. What would this mean? <br></li>
@@ -596,10 +583,10 @@ $(document).ready(function () {
 <p>The following questions concern the set of studies reported in <a href="/assignment_materials/Bian_2017_main.pdf">“Gender stereotypes about intellectual ability emerge early and influence children’s interests” by Lian, Leslie, and Cimpian (2017)</a>. You can find additional information about the study methods in the <a href="/assignment_materials/Bian_SM.pdf">Supplementary Materials</a>. In addition, there is an <a href="https://osf.io/jfm26/?view_only=9a8505d4e87b456a89f255b43e21234e">OSF repository</a> that contains the raw data from the studies reported in the paper. The repository includes a document explaining each of the variables. <em>In order to complete the questions about this dataset, you’ll need to read the paper/supplementary materials to understand the design of Study 1 and Study 2.</em></p>
 <p><br></p>
 <ol style="list-style-type: decimal">
-<li>Load the data from Study 1 into R. Sort the data so that children who have the highest value for <code>stereo</code> are at the top. Show the first 7 rows of this dataset.</li>
+<li>Load the data from Study 1 into R (you’ll need to read in the provided csv file rather than importing from OSF directly). Sort the data so that children who have the highest value for <code>stereo</code> are at the top. Show the first 7 rows of this dataset.</li>
 </ol>
 <p><br></p>
-<p>When you look at the data in Study 1 you might notice that the values for the variables <code>gender</code> and <code>trait</code> are numbers. Coding qualitative variables with numbers is not ideal since it’s not obvious what these number correspond to, and so it’s easy to make errors when you’re interpreting the data. The code below recodes the variables <code>gender</code> and <code>trait</code> so that the values are interpretative strings, rather than numbers. Make sure to use the below code to fix the variables <code>gender</code> and <code>trait</code> in your data frame.</p>
+<p>When you look at the data in Study 1 you might notice that the values for the variables <code>gender</code> and <code>trait</code> are numbers. Coding qualitative variables with numbers is not ideal since it’s not obvious what these number correspond to, and so it’s easy to make errors when you’re interpreting the data. The code below recodes the variables <code>gender</code> and <code>trait</code> so that the values are interpretatable strings, rather than numbers. Make sure to use the below code to fix the variables <code>gender</code> and <code>trait</code> in your data frame.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a>lian_data_tidy &lt;-<span class="st"> </span>lian_data <span class="op">%&gt;%</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">gender =</span> <span class="kw">as_factor</span>(gender),</span>
 <span id="cb1-3"><a href="#cb1-3"></a>         <span class="dt">gender =</span> <span class="kw">fct_recode</span>(gender, <span class="st">&quot;boy&quot;</span> =<span class="st"> &quot;1&quot;</span>, <span class="st">&quot;girl&quot;</span> =<span class="st"> &quot;2&quot;</span>),</span>
@@ -623,7 +610,7 @@ $(document).ready(function () {
 </ol>
 <p><br></p>
 <ol style="list-style-type: decimal">
-<li><strong>Extra credit</strong>: Use the data from Study 1 to make a second plot. Make a violin plot (<code>geom_violin</code>) showing the distribution of the mean proportion of times children linked the target trait to their own gender. Show a separate violin for each gender and for each trait. Add a point estimate and a confidence interval to each violin showing the corresponding 95% confidence interval.</li>
+<li><strong>Extra credit</strong>: Use the data from Study 1 to make a second plot. Make a violin plot (<code>geom_violin</code>) showing the distribution of the mean proportion of times children linked the target trait to their own gender. Show a separate violin for each unique combination of gender and trait. Add a point estimate and a confidence interval to each violin showing the corresponding 95% confidence interval.</li>
 </ol>
 <p><br></p>
 
@@ -644,6 +631,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

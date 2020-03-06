@@ -212,7 +212,26 @@ Explore this app [Link]</description>
       
       <guid>/reading/08b-reading/</guid>
       <description>Readings for class: [link] Trust in science would be improved by study pre-registration, The Guardian (2013).
-Readings for class: [link] Preregister everything, Michael C. Frank (2016)</description>
+Optional: [link] Preregister everything, Michael C. Frank (2016)</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/reading/09a-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/09a-reading/</guid>
+      <description>Required [link] Michael Buhrmester, Tracy Kwang, and Samuel D Gosling “Amazon’s Mechanical Turk: A New Source of Inexpensive, yet High-Quality Data?” (2011).</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/reading/09b-reading/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/reading/09b-reading/</guid>
+      <description>Readings for class: [link] Russell A. Poldrack “Statistical Thinking for the 21st Century” (2019). Chapter 18: Quantifying effects and designing studies (section 18.3).
+[link] Jacob Cohen “A Power Primer,” Psychological Bulletin 112, no. 1 (1992): 155. [Optional]</description>
     </item>
     
     <item>
@@ -242,24 +261,6 @@ Readings for class: [link] Preregister everything, Michael C. Frank (2016)</desc
       <description>Course materials go in static/ Overall site config: config.yaml Course schedule info: data/lessons.yaml Specific course contant: content/
 Change templae: themes/
 public/* is generated from scripts</description>
-    </item>
-    
-    <item>
-      <title>Intro/Cumulative Science</title>
-      <link>/reading/09a-reading/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/reading/09a-reading/</guid>
-      <description>Required [TBD]</description>
-    </item>
-    
-    <item>
-      <title>Intro/Cumulative Science</title>
-      <link>/reading/09b-reading/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/reading/09b-reading/</guid>
-      <description>Required [TBD]</description>
     </item>
     
     <item>
@@ -346,7 +347,7 @@ ggplot cheatsheet</description>
       
       <guid>/syllabus/</guid>
       <description>Course Objectives The course has two related goals: (1) Provide a theoretical understanding of the scientific process and the role of cumulative science, and (2) introduce you to a set of modern tools for conducting science in this framework. Specifically, you’ll be able to:
- Understand the basic principles of experimental design and the cumulative scientific process Use R/RStudio and the tidyverse framework (Wickham, 2017) for conducting basic data analysis Present visualizations of data using Grammar of Graphics principles (Wickham, 2010) Implement reproducible workflows Conduct a basic meta-analysis  In addition, the course will introduce you to a range of other tools (Github, Rpubs, Open Science Framework, web experimental frameworks, metafor) that are useful in psychological research.</description>
+ Understand the basic principles of experimental design and the cumulative scientific process Use R/RStudio and the tidyverse framework (Wickham, 2017) for conducting basic data analysis Present visualizations of data using Grammar of Graphics principles (Wickham, 2010) Implement reproducible workflows Understand the principles of “the new statistics” (i.</description>
     </item>
     
   </channel>
