@@ -1,0 +1,65 @@
+---
+title: "Meta-Analysis Final Project"
+slug: finalproject
+---
+
+For the remaining portion of the semester, we will be working on your final projects -- an original meta-analysis on a question in developmental, cognitive, or social psychology. You will complete your project in groups of ~4, and you will decide on your topic in consultation with me and your group members. The goal is that you could go on to publish your meta-analysis with a little more work beyond this class.
+
+There are broadly five steps to conducting a meta-analysis: 
+
+1. Identify topic
+2. Conduct literature search
+3. Code studies and calculate effect sizes
+4. Plot and analyze data
+5. Report and discuss results.
+
+You will conduct your meta-analysis as a group, but you will write-up your results in a final paper *individually* (each student must turn in their own final paper). In the following weeks, you will complete three more assignments (Assignments 6-8). Each assignment will involve completing one of the above steps for your meta-analysis. Assignment 6 will involve identifying a topic for your MA, Assignment 7 will involve conducting a literature search for your MA, and Assignment 8 will involve coding studies for your MA. Each of these three assignments will involve a written component that will become part of your final paper that you turn in at the end of the semester.
+
+We will provide feedback to you for each assignment and *you must incorporate this feedback* in your final paper. After completing Assignments 6-8, you'll almost have a complete paper -- the only additional things you'll need to add are plots and analyses of your data and a discussion of your results.  Finally, you will share your final results in a presentation during the last week of class. Your presentation will be as a group. 
+
+More detailed expectations are described below.
+
+
+# Final Project Paper
+
+Your paper write-up of your project will use a package called [Papaja](https://github.com/crsh/papaja) that provides a template for writing papers in APA format using R Markdown. The template allows you to write your final paper and include your R code and output in a single document, making your report highly reproducible. The template is provided here. Your final paper is due **May 8th (5pm)**. It should include the following components:
+
+
+Introduction to your MA:
+
+* -~2 pages 
+- -introduce the question your MA addresses and why it is important
+* -introduce seminal paper (method, finding, results)
+
+Methods:
+
+* -paper selection method (inclusion criteria)
+* -description of variables coded
+* -effect size measure
+
+Results:
+
+* -forest plot
+* -funnel plot
+* -grand mean effect size
+* -moderators 
+  
+Discussion:
+
+* -1-2 pages
+* -summary of findings
+* -interpretation - What do your findings mean? How does the grand effect size compare to other effects in psychology and in your domain?
+
+
+# Final Project Presentation
+
+Presentations will be in class on **April 27th and 29th**. Additional details:
+
+* -Should be 10 minutes in length, 5 additional minutes for questions
+* -Should broadly follow the same structure as your final paper
+* -Use google slides
+
+
+
+
+

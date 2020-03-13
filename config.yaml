@@ -29,6 +29,9 @@ menu:
     - name: Resources
       url: /resources/
       weight: 3
+    - name: Final Project
+      url: /finalproject/
+      weight: 5
 params:
   subtitle: "Cumulative Science, Big Data, and Meta-Analysis"
   author: Molly Lewis
@@ -38,20 +41,19 @@ params:
     email: mollylewis@cmu.edu
     url: "http://www.andrew.cmu.edu/user/mollylew/"
     github: 
-    office: Porter 223A
-    oh: W 4:30-6:30pm
+    office: "<b> [ZOOM OFFICE](https://cmu.zoom.us/j/765835761) </b>"
+    oh: "W 4:30-6:30pm"
   ta: 
     name:  Jaeah Kim
     email: jaeahk@andrew.cmu.edu
-    office: Psych Lounge
-    oh: M 1:00-3:00pm
+    office: <b> ZOOM OFFICE</b>
+    oh: M 1:00-3:00pm 
   course:
     number: 85311
     semester: Spring 2020
     days: "MW (lecture); F (lab)"
     time: "10:30-11:20am"
-    location1: "Lecture: Baker 336B"
-    location2: "Lab: Baker 332P"
+    location1: "Lecture/Lab:  <b> [ZOOM CLASSROOM](https://cmu.zoom.us/j/602836260)</b>"
     dates: "January - May 2020"
     copyrightYear: "2019"
     contactDetails: >-

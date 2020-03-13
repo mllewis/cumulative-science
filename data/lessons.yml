@@ -197,113 +197,110 @@ lessons:
   - title: "------ __SPRING BREAK__ ------ <br> <br>  <br>"
     date:  ""
 
-  - title: "Research on the Web"
+  - title: "[class canceled]"
     notes: 
     date: Week 9 [M, 3/16]
-    reading: "09a-reading"
-    hasclass: True
 
-  - title: "Research on the Web"
+  - title: "More on effect sizes"
     date:  [W]
     notes: "Skills: power analysis"
     reading: "09b-reading"
     hasclass: True
 
-  - title: "*Lab: Analyzing replication data* <br> <br>  <br>"
+  - title: "*Lab: Midterm Solutions* <br> <br>  <br>"
     date:  [F]
-    notes: "Skills: R projects; Rpubs"
+    notes: 
     hasassignment: True
-    #assignment:  "06"
-
+    #assignemnt: MA_project_description
 
   - title: '<span class="fake-header-table">Aggregating Many Experiments</span>'
     header: True
 
-  - title: "Intro to meta-analysis"
+  - title: "Intro to meta-analysis (MA)"
     date: Week 10 [M, 3/23]
     #reading: "10a-reading"
-    #hasclass: True
+    hasclass: True
 
-  - title: "Identifying a sampling frame"
+  - title: "Choosing a MA topic"
     date:  [W]
     #reading: "10b-reading"
-    #hasclass: True
+    notes: '<a href = "/finalproject/">  [FINAL PROJECT] </a>'
+    hasclass: True
 
-  - title:  '<i class="far fa-keyboard">  </i> A6 Due'
-    date: [TH]
-
-  - title: "*Lab: Conducting a MA* <br> <br>  <br>"
+  - title: "*Lab: Choosing a MA topic* <br> <br>  <br>"
     date:  [F]
+    notes: "Skills: Papaja"
     hasassignment: True
-    #assignment:  "07"
+    #assignment:  "06"
 
 
-  - title: "Coding meta-analytic data"
+  - title: "Narrowing your MA topic"
     date: Week 11 [M, 3/30]
+    notes: "Skills: inclusion/exclusion criteria"
     #reading: "11a-reading"
-    #hasclass: True
+    hasclass: True
 
-  - title: "Effect sizes for meta-analysis"
+  - title: "Conducting a literature search"
     date:  [W]
    # reading: "1b-reading"
-   # hasclass: True
+    hasclass: True
 
-  - title:  '<i class="far fa-keyboard"> </i>  A7 Due'
+  - title:  '<i class="far fa-keyboard"> </i>  A6 Due [Topic proposal]'
     date: [TH]
 
-  - title: "*Lab: Intro to metafor* <br> <br>  <br>"
+  - title: "*Lab: Conducting a literature search* <br> <br>  <br>"
     date:  [F]
     hasassignment: True
-    #assignment:  "98"
+    #assignment: "07"
 
-
-  - title: "Analyzing MA data"
+  - title: "Coding studies for a MA"
     date: Week 12 [M, 4/6]
     #reading: "12a-reading"
-    #hasclass: True
+    hasclass: True
 
-  - title: "Plotting meta-analytic data"
+  - title: "Calculating ES from coded data"
     date:  [W]
     #reading: "12b-reading"
-    #hasclass: True
+    hasclass: True
 
-  - title:  '<i class="far fa-keyboard"> </i> A8 Due'
+  - title:  '<i class="far fa-keyboard"> </i> A7 Due [Literature search]'
     date: [TH]
 
-  - title: "*Lab: Plotting in metafor* <br> <br>  <br>"
+  - title: "*Lab: Coding MA data practicum* <br> <br>  <br>"
     date:  [F]
-    notes: '<i class="far fa-keyboard"> </i> Final Project  posted'
+    hasassignment: True
+    #assignment: "08"
 
-
-  - title: "Big data beyond the lab: Large scale web experiments"
+  - title: "Coding MA data practicum"
     date: Week 13 [M, 4/13]
-    reading: "13a-reading"
+    reading: 
     hasclass: True
 
-
-  - title: "Big data beyond the lab: Found data"
-    reading: "13b-reading"
+  - title: "Plotting MA data"
+   # reading: "13b-reading"
+    notes: "Skills: metafor; forest plot; funnel plot"
     date:  [W]
     hasclass: True
 
-  - title:  '<i class="far fa-keyboard"> </i> MA Proposals Due'
-    date: ""
+  - title:  '<i class="far fa-keyboard"> </i> A8 Due [Coded data]'
+    date: [TH]
 
-  - title: "*No Lab (Spring Carnival)* <br> <br>  <br>"
+  - title: "*No Lab* <br> <br>  <br>"
     date:  [F]
 
-  - title: "Group meetings"
+  - title: "Estimating the grand effect size"
     date: Week 14 [M, 4/20]
+    hasclass: True
 
-  - title: "Group meetings"
+  - title: "Reporting your results"
     date:  [W]
+    hasclass: True
 
-  - title: "*Lab: Work on Projects* <br> <br>  <br>"
+  - title: "*Lab: Work on projects* <br> <br>  <br>"
     date:  [F]
 
   - title: "Project Presentations"
     date: Week 15 [M, 4/27]
-    notes: "Poster DUE (send to print)"
 
   - title: "Project Presentations"
     date:  [W]
@@ -314,5 +311,5 @@ lessons:
   - title: "*No Lab* <br> <br>  <br>"
     date:  [F]
 
-  - title: "__FINAL PROJECT DUE__ (noon)"
+  - title: "__FINAL PROJECT WRITEUP DUE__ (noon)"
     date:  "[F, 5/8]"

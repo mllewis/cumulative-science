@@ -107,7 +107,7 @@ assignments <- tribble(
   16      , "Participation",
   7 * 20  , "Lab Assignments (7 × 20)",
   48     , "Midterm",
-  96     , "Final Meta-analysis Project [Proposal = 16; Presentation = 30; Writeup = 50]",
+  96     , "Final Meta-analysis Project [Data Coding = 16; Presentation = 30; Writeup = 50]",
 ) %>%
   mutate(Percent = Points / sum(Points),
          Percent = scales::percent(Percent)) 
