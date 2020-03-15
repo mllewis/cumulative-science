@@ -201,16 +201,15 @@ lessons:
     notes: 
     date: Week 9 [M, 3/16]
 
-  - title: "More on effect sizes"
+  - title: "Midterm review"
     date:  [W]
-    notes: "Skills: power analysis"
-    reading: "09b-reading"
     hasclass: True
 
-  - title: "*Lab: Midterm Solutions* <br> <br>  <br>"
+  - title: "*Lab: More on effect sizes* <br> <br>  <br>"
     date:  [F]
-    notes: 
-    hasassignment: True
+    reading: "09c-reading"
+    hasclass: True
+    notes: "Skills: power analysis"
     #assignemnt: MA_project_description
 
   - title: '<span class="fake-header-table">Aggregating Many Experiments</span>'
@@ -229,7 +228,7 @@ lessons:
 
   - title: "*Lab: Choosing a MA topic* <br> <br>  <br>"
     date:  [F]
-    notes: "Skills: Papaja"
+    notes: "Skills: papaja"
     hasassignment: True
     #assignment:  "06"
 
@@ -292,17 +291,17 @@ lessons:
     date: Week 14 [M, 4/20]
     hasclass: True
 
-  - title: "Reporting your results"
+  - title: "Estimating moderators"
     date:  [W]
     hasclass: True
 
   - title: "*Lab: Work on projects* <br> <br>  <br>"
     date:  [F]
 
-  - title: "Project Presentations"
+  - title: "Reporting your results"
     date: Week 15 [M, 4/27]
 
-  - title: "Project Presentations"
+  - title: "Work on presentations"
     date:  [W]
 
   - title: "Psychology Research Methods Poster Sesssion"
