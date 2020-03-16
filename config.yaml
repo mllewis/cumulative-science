@@ -40,13 +40,14 @@ params:
     name:  Dr. Molly Lewis
     email: mollylewis@cmu.edu
     url: "http://www.andrew.cmu.edu/user/mollylew/"
-    github: 
+    signup: "<b> [signup sheet](https://docs.google.com/spreadsheets/d/1gvTX55rFdZFoDbV0nyXaefbQKTvlDbTdqUfQJNxl4BQ/edit#gid=0)</b>"
     office: "<b> [ZOOM OFFICE](https://cmu.zoom.us/j/765835761) </b>"
     oh: "W 4:30-6:30pm"
   ta: 
     name:  Jaeah Kim
     email: jaeahk@andrew.cmu.edu
-    office: <b> ZOOM OFFICE</b>
+    signup: "<b> [signup sheet](https://docs.google.com/spreadsheets/d/1gvTX55rFdZFoDbV0nyXaefbQKTvlDbTdqUfQJNxl4BQ/edit#gid=0)</b>"
+    office: "<b> [ZOOM OFFICE](https://cmu.zoom.us/j/538037017) </b>"
     oh: M 1:00-3:00pm 
   course:
     number: 85311
