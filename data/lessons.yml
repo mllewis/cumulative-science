@@ -203,6 +203,8 @@ lessons:
 
   - title: "Midterm review"
     date:  [W]
+    notes:  '<a href = "/assignment/midterm_MRM_assignment_solutions.html">  [midterm solutions]</a>'
+    class: "MRM_slides_9b" 
     hasclass: True
 
   - title: "*Lab: More on effect sizes* <br> <br>  <br>"
