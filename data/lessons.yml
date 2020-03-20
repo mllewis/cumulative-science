@@ -212,7 +212,7 @@ lessons:
     reading: "09c-reading"
     hasclass: True
     notes: '<a href = "https://docs.google.com/presentation/d/1YCvqPXOg5PuEG15bwrACMosnLvMaHDxY_eXakeQDDcE/edit#slide=id.g71a8d5c3fb_0_20">  [ES coding google slides]</a> <a href = "/readings/bion2013.pdf">  [Bion 2013]</a> <a href = "/readings/deak2001.pdf">  [Deak 2001]</a>'
-    #assignemnt: MA_project_description
+    class: "MRM_slides_9c" 
 
   - title: '<span class="fake-header-table">Aggregating Many Experiments</span>'
     header: True
@@ -233,7 +233,6 @@ lessons:
     notes: "Skills: papaja"
     hasassignment: True
     #assignment:  "06"
-
 
   - title: "Narrowing your MA topic"
     date: Week 11 [M, 3/30]
