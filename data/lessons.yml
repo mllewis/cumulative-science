@@ -211,7 +211,7 @@ lessons:
     date:  [F]
     reading: "09c-reading"
     hasclass: True
-    notes: "Skills: power analysis"
+    notes: '<a href = "https://docs.google.com/presentation/d/1YCvqPXOg5PuEG15bwrACMosnLvMaHDxY_eXakeQDDcE/edit#slide=id.g71a8d5c3fb_0_20">  [ES estimation google slides]</a> <a href = "/readings/bion2013.pdf">  [Bion 2013]</a>'
     #assignemnt: MA_project_description
 
   - title: '<span class="fake-header-table">Aggregating Many Experiments</span>'
