@@ -219,12 +219,12 @@ lessons:
 
   - title: "Intro to meta-analysis (MA)"
     date: Week 10 [M, 3/23]
-    #reading: "10a-reading"
+    reading: "10a-reading"
     hasclass: True
 
   - title: "Choosing a MA topic"
     date:  [W]
-    #reading: "10b-reading"
+    reading: "10b-reading"
     notes: '<a href = "/finalproject/">  [FINAL PROJECT] </a>'
     hasclass: True
 
