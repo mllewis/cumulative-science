@@ -220,6 +220,7 @@ lessons:
   - title: "Intro to meta-analysis (MA)"
     date: Week 10 [M, 3/23]
     reading: "10a-reading"
+    class: "MRM_slides_10a" 
     hasclass: True
 
   - title: "Choosing a MA topic"
