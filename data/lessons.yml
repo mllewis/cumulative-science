@@ -226,7 +226,7 @@ lessons:
   - title: "Choosing a MA topic"
     date:  [W]
     reading: "10b-reading"
-    notes: '<a href = "/readings/lewis2020.pdf">  [Lewis et al. 2020]</a>' '<a href = "/finalproject/">  [FINAL PROJECT] </a>'
+    notes: '<a href = "/readings/lewis2020.pdf">  [Lewis et al. 2020]</a> <a href = "/finalproject/">  [FINAL PROJECT] </a>'
     hasclass: True
 
   - title: "*Lab: Choosing a MA topic* <br> <br>  <br>"
