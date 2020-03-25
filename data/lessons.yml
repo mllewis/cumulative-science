@@ -227,6 +227,7 @@ lessons:
     date:  [W]
     reading: "10b-reading"
     notes: '<a href = "/finalproject/">  [FINAL PROJECT] </a><a href = "/readings/lewis2020.pdf">  [Lewis et al. 2020]</a> <a href = "https://drive.google.com/drive/u/0/folders/1G6TOX6HlHiIaJLnOTt8Qf4UNV-mAhQ7I">  [Seminal papers for final project]</a> '
+    class: "MRM_slides_10a" 
     hasclass: True
 
 
