@@ -27,7 +27,7 @@ Your paper write-up of your project will use a package called [Papaja](https://g
 
 Introduction to your MA:
 
-* -~2 pages 
+* -4-6 pages 
 - -introduce the question your MA addresses and why it is important
 * -introduce seminal paper (method, finding, results)
 
@@ -46,10 +46,11 @@ Results:
   
 Discussion:
 
-* -1-2 pages
+* -2-3 pages
 * -summary of findings
 * -interpretation - What do your findings mean? How does the grand effect size compare to other effects in psychology and in your domain?
 
+In addition to the content of your meta-analysis, your paper will be evaluated for the clarity of the writing. 
 
 # Final Project Presentation
 
