@@ -233,9 +233,8 @@ lessons:
 
   - title: "*Lab: Choosing a MA topic* <br> <br>  <br>"
     date:  [F]
-    notes: "Skills: papaja"
     hasassignment: True
-    #assignment:  "06"
+    assignment:  "06"
 
   - title: "Narrowing your MA topic"
     date: Week 11 [M, 3/30]
@@ -253,6 +252,7 @@ lessons:
 
   - title: "*Lab: Conducting a literature search* <br> <br>  <br>"
     date:  [F]
+    notes: "Skills: papaja"
     hasassignment: True
     #assignment: "07"
 
