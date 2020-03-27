@@ -233,6 +233,7 @@ lessons:
 
   - title: "*Lab: Choosing a MA topic* <br> <br>  <br>"
     date:  [F]
+    class: "MRM_slides_10c" 
     hasassignment: True
     assignment:  "06"
 
