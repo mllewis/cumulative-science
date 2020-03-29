@@ -262,7 +262,7 @@ lessons:
     #reading: "12a-reading"
     hasclass: True
 
-  - title: "Calculating ES from coded data"
+  - title: "Coding MA data practicum"
     date:  [W]
     #reading: "12b-reading"
     hasclass: True
@@ -270,43 +270,50 @@ lessons:
   - title:  '<i class="far fa-keyboard"> </i> A7 Due [Literature search]'
     date: [TH]
 
-  - title: "*Lab: Coding MA data practicum* <br> <br>  <br>"
+  - title: "*Lab: Calculating ES from coded data* <br> <br>  <br>"
     date:  [F]
     hasassignment: True
     #assignment: "08"
 
-  - title: "Coding MA data practicum"
+  - title: "Plotting MA data"
     date: Week 13 [M, 4/13]
+    notes: "Skills: metafor; forest plot; funnel plot"
     reading: 
     hasclass: True
 
-  - title: "Plotting MA data"
+  - title: "Estimating the grand effect size"
    # reading: "13b-reading"
-    notes: "Skills: metafor; forest plot; funnel plot"
     date:  [W]
     hasclass: True
 
   - title:  '<i class="far fa-keyboard"> </i> A8 Due [Coded data]'
     date: [TH]
 
-  - title: "*No Lab* <br> <br>  <br>"
+  - title: "*Lab: Estimating moderators* <br> <br>  <br>"
     date:  [F]
 
-  - title: "Estimating the grand effect size"
+  - title: "Practicum"
     date: Week 14 [M, 4/20]
     hasclass: True
 
-  - title: "Estimating moderators"
+  - title: "Practicum"
     date:  [W]
     hasclass: True
 
-  - title: "*Lab: Work on projects* <br> <br>  <br>"
+  - title:  '<i class="far fa-keyboard"> </i> Poster Draft Due'
+    date: [TH]
+
+  - title: "*Lab: Revise posters* <br> <br>  <br>"
+    notes: "Skills: poster presentation"
     date:  [F]
 
-  - title: "Reporting your results"
+  - title: "Practice presentations"
     date: Week 15 [M, 4/27]
 
-  - title: "Work on presentations"
+  - title:  '<i class="far fa-keyboard"> </i> Recorded Poster Presentation Due'
+    date: [T]
+
+  - title: "Reporting your results"
     date:  [W]
 
   - title: "Psychology Research Methods Poster Sesssion"
