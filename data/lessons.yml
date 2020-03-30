@@ -237,10 +237,9 @@ lessons:
     hasassignment: True
     assignment:  "06"
 
-  - title: "Narrowing your MA topic"
+  - title: "Conducting a literature search"
     date: Week 11 [M, 3/30]
-    notes: "Skills: inclusion/exclusion criteria"
-    #reading: "11a-reading"
+    notes: 'Skills: inclusion/exclusion criteria; <a href = "https://docs.google.com/spreadsheets/d/1Obf940wV92EZ2AdGbhnTBKuhag6ffnalS2MXlud21T4/edit#gid=250010470">  [literature search spreadsheet] </a>'
     hasclass: True
 
   - title: "Conducting a literature search"
