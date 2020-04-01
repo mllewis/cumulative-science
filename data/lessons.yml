@@ -246,6 +246,8 @@ lessons:
     date:  [W]
    # reading: "1b-reading"
     hasclass: True
+    class: "MRM_slides_11b" 
+
 
   - title:  '<i class="far fa-keyboard"> </i>  A6 Due [Topic proposal]'
     date: [TH]
