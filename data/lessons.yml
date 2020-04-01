@@ -234,6 +234,7 @@ lessons:
   - title: "*Lab: Choosing a MA topic* <br> <br>  <br>"
     date:  [F]
     class: "MRM_slides_10c" 
+    notes: '<a href = "https://docs.google.com/document/d/1up1zCvjW6s8ElKrE9ezgCcErzc95di9e-cRrH5h3YPY/edit"> [A6 template]  </a>'
     hasassignment: True
     assignment:  "06"
 
