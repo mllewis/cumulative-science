@@ -255,9 +255,9 @@ lessons:
 
   - title: "*Lab: Conducting a literature search* <br> <br>  <br>"
     date:  [F]
-    notes: "Skills: papaja"
+    notes: "Skills: rpubs"
     hasassignment: True
-    #assignment: "07"
+    assignment: "07"
 
   - title: "Coding studies for a MA"
     date: Week 12 [M, 4/6]
@@ -317,6 +317,7 @@ lessons:
 
   - title: "Reporting your results"
     date:  [W]
+    notes: "Skills: papaja package"
 
   - title: "Psychology Research Methods Poster Sesssion"
     date:  "[TH, 4/30, 4:30 - 6:00PM]"
