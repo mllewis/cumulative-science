@@ -257,6 +257,7 @@ lessons:
     date:  [F]
     notes: 'Skills: rpubs and googlesheets4 package; <a href = "https://rpubs.com/mll/593831">  [literature search progress markdown] </a>'
     hasassignment: True
+    class: "MRM_slides_11c" 
     assignment: "07"
 
   - title: "Coding studies for a MA"
