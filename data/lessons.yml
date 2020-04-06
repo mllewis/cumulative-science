@@ -255,7 +255,7 @@ lessons:
 
   - title: "*Lab: Conducting a literature search* <br> <br>  <br>"
     date:  [F]
-    notes: 'Skills: rpubs and googlesheets4 package; <a href = "https://rpubs.com/mll/593831">  [literature search progress markdown] </a>'
+    notes: 'Skills: rpubs and googlesheets4 package; <a href = "https://rpubs.com/mll/594117">  [literature search progress markdown] </a>'
     hasassignment: True
     class: "MRM_slides_11c" 
     assignment: "07"
