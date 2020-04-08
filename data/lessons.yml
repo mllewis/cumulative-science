@@ -263,9 +263,8 @@ lessons:
   - title: "Coding studies for a MA"
     date: Week 12 [M, 4/6]
     #reading: "12a-reading"
-    hasclass: True
 
-  - title: "Coding MA data practicum"
+  - title: "Coding studies for a MA"
     date:  [W]
     #reading: "12b-reading"
     hasclass: True
