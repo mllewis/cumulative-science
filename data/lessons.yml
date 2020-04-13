@@ -275,32 +275,30 @@ lessons:
 
   - title: "*Lab: Calculating ES from coded data* <br> <br>  <br>"
     date:  [F]
-    class: "MRM_slides_12c" 
+    class: "MRM_slides_1c" 
     hasassignment: True
     assignment: "08"
 
-  - title: "Plotting MA data"
+  - title: "Practicum"
     date: Week 13 [M, 4/13]
-    notes: "Skills: metafor; forest plot; funnel plot"
     reading: 
     hasclass: True
 
-  - title: "Estimating the grand effect size"
+  - title: "Practicum"
    # reading: "13b-reading"
     date:  [W]
     hasclass: True
-
-  - title:  '<i class="far fa-keyboard"> </i> A8 Due [Coded data]'
-    date: [TH]
-
-  - title: "*Lab: Estimating moderators* <br> <br>  <br>"
+    
+  - title: '*NO CLASS*; <i class="far fa-keyboard"> </i> A8 Due [Coded data] <br> <br>  <br>'
     date:  [F]
 
-  - title: "Practicum"
+  - title: "Plotting MA data"
+    notes: "Skills: metafor; forest plot; funnel plot"
+
     date: Week 14 [M, 4/20]
     hasclass: True
 
-  - title: "Practicum"
+  - title: "Estimating the grand effect size"
     date:  [W]
     hasclass: True
 
