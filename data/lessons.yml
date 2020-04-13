@@ -281,6 +281,7 @@ lessons:
 
   - title: "Practicum"
     date: Week 13 [M, 4/13]
+    class: "MRM_slides_13a" 
     reading: 
     hasclass: True
 
@@ -288,7 +289,7 @@ lessons:
    # reading: "13b-reading"
     date:  [W]
     hasclass: True
-    
+
   - title: '*NO CLASS*; <i class="far fa-keyboard"> </i> A8 Due [Coded data] <br> <br>  <br>'
     date:  [F]
 
