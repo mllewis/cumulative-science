@@ -285,7 +285,7 @@ lessons:
     reading: 
     hasclass: True
 
-  - itle: "Plotting MA data"
+  - title: "Plotting MA data"
    # reading: "13b-reading"
     notes: "Skills: metafor; forest plot; funnel plot"
 
