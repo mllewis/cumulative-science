@@ -285,17 +285,17 @@ lessons:
     reading: 
     hasclass: True
 
-  - title: "Practicum"
+  - itle: "Plotting MA data"
    # reading: "13b-reading"
+    notes: "Skills: metafor; forest plot; funnel plot"
+
     date:  [W]
     hasclass: True
 
   - title: '*NO CLASS*; <i class="far fa-keyboard"> </i> A8 Due [Coded data] <br> <br>  <br>'
     date:  [F]
 
-  - title: "Plotting MA data"
-    notes: "Skills: metafor; forest plot; funnel plot"
-
+  - title: "Practicum"
     date: Week 14 [M, 4/20]
     hasclass: True
 
