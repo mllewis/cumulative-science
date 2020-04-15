@@ -288,7 +288,7 @@ lessons:
   - title: "Plotting MA data"
    # reading: "13b-reading"
     notes: "Skills: metafor; PRISMA diagram; forest plot"
-
+    class: "MRM_slides_13b" 
     date:  [W]
     hasclass: True
 
