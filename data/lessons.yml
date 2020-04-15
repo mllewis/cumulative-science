@@ -287,7 +287,7 @@ lessons:
 
   - title: "Plotting MA data"
    # reading: "13b-reading"
-    notes: "Skills: metafor; forest plot; funnel plot"
+    notes: "Skills: metafor; PRISMA diagram; forest plot"
 
     date:  [W]
     hasclass: True
@@ -295,11 +295,12 @@ lessons:
   - title: '*NO CLASS*; <i class="far fa-keyboard"> </i> A8 Due [Coded data] <br> <br>  <br>'
     date:  [F]
 
-  - title: "Practicum"
+  - title: "Moderators and funnel plots"
     date: Week 14 [M, 4/20]
+    notes: "Skills: metafor; funnel plot"
     hasclass: True
 
-  - title: "Estimating the grand effect size"
+  - title: "Practicum"
     date:  [W]
     hasclass: True
 
