@@ -295,31 +295,34 @@ lessons:
   - title: '*NO CLASS*; <i class="far fa-keyboard"> </i> A8 Due [Coded data] <br> <br>  <br>'
     date:  [F]
 
-  - title: "Moderators and funnel plots"
+  - title: "Funnel plots"
     date: Week 14 [M, 4/20]
-    notes: "Skills: metafor; funnel plot"
+    notes: 'Skills: funnel plot; <a href = "https://rstudio.cloud/spaces/35356/project/1153485"> [analysis markdown]</a>; <a href = "https://docs.google.com/presentation/d/1XAkZk7Gbu2fEUJwwfqzjdULxbkh8Ao9W9P7lxPWzyg8/edit?usp=sharing">  [poster template] </a> '
     hasclass: True
 
-  - title: "Practicum"
+  - title: '<i class="far fa-keyboard"> </i> Data Cleaning Todos Due (noon)'
+    date:  [T]
+    hasclass: True
+
+  - title: "Presenting data"
     date:  [W]
     hasclass: True
 
-  - title:  '<i class="far fa-keyboard"> </i> Poster Draft Due'
+  - title:  '<i class="far fa-keyboard"> </i> Analysis Markdown/Poster with 4 Plots Due'
     date: [TH]
 
-  - title: "*Lab: Revise posters* <br> <br>  <br>"
-    notes: "Skills: poster presentation"
+  - title: "*Lab: Practicum* <br> <br>  <br>"
     date:  [F]
 
+  - title: '<i class="far fa-keyboard"> </i> Complete poster draft due (5pm)'
+    notes: "Jaeah has office hours from 12-1pm"
+    date:  Week 15 [Sun, 4/26]
+
   - title: "Practice presentations"
-    date: Week 15 [M, 4/27]
+    date: [M]
 
-  - title:  '<i class="far fa-keyboard"> </i> Recorded Poster Presentation Due'
-    date: [T]
-
-  - title: "Reporting your results"
+  - title: 'Reporting your results; <i class="far fa-keyboard"> </i> Recorded Poster Presentation Due (10:30am)'
     date:  [W]
-    notes: "Skills: papaja package"
 
   - title: "Psychology Research Methods Poster Sesssion"
     date:  "[TH, 4/30, 4:30 - 6:00PM]"
