@@ -298,6 +298,7 @@ lessons:
   - title: "Funnel plots"
     date: Week 14 [M, 4/20]
     notes: 'Skills: funnel plot; <a href = "https://rstudio.cloud/spaces/35356/project/1153485"> [analysis markdown]</a>; <a href = "https://docs.google.com/presentation/d/1XAkZk7Gbu2fEUJwwfqzjdULxbkh8Ao9W9P7lxPWzyg8/edit?usp=sharing">  [poster template] </a> '
+    class: "MRM_slides_14a" 
     hasclass: True
 
   - title: '<i class="far fa-keyboard"> </i> Data Cleaning Todos Due (noon)'
