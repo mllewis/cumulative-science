@@ -303,13 +303,13 @@ lessons:
 
   - title: '<i class="far fa-keyboard"> </i> Data Cleaning Todos Due (noon)'
     date:  [T]
-    hasclass: True
 
   - title: "Presenting data"
     date:  [W]
+    class: "MRM_slides_14b" 
     hasclass: True
 
-  - title:  '<i class="far fa-keyboard"> </i> Analysis Markdown/Poster with 4 Plots Due'
+  - title:  '<i class="far fa-keyboard"> </i> Analysis Markdown/Poster with 4 Plots Due (noon)'
     date: [TH]
 
   - title: "*Lab: Practicum* <br> <br>  <br>"
