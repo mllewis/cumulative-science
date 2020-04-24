@@ -313,10 +313,11 @@ lessons:
     date: [TH]
 
   - title: "*Lab: Practicum* <br> <br>  <br>"
+    class: "MRM_slides_14c" 
     date:  [F]
 
   - title: '<i class="far fa-keyboard"> </i> Complete poster draft due (5pm)'
-    notes: "Jaeah has office hours from 12-1pm"
+    notes: "Jaeah has office hours from 1-2pm"
     date:  Week 15 [Sun, 4/26]
 
   - title: "Practice presentations"
