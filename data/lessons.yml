@@ -322,6 +322,7 @@ lessons:
 
   - title: "Practice presentations"
     date: [M]
+    class: "MRM_slides_15a" 
     notes: '<a href = "/misc/instructions.pdf">  [Poster recording instructions]</a>; After recording your presentation, (1) email recording to everyone in your group and the instructors, and (2) upload the recording and poster pdf to psych-poster-session course on canvas.'
 
   - title: 'Reporting your results; <i class="far fa-keyboard"> </i> Recorded Poster Presentation Due (10:30am)'
