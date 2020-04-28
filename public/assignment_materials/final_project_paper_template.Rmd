@@ -1,0 +1,54 @@
+---
+title: "[YOUR TITLE]"
+subtitle: "Final Project Writeup, Modern Research Methods"
+date: "[DATE]"
+author: "[Your Name]"
+output: bookdown::html_document2
+---
+
+```{r global_options, include=FALSE}
+# DO NOT EDIT THIS
+knitr::opts_chunk$set(eval = TRUE, message = FALSE, echo = F)
+library(tidyverse)
+library(knitr)
+library(metafor) # this is a package for analyzing meta-analytic data
+source("helpers/prisma_diagram.R") # this loads some code I wrote to make the PRISMA diagram
+```
+
+* * *
+
+## Introduction
+
+[Your text here; see "Final project" section of website for details on how to use the template]
+
+
+## Method
+
+[Your text and PRISMA plot here]
+
+
+```{r, fig.cap = "This figures shows...", fig.width = 5, fig.height = 5}
+# Example figure
+my_prisma_plot <- prisma2(found = 500, # how many unique papers did you find through database searches (google scholar/jstor)?
+        found_other = 10,  # how many papers did you find through other sources?
+        screened = 503, # how many of those papers did you screen by looking at the title/abstract?
+        screen_exclusions = 400, # how many of those papers that you screened did you exclude?
+        full_text = 103, # how many papers did you look at the full text for?
+        full_text_exclusions = 75, # how many papers did you exclude after looking at the ful text?
+        quantitative = 30, # how many papers went in your final meta-analysis
+        width = 800, height = 800)
+
+my_prisma_plot
+```
+
+
+## Results
+[Your text and plots here]
+
+
+## Discussion
+[Your text here]
+
+
+## References
+[Your text here]

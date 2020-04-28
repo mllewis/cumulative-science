@@ -334,5 +334,6 @@ lessons:
   - title: "*No Lab* <br> <br>  <br>"
     date:  [F]
 
-  - title: "__FINAL PROJECT WRITEUP DUE__ (noon)"
+  - title: '<i class="far fa-keyboard"> </i> __FINAL PROJECT WRITEUP DUE__ (noon)'
+    notes: '<a href = "/finalproject/">  [final project write-up information] </a> (see bottom of page for details on using the template); <a href = "https://rstudio.cloud/spaces/35356/project/1213062">  [final project template] </a> available on R Studio Cloud'
     date:  "[F, 5/8]"

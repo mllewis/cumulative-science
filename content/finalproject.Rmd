@@ -19,46 +19,67 @@ We will provide feedback to you for each assignment and *you must incorporate th
 
 More detailed expectations are described below.
 
+# Final Project Presentation
+
+Presentations will be the week of **April 27th**. 
 
 # Final Project Paper
 
-Your paper write-up of your project will use a package called [Papaja](https://github.com/crsh/papaja) that provides a template for writing papers in APA format using R Markdown. The template allows you to write your final paper and include your R code and output in a single document, making your report highly reproducible. The template is provided here. Your final paper is due **May 8th (5pm)**. It should include the following components:
+Use the R markdown template in an  [Rstudio Cloud project](https://rstudio.cloud/spaces/35356/project/1213062) to writeup your project. The template allows you to write your final paper and include your R code and output in a single document, making your report highly reproducible. Your final paper is due **May 8th (5pm)**. It should include the following components:
 
 
-Introduction to your MA:
+Introduction:
 
-* -4-6 pages 
-- -introduce the question your MA addresses and why it is important
-* -introduce seminal paper (method, finding, results)
+* -Minimum of 800 words. 
+* -Introduce the question your MA addresses and why it is important
+* -Introduce seminal paper (method, finding, results) 
+* -Briefly describe how other papers have built on the seminal paper
+* -Can reuse text from Assignment 6
+
 
 Methods:
 
-* -paper selection method (inclusion criteria)
-* -description of variables coded
-* -effect size measure
+* -Minimum of 400 words
+* -Paper selection method (inclusion criteria)
+* -Description of variables coded
+* -Description of effect size measure
+* -Search protocol
+* -PRISMA flow diagram
+
 
 Results:
 
-* -forest plot
-* -funnel plot
-* -grand mean effect size
-* -moderators 
+* -Include forest plot, funnel plot and moderator plots and describe the results of each.
+* -You should plot and discuss the results of 3 different moderators
+* -There is no minimum word count for the results section, but you should be sure to address the above topics 
   
 Discussion:
 
-* -2-3 pages
-* -summary of findings
-* -interpretation - What do your findings mean? How does the grand effect size compare to other effects in psychology and in your domain?
+* -Minimum of 600 words
+* -Summarize all of your results
+* -How does this effect compare to other effect sizes in the psychology literature?
+* -What are some limitations of your method?
+* -What would you do if you had more time?
 
 In addition to the content of your meta-analysis, your paper will be evaluated for a effectively you communicate your ideas (i.e., the clarity of the writing). 
 
-# Final Project Presentation
+# How to use the paper template
 
-Presentations will be the week of **April 27th**. Details TBD.
+* **How do I start writing my paper?** To start working on your paper, open up the template in R Studio Cloud and fill in the information at the top (title, name, date), then delete the stuff that won't go in your final paper ("[Your text here]" and the example figure).  To get started writing, you can copy and paste the paragraphs you wrote for Assignment 6 into the Introduction. You'll need to edit the text your wrote previously so that your introduction is complete and flows, but your Assignment 6 text will give you a starting point. 
 
-<!--* -Should be 10 minutes in length, 5 additional minutes for questions
-* -Should broadly follow the same structure as your final paper
-* -Use google slides -->
+* **Where do I write stuff?** Add your text directly to the Rmarkdown document, remembering to knit frequently to make sure you don't have an error that will be difficult to track down later. When you get to the Method and Results section, you can add R chunks to include your analyses in your paper. Most of this code you should be able to adapt from your "final_project_analyses.Rmd" markdown.
+
+* **How do I check spelling and count words?** Rstudio has a built in spell checker. It's the little green check mark with "ABC" at the top, next to the Knit button. Unfortunately, R Studio does not have a build in word counter. To count words, copy and paste your text into a word processer (like google docs) or use an [online counter](https://wordcounter.io/). 
+
+* **How do I include figures?** An example figure is included in the template. To include a figure, simply include the plotting code in an R chunk, just like you normally would. The only difference is because this is a report, you'll need to add a caption to your figure. This is done by adding the argument `fig.cap = blah` to the R chunk (see example in the template).
+
+* **What do I put in the results section?** You should present each of your figures and describe the findings. You won't have any statistics to report other than the overall meta-analytic effect size and the corresponding confidence interval. 
+
+* **Where can I see an example of how to write up my meta-analysis?** To get a general sense of how to write up your meta-analysis, you should look at the meta-analysis portion of [this paper](/readings/lewis2020.pdf). 
+* **How do I include references?** Paste the APA citation for any references you cite here (this will probably only be your seminal paper, and maybe one or two others).
+
+* **How do I turn in my paper?** Turn in the .Rmd and .html on Canvas just like a normal assignment. I'll only like at the .html when I grade, so make sure it looks beautiful! I'll look at the .Rmd only if I have questions about what you did.
+
 
 
 
