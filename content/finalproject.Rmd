@@ -76,7 +76,8 @@ In addition to the content of your meta-analysis, your paper will be evaluated f
 * **What do I put in the results section?** You should present each of your figures and describe the findings. You won't have any statistics to report other than the overall meta-analytic effect size and the corresponding confidence interval. 
 
 * **Where can I see an example of how to write up my meta-analysis?** To get a general sense of how to write up your meta-analysis, you should look at the meta-analysis portion of [this paper](/readings/lewis2020.pdf). 
-* **How do I include references?** Paste the APA citation for any references you cite here (this will probably only be your seminal paper, and maybe one or two others).
+
+* **How do I include references?** Paste the APA citation for any references you cite in the reference section (this will probably only be your seminal paper, the citation for the metafor package you used to analyze your data, and maybe one or two others).
 
 * **How do I turn in my paper?** Turn in the .Rmd and .html on Canvas just like a normal assignment. I'll only like at the .html when I grade, so make sure it looks beautiful! I'll look at the .Rmd only if I have questions about what you did.
 
