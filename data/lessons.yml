@@ -327,6 +327,7 @@ lessons:
 
   - title: 'Reporting your results; <i class="far fa-keyboard"> </i> Recorded Poster Presentation Due (10:30am)'
     notes: '<a href = "https://docs.google.com/document/d/1b_z58GK2EdvFQx1ALsgl-_35DcHbcHqoS2z663AivUQ/edit"> [Poster Q&A questions] </a>'
+    class: "MRM_slides_15b" 
     date:  [W]
 
   - title: "Psychology Research Methods Poster Sesssion"
