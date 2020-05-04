@@ -71,7 +71,7 @@ In addition to the content of your meta-analysis, your paper will be evaluated f
 
 * **How do I check spelling and count words?** Rstudio has a built in spell checker. It's the little green check mark with "ABC" at the top, next to the Knit button. Unfortunately, R Studio does not have a build in word counter. To count words, copy and paste your text into a word processer (like google docs) or use an [online counter](https://wordcounter.io/). 
 
-* **How do I include figures?** An example figure is included in the template. To include a figure, simply include the plotting code in an R chunk, just like you normally would. The only difference is because this is a report, you'll need to add a caption to your figure. This is done by adding the argument `fig.cap = blah` to the R chunk (see example in the template).
+* **How do I include figures?** An example figure is included in the template. To include a figure, simply include the plotting code in an R chunk, just like you normally would. The only difference is because this is a report, you'll need to add a caption to your figure. This is done by adding the argument `fig.cap = "blah"` to the R chunk (see example in the template).
 
 * **What do I put in the results section?** You should present each of your figures and describe the findings. You won't have any statistics to report other than the overall meta-analytic effect size and the corresponding confidence interval. 
 
@@ -79,7 +79,7 @@ In addition to the content of your meta-analysis, your paper will be evaluated f
 
 * **How do I include references?** Paste the APA citation for any references you cite in the reference section (this will probably only be your seminal paper, the citation for the metafor package you used to analyze your data, and maybe one or two others).
 
-* **How do I turn in my paper?** Turn in the .Rmd and .html on Canvas just like a normal assignment. I'll only like at the .html when I grade, so make sure it looks beautiful! I'll look at the .Rmd only if I have questions about what you did.
+* **How do I turn in my paper?** Turn in the .Rmd and .html on Canvas just like a normal assignment. I'll only look at the .html when I grade, so make sure it looks beautiful! I'll look at the .Rmd  if I have questions about what you did.
 
 
 
