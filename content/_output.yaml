@@ -7,7 +7,6 @@ blogdown::html_page:
   section_divs: false
   pandoc_args: [
       "--highlight-style", "haddock",
-      "--base-header-level=2",
-      "--filter", "pandoc-citeproc",
-      "--filter", "pandoc-sidenote"
+      "--filter", 
+      "--filter"
     ]

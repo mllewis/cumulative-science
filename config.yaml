@@ -23,15 +23,12 @@ menu:
     - name: Schedule
       url: /schedule/
       weight: 2
-    - name: RStudio.cloud
-      url: "https://rstudio.cloud"
-      weight: 4
     - name: Resources
       url: /resources/
       weight: 3
     - name: Final Project
       url: /finalproject/
-      weight: 5
+      weight: 4
 params:
   subtitle: "Cumulative Science, Big Data, and Meta-Analysis"
   author: Molly Lewis
@@ -40,23 +37,21 @@ params:
     name:  Dr. Molly Lewis
     email: mollylewis@cmu.edu
     url: "http://www.andrew.cmu.edu/user/mollylew/"
-    signup: "<b> [signup sheet](https://docs.google.com/spreadsheets/d/1gvTX55rFdZFoDbV0nyXaefbQKTvlDbTdqUfQJNxl4BQ/edit#gid=0)</b>"
-    office: "<b> [ZOOM OFFICE](https://cmu.zoom.us/j/765835761) </b>"
-    oh: "W 4:30-6:30pm"
+    office: "Porter Hall 208H"
+    oh: "W 3:00-5:00pm"
   ta: 
-    name:  XXXJaeah Kim
-    email: jaeahk@andrew.cmu.edu
-    signup: "<b> [signup sheet](https://docs.google.com/spreadsheets/d/1gvTX55rFdZFoDbV0nyXaefbQKTvlDbTdqUfQJNxl4BQ/edit#gid=0)</b>"
-    office: "<b> [ZOOM OFFICE](https://cmu.zoom.us/j/538037017) </b>"
-    oh: M 1:00-3:00pm 
+    name:  Roderick Seow 
+    email: XXX
+    office: "XXX"
+    oh: XXXX
   course:
     number: 85311
-    semester: Spring 2020
+    semester: Fall 2021
     days: "MW (lecture); F (lab)"
-    time: "10:30-11:20am"
-    location1: "Lecture/Lab:  <b> [ZOOM CLASSROOM](https://cmu.zoom.us/j/602836260)</b>"
-    dates: "January - May 2020"
-    copyrightYear: "2019"
+    time: "1:25-2:15pm"
+    location1: "Mellon Institute 448"
+    dates: "August - December 2021"
+    copyrightYear: "2021"
     contactDetails: >-
        
        
