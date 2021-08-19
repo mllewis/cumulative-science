@@ -1,0 +1,141 @@
+---
+title: Syllabus
+slug: syllabus
+citeproc: false
+bibliography: ../static/misc/bib/mrm_references.bib
+csl: ../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+```{r load-libraries, message=FALSE, warning=FALSE, include=FALSE}
+library(dplyr)
+library(tibble)
+library(pander)
+```
+
+[^courseinfo]: {-}
+  `r blogdown::shortcode("courseinfo")`
+ 
+# Course Objectives
+
+The course has two related goals: (1) Provide a theoretical understanding of the scientific process and the role of cumulative science, and (2) introduce you to a set of modern tools for conducting science in this framework. Specifically, you'll be able to:
+
+- Understand the basic principles of experimental design and the cumulative scientific process 
+- Use R/RStudio and the tidyverse framework (Wickham, 2017) for conducting basic data analysis 
+- Present visualizations of data using Grammar of Graphics principles (Wickham, 2010)
+- Implement reproducible workflows
+- Understand the principles of "the new statistics" (i.e., confidence intervals, effect sizes; Cumming, 2014)
+- Conduct a basic meta-analysis
+
+In addition, the course will introduce you to a range of other tools ([Github](https://github.com/), [Rpubs](http://rpubs.com/), [Open Science Framework](https://osf.io/), web experimental frameworks, metafor) that are useful in psychological research. 
+
+# Course Overview
+
+The course is organized into four units. The __first unit__ will introduce the philosophy of cumulative science and the main themes of the course. The __second unit__ will focus on tools for conducting a single experiment. In this unit, we'll learn tools for analyzing and visualizing data within the tidyverse (Wickham, 2017) framework. We'll also learn tools for creating a reproducible workflow in experimental research. In the __third unit__, we'll introduce the Null Hypothesis Testing framework and the concept of replication. As a class, we'll conduct an online replication of a single experiment. Finally, the __fourth unit__ will focus on a quantitative approach to synthesizing the results of many experiments: meta-analysis. The basic priciples of meta-analysis will be introduced, and students will conduct an original meta-analysis as a final project.
+
+# Course materials
+
+The readings in this class are free and will be provided on the course website. There is no book for the course.
+
+The course will make heavy use of [R](http://cran.r-project.org/) and [RStudio](http://www.rstudio.com/). Course assignments will be completed using [Rstudio Cloud](https://rstudio.cloud/). You do not need to download anything for the course -- the only thing you'll need is an internet connection with a web browser.
+
+# Requirements
+This course assumes no prior programming experience, but does require a willingness to learn and be challenged. Prior familiarity with any programming language (e.g. R, Python, Matlab), however, will be helpful in the course.
+
+# Policies
+
+## Participation
+
+Learning a new "language" (in this case, R) and the other skills in this course require hands-on involvement, and you will get the most out this class if you actively engage in the material.  Students are therefore expected to complete readings and participate in class.  Lecture slides will be posted after class each day, but reading these slides is only a partial substitute for class attendance. 
+ 
+## Late Work
+Late work policy for the assignments, midterm, and final:
+
+  - next day: lose 25% of total possible points
+  - later than next day: lose all points
+  
+Your lowest assignment score will be dropped. Late work policy for the final project: 10% off for each day late.
+
+## Take care of yourself
+
+Do your best to maintain a healthy lifestyle this semester by eating well, exercising, avoiding drugs and alcohol, getting enough sleep and taking some time to relax. This will help you achieve your goals and cope with stress. All of us benefit from support during times of struggle. You are not alone. There are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
+
+If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and visit their website at http://www.cmu.edu/counseling. Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help.
+
+If you or someone you know is feeling suicidal or in danger of self-harm, call someone at CaPS immediately, day or night: You can also call the Re:solve Crisis Network (888-796-8226). If the situation is life threatening, call the CMU police (412-268-2323), or call 911.
+
+## Accommodations for Students with Disabilities
+
+If you have a disability and have an accommodations letter from the Disability Resources office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, I encourage you to contact them at access@andrew.cmu.edu.
+
+## Respect in the Classroom
+It is my intent to present materials and activities that are respectful to the diverse backgrounds and perspectives of students in the classroom. You may feel free to let me know ways to improve the effectiveness of the course for you personally or for other students or student groups. If you feel uncomfortable discussing this with me or your TA, you may voice your concerns to the Chair of the Department of Psychology Diversity and Inclusion Committee, Timothy Verstynen (timothyv@andrew.cmu.edu). Dr. Verstynen is available to hear your concerns related to respect for diversity for any psychology class you are taking.
+
+
+## Cheating and Plagiarism 
+
+Cheating and plagiarism are defined in the CMU Student Handbook, and include (1) submitting work that is not your own for assignments or exams; (2) copying ideas, words, or graphics from a published or unpublished source without appropriate citation; (3) submitting or using falsified data; and (4) submitting the same work for credit in two courses without prior consent of both instructors. Any student who is found cheating or plagiarizing on any work for this course will receive a failing grade for that work. Further action may be taken if necessary, including a report to the dean. 
+
+
+# Assignments and grades
+
+## Attendance and Participation
+Attendance and participation  in lecture and lab is expected, but I realize life can get in the way at inconvenient times occasionally. With that in mind, you can miss 3 class sessions (lectures or labs; e.g. 2 lectures and 1 lab) without any negative effect on your grade. However, you will be responsible for catching up on the material you missed. If you miss 4 scheduled class sessions (lectures/labs), your grade will drop by a letter grade. For every four classes you miss past that, your final grade will drop by another letter grade. I expect you to participate in discussions (e.g., asking and answering questions) and activities. Your active participation in lecture and lab can earn you up to 16 points in your final grade. 
+
+## Lab Assignments
+
+There will be 8 Lab Assignments throughout the semester. The goal of these assignments is to give you hands-on experience with the skills that are introduced in lecture and in lab. You are welcomed, and encouraged, to work with each other on the problems. But, you must turn in your own work.
+
+Submission instructions: Always submit the .Rmd and .HTML files.
+
+
+## Midterm Exam
+
+There will be a take-home midterm exam that will assess your conceptual understanding of the topics covered in the first part of the semester through short answer responses and R code. It will be similiar in spirit to Assignments 1-5.
+
+
+## Final project
+
+The final project will be an original meta-analysis on a topic in cognitive, developmental or social psychology. You are encouraged to work on the project in groups of 3-5; however, each student must complete their own final write-up. Scope and topics of the meta-analysis will be decided in consultation with me.
+
+There is no final exam. This project is your final exam.
+
+## Assignment Grades
+
+```{r assignments-grades, include=FALSE}
+assignments <- tribble(
+  ~Points,  ~Assignment,
+  16      , "Participation",
+  7 * 20  , "Lab Assignments (7 × 20)",
+  48     , "Midterm",
+  96     , "Final Meta-analysis Project [Data Coding = 16; Presentation = 30; Writeup = 50]",
+) %>%
+  mutate(Percent = Points / sum(Points),
+         Percent = scales::percent(Percent)) 
+
+grading <- tribble(
+  ~Grade, ~Range,
+  "A",  "90–100%",
+  "B",  "80–89%",
+   "C",  "70-79%", 
+  "D",  "60-69%"
+)
+```
+
+```{r show-assignments-table, echo=FALSE, results="asis"}
+assignments_total <- tibble(Assignment = "Total",
+                            Points = sum(assignments$Points),
+                            Percent = NA)
+
+bind_rows(assignments, assignments_total) %>% 
+  select(Assignment, Percent, Points) %>% 
+  pandoc.table(justify = "lcc", missing = "")
+```
+
+\
+
+```{r show-grades-table, echo=FALSE, results="asis"}
+grading %>%
+  pandoc.table(justify = "lc", 
+               col.names = c("Grade", "Range"))
+```
+

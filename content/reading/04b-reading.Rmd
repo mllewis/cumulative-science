@@ -1,0 +1,13 @@
+---
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+# Readings for class:
+[**[link]**](https://stat545.com/multiple-tibbles.html) @bryan2019 Chapter 14: When one tibble is not enough.
+
+[**[link]**](https://adv-r.hadley.nz/functionals.html#map) @wickham2014advanced Chapter 9: Functionals. **[Sections 9.1 - 9.2]**
+
+
+
+

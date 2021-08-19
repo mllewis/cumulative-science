@@ -1,0 +1,99 @@
+body {
+    counter-reset: li; /* initialize counter named li */
+}
+
+h1 {
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    font-weight:bold;
+    color: rgb(0,0,0)
+}
+
+h2 {
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    font-weight:bold;
+    margin-top: 24px;
+    color: rgb(0,0,0);
+}
+
+h3 {
+    /*font-family:Arial, Helvetica, sans-serif;*/
+    font-weight:bold;
+    margin-top: 12px;
+    color: rgb(0,0,0);
+}
+
+ol {
+    margin-left:0; /* Remove the default left margin */
+    padding-left:0; /* Remove the default left padding */
+}
+ol > li {
+    position:relative; /* Create a positioning context */
+    margin:0 0 10px 2em; /* Give each list item a left margin to make room for the numbers */
+    padding:10px 80px; /* Add some spacing around the content */
+    list-style:none; /* Disable the normal item numbering */
+    border-top:2px solid rgba(0,128,0);
+    background: rgba(0,128,0, .1);
+}
+ol > li:before {
+    content:"Exercise " counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+    /* Position and style the number */
+    position:absolute;
+    top:-2px;
+    left:-2em;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+    width:7em;
+    /* Some space between the number and the content in browsers that support
+       generated content but not positioning it (Camino 2 is one example) */
+    margin-right:8px;
+    padding:4px;
+    border-top:2px solid rgba(0,128,0,5);
+    color:#fff;
+    background: rgb(0,128,0);
+    font-weight:bold;
+    font-family:"Helvetica Neue", Arial, sans-serif;
+    text-align:center;
+}
+
+li ol,
+li ul {margin-top:6px;}
+ol ol li:last-child {margin-bottom:0;}
+
+.oyo ul {
+    list-style-type:decimal;
+}
+
+hr {
+    border: 1px solid rgb(0,0,0);
+}
+
+div#boxedtext {
+    background-color: rgba(255, 255, 0, .2);
+    padding: 20px;
+    padding-bottom: 10px;
+    border:2px solid rgb(0,0,0);
+    margin-bottom: 20px;
+    font-size: 12pt;
+}
+
+div#template {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(255, 0, 0);
+    border:1px solid rgb(0,0,255);
+    padding: 10px 10px;
+    background-color: rgb(0,0,255);
+    border-radius: 5px;
+}
+
+div#license { 
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #767676;
+    border:1px solid #767676;
+    padding: 10px 10px;
+    background-color: #D6D6CE;
+    border-radius: 5px;
+}

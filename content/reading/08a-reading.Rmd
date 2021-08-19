@@ -1,0 +1,11 @@
+---
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+# Readings for class:
+[**[link]**](/readings/ioannidis2005.pdf) @ioannidis2005most 
+
+[**[link]**](/readings/osf2015.pdf) @open2015estimating 
+
+

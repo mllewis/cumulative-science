@@ -1,0 +1,11 @@
+---
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+# Readings for class:
+[**[link]**](http://socviz.co/makeplot.html#makeplot) @healy2018data Chapter 3: Make a plot.
+
+[**[link]**](http://statsthinking21.org/data-visualization-with-r-with-anna-khazenzon.html) @poldrack2019 Chapter 7: Data visualization with R (with Anna Khazenzon). **[Optional, but encouraged!]**
+
+

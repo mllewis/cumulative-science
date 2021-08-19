@@ -1,0 +1,9 @@
+---
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+# Required 
+
+[**[link]**](/readings/buhrmester2011.pdf) @buhrmester2011amazon 
+

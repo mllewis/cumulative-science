@@ -1,0 +1,12 @@
+---
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+
+# Readings for class:
+[**[link]**](http://statsthinking21.org/ci-effect-size-power.html) @poldrack2019 Chapter 18:  Quantifying effects and desiging studies. [**18.3**]
+
+
+[**[link]**](/readings/cohen1992.pdf) @cohen1992power A power prrimer. [**Optional**]
+

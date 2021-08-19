@@ -1,0 +1,14 @@
+---
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+# Readings for class:
+[**[link]**](https://www.theguardian.com/science/blog/2013/jun/05/trust-in-science-study-pre-registration) Trust in science would be improved by study pre-registration, The Guardian (2013).
+
+Optional:
+[**[link]**](http://babieslearninglanguage.blogspot.com/2016/07/preregister-everything.html
+) Preregister everything, Michael C. Frank (2016)
+
+
+

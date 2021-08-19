@@ -1,0 +1,14 @@
+---
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+
+# Readings for class: 
+
+[**[link]**](https://statsthinking21.github.io/statsthinking21-core-site/ci-effect-size-power.html#effect-sizes) @poldrack2019 Chapter 18: Quantifying effects and designing studies (section 18.3).
+
+
+[**[link]**](/readings/cohen1992power.pdf) @cohen1992power **[Optional]**
+
+

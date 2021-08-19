@@ -1,0 +1,12 @@
+---
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+
+# Readings for class:
+[**[link]**](http://statsthinking21.org/hypothesis-testing.html) @poldrack2019 Chapter 16: Hypothesis Testing.
+
+
+
+

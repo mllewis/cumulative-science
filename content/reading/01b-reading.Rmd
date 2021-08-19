@@ -1,0 +1,22 @@
+---
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+# Readings for class:
+[**[link]**](/readings/pearson_1911_scope.pdf) @pearson1892grammar **[Section 5 only]**
+
+[**[link]**](/readings/nosek2012.pdf) @nosek2012scientific **[pg. 217-219 required only]**
+
+Other links from class:
+
+[Xu and Tenenbaum (2007a) paper](/readings/XT_2007a.pdf)
+
+[Spencer et al. (2011) paper](/readings/SPSS_2011.pdf)
+
+[Lewis and Frank (2018) paper](/readings/LF_2018.pdf)
+
+[Lewis and Frank  (2018) Supplemental Information](https://mlewis.shinyapps.io/xtmem_SI/)
+
+
+

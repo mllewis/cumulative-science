@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Calculating and Plotting Effect Sizes</title>
+    <meta charset="utf-8" />
+    <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link rel="stylesheet" href="slides.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# Calculating and Plotting Effect Sizes <br>
+## Modern Research Methods
+
+---
+
+
+
+
+
+layout: true
+
+
+---
+
+
+
+
+&lt;style type="text/css"&gt;
+/* custom.css */
+.left-code {
+  color: #777;
+  width: 38%;
+  height: 92%;
+  float: left;
+}
+.right-plot {
+  width: 60%;
+  float: right;
+  padding-left: 1%;
+}
+.plot-callout {
+  height: 225px;
+  width: 450px;
+  bottom: 5%;
+  right: 5%;
+  position: absolute;
+  padding: 0px;
+  z-index: 100;
+}
+.plot-callout img {
+  width: 100%;
+  border: 4px solid #23373B;
+}
+&lt;/style&gt;
+
+
+We're going to calculate effect size estimates for Zettersten and Lupyan (2019, Exp. 1a) and our "replication" of their experiment.
+
+Let's start by loading the data.
+
+```r
+DATA_PATH &lt;- "https://osf.io/a4dzb/download"
+ 
+zl_data &lt;- read_csv(DATA_PATH)
+
+zl_clean &lt;- zl_data %&gt;%
+     clean_names() %&gt;%
+     select(experiment, subject, age, condition, block_num, is_right)
+
+zl_exp1a &lt;- zl_clean %&gt;%
+     filter(experiment == "1A")
+
+ms_by_overall&lt;- zl_exp1a %&gt;%
+  group_by(subject, condition) %&gt;%
+  summarize(prop_right = sum(is_right)/n())  %&gt;%
+   mutate(experiment = "original_ZL2020")
+
+ms_by_overall_replication &lt;- read_csv("mrm_replication_data.csv") %&gt;%
+  rename(subject = subid) %&gt;%
+  mutate(subject = as.character(subject)) 
+
+all_data &lt;- bind_rows(ms_by_overall, ms_by_overall_replication) %&gt;%
+  select(experiment, subject, everything()) %&gt;%
+  ungroup() 
+```
+
+
+---
+The data:
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; experiment &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; subject &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; condition &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; prop_right &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; original_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; p150212 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.8750000 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; original_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; p157080 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.7083333 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; original_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; p191463 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.9583333 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; original_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; p20905 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.9583333 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; original_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; p213384 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 1.0000000 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+
+```r
+all_data %&gt;%
+  group_by(experiment, condition) %&gt;%
+  summarize(n = n())
+```
+
+```
+## # A tibble: 4 x 3
+## # Groups:   experiment [2]
+##   experiment                condition     n
+##   &lt;chr&gt;                     &lt;chr&gt;     &lt;int&gt;
+## 1 MRM_replication_of_LZ2020 high         50
+## 2 MRM_replication_of_LZ2020 low          50
+## 3 original_ZL2020           high         25
+## 4 original_ZL2020           low          25
+```
+
+Or, equivalently:
+
+```r
+all_data %&gt;%
+  count(experiment, condition) 
+```
+
+```
+## # A tibble: 4 x 3
+##   experiment                condition     n
+##   &lt;chr&gt;                     &lt;chr&gt;     &lt;int&gt;
+## 1 MRM_replication_of_LZ2020 high         50
+## 2 MRM_replication_of_LZ2020 low          50
+## 3 original_ZL2020           high         25
+## 4 original_ZL2020           low          25
+```
+
+---
+
+
+
+```r
+ggplot(all_data, aes(x = prop_right, fill = condition)) +
+  geom_density(alpha = .5) +
+  facet_wrap(~experiment) 
+```
+
+![](MRM_7b_slides_files/figure-html/unnamed-chunk-7-1.png)&lt;!-- --&gt;
+
+---
+
+
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; experiment &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; condition &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; mean_prop_right &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; sd &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; n &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; MRM_replication_of_LZ2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.7558991 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.0989817 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 50 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; MRM_replication_of_LZ2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.6922030 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1099081 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 50 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; original_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.8400000 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1304817 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; original_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.6766667 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1876080 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+---
+
+
+```r
+ggplot(all_data, aes(x = prop_right, fill = condition)) +
+  geom_density(alpha = .5) +
+  geom_vline(data = dist_summary, aes(xintercept = mean_prop_right), linetype = 2) +
+  facet_wrap(~experiment)
+```
+
+![](MRM_7b_slides_files/figure-html/unnamed-chunk-10-1.png)&lt;!-- --&gt;
+
+---
+
+&lt;table&gt;
+ &lt;thead&gt;
+  &lt;tr&gt;
+   &lt;th style="text-align:left;"&gt; experiment &lt;/th&gt;
+   &lt;th style="text-align:left;"&gt; condition &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; mean_prop_right &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; sd &lt;/th&gt;
+   &lt;th style="text-align:right;"&gt; n &lt;/th&gt;
+  &lt;/tr&gt;
+ &lt;/thead&gt;
+&lt;tbody&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; MRM_replication_of_LZ2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.7558991 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.0989817 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 50 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; MRM_replication_of_LZ2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.6922030 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1099081 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 50 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; original_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; high &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.8400000 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1304817 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td style="text-align:left;"&gt; original_ZL2020 &lt;/td&gt;
+   &lt;td style="text-align:left;"&gt; low &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.6766667 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 0.1876080 &lt;/td&gt;
+   &lt;td style="text-align:right;"&gt; 25 &lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+
+```r
+dist_summary %&gt;% 
+  filter(experiment == "MRM_replication_of_LZ2020", condition == "high") %&gt;% 
+  pull(mean_prop_right)
+```
+
+```
+## [1] 0.7558991
+```
+
+---
+
+
+
+
+```r
+replication_effect_size &lt;-
+  mes(dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "high") %&gt;% pull(mean_prop_right), # m.1
+    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "low") %&gt;% pull(mean_prop_right),# m.2
+    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "high") %&gt;% pull(sd), #sd.1
+    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "low") %&gt;% pull(sd), #sd.2
+    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "high") %&gt;% pull(n), #n.1
+    dist_summary %&gt;% filter(experiment == "MRM_replication_of_LZ2020", condition == "low") %&gt;% pull(n), #n.2
+    verbose = F) %&gt;%
+  mutate(experiment = "MRM_replication_of_LZ2020")
+
+replication_effect_size
+```
+
+```
+##   N.total n.1 n.2    d var.d l.d  u.d  U3.d  cl.d cliffs.d pval.d   g
+## 1     100  50  50 0.61  0.04 0.2 1.02 72.87 66.66     0.33      0 0.6
+##   var.g l.g  u.g  U3.g  cl.g pval.g    r var.r l.r  u.r pval.r fisher.z
+## 1  0.04 0.2 1.01 72.72 66.54      0 0.29  0.01 0.1 0.46      0      0.3
+##   var.z l.z u.z   OR l.or u.or pval.or lOR l.lor u.lor pval.lor  NNT
+## 1  0.01 0.1 0.5 3.02 1.45  6.3       0 1.1  0.37  1.84        0 4.81
+##                  experiment
+## 1 MRM_replication_of_LZ2020
+```
+
+---
+
+
+```r
+original_effect_size &lt;-
+  mes(dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "high") %&gt;% pull(mean_prop_right),
+    dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "low") %&gt;% pull(mean_prop_right),
+    dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "high") %&gt;% pull(sd),
+    dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "low") %&gt;% pull(sd),
+    dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "high") %&gt;% pull(n),
+    dist_summary %&gt;% filter(experiment == "original_ZL2020", condition == "low") %&gt;% pull(n),
+    verbose = F) %&gt;%
+  mutate(experiment = "original_ZL2020")
+
+original_effect_size
+```
+
+```
+##   N.total n.1 n.2    d var.d  l.d  u.d  U3.d  cl.d cliffs.d pval.d    g
+## 1      50  25  25 1.01  0.09 0.41 1.61 84.39 76.26     0.53      0 0.99
+##   var.g l.g  u.g  U3.g  cl.g pval.g    r var.r  l.r  u.r pval.r fisher.z
+## 1  0.09 0.4 1.59 84.01 75.91      0 0.45  0.01 0.19 0.65      0     0.49
+##   var.z  l.z  u.z   OR l.or u.or pval.or  lOR l.lor u.lor pval.lor  NNT
+## 1  0.02 0.19 0.78 6.25 2.09 18.7       0 1.83  0.74  2.93        0 2.72
+##        experiment
+## 1 original_ZL2020
+```
+
+
+---
+
+
+```r
+both_es &lt;- bind_rows(original_effect_size, replication_effect_size)
+
+both_es
+```
+
+```
+##   N.total n.1 n.2    d var.d  l.d  u.d  U3.d  cl.d cliffs.d pval.d    g
+## 1      50  25  25 1.01  0.09 0.41 1.61 84.39 76.26     0.53      0 0.99
+## 2     100  50  50 0.61  0.04 0.20 1.02 72.87 66.66     0.33      0 0.60
+##   var.g l.g  u.g  U3.g  cl.g pval.g    r var.r  l.r  u.r pval.r fisher.z
+## 1  0.09 0.4 1.59 84.01 75.91      0 0.45  0.01 0.19 0.65      0     0.49
+## 2  0.04 0.2 1.01 72.72 66.54      0 0.29  0.01 0.10 0.46      0     0.30
+##   var.z  l.z  u.z   OR l.or u.or pval.or  lOR l.lor u.lor pval.lor  NNT
+## 1  0.02 0.19 0.78 6.25 2.09 18.7       0 1.83  0.74  2.93        0 2.72
+## 2  0.01 0.10 0.50 3.02 1.45  6.3       0 1.10  0.37  1.84        0 4.81
+##                  experiment
+## 1           original_ZL2020
+## 2 MRM_replication_of_LZ2020
+```
+
+```r
+tidy_es &lt;- both_es %&gt;%
+  select(experiment, d, l.d, u.d) %&gt;%
+  rename(ci_lower = l.d,
+         ci_upper = u.d)
+
+tidy_es
+```
+
+```
+##                  experiment    d ci_lower ci_upper
+## 1           original_ZL2020 1.01     0.41     1.61
+## 2 MRM_replication_of_LZ2020 0.61     0.20     1.02
+```
+
+
+---
+
+
+```r
+ggplot(tidy_es, aes(y = d, x= experiment)) +
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper)) +
+  ggtitle("Effect size in original and replication")
+```
+
+![](MRM_7b_slides_files/figure-html/unnamed-chunk-16-1.png)&lt;!-- --&gt;
+
+
+---
+
+
+```r
+ggplot(tidy_es, aes(y = d, x = experiment)) +
+  geom_pointrange(aes(ymin = ci_lower, ymax = ci_upper)) +
+   ggtitle("Effect size in original and replication") +
+  coord_flip()
+```
+
+![](MRM_7b_slides_files/figure-html/unnamed-chunk-17-1.png)&lt;!-- --&gt;
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "github",
+"highlightLines": true,
+"countIncrementalSlides": false
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>

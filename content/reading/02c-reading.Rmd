@@ -1,0 +1,10 @@
+---
+bibliography: ../../static/misc/bib/mrm_references.bib
+csl: ../../static/misc/bib/chicago-syllabus-no-bib.csl
+---
+
+# Readings for class:
+[**[link]**](https://stat545.com/dplyr-intro.html) @bryan2019 Chapter 6: Introduction to dplyr.
+
+
+
