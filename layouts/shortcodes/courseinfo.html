@@ -1,0 +1,34 @@
+<div class="row">
+
+        <div class="col-md-4">
+        <h3>Course details</h3>
+        <ul class="icon-list">
+            <li><i class="far fa-calendar"></i> {{ .Site.Params.course.days }}</li>
+            <li><i class="far fa-clock"></i> {{ .Site.Params.course.time }}</li>
+            <li><i class="fas fa-university"></i> {{ .Site.Params.course.location }}</li>
+        </ul>
+    </div>
+    <div class="col-md-4">
+        <h3>Instructor</h3>
+        <ul class="icon-list">
+            <li><i class="fas fa-user"></i> <a href="{{ .Site.Params.instructor.url }}" target="_blank" rel="noopener"> {{ .Site.Params.instructor.name }}</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:{{ .Site.Params.instructor.email }}"> {{ .Site.Params.instructor.email }}</a></li>
+
+            <li><i class="fas fa-university"></i> {{ .Site.Params.instructor.office }}</li>
+            <li><i class="fas fa-users"></i> Office Hours:<br> {{ .Site.Params.instructor.oh | markdownify}}</li>
+
+        </ul>
+    </div>
+
+    <div class="col-md-4">
+        <h3>TA</h3>
+                <ul class="icon-list">
+
+            <li><i class="fas fa-user"></i> <a href="{{ .Site.Params.instructor.url }}" target="_blank" rel="noopener"> {{ .Site.Params.ta.name }}</a></li>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:{{ .Site.Params.instructor.email }}"> {{ .Site.Params.ta.email }}</a></li>
+
+            <li><i class="fas fa-university"></i> {{ .Site.Params.ta.office }}</li>
+            <li><i class="fas fa-users"></i> Office Hours:<br> {{ .Site.Params.ta.oh | markdownify}}</li>
+                  </ul>
+    </div>
+</div>

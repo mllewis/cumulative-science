@@ -1,0 +1,19 @@
+main:
+  - name: Syllabus
+    url: /syllabus/
+    weight: 1
+  - name: Schedule
+    url: /schedule/
+    weight: 2
+  - name: Resources
+    url: /resource/
+    weight: 3
+  - name: Final Project
+    url: /finalproject/
+    weight: 4
+
+resource:
+  - name: Resources
+    weight: 1
+  - name: Guides
+    weight: 2
