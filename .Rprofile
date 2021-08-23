@@ -1,0 +1,1 @@
+options(blogdown.hugo.version = "0.87.0")
