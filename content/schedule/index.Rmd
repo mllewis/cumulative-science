@@ -6,10 +6,11 @@ slug: schedule
 
 Here's the roadmap for the semester.
 
-- <i class="fas fa-book-reader"></i> Readings should be completed ***before*** each class session
-- <i class="fas fa-tv"></i> Slides and other class materials will be added on the day of class
-- <i class="fas fa-keyboard"></i> Assignments are due at noon on the day they are due (unless otherwise stated)
-
+ <ul class="icon-list">
+ <li><i class="fas fa-book-reader"></i> Readings should be completed ***before*** each class session </li>
+ <li><i class="fas fa-tv"></i> Slides and other class materials will be added on the day of class</li>
+ <li><i class="fas fa-keyboard"></i> Assignments are due at noon on the day they are due (unless otherwise stated)</li>
+    </ul>
 ---
 
 `r blogdown::shortcode("schedule")`
