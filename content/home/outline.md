@@ -14,7 +14,7 @@ design:
   spacing:
     padding: [20px, 0, 10px, 0]
 ---
-{{< figure src="/img/dataviz-flowchart.png" alt="Course map" >}}
+<!--{{< figure src="/img/dataviz-flowchart.png" alt="Course map" >}}-->
 
 {{< courseinfo >}}
 

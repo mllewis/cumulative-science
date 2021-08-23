@@ -5,7 +5,7 @@ name: "Plasma"
 light: true
 
 # Primary
-primary: "#E16462"
+primary: "#00FF00"
 
 # Links
 link: "#E16462"
@@ -15,7 +15,7 @@ link_hover: "#F6D645"
 menu_primary: "#fff"
 menu_text: "#E16462"
 menu_text_active: "#F89441"
-menu_title: "#494949"
+menu_title: "#00FF00"
 
 # Home sections
 home_section_odd: "rgb(255, 255, 255)"

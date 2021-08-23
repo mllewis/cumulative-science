@@ -111,6 +111,7 @@ course:
   location: Mellon Institute 448
   days: "MW (lecture); F (lab)"
   time: "1:25-2:15pm"
+  github: /mllewis/cumulative-science
 
 ta:
   name: Roderick Seow
