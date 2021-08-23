@@ -103,6 +103,7 @@ instructor:
   email: mollylewis@cmu.edu
   url: "http://www.andrew.cmu.edu/user/mollylew/"
   office: "Porter Hall 208H"
+  zoom: "https://cmu.zoom.us/j/6848815995"
   oh: "W 3:00-5:00pm"
 
 course:
@@ -116,9 +117,9 @@ course:
 ta:
   name: Roderick Seow
   email: yseow@andrew.cmu.edu
-  url: "XX"
-  office: "XX"
-  oh: "XX"
+  zoom: 
+  office: TBD (email)
+  oh: "M 3:30-5:30pm"
 
 university: 
   name: 

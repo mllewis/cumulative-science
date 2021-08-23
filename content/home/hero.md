@@ -7,8 +7,9 @@ weight: 10
 
 title: "Modern Research Methods"
 
+
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
-hero_media: "/static/img/datavizhires.png"
+hero_media: /datavizhires.png
 
 design:
   background:

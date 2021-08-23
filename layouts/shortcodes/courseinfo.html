@@ -12,9 +12,11 @@
         <h3>Instructor</h3>
         <ul class="icon-list">
             <li><i class="fas fa-user"></i> <a href="{{ .Site.Params.instructor.url }}" target="_blank" rel="noopener"> {{ .Site.Params.instructor.name }}</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:{{ .Site.Params.instructor.email }}"> {{ .Site.Params.instructor.email }}</a></li>
+                        <li><i class="fas fa-envelope"></i> {{ .Site.Params.instructor.email }}</li>
 
             <li><i class="fas fa-university"></i> {{ .Site.Params.instructor.office }}</li>
+            <li> <i class="fas fa-laptop"></i><a href="{{ .Site.Params.instructor.zoom }}" target="_blank" rel="noopener"> [Zoom office]</a></li>
+
             <li><i class="fas fa-users"></i> Office Hours:<br> {{ .Site.Params.instructor.oh | markdownify}}</li>
 
         </ul>
@@ -24,10 +26,11 @@
         <h3>TA</h3>
                 <ul class="icon-list">
 
-            <li><i class="fas fa-user"></i> <a href="{{ .Site.Params.instructor.url }}" target="_blank" rel="noopener"> {{ .Site.Params.ta.name }}</a></li>
-                        <li><i class="fas fa-envelope"></i> <a href="mailto:{{ .Site.Params.instructor.email }}"> {{ .Site.Params.ta.email }}</a></li>
+            <li><i class="fas fa-user"></i> {{ .Site.Params.ta.name }}</li>
+                        <li><i class="fas fa-envelope"></i>  {{ .Site.Params.ta.email }}</li>
 
             <li><i class="fas fa-university"></i> {{ .Site.Params.ta.office }}</li>
+                 <li> <i class="fas fa-laptop"></i><a href="{{ .Site.Params.instructor.zoom }}" target="_blank" rel="noopener"> [Zoom office]</a></li>
             <li><i class="fas fa-users"></i> Office Hours:<br> {{ .Site.Params.ta.oh | markdownify}}</li>
                   </ul>
     </div>
