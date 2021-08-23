@@ -15,7 +15,7 @@ link_hover: "#F6D645"
 menu_primary: "#fff"
 menu_text: "#E16462"
 menu_text_active: "#F89441"
-menu_title: "#00FF00"
+menu_title: "#494949"
 
 # Home sections
 home_section_odd: "rgb(255, 255, 255)"
