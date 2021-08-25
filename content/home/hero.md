@@ -8,8 +8,10 @@ weight: 10
 title: "Modern Research Methods"
 
 
-# Hero image (optional). Enter filename of an image in the `static/media/` folder.
-hero_media: datavizhires.png
+# Hero image (optional). Enter filename of an image in the `static/media/` folder. actually "static/img/"
+hero_media: humanpyramid.png
+#hero_media: datavizhires.png
+
 
 design:
   background:

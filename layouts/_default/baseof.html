@@ -14,6 +14,7 @@
   {{ $wcIsSiteThemeDark := not (.Scratch.Get "light") | default false }}
   {{ $js_params := dict "wcDarkLightEnabled" $wcDarkLightEnabled "wcIsSiteThemeDark" $wcIsSiteThemeDark }}
   {{ $js_file := resources.Get "js/wowchemy-init.js" | js.Build (dict "params" $js_params) }}
+
   <script src="{{ $js_file.RelPermalink }}"></script>
 
     {{ partial "search" . }}
