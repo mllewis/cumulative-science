@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/resource/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/resource/install/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/resource/rmarkdown/</loc>
+    <lastmod>2020-01-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/resource/r/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/resource/style/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/</loc>
+    <lastmod>2020-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/finalproject/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/reading/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/reading/01a_reading/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/reading/01b_reading/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/schedule/</loc>
+  </url>
+  
+  <url>
+    <loc>https://cumulativescience.netlify.app/syllabus/</loc>
+  </url>
+  
+</urlset>
