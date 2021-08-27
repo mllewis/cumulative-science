@@ -1,0 +1,12 @@
+---
+title: "Readings"
+bibliography: ../../static/bib/mrm_references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+---
+
+[**[link]**](/readings_pdf/bryan2018.pdf) @bryan2018excuse 
+
+OPTIONAL:
+[**[link]**](/readings_pdf/hardwicke2018.pdf) @hardwicke2018data
+
+

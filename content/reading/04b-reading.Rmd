@@ -1,0 +1,11 @@
+---
+title: "Readings"
+bibliography: ../../static/bib/mrm_references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+---
+
+[**[link]**](https://stat545.com/multiple-tibbles.html) @bryan2019 Chapter 14: When one tibble is not enough.
+
+
+
+

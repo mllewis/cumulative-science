@@ -1,0 +1,12 @@
+---
+title: "Readings"
+bibliography: ../../static/bib/mrm_references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+---
+
+[**[link]**](http://socviz.co/makeplot.html#makeplot) @healy2018data Chapter 3: Make a plot.
+
+**Optional**:  @wickham2010layered
+
+
+

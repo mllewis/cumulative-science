@@ -5,9 +5,6 @@ csl: ../../static/bib/apa.csl
 ---
 
 
-[**[link]**](https://stat545.com/dplyr-intro.html) @bryan2019 Chapter 6: Introduction to dplyr.
-
-Test
-
+Please read through the [syllabus](/syllabus/).
 
 

@@ -1,0 +1,20 @@
+---
+title: "Readings"
+bibliography: ../../static/bib/mrm_references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+---
+
+
+[**[link]**](https://www.book2look.com/embed/9781317483373?) @cumming2016introduction Pages 1-12. 
+
+
+OPTIONAL: 
+Other links from class:
+
+[Xu and Tenenbaum (2007a) paper](/readings_pdf/XT_2007a.pdf)
+
+[Spencer et al. (2011) paper](/readings_pdf/SPSS_2011.pdf)
+
+[Lewis and Frank (2018) paper](/readings_pdf/LF_2018.pdf)
+
+[Lewis and Frank  (2018) Supplemental Information](https://mlewis.shinyapps.io/xtmem_SI/)

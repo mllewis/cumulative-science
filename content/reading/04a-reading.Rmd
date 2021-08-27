@@ -1,0 +1,11 @@
+---
+title: "Readings"
+bibliography: ../../static/bib/mrm_references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+---
+
+[**[link]**](https://socviz.co/lookatdata.html#lookatdata) @healy2018data Look at data/
+
+
+
+

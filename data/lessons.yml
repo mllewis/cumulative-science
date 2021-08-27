@@ -6,7 +6,7 @@ lessons:
     date: "Week 1 [M, 8/30]"
     reading: "01a-reading"
     class: ""
-    notes: "Welcome!"
+    notes: 'Welcome! Please complete the <a href = "xx">class survey </a>'
     hasclass: True
 
   - title: "The scientific process as cumulative"
@@ -20,7 +20,6 @@ lessons:
     date: [F]
     hasclass: True
     class: ""
-    reading: "01c-reading"
 
   - title: '<span class="fake-header-table">The Single Experiment</span>'
     header: True
@@ -63,7 +62,6 @@ lessons:
 
   - title: "*Lab: Working with ggplot* <br> <br>  <br>"
     date:  [F]
-    reading: "03c-reading"
     class: ""
     hasassignment: True
     assignment:  ""
@@ -131,7 +129,6 @@ lessons:
   - title: "Statistical Foundations: Estimating population values"
     date: [W]
     notes: 'Skills: Normal Distribution; Confidence intervals'
-    reading: "06b-reading"
     class: ""
     hasclass: True
  
@@ -201,17 +198,18 @@ lessons:
   - title: "Intro to meta-analysis (MA)"
     notes: "[Quiz 6]"
     date: Week 9 [M, 10/25]
+    reading: "09a-reading"
     hasclass: True
 
   - title: "Choosing a MA topic"
     date:  [W]
+    reading: "09b-reading"
     notes:  ''
     class: "" 
     hasclass: True
 
   - title: "*Lab: Choosing a MA topic* <br> <br>  <br>"
     date:  [F]
-    reading: "09c-reading"
     hasclass: True
     notes: ''
     class: "" 
@@ -219,13 +217,11 @@ lessons:
   - title: "Literature search"
     date: Week 10 [M, 11/1]
     notes: "[Quiz 7]"
-    reading: "10a-reading"
     class: "" 
     hasclass: True
 
   - title: "Coding studies for MA"
     date:  [W]
-    reading: "10b-reading"
     notes: ''
     class: "" 
     hasclass: True
@@ -239,6 +235,7 @@ lessons:
   - title: "Calculating ES"
     date: Week 11 [M, 11/8]
     notes: "[Quiz 8]"
+    reading: "11a-reading"
     class: "" 
     hasclass: True
 
@@ -282,7 +279,6 @@ lessons:
     date: Week 13 [M, 11/22]
     class: "" 
     notes: "[Quiz 10]"
-    reading: 
     hasclass: True
 
   - title: 'No Class (Thanksgiving)'
@@ -294,11 +290,11 @@ lessons:
   - title: '*No Class  (Thanksgiving)*' 
     date:  [F]
     class: "" 
-    reading: 
     hasclass: False
 
   - title: "Other big data in psychological research"
     date: Week 14 [M, 11/29]
+    readings: "14a-reading"
     notes: ''
     class: "" 
     hasclass: True

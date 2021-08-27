@@ -1,0 +1,9 @@
+---
+title: "Readings"
+bibliography: ../../static/bib/mrm_references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+---
+
+
+[**[link]**](https://statsthinking21.github.io/statsthinking21-core-site/working-with-data.html) @poldrack2019 Chapter 2: Working with data. 
+
