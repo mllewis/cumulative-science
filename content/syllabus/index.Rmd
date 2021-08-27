@@ -2,8 +2,6 @@
 title: Syllabus
 slug: syllabus
 citeproc: true
-bibliography: ../../static/bib/references.bib
-csl: ../../static/bib/chicago-fullnote-bibliography-no-bib.csl
 output:
   blogdown::html_page:
     toc: true
@@ -61,7 +59,7 @@ Late work policy for the assignments, midterm, and final:
   - next day: lose 25% of total possible points
   - later than next day: lose all points
   
-Your lowest assignment score will be dropped. Late work policy for the final project: 10% off for each day late.
+Late work policy for the final project: 10% off for each day late.
 
 ## Take care of yourself
 
@@ -87,19 +85,18 @@ Cheating and plagiarism are defined in the CMU Student Handbook, and include (1)
 # Assignments and grades
 
 ## Attendance and Participation
-Attendance and participation (e.g., asking and answering questions) in lecture and lab are expected. To account for this, a portion of your final grade is based on your active participation. Your active participation in lecture and lab can earn you up to 20 points in your final grade.
+Attendance and participation (e.g., asking and answering questions) in lecture and lab are expected. To account for this, a portion of your final grade is based on your active participation. Your active participation in lecture and lab can earn you up to 25 points in your final grade.
 
 <!---Nevertheless, I also recognize that students may need to miss class for a variety of reasons (religious observance, job interview, university-sanctioned event, or illness/quarantine). With that in mind, you can miss 3 class sessions (lectures or labs; e.g. 2 lectures and 1 lab) without any negative effect on your grade. When you must miss class, please notify me (at least 24 hours in advance except for illness/emergency), so that we can discuss alternative arrangements for catching up on class and associated work. If you encounter extenuating circumstances and must miss more than three classes, please come and discuss the issue with me; I would like to find a way to support you.--->
 
 ## Weekly quizzes
-Most Mondays there will be a short 5 minute quiz at the beginning of class. These quizzes will cover the material from the previous two lectures (Monday and Wednesday lectures from the previous week). The goal of these quizzes is to give both you and I a sense of your understanding of the material.
+Most Mondays there will be a short 5 minute quiz at the beginning of class. These quizzes will cover the material from the previous two lectures (Monday and Wednesday lectures from the previous week). The goal of these quizzes is to give both you and I a sense of your understanding of the material. This will help both of us to figure out what material we need to spend more time on. The classes with quizzes are marked on the course schedule. Your lowest  quiz score will be dropped. 
 
 ##  Assignments 
-
-There will be eight assignments throughout the semester. The goal of these assignments is to give you hands-on experience with the skills that are introduced in lecture and in lab. You are welcomed, and encouraged, to work with each other on the problems. But, you must turn in your own work.
+There will be eight assignments throughout the semester. The goal of these assignments is to give you hands-on experience with the skills that are introduced in lecture and in lab. You are welcomed, and encouraged, to work with each other on the problems. But, you must turn in your own work.  Your lowest  assignment score will be dropped. 
 
 ## Midterm Exam
-There will be a take-home midterm exam that will assess your conceptual understanding of the topics covered in the first part of the semester through short answer responses and R code. It will be similar in spirit to Assignments 1-5, but unlike the assignments, you will be expected to complete the exam completely on your own.
+There will be a take-home midterm exam that will assess your conceptual understanding of the topics covered in the first part of the semester through short answer responses and R code. It will be similar in spirit to Assignments 1-5, but will cover more material and you will be expected to complete the exam completely on your own.
 
 ## Final project
 The final project will be an original meta-analysis on a topic in cognitive, developmental or social psychology. You are encouraged to work on the project in groups of 3-5; however, each student must complete their own final write-up. Scope and topics of the meta-analysis will be decided in consultation with me.
@@ -111,11 +108,11 @@ There is no final exam. This project is your final exam.
 ```{r assignments-grades, include=FALSE}
 assignments <- tribble(
   ~Points,  ~Assignment,
-  20      , "Participation",
-  5*10, "Quizzes (5 x 10)",
-  8 * 20  , "Lab Assignments (20 x 8)",
-  50     , "Midterm",
-  70, "Final Meta-analysis Project [Presentation = 35; Writeup = 35]",
+  25      , "Participation",
+  5*9, "Quizzes [9 x 5 pts.]",
+  7 * 35  , "Lab Assignments [7 x 35 pts.]",
+  85     , "Midterm",
+  100, "Final Meta-analysis Project [Presentation = 50; Writeup = 50]",
 ) %>%
   mutate(Percent = Points / sum(Points),
          Percent = scales::percent(Percent)) 

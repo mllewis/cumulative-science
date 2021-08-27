@@ -4,8 +4,8 @@ menu:
   resource:
     parent: Resources
 type: docs
+toc: true
 weight: 3
-toc: yes
 ---
 
 ## R style conventions

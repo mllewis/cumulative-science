@@ -4,15 +4,15 @@ menu:
   resource:
     parent: Resources
 type: docs
+toc: true
 weight: 3
-toc: yes
 ---
 
 ## Learning R
 
 I highly recommend subscribing to the [R Weekly newsletter](https://rweekly.org/). This e-mail is sent every Monday and is full of helpful tutorials about how to do stuff with R.
 
-Searching for help with R on Google can sometimes be tricky because the program name is a single letter. Google is generally smart enough to figure out what you mean when you search for "r scatterplot", but if it does struggle, try searching for "rstats" instead (e.g. "rstats scatterplot"). Also, since most of your R work in this class will deal with **ggplot2**, it's often easier to just search for that instead of the letter "r" (e.g. "ggplot scatterplot"). 
+Searching for help with R on Google can sometimes be tricky because the program name is a single letter. Google is generally smart enough to figure out what you mean when you search for "r scatterplot", but if it does struggle, try searching for "rstats" instead (e.g. "rstats scatterplot").
 
 If you use Twitter, post R-related questions and content with [#rstats](https://twitter.com/search?q=%23rstats). The community there is exceptionally generous and helpful. Also check out [StackOverflow](https://stackoverflow.com/) (a Q&A site with hundreds of thousands of answers to all sorts of programming questions) and [RStudio Community](https://community.rstudio.com/) (a forum specifically designed for people using RStudio and the tidyverse (i.e. you)).
 
@@ -27,9 +27,7 @@ These resources are also really really helpful:
 
 ## R in the wild
 
-A popular (and increasingly standard) way for sharing your analyses and visualizations is to post an annotated explanation of your process somewhere online. RStudio allows you to publish knitted HTML files directly to [RPubs](http://rpubs.com/), but you can also post your output to a blog or other type of website.[^blogdown] Reading these kinds of posts is one of the best ways to learn R, since they walk you through each step of the process *and* show the code and output.
-
-[^blogdown]: If you want to be really fancy, you can use [blogdown](https://bookdown.org/yihui/blogdown/), which makes a complete website with R Markdown files. That's actually how this site is built ([see the source code](https://github.com/andrewheiss/datavizm20.classes.andrewheiss.com)). You can build your own site [with this tutorial](https://apreshill.rbind.io/post/up-and-running-with-blogdown/).
+A popular (and increasingly standard) way for sharing your analyses and visualizations is to post an annotated explanation of your process somewhere online. RStudio allows you to publish knitted HTML files directly to [RPubs](http://rpubs.com/), but you can also post your output to a blog or other type of website.^[If you want to be really fancy, you can use [blogdown](https://bookdown.org/yihui/blogdown/), which makes a complete website with R Markdown files. That's actually how this site is built ([see the source code](https://github.com/andrewheiss/datavizm20.classes.andrewheiss.com)). You can build your own site [with this tutorial](https://apreshill.rbind.io/post/up-and-running-with-blogdown/).] Reading these kinds of posts is one of the best ways to learn R, since they walk you through each step of the process *and* show the code and output.
 
 Here are some of the best examples I've come across:
 
