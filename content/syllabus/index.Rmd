@@ -29,9 +29,9 @@ In addition, the course will introduce you to a range of other tools ([Github](h
 
 # Course Overview
 
-The course is organized into four units. The __first unit__ will introduce the process of cumulative science and the main themes of the course. The __second unit__ will focus on tools for conducting a single experiment. In this unit, we'll learn tools for analyzing and visualizing data within the tidyverse (Wickham, 2017) framework. We'll also learn tools for creating a reproducible workflow in experimental research. In the __third unit__, we'll introduce the concept of replication and related statistical concepts. Finally, the __fourth unit__ will focus on a quantitative approach to synthesizing the results of many experiments: meta-analysis. The basic principles of meta-analysis will be introduced, and students will conduct an original meta-analysis as a final project.
+The course is organized into four units. The __first unit__ will introduce the process of cumulative science and the main themes of the course. The __second unit__ will focus on tools for conducting a single experiment. In this unit, we'll learn tools for analyzing and visualizing data within the tidyverse framework  (Wickham, 2017). We'll also learn tools for creating a reproducible workflow in experimental research. In the __third unit__, we'll introduce the concept of replication and related statistical concepts. Finally, the __fourth unit__ will focus on a quantitative approach to synthesizing the results of many experiments: meta-analysis. The basic principles of meta-analysis will be introduced, and students will conduct an original meta-analysis as a final project.
 
-# Course materials
+# Course Materials
 
 The readings in this class are free and will be provided on the course website. There is no book for the course.
 
@@ -44,7 +44,7 @@ This course assumes no prior programming experience, but does require a willingn
 
 ## Classroom Expectations related to COVID-19
 
-The goal is to create an environment for learning that will also keep everyone as safe as possible. Therefore, in order to attend class meetings, I expect all students to abide by all behaviors indicated in [A Tartan’s Responsibility](https://www.cmu.edu/coronavirus/students/tartans-responsibility.html), including any timely updates based on the current conditions. In particular, I expect students to wear a facial covering throughout class when there is a requirement in effect on campus (the requirement is in effect at the start of the Fall 2021 semester). 
+The goal is to create an environment for learning that will also keep everyone as safe as possible. Therefore, in order to attend class meetings, I expect all students to abide by all behaviors indicated in [A Tartan’s Responsibility](https://www.cmu.edu/coronavirus/students/tartans-responsibility.html), including any timely updates based on the current conditions. In particular, I expect students to wear a facial covering throughout class when there is a requirement in effect on campus (the requirement is in effect at the start of the Fall 2021 semester). Finally, please let me know if you need to miss class because of sickness or quarantine so that we can find a way to accomodate you. 
 
 ## Participation
 
@@ -61,7 +61,7 @@ Late work policy for the assignments, midterm, and final:
   
 Late work policy for the final project: 10% off for each day late.
 
-## Take care of yourself
+## Take Care of Yourself
 
 The pandemic has introduced  a lot of stress and uncertainty for everyone over the last year and a half. Make sure to take care of yourself this semester.  Move regularly, eat well, and reach out to your support system or me if you need to. We can all benefit from support in times of stress, and that is especially true this semester. 
 
@@ -82,15 +82,15 @@ It is my intent that students from all diverse backgrounds and perspectives be w
 Cheating and plagiarism are defined in the CMU Student Handbook, and include (1) submitting work that is not your own for assignments or exams; (2) copying ideas, words, or graphics from a published or unpublished source without appropriate citation; (3) submitting or using falsified data; and (4) submitting the same work for credit in two courses without prior consent of both instructors. Any student who is found cheating or plagiarizing on any work for this course will receive a failing grade for that work. Further action may be taken if necessary, including a report to the dean. 
 
 
-# Assignments and grades
+# Assignments and Grades
 
 ## Attendance and Participation
 Attendance and participation (e.g., asking and answering questions) in lecture and lab are expected. To account for this, a portion of your final grade is based on your active participation. Your active participation in lecture and lab can earn you up to 25 points in your final grade.
 
 <!---Nevertheless, I also recognize that students may need to miss class for a variety of reasons (religious observance, job interview, university-sanctioned event, or illness/quarantine). With that in mind, you can miss 3 class sessions (lectures or labs; e.g. 2 lectures and 1 lab) without any negative effect on your grade. When you must miss class, please notify me (at least 24 hours in advance except for illness/emergency), so that we can discuss alternative arrangements for catching up on class and associated work. If you encounter extenuating circumstances and must miss more than three classes, please come and discuss the issue with me; I would like to find a way to support you.--->
 
-## Weekly quizzes
-Most Mondays there will be a short 5 minute quiz at the beginning of class. These quizzes will cover the material from the previous two lectures (Monday and Wednesday lectures from the previous week). The goal of these quizzes is to give both you and I a sense of your understanding of the material. This will help both of us to figure out what material we need to spend more time on. The classes with quizzes are marked on the course schedule. Your lowest  quiz score will be dropped. 
+## Weekly Quizzes
+Most Mondays there will be a short 5 minute quiz at the beginning of class. These quizzes will cover the material from the previous two lectures (Monday and Wednesday lectures from the previous week). The goal of these quizzes is to give both you and I a sense of your understanding of the material. This will help to figure out what material we need to spend more time on. The classes with quizzes are marked on the course schedule. Your lowest  quiz score will be dropped. 
 
 ##  Assignments 
 There will be eight assignments throughout the semester. The goal of these assignments is to give you hands-on experience with the skills that are introduced in lecture and in lab. You are welcomed, and encouraged, to work with each other on the problems. But, you must turn in your own work.  Your lowest  assignment score will be dropped. 

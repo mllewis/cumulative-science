@@ -9,7 +9,6 @@ csl: ../../static/bib/chicago-syllabus-no-bib.csl
 
 
 OPTIONAL: 
-Other links from class:
 
 [Xu and Tenenbaum (2007a) paper](/readings_pdf/XT_2007a.pdf)
 
