@@ -5,7 +5,7 @@ lessons:
   - title: "Introduction to the course"
     date: "Week 1 [M, 8/30]"
     reading: "01a-reading"
-    class: ""
+    class: "MRM_slides_1a"
     notes: 'Welcome! Please complete the <a href = "https://docs.google.com/forms/d/e/1FAIpQLSfLhhG-tKtUbqJyFMfW_Vc-sueswR6TzmKr0R5TJs7Z4EJVSg/viewform?usp=sf_link">class survey</a>.'
     hasclass: True
 
