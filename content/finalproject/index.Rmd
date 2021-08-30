@@ -22,9 +22,9 @@ We will provide feedback to you for each assignment and *you must incorporate th
 
 Presentations will be **December 2nd**. 
 
-# Final Project Paper
+# Final Project Writeup
 
-Use the R markdown template to writeup your project. The template allows you to write your final paper and include your R code and output in a single document, making your report highly reproducible. Your final paper is due **December 12th (5pm)**. <!-- It should include the following components:
+Use the R markdown template to writeup your project. The template allows you to write your final paper and include your R code and output in a single document, making your report highly reproducible. Your final paper is due **December 9th (noon)**. <!-- It should include the following components:
 
 
 Introduction:
