@@ -3,7 +3,7 @@ title: "Meta-Analysis Final Project"
 slug: finalproject
 ---
 
-For the remaining portion of the semester, we will be working on your final projects -- an original meta-analysis on a question in developmental, cognitive, or social psychology. You will complete your project in groups of ~4, and you will decide on your topic in consultation with me and your group members. The goal is that you could go on to publish your meta-analysis with a little more work beyond this class.
+For the last part of the semester, we will be working on your final projects -- an original meta-analysis on a question in developmental, cognitive, or social psychology. You will complete your project in groups of ~4, and you will decide on your topic in consultation with me and your group members. The goal is that you could go on to publish your meta-analysis with a little more work beyond this class.
 
 There are broadly five steps to conducting a meta-analysis: 
 
