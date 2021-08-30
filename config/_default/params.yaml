@@ -299,7 +299,7 @@ map:
 ## Marketing
 ############################
 marketing:
-  google_analytics: ''
+  google_analytics: 'G-PN3380VPQR'
   google_tag_manager: ''
 
 
