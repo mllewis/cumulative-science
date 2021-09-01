@@ -18,6 +18,7 @@ lessons:
   - title: "*Lab: Getting started with R* <br>"
     notes: 'Prior to lab, please install <a href = "https://vimeo.com/203516510">R</a>, <a href = "https://vimeo.com/203516968">RStudio</a> and the <a href = "https://vimeo.com/203516241">tidyverse package</a>.'
     date: [F]
+    reading: "01c-reading"
     hasclass: True
     class: ""
 

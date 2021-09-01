@@ -1,0 +1,12 @@
+---
+title: "Readings"
+bibliography: ../../static/bib/mrm_references.bib
+csl: ../../static/bib/chicago-syllabus-no-bib.csl
+---
+
+[**[link]**](https://learningstatisticswithr.com/book/introR.html) @navarro2013learning Chapter 3: Getting started with R. 
+
+
+OPTIONAL: 
+
+[Tidyverse Paper](https://tidyverse.tidyverse.org/articles/paper.html)
