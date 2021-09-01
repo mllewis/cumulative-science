@@ -12,7 +12,7 @@ lessons:
   - title: "The scientific process as cumulative"
     date: [W]
     hasclass: True
-    class: ""
+    class: "MRM_slides_1b"
     reading: "01b-reading"
 
   - title: "*Lab: Getting started with R* <br>"
