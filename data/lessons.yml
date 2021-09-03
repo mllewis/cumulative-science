@@ -16,7 +16,7 @@ lessons:
     reading: "01b-reading"
 
   - title: "*Lab: Getting started with R* <br>"
-    notes: 'Prior to lab, please install <a href = "https://vimeo.com/203516510">R</a>, <a href = "https://vimeo.com/203516968">RStudio</a> and the <a href = "https://vimeo.com/203516241">tidyverse package</a>. <br> <a href = "https://rstudio.cloud/learn/primers/1.2">[in class tutorial]</a> '
+    notes: 'Prior to lab, please install <a href = "https://vimeo.com/203516510">R</a>, <a href = "https://vimeo.com/203516968">RStudio</a> and the <a href = "https://vimeo.com/203516241">tidyverse package</a>.  <a href = "https://rstudio.cloud/learn/primers/1.2">[in class tutorial]</a>  <a href = "https://www.rstudio.com/resources/cheatsheets/">[cheatsheets]</a> '
     date: [F]
     reading: "01c-reading"
     hasclass: True
