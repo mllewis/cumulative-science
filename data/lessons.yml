@@ -20,7 +20,7 @@ lessons:
     date: [F]
     reading: "01c-reading"
     hasclass: True
-    class: ""
+    class: "MRM_slides_1c"
 
   - title: '<span class="fake-header-table">The Single Experiment</span>'
     header: True
