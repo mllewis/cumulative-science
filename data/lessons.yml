@@ -31,14 +31,14 @@ lessons:
 
   - title: Experimental data
     date: [W]
-    class: ""
+    class: MRM_slides_2b
     notes: ""
     reading: "02b-reading"
     hasclass: True
 
   - title: "*Lab: Intro to dplyr* <br> <br>  <br>"
     date:  [F]
-    reading: "02c-reading"
+    reading: ""
     class: ""
     hasclass: True
     hasassignment: True 
