@@ -4,7 +4,7 @@ bibliography: ../../static/bib/mrm_references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
 ---
 
-[**[link]**](https://psyarxiv.com/x8ynm) @cao2021 
+[**[link]**](https://psyarxiv.com/x8ynm) @cao2021  
 
 
 
