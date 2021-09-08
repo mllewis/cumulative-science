@@ -41,8 +41,8 @@ lessons:
     reading: "02c-reading"
     class: ""
     hasclass: True
-    hasassignment: True
-    notes: ''
+    hasassignment: True 
+    notes: '<a href = "https://www.youtube.com/watch?v=lNWVQ2oxNho">Rmarkdown video</a>'
 
   - title: "Summarizing data"
     date: Week 3 [M, 9/13]
