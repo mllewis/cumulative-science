@@ -11,7 +11,7 @@ menu:
 * Look at the help files (` ?<function>` in RStudio console)
 * Look at the [cheatsheets](https://www.rstudio.com/resources/cheatsheets/)
 * Google – often adding “tidyverse” to your search helps
-* Often it's a lot more pleasant an experience to get your questions answered in person. Make use of the instructors’ office hours, we're here to help!
+* Often it's a lot more pleasant an experience to get your questions answered in person. Make use of office hours, we're here to help!
 * Email us 
 * When getting help from us, give your question context from course concepts not course assignments.
     - Good context: "I have a question on filtering"
@@ -21,3 +21,4 @@ menu:
     - Bad description: "R giving errors, help me! Aaaarrrrrgh!”
 
 
+<font size="3">Adapted from <a href = "https://github.com/rstudio-education/datascience-box"> datascience in a box. </a></font>

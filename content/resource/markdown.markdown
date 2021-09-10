@@ -389,3 +389,6 @@ These websites have additional details and examples and practice tools:
 - [**Markdown tutorial**](https://www.markdowntutorial.com/): Another interactive tutorial to practice using Markdown.
 - [**Markdown cheatsheet**](http://packetlife.net/media/library/16/Markdown.pdf): Useful one-page reminder of Markdown syntax.
 - [**The Plain Person’s Guide to Plain Text Social Science**](http://plain-text.co/): A comprehensive explanation and tutorial about why you should write data-based reports in Markdown.
+
+<font size="3">Adapted from <a href = "https://evalsp21.classes.andrewheiss.com/resource/"> Andrew Heiss.</a></font>
+

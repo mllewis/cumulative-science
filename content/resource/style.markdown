@@ -223,3 +223,6 @@ If the comment is really long, you can break it into multiple lines. RStudio can
 ```
 
 Though, if you're dealing with comments that are *that* long, consider putting the text in R Markdown instead and having it be actual prose.
+
+<font size="3">Adapted from <a href = "https://evalsp21.classes.andrewheiss.com/resource/"> Andrew Heiss.</a></font>
+
