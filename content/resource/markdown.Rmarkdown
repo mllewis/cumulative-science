@@ -1,16 +1,11 @@
 ---
 title: Using Markdown
-date: "2020-01-13"
+type: docs
+weight: 2
+toc: true
 menu:
   resource:
-    parent: Guides
-    weight: 2
-type: docs
-toc: true
-# output:
-#   blogdown::html_page:
-#       toc: TRUE
-#       fig_caption: yes
+    parent: Resources
 ---
 
 [Markdown](https://daringfireball.net/projects/markdown/) is a special kind of markup language that lets you format text with simple syntax. You can then use a converter program like [pandoc](https://pandoc.org/) to convert Markdown into whatever format you want: HTML, PDF, Word, PowerPoint, etc. ([see the full list of output types here](https://pandoc.org/MANUAL.html#option--to))

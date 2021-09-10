@@ -1,11 +1,11 @@
 ---
 title: R style suggestions 
+type: docs
+toc: true
+weight: 4
 menu:
   resource:
     parent: Resources
-type: docs
-toc: true
-weight: 3
 ---
 
 ## R style conventions

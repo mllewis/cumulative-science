@@ -8,8 +8,9 @@ main:
   - name: Final Project
     url: /finalproject/
     weight: 3
+  - name: Resources
+    url: /resource/
+    weight: 4
 resource:
   - name: Resources
     weight: 1
-  - name: Guides
-    weight: 2

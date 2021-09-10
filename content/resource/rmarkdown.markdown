@@ -1,12 +1,11 @@
 ---
 title: Using R Markdown
-date: "2020-01-13"
+type: docs
+weight: 3
+toc: true
 menu:
   resource:
-    parent: Guides
-    weight: 3
-type: docs
-toc: true
+    parent: Resources
 ---
 
 [R Markdown](https://rmarkdown.rstudio.com/) is [regular Markdown](/resource/markdown/) with R code and output sprinkled in. You can do everything you can with [regular Markdown](/resource/markdown/), but you can incorporate graphs, tables, and other R output directly in your document. You can create HTML, PDF, and Word documents, PowerPoint and HTML presentations, websites, books, and even [interactive dashboards](https://rmarkdown.rstudio.com/flexdashboard/index.html) with R Markdown. This whole course website is created with R Markdown (and [a package named **blogdown**](https://bookdown.org/yihui/blogdown/)).
