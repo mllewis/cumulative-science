@@ -42,6 +42,7 @@ lessons:
     class: ""
     hasclass: True
     hasassignment: True 
+    assignment:  "01"
     notes: '<a href = "https://www.youtube.com/watch?v=lNWVQ2oxNho">Rmarkdown video</a>'
 
   - title: "Summarizing data"

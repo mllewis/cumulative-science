@@ -1,0 +1,65 @@
+---
+title: "Assignment 1: Cumulative Science and Intro to dplyr"
+subtitle: "Modern Research Methods"
+author: "YOUR NAME"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+output: 
+  html_document: 
+    highlight: kate
+    theme: cosmo
+---
+
+```{r global_options, include=FALSE}
+# DO NOT EDIT THIS
+knitr::opts_chunk$set(eval = TRUE, message = FALSE)
+library(tidyverse) # load the tidyverse library
+```
+
+* * *
+
+
+# Exercise 1:
+
+
+# Exercise 2:
+```{r}
+lf_data <- read_csv("https://raw.githubusercontent.com/mllewis/cumulative-science/master/static/data/lewis_2018_exp1.csv")
+```
+
+# Exercise 3:
+
+# Exercise 4:
+
+## a
+
+## b
+
+## c
+
+## d
+
+# Exercise 5:
+
+# Exercise 6:
+
+# Exercise 7:
+
+## a
+
+## b
+
+## c
+
+
+# Exercise 8:
+
+## a
+
+## b
+
+
+# Exercise 9:
+
+# Exercise 10:
+
+# Exercise 11:

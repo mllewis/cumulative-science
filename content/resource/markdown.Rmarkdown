@@ -1,7 +1,7 @@
 ---
 title: Using Markdown
 type: docs
-weight: 2
+weight: 4
 toc: true
 menu:
   resource:

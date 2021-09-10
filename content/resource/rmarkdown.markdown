@@ -1,7 +1,7 @@
 ---
 title: Using R Markdown
 type: docs
-weight: 3
+weight: 4
 toc: true
 menu:
   resource:
