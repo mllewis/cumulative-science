@@ -39,7 +39,7 @@ lessons:
   - title: "*Lab: Intro to dplyr* <br> <br>  <br>"
     date:  [F]
     reading: ""
-    class: ""
+    class: "MRM_slides_2c"
     hasclass: True
     hasassignment: True 
     assignment:  "01"
