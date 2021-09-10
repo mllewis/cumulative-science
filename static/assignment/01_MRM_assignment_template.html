@@ -9,7 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
+<meta name="author" content="YOUR NAME" />
 
+<meta name="date" content="2021-09-10" />
 
 <title>Assignment 1: Cumulative Science and Intro to dplyr</title>
 
@@ -30,8 +32,6 @@
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
 <script src="data:application/javascript;base64,CgovKioKICogalF1ZXJ5IFBsdWdpbjogU3RpY2t5IFRhYnMKICoKICogQGF1dGhvciBBaWRhbiBMaXN0ZXIgPGFpZGFuQHBocC5uZXQ+CiAqIGFkYXB0ZWQgYnkgUnViZW4gQXJzbGFuIHRvIGFjdGl2YXRlIHBhcmVudCB0YWJzIHRvbwogKiBodHRwOi8vd3d3LmFpZGFubGlzdGVyLmNvbS8yMDE0LzAzL3BlcnNpc3RpbmctdGhlLXRhYi1zdGF0ZS1pbi1ib290c3RyYXAvCiAqLwooZnVuY3Rpb24oJCkgewogICJ1c2Ugc3RyaWN0IjsKICAkLmZuLnJtYXJrZG93blN0aWNreVRhYnMgPSBmdW5jdGlvbigpIHsKICAgIHZhciBjb250ZXh0ID0gdGhpczsKICAgIC8vIFNob3cgdGhlIHRhYiBjb3JyZXNwb25kaW5nIHdpdGggdGhlIGhhc2ggaW4gdGhlIFVSTCwgb3IgdGhlIGZpcnN0IHRhYgogICAgdmFyIHNob3dTdHVmZkZyb21IYXNoID0gZnVuY3Rpb24oKSB7CiAgICAgIHZhciBoYXNoID0gd2luZG93LmxvY2F0aW9uLmhhc2g7CiAgICAgIHZhciBzZWxlY3RvciA9IGhhc2ggPyAnYVtocmVmPSInICsgaGFzaCArICciXScgOiAnbGkuYWN0aXZlID4gYSc7CiAgICAgIHZhciAkc2VsZWN0b3IgPSAkKHNlbGVjdG9yLCBjb250ZXh0KTsKICAgICAgaWYoJHNlbGVjdG9yLmRhdGEoJ3RvZ2dsZScpID09PSAidGFiIikgewogICAgICAgICRzZWxlY3Rvci50YWIoJ3Nob3cnKTsKICAgICAgICAvLyB3YWxrIHVwIHRoZSBhbmNlc3RvcnMgb2YgdGhpcyBlbGVtZW50LCBzaG93IGFueSBoaWRkZW4gdGFicwogICAgICAgICRzZWxlY3Rvci5wYXJlbnRzKCcuc2VjdGlvbi50YWJzZXQnKS5lYWNoKGZ1bmN0aW9uKGksIGVsbSkgewogICAgICAgICAgdmFyIGxpbmsgPSAkKCdhW2hyZWY9IiMnICsgJChlbG0pLmF0dHIoJ2lkJykgKyAnIl0nKTsKICAgICAgICAgIGlmKGxpbmsuZGF0YSgndG9nZ2xlJykgPT09ICJ0YWIiKSB7CiAgICAgICAgICAgIGxpbmsudGFiKCJzaG93Iik7CiAgICAgICAgICB9CiAgICAgICAgfSk7CiAgICAgIH0KICAgIH07CgoKICAgIC8vIFNldCB0aGUgY29ycmVjdCB0YWIgd2hlbiB0aGUgcGFnZSBsb2FkcwogICAgc2hvd1N0dWZmRnJvbUhhc2goY29udGV4dCk7CgogICAgLy8gU2V0IHRoZSBjb3JyZWN0IHRhYiB3aGVuIGEgdXNlciB1c2VzIHRoZWlyIGJhY2svZm9yd2FyZCBidXR0b24KICAgICQod2luZG93KS5vbignaGFzaGNoYW5nZScsIGZ1bmN0aW9uKCkgewogICAgICBzaG93U3R1ZmZGcm9tSGFzaChjb250ZXh0KTsKICAgIH0pOwoKICAgIC8vIENoYW5nZSB0aGUgVVJMIHdoZW4gdGFicyBhcmUgY2xpY2tlZAogICAgJCgnYScsIGNvbnRleHQpLm9uKCdjbGljaycsIGZ1bmN0aW9uKGUpIHsKICAgICAgaGlzdG9yeS5wdXNoU3RhdGUobnVsbCwgbnVsbCwgdGhpcy5ocmVmKTsKICAgICAgc2hvd1N0dWZmRnJvbUhhc2goY29udGV4dCk7CiAgICB9KTsKCiAgICByZXR1cm4gdGhpczsKICB9Owp9KGpRdWVyeSkpOwoKd2luZG93LmJ1aWxkVGFic2V0cyA9IGZ1bmN0aW9uKHRvY0lEKSB7CgogIC8vIGJ1aWxkIGEgdGFic2V0IGZyb20gYSBzZWN0aW9uIGRpdiB3aXRoIHRoZSAudGFic2V0IGNsYXNzCiAgZnVuY3Rpb24gYnVpbGRUYWJzZXQodGFic2V0KSB7CgogICAgLy8gY2hlY2sgZm9yIGZhZGUgYW5kIHBpbGxzIG9wdGlvbnMKICAgIHZhciBmYWRlID0gdGFic2V0Lmhhc0NsYXNzKCJ0YWJzZXQtZmFkZSIpOwogICAgdmFyIHBpbGxzID0gdGFic2V0Lmhhc0NsYXNzKCJ0YWJzZXQtcGlsbHMiKTsKICAgIHZhciBuYXZDbGFzcyA9IHBpbGxzID8gIm5hdi1waWxscyIgOiAibmF2LXRhYnMiOwoKICAgIC8vIGRldGVybWluZSB0aGUgaGVhZGluZyBsZXZlbCBvZiB0aGUgdGFic2V0IGFuZCB0YWJzCiAgICB2YXIgbWF0Y2ggPSB0YWJzZXQuYXR0cignY2xhc3MnKS5tYXRjaCgvbGV2ZWwoXGQpIC8pOwogICAgaWYgKG1hdGNoID09PSBudWxsKQogICAgICByZXR1cm47CiAgICB2YXIgdGFic2V0TGV2ZWwgPSBOdW1iZXIobWF0Y2hbMV0pOwogICAgdmFyIHRhYkxldmVsID0gdGFic2V0TGV2ZWwgKyAxOwoKICAgIC8vIGZpbmQgYWxsIHN1YmhlYWRpbmdzIGltbWVkaWF0ZWx5IGJlbG93CiAgICB2YXIgdGFicyA9IHRhYnNldC5maW5kKCJkaXYuc2VjdGlvbi5sZXZlbCIgKyB0YWJMZXZlbCk7CiAgICBpZiAoIXRhYnMubGVuZ3RoKQogICAgICByZXR1cm47CgogICAgLy8gY3JlYXRlIHRhYmxpc3QgYW5kIHRhYi1jb250ZW50IGVsZW1lbnRzCiAgICB2YXIgdGFiTGlzdCA9ICQoJzx1bCBjbGFzcz0ibmF2ICcgKyBuYXZDbGFzcyArICciIHJvbGU9InRhYmxpc3QiPjwvdWw+Jyk7CiAgICAkKHRhYnNbMF0pLmJlZm9yZSh0YWJMaXN0KTsKICAgIHZhciB0YWJDb250ZW50ID0gJCgnPGRpdiBjbGFzcz0idGFiLWNvbnRlbnQiPjwvZGl2PicpOwogICAgJCh0YWJzWzBdKS5iZWZvcmUodGFiQ29udGVudCk7CgogICAgLy8gYnVpbGQgdGhlIHRhYnNldAogICAgdmFyIGFjdGl2ZVRhYiA9IDA7CiAgICB0YWJzLmVhY2goZnVuY3Rpb24oaSkgewoKICAgICAgLy8gZ2V0IHRoZSB0YWIgZGl2CiAgICAgIHZhciB0YWIgPSAkKHRhYnNbaV0pOwoKICAgICAgLy8gZ2V0IHRoZSBpZCB0aGVuIHNhbml0aXplIGl0IGZvciB1c2Ugd2l0aCBib290c3RyYXAgdGFicwogICAgICB2YXIgaWQgPSB0YWIuYXR0cignaWQnKTsKCiAgICAgIC8vIHNlZSBpZiB0aGlzIGlzIG1hcmtlZCBhcyB0aGUgYWN0aXZlIHRhYgogICAgICBpZiAodGFiLmhhc0NsYXNzKCdhY3RpdmUnKSkKICAgICAgICBhY3RpdmVUYWIgPSBpOwoKICAgICAgLy8gcmVtb3ZlIGFueSB0YWJsZSBvZiBjb250ZW50cyBlbnRyaWVzIGFzc29jaWF0ZWQgd2l0aAogICAgICAvLyB0aGlzIElEIChzaW5jZSB3ZSdsbCBiZSByZW1vdmluZyB0aGUgaGVhZGluZyBlbGVtZW50KQogICAgICAkKCJkaXYjIiArIHRvY0lEICsgIiBsaSBhW2hyZWY9JyMiICsgaWQgKyAiJ10iKS5wYXJlbnQoKS5yZW1vdmUoKTsKCiAgICAgIC8vIHNhbml0aXplIHRoZSBpZCBmb3IgdXNlIHdpdGggYm9vdHN0cmFwIHRhYnMKICAgICAgaWQgPSBpZC5yZXBsYWNlKC9bLlwvPyYhIzw+XS9nLCAnJykucmVwbGFjZSgvXHMvZywgJ18nKTsKICAgICAgdGFiLmF0dHIoJ2lkJywgaWQpOwoKICAgICAgLy8gZ2V0IHRoZSBoZWFkaW5nIGVsZW1lbnQgd2l0aGluIGl0LCBncmFiIGl0J3MgdGV4dCwgdGhlbiByZW1vdmUgaXQKICAgICAgdmFyIGhlYWRpbmcgPSB0YWIuZmluZCgnaCcgKyB0YWJMZXZlbCArICc6Zmlyc3QnKTsKICAgICAgdmFyIGhlYWRpbmdUZXh0ID0gaGVhZGluZy5odG1sKCk7CiAgICAgIGhlYWRpbmcucmVtb3ZlKCk7CgogICAgICAvLyBidWlsZCBhbmQgYXBwZW5kIHRoZSB0YWIgbGlzdCBpdGVtCiAgICAgIHZhciBhID0gJCgnPGEgcm9sZT0idGFiIiBkYXRhLXRvZ2dsZT0idGFiIj4nICsgaGVhZGluZ1RleHQgKyAnPC9hPicpOwogICAgICBhLmF0dHIoJ2hyZWYnLCAnIycgKyBpZCk7CiAgICAgIGEuYXR0cignYXJpYS1jb250cm9scycsIGlkKTsKICAgICAgdmFyIGxpID0gJCgnPGxpIHJvbGU9InByZXNlbnRhdGlvbiI+PC9saT4nKTsKICAgICAgbGkuYXBwZW5kKGEpOwogICAgICB0YWJMaXN0LmFwcGVuZChsaSk7CgogICAgICAvLyBzZXQgaXQncyBhdHRyaWJ1dGVzCiAgICAgIHRhYi5hdHRyKCdyb2xlJywgJ3RhYnBhbmVsJyk7CiAgICAgIHRhYi5hZGRDbGFzcygndGFiLXBhbmUnKTsKICAgICAgdGFiLmFkZENsYXNzKCd0YWJiZWQtcGFuZScpOwogICAgICBpZiAoZmFkZSkKICAgICAgICB0YWIuYWRkQ2xhc3MoJ2ZhZGUnKTsKCiAgICAgIC8vIG1vdmUgaXQgaW50byB0aGUgdGFiIGNvbnRlbnQgZGl2CiAgICAgIHRhYi5kZXRhY2goKS5hcHBlbmRUbyh0YWJDb250ZW50KTsKICAgIH0pOwoKICAgIC8vIHNldCBhY3RpdmUgdGFiCiAgICAkKHRhYkxpc3QuY2hpbGRyZW4oJ2xpJylbYWN0aXZlVGFiXSkuYWRkQ2xhc3MoJ2FjdGl2ZScpOwogICAgdmFyIGFjdGl2ZSA9ICQodGFiQ29udGVudC5jaGlsZHJlbignZGl2LnNlY3Rpb24nKVthY3RpdmVUYWJdKTsKICAgIGFjdGl2ZS5hZGRDbGFzcygnYWN0aXZlJyk7CiAgICBpZiAoZmFkZSkKICAgICAgYWN0aXZlLmFkZENsYXNzKCdpbicpOwoKICAgIGlmICh0YWJzZXQuaGFzQ2xhc3MoInRhYnNldC1zdGlja3kiKSkKICAgICAgdGFic2V0LnJtYXJrZG93blN0aWNreVRhYnMoKTsKICB9CgogIC8vIGNvbnZlcnQgc2VjdGlvbiBkaXZzIHdpdGggdGhlIC50YWJzZXQgY2xhc3MgdG8gdGFic2V0cwogIHZhciB0YWJzZXRzID0gJCgiZGl2LnNlY3Rpb24udGFic2V0Iik7CiAgdGFic2V0cy5lYWNoKGZ1bmN0aW9uKGkpIHsKICAgIGJ1aWxkVGFic2V0KCQodGFic2V0c1tpXSkpOwogIH0pOwp9OwoK"></script>
-<script src="data:application/javascript;base64,CndpbmRvdy5pbml0aWFsaXplQ29kZUZvbGRpbmcgPSBmdW5jdGlvbihzaG93KSB7CgogIC8vIGhhbmRsZXJzIGZvciBzaG93LWFsbCBhbmQgaGlkZSBhbGwKICAkKCIjcm1kLXNob3ctYWxsLWNvZGUiKS5jbGljayhmdW5jdGlvbigpIHsKICAgICQoJ2Rpdi5yLWNvZGUtY29sbGFwc2UnKS5lYWNoKGZ1bmN0aW9uKCkgewogICAgICAkKHRoaXMpLmNvbGxhcHNlKCdzaG93Jyk7CiAgICB9KTsKICB9KTsKICAkKCIjcm1kLWhpZGUtYWxsLWNvZGUiKS5jbGljayhmdW5jdGlvbigpIHsKICAgICQoJ2Rpdi5yLWNvZGUtY29sbGFwc2UnKS5lYWNoKGZ1bmN0aW9uKCkgewogICAgICAkKHRoaXMpLmNvbGxhcHNlKCdoaWRlJyk7CiAgICB9KTsKICB9KTsKCiAgLy8gaW5kZXggZm9yIHVuaXF1ZSBjb2RlIGVsZW1lbnQgaWRzCiAgdmFyIGN1cnJlbnRJbmRleCA9IDE7CgogIC8vIHNlbGVjdCBhbGwgUiBjb2RlIGJsb2NrcwogIHZhciByQ29kZUJsb2NrcyA9ICQoJ3ByZS5yLCBwcmUucHl0aG9uLCBwcmUuYmFzaCwgcHJlLnNxbCwgcHJlLmNwcCwgcHJlLnN0YW4sIHByZS5qdWxpYSwgcHJlLmZvbGRhYmxlJyk7CiAgckNvZGVCbG9ja3MuZWFjaChmdW5jdGlvbigpIHsKCiAgICAvLyBjcmVhdGUgYSBjb2xsYXBzYWJsZSBkaXYgdG8gd3JhcCB0aGUgY29kZSBpbgogICAgdmFyIGRpdiA9ICQoJzxkaXYgY2xhc3M9ImNvbGxhcHNlIHItY29kZS1jb2xsYXBzZSI+PC9kaXY+Jyk7CiAgICB2YXIgc2hvd1RoaXMgPSAoc2hvdyB8fCAkKHRoaXMpLmhhc0NsYXNzKCdmb2xkLXNob3cnKSkgJiYgISQodGhpcykuaGFzQ2xhc3MoJ2ZvbGQtaGlkZScpOwogICAgdmFyIGlkID0gJ3Jjb2RlLTY0M0UwRjM2JyArIGN1cnJlbnRJbmRleCsrOwogICAgZGl2LmF0dHIoJ2lkJywgaWQpOwogICAgJCh0aGlzKS5iZWZvcmUoZGl2KTsKICAgICQodGhpcykuZGV0YWNoKCkuYXBwZW5kVG8oZGl2KTsKCiAgICAvLyBhZGQgYSBzaG93IGNvZGUgYnV0dG9uIHJpZ2h0IGFib3ZlCiAgICB2YXIgc2hvd0NvZGVUZXh0ID0gJCgnPHNwYW4+JyArIChzaG93VGhpcyA/ICdIaWRlJyA6ICdDb2RlJykgKyAnPC9zcGFuPicpOwogICAgdmFyIHNob3dDb2RlQnV0dG9uID0gJCgnPGJ1dHRvbiB0eXBlPSJidXR0b24iIGNsYXNzPSJidG4gYnRuLWRlZmF1bHQgYnRuLXhzIGJ0bi1zZWNvbmRhcnkgYnRuLXNtIGNvZGUtZm9sZGluZy1idG4gcHVsbC1yaWdodCBmbG9hdC1yaWdodCI+PC9idXR0b24+Jyk7CiAgICBzaG93Q29kZUJ1dHRvbi5hcHBlbmQoc2hvd0NvZGVUZXh0KTsKICAgIHNob3dDb2RlQnV0dG9uCiAgICAgICAgLmF0dHIoJ2RhdGEtdG9nZ2xlJywgJ2NvbGxhcHNlJykKICAgICAgICAuYXR0cignZGF0YS10YXJnZXQnLCAnIycgKyBpZCkKICAgICAgICAuYXR0cignYXJpYS1leHBhbmRlZCcsIHNob3dUaGlzKQogICAgICAgIC5hdHRyKCdhcmlhLWNvbnRyb2xzJywgaWQpOwoKICAgIHZhciBidXR0b25Sb3cgPSAkKCc8ZGl2IGNsYXNzPSJyb3ciPjwvZGl2PicpOwogICAgdmFyIGJ1dHRvbkNvbCA9ICQoJzxkaXYgY2xhc3M9ImNvbC1tZC0xMiI+PC9kaXY+Jyk7CgogICAgYnV0dG9uQ29sLmFwcGVuZChzaG93Q29kZUJ1dHRvbik7CiAgICBidXR0b25Sb3cuYXBwZW5kKGJ1dHRvbkNvbCk7CgogICAgZGl2LmJlZm9yZShidXR0b25Sb3cpOwoKICAgIC8vIHNob3cgdGhlIGRpdiBpZiBuZWNlc3NhcnkKICAgIGlmIChzaG93VGhpcykgZGl2LmNvbGxhcHNlKCdzaG93Jyk7CgogICAgLy8gdXBkYXRlIHN0YXRlIG9mIGJ1dHRvbiBvbiBzaG93L2hpZGUKICAgIC8vICAgKiBDaGFuZ2UgdGV4dAogICAgLy8gICAqIGFkZCBhIGNsYXNzIGZvciBpbnRlcm1lZGlhdGUgc3RhdGVzIHN0eWxpbmcKICAgIGRpdi5vbignaGlkZS5icy5jb2xsYXBzZScsIGZ1bmN0aW9uICgpIHsKICAgICAgc2hvd0NvZGVUZXh0LnRleHQoJ0NvZGUnKTsKICAgICAgc2hvd0NvZGVCdXR0b24uYWRkQ2xhc3MoJ2J0bi1jb2xsYXBzaW5nJyk7CiAgICB9KTsKICAgIGRpdi5vbignaGlkZGVuLmJzLmNvbGxhcHNlJywgZnVuY3Rpb24gKCkgewogICAgICBzaG93Q29kZUJ1dHRvbi5yZW1vdmVDbGFzcygnYnRuLWNvbGxhcHNpbmcnKTsKICAgIH0pOwogICAgZGl2Lm9uKCdzaG93LmJzLmNvbGxhcHNlJywgZnVuY3Rpb24gKCkgewogICAgICBzaG93Q29kZVRleHQudGV4dCgnSGlkZScpOwogICAgICBzaG93Q29kZUJ1dHRvbi5hZGRDbGFzcygnYnRuLWV4cGFuZGluZycpOwogICAgfSk7CiAgICBkaXYub24oJ3Nob3duLmJzLmNvbGxhcHNlJywgZnVuY3Rpb24gKCkgewogICAgICBzaG93Q29kZUJ1dHRvbi5yZW1vdmVDbGFzcygnYnRuLWV4cGFuZGluZycpOwogICAgfSk7CgogIH0pOwoKfQo="></script>
-<script src="data:application/javascript;base64,CndpbmRvdy5pbml0aWFsaXplU291cmNlRW1iZWQgPSBmdW5jdGlvbihmaWxlbmFtZSkgewogICQoIiNybWQtZG93bmxvYWQtc291cmNlIikuY2xpY2soZnVuY3Rpb24oKSB7CiAgICB2YXIgc3JjID0gJCgiI3JtZC1zb3VyY2UtY29kZSIpLmh0bWwoKTsKICAgIHZhciBhID0gZG9jdW1lbnQuY3JlYXRlRWxlbWVudCgnYScpOwogICAgYS5ocmVmID0gImRhdGE6dGV4dC94LXItbWFya2Rvd247YmFzZTY0LCIgKyBzcmM7CiAgICBhLmRvd25sb2FkID0gZmlsZW5hbWU7CiAgICBkb2N1bWVudC5ib2R5LmFwcGVuZENoaWxkKGEpOwogICAgYS5jbGljaygpOwogICAgZG9jdW1lbnQuYm9keS5yZW1vdmVDaGlsZChhKTsKICB9KTsKfTsK"></script>
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -143,14 +143,8 @@ code span.wa { color: #bf0303; } /* Warning */
 </script>
 
 
-<style type="text/css">
-#rmd-source-code {
-  display: none;
-}
-</style>
 
 
-<link rel="stylesheet" href="data:text/css,body%20%7B%0Acounter%2Dreset%3A%20li%3B%20%0A%7D%0Ah1%20%7B%0A%0Afont%2Dweight%3Abold%3B%0Acolor%3A%20rgb%280%2C0%2C0%29%0A%7D%0Ah2%20%7B%0A%0Afont%2Dweight%3Abold%3B%0Amargin%2Dtop%3A%2024px%3B%0Acolor%3A%20rgb%280%2C0%2C0%29%3B%0A%7D%0Ah3%20%7B%0A%0Afont%2Dweight%3Abold%3B%0Amargin%2Dtop%3A%2012px%3B%0Acolor%3A%20rgb%280%2C0%2C0%29%3B%0A%7D%0Aol%20%7B%0Amargin%2Dleft%3A0%3B%20%0Apadding%2Dleft%3A0%3B%20%0A%7D%0Aol%20%3E%20li%20%7B%0Aposition%3Arelative%3B%20%0Amargin%3A0%200%2010px%202em%3B%20%0Apadding%3A10px%2080px%3B%20%0Alist%2Dstyle%3Anone%3B%20%0Aborder%2Dtop%3A2px%20solid%20rgba%280%2C128%2C0%29%3B%0Abackground%3A%20rgba%280%2C128%2C0%2C%20%2E1%29%3B%0A%7D%0Aol%20%3E%20li%3Abefore%20%7B%0Acontent%3A%22Exercise%20%22%20counter%28li%29%3B%20%0Acounter%2Dincrement%3Ali%3B%20%0A%0Aposition%3Aabsolute%3B%0Atop%3A%2D2px%3B%0Aleft%3A%2D2em%3B%0A%2Dmoz%2Dbox%2Dsizing%3Aborder%2Dbox%3B%0A%2Dwebkit%2Dbox%2Dsizing%3Aborder%2Dbox%3B%0Abox%2Dsizing%3Aborder%2Dbox%3B%0Awidth%3A7em%3B%0A%0Amargin%2Dright%3A8px%3B%0Apadding%3A4px%3B%0Aborder%2Dtop%3A2px%20solid%20rgba%280%2C128%2C0%2C5%29%3B%0Acolor%3A%23fff%3B%0Abackground%3A%20rgb%280%2C128%2C0%29%3B%0Afont%2Dweight%3Abold%3B%0Afont%2Dfamily%3A%22Helvetica%20Neue%22%2C%20Arial%2C%20sans%2Dserif%3B%0Atext%2Dalign%3Acenter%3B%0A%7D%0Ali%20ol%2C%0Ali%20ul%20%7Bmargin%2Dtop%3A6px%3B%7D%0Aol%20ol%20li%3Alast%2Dchild%20%7Bmargin%2Dbottom%3A0%3B%7D%0A%2Eoyo%20ul%20%7B%0Alist%2Dstyle%2Dtype%3Adecimal%3B%0A%7D%0Ahr%20%7B%0Aborder%3A%201px%20solid%20rgb%280%2C0%2C0%29%3B%0A%7D%0Adiv%23boxedtext%20%7B%0Abackground%2Dcolor%3A%20rgba%28255%2C%20255%2C%200%2C%20%2E2%29%3B%0Apadding%3A%2020px%3B%0Apadding%2Dbottom%3A%2010px%3B%0Aborder%3A2px%20solid%20rgb%280%2C0%2C0%29%3B%0Amargin%2Dbottom%3A%2020px%3B%0Afont%2Dsize%3A%2012pt%3B%0A%7D%0Adiv%23template%20%7B%0Amargin%2Dtop%3A%2030px%3B%0Amargin%2Dbottom%3A%2030px%3B%0Acolor%3A%20rgb%28255%2C%200%2C%200%29%3B%0Aborder%3A1px%20solid%20rgb%280%2C0%2C255%29%3B%0Apadding%3A%2010px%2010px%3B%0Abackground%2Dcolor%3A%20rgb%280%2C0%2C255%29%3B%0Aborder%2Dradius%3A%205px%3B%0A%7D%0Adiv%23license%20%7B%0Amargin%2Dtop%3A%2030px%3B%0Amargin%2Dbottom%3A%2030px%3B%0Acolor%3A%20%23767676%3B%0Aborder%3A1px%20solid%20%23767676%3B%0Apadding%3A%2010px%2010px%3B%0Abackground%2Dcolor%3A%20%23D6D6CE%3B%0Aborder%2Dradius%3A%205px%3B%0A%7D%0A" type="text/css" />
 
 
 
@@ -239,9 +233,6 @@ pre code {
 </style>
 
 <!-- code folding -->
-<style type="text/css">
-.code-folding-btn { margin-bottom: 4px; }
-</style>
 
 
 
@@ -258,178 +249,81 @@ pre code {
 
 <div id="header">
 
-<div class="btn-group pull-right float-right">
-<button type="button" class="btn btn-default btn-xs btn-secondary btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span>Code</span> <span class="caret"></span></button>
-<ul class="dropdown-menu dropdown-menu-right" style="min-width: 50px;">
-<li><a id="rmd-download-source" href="#">Download Rmd</a></li>
-</ul>
-</div>
-
 
 
 <h1 class="title toc-ignore">Assignment 1: Cumulative Science and Intro to dplyr</h1>
 <h3 class="subtitle">Modern Research Methods</h3>
+<h4 class="author">YOUR NAME</h4>
+<h4 class="date">10 September 2021</h4>
 
 </div>
 
 
-<br> <br>
-<div id="boxedtext">
-<p><font size="4"> <strong>Objectives</strong> </font></p>
-<p>By the end of this assignment, you should:</p>
-<ul>
-<li>understand the concept of “cumulative science”</li>
-<li>be able to identify the type of a variable</li>
-<li>understand the properties of “tidy data”</li>
-<li>understand how to isolate data ( <code>select</code>, <code>filter</code>, <code>arrange</code>)</li>
-<li>understand how to use the pipe operator (<code>%&gt;%</code>)</li>
-</ul>
+<hr />
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># USE THIS CHUNK FOR IN LAB EXERCISES</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(babynames) <span class="co"># you&#39;ll need to install this package first  with install.packages(&quot;babynames&quot;)</span></span></code></pre></div>
+<div id="exercise-1" class="section level1">
+<h1>Exercise 1:</h1>
 </div>
-<p>This assignment is due <strong>Thursday, September 16th at noon</strong>. You should complete the assignment in the .Rmd template. Please turn your .html AND .Rmd files into Canvas. Your .Rmd file should knit without an error before turning in the assignment. If you need help, there <a href="/resource/getting_help/">a lot of resources</a> available to you. Please reach out if you’re stuck.</p>
-<p><br></p>
-<p>To get started, you’ll need to download and open up the <a href="/assignment/01_MRM_assignment_template.Rmd" download>Rmarkdown template</a> in RStudio. The first few exercises focus on data from the Lewis &amp; Frank (2018) replication of the Xu and Tenenbaum (2007) experiment (that we talked about in lecture). We’ll be working with data from the first experiment only. For reference, the journal paper write up of this study can be found <a href="http://www.andrew.cmu.edu/user/mollylew/papers/LF_2018.pdf">here</a>, and you can see the actual experiment that participants saw <a href="https://langcog.stanford.edu/expts/MLL/XTMEM/exp1/exp1.html">here</a>.</p>
-<p>The data are in a file called <code>lewis_2018_exp1.csv</code> that lives on the internet. We can load the data into R by passing the online filepath to the <code>read_csv()</code> function. Once we read it into R, we can save it to a variable called <code>lf_data</code>:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>lf_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;https://raw.githubusercontent.com/mllewis/cumulative-science/master/static/data/lewis_2018_exp1.csv&quot;</span>)</span></code></pre></div>
-<p>There are six variables in the data and each variable is described below. The first six rows of the data frame are also displayed below.</p>
-<ul>
-<li><strong>exp</strong> - Experiment number. Lewis &amp; Frank (2016) had 12 experiments in it; the present dataset only includes the data from the first experiment.</li>
-<li><strong>subids</strong> - Subject ID. This is an anonymous id that uniquely identifies every participant in the study.</li>
-<li><strong>trial_num</strong> - Each participant completed 12 “trials.” In this case, a trial is a single screen where the participant sees a novel word, one or more examples, and then is asked to click on other examples of the novel word.</li>
-<li><strong>category</strong> - There were three different categories of objects: vehicles, vegetables, and animals. Each participant saw some trials from each category.</li>
-<li><strong>condition</strong> - This is the variable that we manipulated. It refers to the number of examples of the novel word participants saw at the top of the page. Participants saw either 3 subordinate examples (“three_subordinate”; e.g., 3 dalmations), 3 basic level examples (“three_basic”; e.g. a dalmation, a poodle, and a bernese mountain dog), 3 superordinate examples (“three_superordinate”; e.g. a dalmation, a rabbit, and a horse), or just a single example (“one”; e.g. 1 dalmation).</li>
-<li><strong>proportion_basic_level_responses</strong> - This is the variable that we measured. It refers to the proportion (out of 2 possible) of basic level examples that a participant selected.</li>
-</ul>
-<table>
-<thead>
-<tr class="header">
-<th align="right">exp</th>
-<th align="right">subids</th>
-<th align="right">trial_num</th>
-<th align="left">category</th>
-<th align="left">condition</th>
-<th align="right">proportion_basic_level_responses</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="right">1</td>
-<td align="right">1</td>
-<td align="right">9</td>
-<td align="left">vehicles</td>
-<td align="left">three_subordinate</td>
-<td align="right">0</td>
-</tr>
-<tr class="even">
-<td align="right">1</td>
-<td align="right">2</td>
-<td align="right">9</td>
-<td align="left">animals</td>
-<td align="left">three_basic</td>
-<td align="right">1</td>
-</tr>
-<tr class="odd">
-<td align="right">1</td>
-<td align="right">3</td>
-<td align="right">9</td>
-<td align="left">animals</td>
-<td align="left">three_superordinate</td>
-<td align="right">1</td>
-</tr>
-<tr class="even">
-<td align="right">1</td>
-<td align="right">4</td>
-<td align="right">9</td>
-<td align="left">vehicles</td>
-<td align="left">three_superordinate</td>
-<td align="right">1</td>
-</tr>
-<tr class="odd">
-<td align="right">1</td>
-<td align="right">5</td>
-<td align="right">9</td>
-<td align="left">animals</td>
-<td align="left">three_superordinate</td>
-<td align="right">1</td>
-</tr>
-<tr class="even">
-<td align="right">1</td>
-<td align="right">6</td>
-<td align="right">9</td>
-<td align="left">vegetables</td>
-<td align="left">three_subordinate</td>
-<td align="right">0</td>
-</tr>
-</tbody>
-</table>
-<p><br></p>
-<ol style="list-style-type: decimal">
-<li>Is this dataset tidy? Describe the smallest unit of observation in this dataset.</li>
-</ol>
-<p><br></p>
-<ol style="list-style-type: decimal">
-<li>Select the columns <code>subids</code>, <code>category</code>, <code>proportion_basic_level_responses</code> from the data. Print the first six rows of this data frame.</li>
-</ol>
-<p><br></p>
-<ol style="list-style-type: decimal">
-<li>Print the first six rows of a data frame excluding the <code>category</code> column.</li>
-</ol>
-<p><br></p>
-<ol style="list-style-type: decimal">
-<li>Use logical tests and Boolean operators to return only the rows that contain trials (rows): [a] with category as vegetables, [b] with category as vehicles and a trial greater than 3, [c] with category as vegetables or animals, [d] with at least one basic level response in the “one” condition.</li>
-</ol>
-<p><br></p>
-<ol style="list-style-type: decimal">
-<li>The following code selects all trials (rows) where the condition was either “three_subordinate” or “one.” Rewrite this code in a way that uses the <code>%in%</code> operator.</li>
-</ol>
-<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">filter</span>(lf_data, condition <span class="sc">==</span> <span class="st">&quot;three_subordinate&quot;</span> <span class="sc">|</span> condition <span class="sc">==</span> <span class="st">&quot;one&quot;</span>)</span></code></pre></div>
-<p><br></p>
-<ol style="list-style-type: decimal">
-<li>How many trials are there where the category is either vegetables or animals? Use <code>nrow()</code>.</li>
-</ol>
-<p><br></p>
-<ol style="list-style-type: decimal">
-<li>The three following sets of commands are written without the pipe operator (<code>%&gt;%</code>). Rewrite each one to include the pipe.</li>
-</ol>
-<p>[a]</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>var1 <span class="ot">&lt;-</span> <span class="fu">mutate</span>(lf_data, category)</span></code></pre></div>
-<p>[b]</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>var1 <span class="ot">&lt;-</span> <span class="fu">select</span>(lf_data, category)</span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>var2 <span class="ot">&lt;-</span> <span class="fu">nrow</span>(var1)</span></code></pre></div>
-<p>[c]</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>var1 <span class="ot">&lt;-</span> <span class="fu">filter</span>(lf_data, trial_num <span class="sc">==</span> <span class="dv">1</span>)</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>var2 <span class="ot">&lt;-</span> <span class="fu">filter</span>(var1, category <span class="sc">==</span> <span class="st">&quot;animals&quot;</span>)</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>var3 <span class="ot">&lt;-</span> <span class="fu">select</span>(var2, trial_num, category)</span></code></pre></div>
-<p><br></p>
-<ol style="list-style-type: decimal">
-<li>The two following sets of commands are written with the pipe operator. Rewrite each one to exclude the pipe.</li>
-</ol>
-<p>[a]</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>lf_data <span class="sc">%&gt;%</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(trial_num <span class="sc">&lt;</span> <span class="dv">6</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">nrow</span>()</span></code></pre></div>
-<p>[b]</p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>lf_data <span class="sc">%&gt;%</span></span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(subids, category, proportion_basic_level_responses) <span class="sc">%&gt;%</span></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(subids <span class="sc">==</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(category)</span></code></pre></div>
-<p><br></p>
-<ol style="list-style-type: decimal">
-<li>Look at the code below. Describe in full sentences what this code does.</li>
-</ol>
-<div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>lf_data <span class="sc">%&gt;%</span></span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">select</span>(subids, category, condition) <span class="sc">%&gt;%</span></span>
-<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(category <span class="sc">==</span> <span class="st">&quot;vehicles&quot;</span> <span class="sc">&amp;</span> condition <span class="sc">!=</span> <span class="st">&quot;one&quot;</span>) <span class="sc">%&gt;%</span></span>
-<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">arrange</span>(<span class="sc">-</span>subids)</span></code></pre></div>
-<p><br></p>
-<ol style="list-style-type: decimal">
-<li>On the first day of class, we talked about the “Sally Anne Task” that measures children’s understanding of theory of mind (<a href="https://www.youtube.com/watch?v=oazK2fkRU1A%5D">example videos</a>). Describe four variables that you could measure in this task to assess children’s theory of mind performance. Specifically, describe (1) one qualitative variable, (2) one quantitative - binary variable, (3) one quantitative - numeric, and (4) one quantitative - real variable. For each variable, give a one sentence description of the variable, AND one example value of that variable with units.</li>
-</ol>
-<p><br></p>
-<ol style="list-style-type: decimal">
-<li>Describe the ways in which the scientific process could be described as a “social endeavor”. Your answer should make reference to the concepts of “replication” and “reproducibility”. Please respond with a short paragraph.</li>
-</ol>
+<div id="exercise-2" class="section level1">
+<h1>Exercise 2:</h1>
+<div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>lf_data <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(<span class="st">&quot;https://raw.githubusercontent.com/mllewis/cumulative-science/master/static/data/lewis_2018_exp1.csv&quot;</span>)</span></code></pre></div>
+</div>
+<div id="exercise-3" class="section level1">
+<h1>Exercise 3:</h1>
+</div>
+<div id="exercise-4" class="section level1">
+<h1>Exercise 4:</h1>
+<div id="a" class="section level2">
+<h2>a</h2>
+</div>
+<div id="b" class="section level2">
+<h2>b</h2>
+</div>
+<div id="c" class="section level2">
+<h2>c</h2>
+</div>
+<div id="d" class="section level2">
+<h2>d</h2>
+</div>
+</div>
+<div id="exercise-5" class="section level1">
+<h1>Exercise 5:</h1>
+</div>
+<div id="exercise-6" class="section level1">
+<h1>Exercise 6:</h1>
+</div>
+<div id="exercise-7" class="section level1">
+<h1>Exercise 7:</h1>
+<div id="a-1" class="section level2">
+<h2>a</h2>
+</div>
+<div id="b-1" class="section level2">
+<h2>b</h2>
+</div>
+<div id="c-1" class="section level2">
+<h2>c</h2>
+</div>
+</div>
+<div id="exercise-8" class="section level1">
+<h1>Exercise 8:</h1>
+<div id="a-2" class="section level2">
+<h2>a</h2>
+</div>
+<div id="b-2" class="section level2">
+<h2>b</h2>
+</div>
+</div>
+<div id="exercise-9" class="section level1">
+<h1>Exercise 9:</h1>
+</div>
+<div id="exercise-10" class="section level1">
+<h1>Exercise 10:</h1>
+</div>
+<div id="exercise-11" class="section level1">
+<h1>Exercise 11:</h1>
+</div>
 
-<div id="rmd-source-code">LS0tCnRpdGxlOiAiQXNzaWdubWVudCAxOiBDdW11bGF0aXZlIFNjaWVuY2UgYW5kIEludHJvIHRvIGRwbHlyIgpzdWJ0aXRsZTogIk1vZGVybiBSZXNlYXJjaCBNZXRob2RzIgpvdXRwdXQ6CiAgaHRtbF9kb2N1bWVudDoKICAgIGNvZGVfZG93bmxvYWQ6IHRydWUKICAgIGNzczogLi4vbGFiLmNzcwogICAgaGlnaGxpZ2h0OiBrYXRlCiAgICB0aGVtZTogY29zbW8KICAgIHRvYzogZmFsc2UKICAgIHRvY19mbG9hdDogZmFsc2UKLS0tCgpgYGB7ciBnbG9iYWxfb3B0aW9ucywgaW5jbHVkZSA9IEZ9CmxpYnJhcnkodGlkeXZlcnNlKQpsaWJyYXJ5KGtuaXRyKQpgYGAKCgo8YnI+Cjxicj4KPGRpdiBpZD0iYm94ZWR0ZXh0Ij4KCiA8Zm9udCBzaXplPSI0Ij4gKipPYmplY3RpdmVzKiogPC9mb250PiAKIApCeSB0aGUgZW5kIG9mIHRoaXMgYXNzaWdubWVudCwgeW91IHNob3VsZDoKCi0gdW5kZXJzdGFuZCB0aGUgY29uY2VwdCBvZiAiY3VtdWxhdGl2ZSBzY2llbmNlIgotIGJlIGFibGUgdG8gaWRlbnRpZnkgdGhlIHR5cGUgb2YgYSB2YXJpYWJsZQotIHVuZGVyc3RhbmQgdGhlIHByb3BlcnRpZXMgb2YgInRpZHkgZGF0YSIKLSB1bmRlcnN0YW5kIGhvdyB0byBpc29sYXRlIGRhdGEgKCBgc2VsZWN0YCwgYGZpbHRlcmAsIGBhcnJhbmdlYCkKLSB1bmRlcnN0YW5kIGhvdyB0byB1c2UgdGhlIHBpcGUgb3BlcmF0b3IgKGAlPiVgKQo8L2Rpdj4KClRoaXMgYXNzaWdubWVudCBpcyBkdWUgKipUaHVyc2RheSwgU2VwdGVtYmVyIDE2dGggYXQgbm9vbioqLiBZb3Ugc2hvdWxkIGNvbXBsZXRlIHRoZSBhc3NpZ25tZW50IGluIHRoZSAuUm1kIHRlbXBsYXRlLiBQbGVhc2UgdHVybiB5b3VyIC5odG1sIEFORCAuUm1kIGZpbGVzIGludG8gQ2FudmFzLiBZb3VyIC5SbWQgZmlsZSBzaG91bGQga25pdCB3aXRob3V0IGFuIGVycm9yIGJlZm9yZSB0dXJuaW5nIGluIHRoZSBhc3NpZ25tZW50LiBJZiB5b3UgbmVlZCBoZWxwLCB0aGVyZSBbYSBsb3Qgb2YgcmVzb3VyY2VzXSgvcmVzb3VyY2UvZ2V0dGluZ19oZWxwLykgYXZhaWxhYmxlIHRvIHlvdS4gUGxlYXNlIHJlYWNoIG91dCBpZiB5b3UncmUgc3R1Y2suIAoKPGJyPiAKClRvIGdldCBzdGFydGVkLCB5b3UnbGwgbmVlZCB0byBkb3dubG9hZCBhbmQgb3BlbiB1cCB0aGUgPGEgaHJlZj0iL2Fzc2lnbm1lbnQvMDFfTVJNX2Fzc2lnbm1lbnRfdGVtcGxhdGUuUm1kIiBkb3dubG9hZD5SbWFya2Rvd24gdGVtcGxhdGU8L2E+IGluIFJTdHVkaW8uIFRoZSBmaXJzdCBmZXcgZXhlcmNpc2VzICBmb2N1cyBvbiBkYXRhIGZyb20gdGhlIExld2lzICYgRnJhbmsgKDIwMTgpIHJlcGxpY2F0aW9uIG9mIHRoZSBYdSBhbmQgVGVuZW5iYXVtICgyMDA3KSBleHBlcmltZW50ICh0aGF0IHdlIHRhbGtlZCBhYm91dCBpbiBsZWN0dXJlKS4gV2UnbGwgYmUgd29ya2luZyB3aXRoIGRhdGEgZnJvbSB0aGUgZmlyc3QgZXhwZXJpbWVudCBvbmx5LiAgRm9yIHJlZmVyZW5jZSwgdGhlIGpvdXJuYWwgcGFwZXIgd3JpdGUgdXAgb2YgdGhpcyBzdHVkeSBjYW4gYmUgZm91bmQgW2hlcmVdKGh0dHA6Ly93d3cuYW5kcmV3LmNtdS5lZHUvdXNlci9tb2xseWxldy9wYXBlcnMvTEZfMjAxOC5wZGYpLCBhbmQgeW91IGNhbiBzZWUgdGhlIGFjdHVhbCBleHBlcmltZW50IHRoYXQgcGFydGljaXBhbnRzIHNhdyBbaGVyZV0oaHR0cHM6Ly9sYW5nY29nLnN0YW5mb3JkLmVkdS9leHB0cy9NTEwvWFRNRU0vZXhwMS9leHAxLmh0bWwpLgoKVGhlIGRhdGEgYXJlIGluIGEgZmlsZSBjYWxsZWQgYGxld2lzXzIwMThfZXhwMS5jc3ZgIHRoYXQgbGl2ZXMgb24gdGhlIGludGVybmV0LiBXZSBjYW4gbG9hZCB0aGUgZGF0YSBpbnRvIFIgYnkgcGFzc2luZyB0aGUgb25saW5lIGZpbGVwYXRoIHRvIHRoZSBgcmVhZF9jc3YoKWAgZnVuY3Rpb24uIE9uY2Ugd2UgcmVhZCBpdCBpbnRvIFIsIHdlIGNhbiBzYXZlIGl0IHRvIGEgdmFyaWFibGUgY2FsbGVkIGBsZl9kYXRhYDoKYGBge3IsIG1lc3NhZ2UgPSBGfQpsZl9kYXRhIDwtIHJlYWRfY3N2KCJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vbWxsZXdpcy9jdW11bGF0aXZlLXNjaWVuY2UvbWFzdGVyL3N0YXRpYy9kYXRhL2xld2lzXzIwMThfZXhwMS5jc3YiKQpgYGAKClRoZXJlIGFyZSBzaXggdmFyaWFibGVzIGluIHRoZSBkYXRhIGFuZCBlYWNoIHZhcmlhYmxlIGlzIGRlc2NyaWJlZCBiZWxvdy4gVGhlIGZpcnN0IHNpeCByb3dzIG9mIHRoZSBkYXRhIGZyYW1lIGFyZSBhbHNvIGRpc3BsYXllZCBiZWxvdy4gCgoqICoqZXhwKiogLSBFeHBlcmltZW50IG51bWJlci4gTGV3aXMgJiBGcmFuayAoMjAxNikgaGFkIDEyIGV4cGVyaW1lbnRzIGluIGl0OyB0aGUgcHJlc2VudCBkYXRhc2V0IG9ubHkgaW5jbHVkZXMgdGhlIGRhdGEgZnJvbSB0aGUgZmlyc3QgZXhwZXJpbWVudC4KKiAqKnN1YmlkcyoqIC0gU3ViamVjdCBJRC4gVGhpcyBpcyBhbiBhbm9ueW1vdXMgaWQgdGhhdCB1bmlxdWVseSBpZGVudGlmaWVzIGV2ZXJ5IHBhcnRpY2lwYW50IGluIHRoZSBzdHVkeS4KKiAqKnRyaWFsX251bSoqIC0gRWFjaCBwYXJ0aWNpcGFudCBjb21wbGV0ZWQgMTIgInRyaWFscy4iIEluIHRoaXMgY2FzZSwgYSB0cmlhbCBpcyBhIHNpbmdsZSBzY3JlZW4gd2hlcmUgdGhlIHBhcnRpY2lwYW50IHNlZXMgYSBub3ZlbCB3b3JkLCBvbmUgb3IgbW9yZSBleGFtcGxlcywgYW5kIHRoZW4gaXMgYXNrZWQgdG8gY2xpY2sgb24gb3RoZXIgZXhhbXBsZXMgb2YgdGhlIG5vdmVsIHdvcmQuCiogKipjYXRlZ29yeSoqIC0gVGhlcmUgd2VyZSB0aHJlZSBkaWZmZXJlbnQgY2F0ZWdvcmllcyBvZiBvYmplY3RzOiB2ZWhpY2xlcywgdmVnZXRhYmxlcywgYW5kIGFuaW1hbHMuIEVhY2ggcGFydGljaXBhbnQgc2F3IHNvbWUgdHJpYWxzIGZyb20gZWFjaCBjYXRlZ29yeS4gCiogKipjb25kaXRpb24qKiAtIFRoaXMgaXMgdGhlIHZhcmlhYmxlIHRoYXQgd2UgbWFuaXB1bGF0ZWQuIEl0IHJlZmVycyB0byB0aGUgbnVtYmVyIG9mIGV4YW1wbGVzIG9mIHRoZSBub3ZlbCB3b3JkIHBhcnRpY2lwYW50cyBzYXcgYXQgdGhlIHRvcCBvZiB0aGUgcGFnZS4gUGFydGljaXBhbnRzIHNhdyBlaXRoZXIgMyBzdWJvcmRpbmF0ZSBleGFtcGxlcyAoInRocmVlX3N1Ym9yZGluYXRlIjsgZS5nLiwgMyBkYWxtYXRpb25zKSwgIDMgYmFzaWMgbGV2ZWwgZXhhbXBsZXMgKCJ0aHJlZV9iYXNpYyI7IGUuZy4gYSBkYWxtYXRpb24sIGEgcG9vZGxlLCBhbmQgYSBiZXJuZXNlIG1vdW50YWluIGRvZyksIDMgc3VwZXJvcmRpbmF0ZSBleGFtcGxlcyAoInRocmVlX3N1cGVyb3JkaW5hdGUiOyBlLmcuIGEgZGFsbWF0aW9uLCBhIHJhYmJpdCwgYW5kIGEgaG9yc2UpLCBvciBqdXN0IGEgc2luZ2xlIGV4YW1wbGUgKCJvbmUiOyBlLmcuIDEgZGFsbWF0aW9uKS4KKiAqKnByb3BvcnRpb25fYmFzaWNfbGV2ZWxfcmVzcG9uc2VzKiogLSBUaGlzIGlzIHRoZSB2YXJpYWJsZSB0aGF0IHdlIG1lYXN1cmVkLiBJdCByZWZlcnMgdG8gdGhlIHByb3BvcnRpb24gKG91dCBvZiAyIHBvc3NpYmxlKSBvZiBiYXNpYyBsZXZlbCBleGFtcGxlcyB0aGF0IGEgcGFydGljaXBhbnQgc2VsZWN0ZWQuIAoKYGBge3IsIGVjaG8gPUZ9CmthYmxlKGhlYWQobGZfZGF0YSkpCmBgYAoKPGJyPiAKCigxKSBJcyB0aGlzIGRhdGFzZXQgdGlkeT8gRGVzY3JpYmUgdGhlIHNtYWxsZXN0IHVuaXQgb2Ygb2JzZXJ2YXRpb24gaW4gdGhpcyBkYXRhc2V0LgoKPGJyPiAKCigxKSBTZWxlY3QgdGhlIGNvbHVtbnMgYHN1Ymlkc2AsIGBjYXRlZ29yeWAsIGBwcm9wb3J0aW9uX2Jhc2ljX2xldmVsX3Jlc3BvbnNlc2AgZnJvbSB0aGUgZGF0YS4gUHJpbnQgdGhlIGZpcnN0IHNpeCByb3dzIG9mIHRoaXMgZGF0YSBmcmFtZS4gCgoKPGJyPiAKCigxKSBQcmludCB0aGUgZmlyc3Qgc2l4IHJvd3Mgb2YgYSBkYXRhIGZyYW1lIGV4Y2x1ZGluZyB0aGUgYGNhdGVnb3J5YCBjb2x1bW4uCgoKPGJyPiAKCigxKSBVc2UgbG9naWNhbCB0ZXN0cyBhbmQgQm9vbGVhbiBvcGVyYXRvcnMgdG8gcmV0dXJuIG9ubHkgdGhlIHJvd3MgdGhhdCBjb250YWluIHRyaWFscyAocm93cyk6IFthXSB3aXRoIGNhdGVnb3J5IGFzIHZlZ2V0YWJsZXMsIFtiXSB3aXRoIGNhdGVnb3J5IGFzIHZlaGljbGVzIGFuZCBhIHRyaWFsIGdyZWF0ZXIgdGhhbiAzLCBbY10gd2l0aCBjYXRlZ29yeSBhcyB2ZWdldGFibGVzIG9yIGFuaW1hbHMsICBbZF0gd2l0aCBhdCBsZWFzdCBvbmUgYmFzaWMgbGV2ZWwgcmVzcG9uc2UgaW4gdGhlICJvbmUiIGNvbmRpdGlvbi4KCjxicj4gCgooMSkgVGhlIGZvbGxvd2luZyBjb2RlIHNlbGVjdHMgYWxsIHRyaWFscyAocm93cykgd2hlcmUgdGhlIGNvbmRpdGlvbiB3YXMgZWl0aGVyICJ0aHJlZV9zdWJvcmRpbmF0ZSIgb3IgIm9uZS4iIFJld3JpdGUgdGhpcyBjb2RlIGluIGEgd2F5IHRoYXQgdXNlcyB0aGUgYCVpbiVgIG9wZXJhdG9yLiAKCmBgYHtyLCBldmFsID0gRn0KZmlsdGVyKGxmX2RhdGEsIGNvbmRpdGlvbiA9PSAidGhyZWVfc3Vib3JkaW5hdGUiIHwgY29uZGl0aW9uID09ICJvbmUiKQpgYGAKCjxicj4gCgooMSkgSG93IG1hbnkgdHJpYWxzIGFyZSB0aGVyZSB3aGVyZSB0aGUgY2F0ZWdvcnkgaXMgZWl0aGVyIHZlZ2V0YWJsZXMgb3IgYW5pbWFscz8gVXNlIGBucm93KClgLgoKPGJyPiAKCigxKSBUaGUgdGhyZWUgZm9sbG93aW5nIHNldHMgb2YgY29tbWFuZHMgYXJlIHdyaXR0ZW4gd2l0aG91dCB0aGUgcGlwZSBvcGVyYXRvciAoYCU+JWApLiBSZXdyaXRlIGVhY2ggb25lIHRvIGluY2x1ZGUgdGhlIHBpcGUuIAoKW2FdCmBgYHtyfQp2YXIxIDwtIG11dGF0ZShsZl9kYXRhLCBjYXRlZ29yeSkKYGBgCgpbYl0KYGBge3J9CnZhcjEgPC0gc2VsZWN0KGxmX2RhdGEsIGNhdGVnb3J5KQp2YXIyIDwtIG5yb3codmFyMSkKYGBgCgpbY10KYGBge3J9CnZhcjEgPC0gZmlsdGVyKGxmX2RhdGEsIHRyaWFsX251bSA9PSAxKQp2YXIyIDwtIGZpbHRlcih2YXIxLCBjYXRlZ29yeSA9PSAiYW5pbWFscyIpCnZhcjMgPC0gc2VsZWN0KHZhcjIsIHRyaWFsX251bSwgY2F0ZWdvcnkpCmBgYAoKPGJyPiAKCigxKSBUaGUgdHdvIGZvbGxvd2luZyBzZXRzIG9mIGNvbW1hbmRzIGFyZSB3cml0dGVuIHdpdGggdGhlIHBpcGUgb3BlcmF0b3IuIFJld3JpdGUgZWFjaCBvbmUgdG8gZXhjbHVkZSB0aGUgcGlwZS4gCgpbYV0KYGBge3IsIGV2YWwgPSBGfQpsZl9kYXRhICU+JQogIGZpbHRlcih0cmlhbF9udW0gPCA2KSAlPiUKICBucm93KCkKYGBgCgpbYl0KYGBge3IsIGV2YWwgPSBGfQpsZl9kYXRhICU+JQogIHNlbGVjdChzdWJpZHMsIGNhdGVnb3J5LCBwcm9wb3J0aW9uX2Jhc2ljX2xldmVsX3Jlc3BvbnNlcykgJT4lCiAgZmlsdGVyKHN1YmlkcyA9PSAxKSAlPiUKICBhcnJhbmdlKGNhdGVnb3J5KQpgYGAKCjxicj4gCgooMSkgTG9vayBhdCB0aGUgY29kZSBiZWxvdy4gRGVzY3JpYmUgaW4gZnVsbCBzZW50ZW5jZXMgd2hhdCB0aGlzIGNvZGUgZG9lcy4KCmBgYHtyLCBldmFsID0gRn0KbGZfZGF0YSAlPiUKICBzZWxlY3Qoc3ViaWRzLCBjYXRlZ29yeSwgY29uZGl0aW9uKSAlPiUKICBmaWx0ZXIoY2F0ZWdvcnkgPT0gInZlaGljbGVzIiAmIGNvbmRpdGlvbiAhPSAib25lIikgJT4lCiAgYXJyYW5nZSgtc3ViaWRzKQpgYGAKCjxicj4gCgooMSkgT24gdGhlIGZpcnN0IGRheSBvZiBjbGFzcywgd2UgdGFsa2VkIGFib3V0IHRoZSAiU2FsbHkgQW5uZSBUYXNrIiB0aGF0IG1lYXN1cmVzIGNoaWxkcmVuJ3MgdW5kZXJzdGFuZGluZyBvZiB0aGVvcnkgb2YgbWluZCAoW2V4YW1wbGUgdmlkZW9zXShodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PW9heksyZmtSVTFBXSkpLiBEZXNjcmliZSBmb3VyIHZhcmlhYmxlcyB0aGF0IHlvdSBjb3VsZCBtZWFzdXJlIGluIHRoaXMgdGFzayB0byBhc3Nlc3MgY2hpbGRyZW4ncyB0aGVvcnkgb2YgbWluZCBwZXJmb3JtYW5jZS4gU3BlY2lmaWNhbGx5LCBkZXNjcmliZSAoMSkgb25lIHF1YWxpdGF0aXZlIHZhcmlhYmxlLCAoMikgb25lIHF1YW50aXRhdGl2ZSAtIGJpbmFyeSB2YXJpYWJsZSwgKDMpIG9uZSBxdWFudGl0YXRpdmUgLSBudW1lcmljLCBhbmQgKDQpIG9uZSBxdWFudGl0YXRpdmUgLSAgcmVhbCB2YXJpYWJsZS4gRm9yIGVhY2ggdmFyaWFibGUsIGdpdmUgYSBvbmUgc2VudGVuY2UgZGVzY3JpcHRpb24gb2YgdGhlIHZhcmlhYmxlLCBBTkQgb25lIGV4YW1wbGUgdmFsdWUgb2YgdGhhdCB2YXJpYWJsZSB3aXRoIHVuaXRzLgoKPGJyPiAKCgooMSkgRGVzY3JpYmUgdGhlIHdheXMgaW4gd2hpY2ggdGhlIHNjaWVudGlmaWMgcHJvY2VzcyBjb3VsZCBiZSBkZXNjcmliZWQgYXMgYSAic29jaWFsIGVuZGVhdm9yIi4gWW91ciBhbnN3ZXIgc2hvdWxkIG1ha2UgcmVmZXJlbmNlIHRvIHRoZSBjb25jZXB0cyBvZiAicmVwbGljYXRpb24iIGFuZCAicmVwcm9kdWNpYmlsaXR5Ii4gUGxlYXNlIHJlc3BvbmQgd2l0aCBhIHNob3J0IHBhcmFncmFwaC4gCgo=</div>
 
 
 
@@ -463,11 +357,6 @@ $(document).ready(function () {
 </script>
 
 <!-- code folding -->
-<script>
-$(document).ready(function () {
-  window.initializeSourceEmbed("01_MRM_assignment.Rmd");
-});
-</script>
 
 
 <!-- dynamically load mathjax for compatibility with self-contained -->

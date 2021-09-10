@@ -17,6 +17,11 @@ library(tidyverse) # load the tidyverse library
 
 * * *
 
+```{r}
+# USE THIS CHUNK FOR IN LAB EXERCISES
+library(babynames) # you'll need to install this package first  with install.packages("babynames")
+```
+
 
 # Exercise 1:
 
@@ -28,34 +33,65 @@ lf_data <- read_csv("https://raw.githubusercontent.com/mllewis/cumulative-scienc
 
 # Exercise 3:
 
+```{r}
+```
+
 # Exercise 4:
 
 ## a
 
+```{r}
+```
+
 ## b
+
+```{r}
+```
 
 ## c
 
+```{r}
+```
+
 ## d
+
+```{r}
+```
 
 # Exercise 5:
 
+```{r}
+```
+
 # Exercise 6:
+
+```{r}
+```
 
 # Exercise 7:
 
 ## a
+```{r}
+```
 
 ## b
+```{r}
+```
 
 ## c
+```{r}
+```
 
 
 # Exercise 8:
 
 ## a
+```{r}
+```
 
 ## b
+```{r}
+```
 
 
 # Exercise 9:
