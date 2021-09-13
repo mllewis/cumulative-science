@@ -48,9 +48,9 @@ lessons:
   - title: "Summarizing data"
     date: Week 3 [M, 9/13]
     reading: "03a-reading"
-    class: ""
+    class: "MRM_slides_3a" 
     hasclass: True
-    notes: "[Quiz 1]"
+    notes: '[Quiz 1]; <a href = "https://learnr-examples.shinyapps.io/ex-data-summarise/#section-welcome">summarize/group_by practice</a>'
 
   - title: "Visualization: Intro to grammar of graphics "
     date: [W]
