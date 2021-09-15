@@ -55,7 +55,7 @@ lessons:
   - title: "Visualization: Intro to grammar of graphics "
     date: [W]
     reading: "03b-reading"
-    class: ""
+    class: "MRM_slides_3b"
     hasclass: True
     notes: ''
 
