@@ -67,7 +67,7 @@ lessons:
     class: ""
     hasassignment: True
     assignment:  ""
-    notes: ''
+    notes: '<a href = "https://docs.google.com/presentation/d/1awVAFfZPj1IjeiPhuiV5vHavW6hbVfTlQkQABeHE9Gg/edit#slide=id.p">slides for sharing plots</a>' 
     hasclass: True
 
   - title: "Visualization: Principles of data visualization"
