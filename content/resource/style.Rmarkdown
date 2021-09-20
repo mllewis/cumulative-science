@@ -8,6 +8,9 @@ menu:
     parent: Resources
 ---
 
+
+*Written by [Andrew Heiss](https://datavizs21.classes.andrewheiss.com/resource/style/)* 
+
 ## R style conventions
 
 R is fairly forgiving about how you type code (unlike other languages like Python, where miscounting spaces can ruin your code!). All of these things will do exactly the same thing:

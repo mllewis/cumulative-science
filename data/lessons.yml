@@ -64,7 +64,7 @@ lessons:
 
   - title: "*Lab: Working with ggplot* <br> <br>  <br>"
     date:  [F]
-    class: ""
+    class: "MRM_slides_3c"
     hasassignment: True
     assignment:  "02"
     notes: '<a href = "https://docs.google.com/presentation/d/1awVAFfZPj1IjeiPhuiV5vHavW6hbVfTlQkQABeHE9Gg/edit#slide=id.p">slides for sharing plots</a>' 
