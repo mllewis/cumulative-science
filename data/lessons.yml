@@ -72,7 +72,7 @@ lessons:
 
   - title: "Visualization: Principles of data visualization"
     date: Week 4 [M, 9/20]
-    class: ""
+    class: "MRM_slides_4a"
     notes: "[Quiz 2]"
     reading: "04a-reading"
     hasclass: True
