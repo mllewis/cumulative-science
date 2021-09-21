@@ -43,7 +43,7 @@ lessons:
     hasclass: True
     hasassignment: True 
     assignment:  "01"
-    notes: '<a href = "https://www.youtube.com/watch?v=lNWVQ2oxNho">Rmarkdown video</a>'
+    notes: '<a href = "https://www.youtube.com/watch?v=lNWVQ2oxNho">Rmarkdown video</a>  <a href = "/assignment/01_MRM_assignment_SOLUTIONS.html">[Assignment 1 solutions]</a> '
 
   - title: "Summarizing data"
     date: Week 3 [M, 9/13]
