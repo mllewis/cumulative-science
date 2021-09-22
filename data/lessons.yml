@@ -79,7 +79,7 @@ lessons:
 
   - title: "The rest of the tidyverse"
     date: [W]
-    class: ""
+    class: "MRM_slides_4b"
     reading: "04b-reading"
     hasclass: True
 
