@@ -89,9 +89,9 @@ lessons:
   - title: "*Lab: Making good plots* <br> <br>  <br> "
     date:  [F]
     notes:
-    class: ""
+    class: "MRM_slides_4c"
     hasassignment: True
-    assignment:  ""
+    assignment:  "03"
    
   - title: "Reproducibility (and the failures)"
     notes: "[Quiz 3]"
