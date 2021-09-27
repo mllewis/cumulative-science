@@ -96,7 +96,7 @@ lessons:
   - title: "Reproducibility (and the failures)"
     notes: "[Quiz 3]"
     date: "Week 5 [M, 9/27]"
-    class: ""
+    class: "MRM_slides_5a"
     reading: "05a-reading"
     hasclass: True
 
