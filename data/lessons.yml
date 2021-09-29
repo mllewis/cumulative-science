@@ -100,7 +100,7 @@ lessons:
     reading: "05a-reading"
     hasclass: True
 
-  - title: "Reproducible workflows "
+  - title: "Reproducible workflows This is a change!!!"
     date: "[W]"
     class: ""
     notes: ""
