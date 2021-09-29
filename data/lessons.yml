@@ -67,7 +67,7 @@ lessons:
     class: "MRM_slides_3c"
     hasassignment: True
     assignment:  "02"
-    notes: '<a href = "https://docs.google.com/presentation/d/1awVAFfZPj1IjeiPhuiV5vHavW6hbVfTlQkQABeHE9Gg/edit#slide=id.p">slides for sharing plots</a>' 
+    notes: '<a href = "https://docs.google.com/presentation/d/1awVAFfZPj1IjeiPhuiV5vHavW6hbVfTlQkQABeHE9Gg/edit#slide=id.p">slides for sharing plots</a> <a href = "/assignment/02_MRM_assignment_SOLUTIONS.html">[Assignment 2 solutions]</a> '
     hasclass: True
 
   - title: "Visualization: Principles of data visualization"
@@ -100,9 +100,9 @@ lessons:
     reading: "05a-reading"
     hasclass: True
 
-  - title: "Reproducible workflows This is a change!!!"
+  - title: "Reproducible workflows"
     date: "[W]"
-    class: ""
+    class: "MRM_slides_5b"
     notes: ""
     reading: "05b-reading"
     hasclass: True
