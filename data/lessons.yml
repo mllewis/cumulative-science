@@ -116,7 +116,7 @@ lessons:
     class: ""
     hasassignment: True
     notes: ''
-    assignment:  ""
+    assignment:  "04"
 
   - title: '<span class="fake-header-table">Repeating an Experiment</span>'
     header: True
