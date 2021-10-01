@@ -113,7 +113,7 @@ lessons:
   - title: "*Lab: Reproducible workflows (OSF/Github)* <br> <br>  <br>"
     date: [F]
     reading: "05c-reading"
-    class: ""
+    class: "MRM_slides_5c"
     hasassignment: True
     notes: ''
     assignment:  "04"
