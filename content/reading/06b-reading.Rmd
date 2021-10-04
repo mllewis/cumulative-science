@@ -4,7 +4,7 @@ bibliography: ../../static/bib/mrm_references.bib
 csl: ../../static/bib/chicago-syllabus-no-bib.csl
 ---
 
-[**[link]**](/readings_pdf/cumming2013.pdf) @cumming2014new 
+[**[link]**](/readings_pdf/cumming2005.pdf) @cumming2005inference
 
 
 

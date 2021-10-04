@@ -131,6 +131,7 @@ lessons:
   - title: "Statistical Foundations: Estimating population values"
     date: [W]
     notes: ''
+    reading: "06b-reading"
     class: ""
     hasclass: True
  
