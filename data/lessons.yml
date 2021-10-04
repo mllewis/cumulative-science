@@ -123,14 +123,14 @@ lessons:
 
   - title: "Statistical Foundations: Sampling"
     date: Week 6 [M, 10/4]
-    class: ""
+    class: "MRM_slides_6a"
     notes: "[Quiz 4]"
     reading: "06a-reading"
     hasclass: True
 
   - title: "Statistical Foundations: Estimating population values"
     date: [W]
-    notes: ''
+    notes: '<a href = "https://seeing-theory.brown.edu/frequentist-inference/index.html#section2">[CI app]</a> '
     reading: "06b-reading"
     class: ""
     hasclass: True
