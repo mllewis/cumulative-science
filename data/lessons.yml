@@ -132,7 +132,7 @@ lessons:
     date: [W]
     notes: '<a href = "https://seeing-theory.brown.edu/frequentist-inference/index.html#section2">[CI app]</a> '
     reading: "06b-reading"
-    class: ""
+    class: "MRM_slides_6b"
     hasclass: True
  
   - title: '<i class="far fa-keyboard"> </i> A4 Due '
