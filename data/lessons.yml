@@ -143,7 +143,7 @@ lessons:
     notes: '<a href = "https://docs.google.com/document/d/1jgkcC6p7QJN1lRzFPrrJQLRK4ThrPNhleRg8fPH6zfc/edit?usp=sharing">[CI study guide]</a>'
     class: "" 
     hasassignment: True
-    assignment:  ""
+    assignment:  "05"
 
   - title: "Statistical Foundations: Effect Sizes"
     date: Week 7 [M, 10/11]
