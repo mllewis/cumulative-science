@@ -147,8 +147,8 @@ lessons:
 
   - title: "Statistical Foundations: Effect Sizes"
     date: Week 7 [M, 10/11]
-    notes: "[Quiz 5]"
-    class: "" 
+    notes: '[Quiz 5] <br> <a href = "/readings_pdf/bion2013.pdf">[Bion et al, 2013]</a>'
+    class: "MRM_slides_7a" 
     reading: "07a-reading"
     hasclass: True
 
