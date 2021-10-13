@@ -155,7 +155,7 @@ lessons:
   - title: "Replications (and the failures)"
     date:  [W]
     reading: "07b-reading"
-    class: "" 
+    class: "MRM_slides_7b" 
     notes: ''
     hasclass: True
 
