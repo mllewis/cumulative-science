@@ -88,7 +88,7 @@ lessons:
 
   - title: "*Lab: Making good plots* <br> <br>  <br> "
     date:  [F]
-    notes:
+    notes: ' <a href = "/assignment/03_MRM_assignment_solutions.html">[Assignment 3 solutions]</a> '
     class: "MRM_slides_4c"
     hasassignment: True
     assignment:  "03"
@@ -115,7 +115,7 @@ lessons:
     reading: "05c-reading"
     class: "MRM_slides_5c"
     hasassignment: True
-    notes: ''
+    notes: ' <a href = "/assignment/04_MRM_assignment_solutions.html">[Assignment 4 solutions]</a> '
     assignment:  "04"
 
   - title: '<span class="fake-header-table">Repeating an Experiment</span>'
