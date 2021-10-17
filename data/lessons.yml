@@ -166,7 +166,7 @@ lessons:
     date:  [F]
     hasassignment: True
     assignmentname: "Midterm"
-    notes: '<a href = "https://docs.google.com/forms/d/e/1FAIpQLSd7VAdtgFQhW5O75gUL9BiavFGKC-4vXw56Bb5RlfmOhVEvBw/viewform?usp=sf_link">[Review Questions]</a>'
+    notes: '<a href = "https://docs.google.com/forms/d/e/1FAIpQLSd7VAdtgFQhW5O75gUL9BiavFGKC-4vXw56Bb5RlfmOhVEvBw/viewform?usp=sf_link">[Review Questions]</a> <br> <a href = "https://docs.google.com/document/d/1w-66_kKjP3coq6NVQbqmSAOxvuFfjSwyxPHntEfh8Gw/edit#heading=h.1w72mjbkbfws">[Quiz 1-5 solutions]</a> '
     hasassignment: True
     assignment:  ""
 
