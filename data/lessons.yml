@@ -172,7 +172,7 @@ lessons:
     date: Week 8 [M, 10/18]
     reading: "08a-reading"
     notes: "[no quiz]"
-    class: "" 
+    class: "MRM_slides_8a"  
     hasclass: True
 
   - title: "Pre-registration and other replication solutions"
