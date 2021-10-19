@@ -182,14 +182,16 @@ lessons:
     notes: ""
     hasclass: True
 
-  - title: <i class="far fa-keyboard"> </i> __MIDTERM DUE__ 
+  - title: <i class="far fa-keyboard"> </i> __MIDTERM DUE__ (noon) 
     date: [TH]
+    hasassignment: True
+    assignment:  "midterm"
 
-  - title: "*Lab: How to read a psychological empirical paper* <br> <br>  <br>"
+  - title: "*no class* <br> <br>  <br>"
     date: [F]
     reading: ""
     class: ""
-    hasassignment: True
+    hasassignment: False
     notes: ''
     assignment:  ""
 
@@ -211,6 +213,7 @@ lessons:
 
   - title: "*Lab: Choosing a MA topic* <br> <br>  <br>"
     date:  [F]
+    hasassignment: True
     hasclass: True
     notes: ''
     class: "" 
@@ -232,6 +235,7 @@ lessons:
 
   - title: "*No Class (day for community engagement)* <br> <br>  <br>"
     date:  [F]
+    hasassignment: True
 
   - title: "Calculating ES"
     date: Week 11 [M, 11/8]
@@ -273,7 +277,7 @@ lessons:
   - title: "*Lab: practicum* <br> <br>  <br>"
     date:  [F]
     class: "" 
-    hasassignment: True
+    hasassignment: False
     assignment: ""
 
   - title: "Project Group Meetings"
