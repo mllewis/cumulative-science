@@ -140,7 +140,7 @@ lessons:
 
   - title: "*Lab: Confidence intervals* <br> <br>  <br>"
     date:  [F]
-    notes: '<a href = "https://docs.google.com/document/d/1jgkcC6p7QJN1lRzFPrrJQLRK4ThrPNhleRg8fPH6zfc/edit?usp=sharing">[CI study guide]</a>'
+    notes: '<a href = "https://docs.google.com/document/d/1jgkcC6p7QJN1lRzFPrrJQLRK4ThrPNhleRg8fPH6zfc/edit?usp=sharing">[CI study guide]</a>;  <a href = "/assignment/05_MRM_assignment_solutions.html">[Assignment 5 solutions]</a>'
     class: "MRM_slides_6c"
     hasassignment: True
     assignment:  "05"
