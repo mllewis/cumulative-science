@@ -178,7 +178,7 @@ lessons:
   - title: "Pre-registration and other replication solutions"
     date:  [W]
     reading: "08b-reading"
-    class: "" 
+    class: "MRM_slides_8b" 
     notes: ""
     hasclass: True
 
