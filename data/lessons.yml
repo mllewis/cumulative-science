@@ -202,6 +202,7 @@ lessons:
     notes: "[Quiz 6]; <a href = '/readings_pdf/deak2001.pdf'>[Deak et al, 2001]</a>"
     date: Week 9 [M, 10/25]
     reading: "09a-reading"
+    class: "MRM_slides_9a"
     hasclass: True
 
   - title: "Choosing a MA topic"
