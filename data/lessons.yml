@@ -209,7 +209,7 @@ lessons:
     date:  [W]
     reading: "09b-reading"
     notes:  ''
-    class: "" 
+    class: "MRM_slides_9b"
     hasclass: True
 
   - title: "*Lab: Choosing a MA topic* <br> <br>  <br>"
