@@ -215,9 +215,10 @@ lessons:
   - title: "*Lab: Choosing a MA topic* <br> <br>  <br>"
     date:  [F]
     hasassignment: True
+    assignment:  "06"
     hasclass: True
-    notes: ''
-    class: "" 
+    notes: "<a href = 'https://drive.google.com/drive/folders/1g-I1uE1zN4Q-_rpvvUO9OjanwyEMnxxD?usp=sharing'>[Google Drive Final Project Folder]</a>"
+    class: "MRM_slides_9c" 
 
   - title: "Literature search"
     date: Week 10 [M, 11/1]
