@@ -223,7 +223,7 @@ lessons:
   - title: "Literature search"
     date: Week 10 [M, 11/1]
     notes: "[Quiz 7]"
-    class: "" 
+    class: "MRM_slides_10a" 
     hasclass: True
 
   - title: "Coding studies for MA"
