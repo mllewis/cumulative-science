@@ -229,7 +229,7 @@ lessons:
   - title: "Coding studies for MA"
     date:  [W]
     notes: ''
-    class: "" 
+    class: "MRM_slides_10b" 
     hasclass: True
 
   - title:  '<i class="far fa-keyboard"> </i>  A6 Due [Topic proposal]'
@@ -237,6 +237,7 @@ lessons:
 
   - title: "*No Class (day for community engagement)* <br> <br>  <br>"
     date:  [F]
+    assignment:  "07"
     hasassignment: True
 
   - title: "Calculating ES"
@@ -251,10 +252,7 @@ lessons:
     hasclass: True
     class: "" 
 
-  - title:  '<i class="far fa-keyboard"> </i>  A7 Due [Literature search]'
-    date: [TH]
-
-  - title: "*Lab: Intro to metafor* <br> <br>  <br>"
+  - title: '*Lab: Intro to metafor*; <i class="far fa-keyboard"> </i>  A7 Due [Literature search] <br> <br>  <br>'
     date:  [F]
     notes: ''
     hasassignment: True
