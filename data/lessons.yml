@@ -240,14 +240,14 @@ lessons:
     assignment:  "07"
     hasassignment: True
 
-  - title: "Intro to metafor"
+  - title: "Meta-analytic visualizations"
     date: Week 11 [M, 11/8]
     notes: "[Quiz 8]"
     reading: "11a-reading"
     class: "" 
     hasclass: True
 
-  - title: "Funnel Plots"
+  - title: "Coding ES"
     date:  [W]
     hasclass: True
     class: "" 
