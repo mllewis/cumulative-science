@@ -240,38 +240,38 @@ lessons:
     assignment:  "07"
     hasassignment: True
 
-  - title: "Calculating ES"
+  - title: "Intro to metafor"
     date: Week 11 [M, 11/8]
     notes: "[Quiz 8]"
     reading: "11a-reading"
     class: "" 
     hasclass: True
 
-  - title: "MA plots"
+  - title: "Funnel Plots"
     date:  [W]
     hasclass: True
     class: "" 
 
-  - title: '*Lab: Intro to metafor*; <i class="far fa-keyboard"> </i>  A7 Due [Literature search] <br> <br>  <br>'
+  - title: '*Lab: Coding ES/moderators* <i class="far fa-keyboard"> </i>  A7 Due [Literature search] <br> <br>  <br>'
     date:  [F]
     notes: ''
     hasassignment: True
     class: "" 
     assignment: ""
 
-  - title: "Funnel plots"
+  - title: "practicum"
     date: Week 12 [M, 11/15]
     notes: "[Quiz 9]"
     hasclass: True
     #reading: "12a-reading"
 
-  - title: "Presenting data"
+  - title: "Presenting your meta-analysis"
     date:  [W]
     #reading: "12b-reading"
     class: "" 
     hasclass: True
 
-  - title:  '<i class="far fa-keyboard"> </i> A8 Due'
+  - title:  '<i class="far fa-keyboard"> </i> A8 Due [Coded ES]'
     date: [TH]
 
   - title: "*Lab: practicum* <br> <br>  <br>"
@@ -280,11 +280,14 @@ lessons:
     hasassignment: False
     assignment: ""
 
-  - title: "Project Group Meetings"
+  - title: "practicum"
     date: Week 13 [M, 11/22]
     class: "" 
-    notes: "[Quiz 10]"
+    notes: ""
     hasclass: True
+
+  - title:  '<i class="far fa-keyboard"> </i> Poster Draft Due (noon)'
+    date: [T]
 
   - title: 'No Class (Thanksgiving)'
     date:  [W]
