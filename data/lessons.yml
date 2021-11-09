@@ -244,10 +244,10 @@ lessons:
     date: Week 11 [M, 11/8]
     notes: "[Quiz 8]"
     reading: "11a-reading"
-    class: "" 
+    class: "MRM_slides_11a"
     hasclass: True
 
-  - title: "Coding ES"
+  - title: "Funnel Plots"
     date:  [W]
     hasclass: True
     class: "" 
