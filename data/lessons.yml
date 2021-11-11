@@ -250,7 +250,7 @@ lessons:
   - title: "Funnel Plots"
     date:  [W]
     hasclass: True
-    class: "" 
+    class: "MRM_slides_11b" 
 
   - title: '*Lab: Coding ES/moderators* <i class="far fa-keyboard"> </i>  A7 Due [Literature search] <br> <br>  <br>'
     date:  [F]
