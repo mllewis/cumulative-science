@@ -256,7 +256,7 @@ lessons:
     date:  [F]
     notes: ''
     hasassignment: True
-    class: "" 
+    class: "MRM_slides_11c" 
     assignment: "08"
 
   - title: "practicum"
