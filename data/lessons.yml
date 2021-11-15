@@ -261,9 +261,9 @@ lessons:
 
   - title: "practicum"
     date: Week 12 [M, 11/15]
-    notes: "[Quiz 9]"
+    notes: "[Quiz 9];  <a href = 'https://docs.google.com/document/d/1TPzyIrRmgymb6Y89SDwFNhsLpXKbL4ZdCOIaqJtUEnM/edit'>[Molly OH signup]</a>"
     hasclass: True
-    #reading: "12a-reading"
+    class: "MRM_slides_12a"
 
   - title: "Presenting your meta-analysis"
     date:  [W]
