@@ -268,7 +268,7 @@ lessons:
   - title: "Presenting your meta-analysis"
     date:  [W]
     #reading: "12b-reading"
-    class: "" 
+    class: "MRM_slides_12b"
     hasclass: True
 
   - title:  '<i class="far fa-keyboard"> </i> A8 Due [Coded ES]'
