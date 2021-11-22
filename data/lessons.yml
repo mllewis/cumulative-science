@@ -307,6 +307,9 @@ lessons:
     class: "" 
     hasclass: True
 
+  - title:  '<i class="far fa-keyboard"> </i> Revised poster due (noon)'
+    date: [T]
+
   - title: "Wrap-up"
     date:  [W]
     class: "" 
