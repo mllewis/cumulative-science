@@ -302,9 +302,9 @@ lessons:
 
   - title: "Other types of big data in psychological research"
     date: Week 14 [M, 11/29]
-    readings: "14a-reading"
+  #readings: "14a-reading"
     notes: ''
-    class: "" 
+    class: "MRM_slides_14a" 
     hasclass: True
 
   - title:  '<i class="far fa-keyboard"> </i> Revised poster due (noon)'
