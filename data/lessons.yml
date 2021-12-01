@@ -300,7 +300,7 @@ lessons:
     class: "" 
     hasclass: False
 
-  - title: "Other types of big data in psychological research"
+  - title: "Presenting your poster"
     date: Week 14 [M, 11/29]
   #readings: "14a-reading"
     notes: ''
@@ -312,7 +312,7 @@ lessons:
 
   - title: "Wrap-up"
     date:  [W]
-    class: "" 
+    class: "MRM_slides_14b" 
     hasclass: True
 
   - title: "Psychology Research Methods Poster Sesssion"
