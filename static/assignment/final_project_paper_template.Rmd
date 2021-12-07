@@ -12,7 +12,7 @@ knitr::opts_chunk$set(eval = TRUE, message = FALSE, echo = F)
 library(tidyverse)
 library(knitr)
 library(metafor) # this is a package for analyzing meta-analytic data
-source("helpers/prisma_diagram.R") # this loads some code I wrote to make the PRISMA diagram
+source("prisma_diagram.R") # This loads some code I wrote to make the PRISMA diagram. For this code to work, your .Rmd file needs to be able to find it. Put the prisma_diagram.R file in the same folder as  this .Rmd file (final_project_paper_template.Rmd), and then in RStudio go to Session -> Set Working Directory -> To Source File Location.
 ```
 
 * * *
